@@ -10,9 +10,9 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg2"
-   width="3779.5667"
-   height="542.85352"
-   viewBox="0 0 3779.5667 542.85352"
+   width="8334"
+   height="1197"
+   viewBox="0 0 8334 1197"
    sodipodi:docname="title.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <sodipodi:namedview
@@ -28,17 +28,13 @@
      inkscape:window-height="715"
      id="namedview32"
      showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
      inkscape:zoom="0.12503"
-     inkscape:cx="2032.1885"
+     inkscape:cx="2462.2225"
      inkscape:cy="598.5"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="g10" />
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -47,22 +43,21 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
      id="defs6">
     <rect
-       x="191.79105"
+       x="191.79104"
        y="1460.9965"
-       width="4061.4573"
-       height="1376.3828"
+       width="4444.6363"
+       height="1355.0951"
        id="rect145" />
   </defs>
   <g
-     id="g10"
-     transform="scale(0.45351173)">
+     id="g10">
     <image
        width="8334"
        height="1197"
@@ -78,11 +73,11 @@
          id="path4"
          style="fill:#ffffff" />
       <polygon
-         points="144.3,61.9 138.7,61.9 138.7,37.5 144.3,37.5 "
+         points="138.7,61.9 138.7,37.5 144.3,37.5 144.3,61.9 "
          id="polygon6"
          style="fill:#ffffff" />
       <polygon
-         points="276.7,61.9 271.1,61.9 271.1,37.5 276.7,37.5 "
+         points="271.1,61.9 271.1,37.5 276.7,37.5 276.7,61.9 "
          id="polygon8"
          style="fill:#ffffff" />
       <path
@@ -98,7 +93,7 @@
          id="path14"
          style="fill:#ffffff" />
       <polygon
-         points="251.7,46.2 262.4,46.2 262.4,37.5 267.5,37.5 267.5,61.9 262.4,61.9 262.4,52.6 251.7,52.6 251.7,61.9 246.6,61.9 246.6,37.5 251.7,37.5 "
+         points="262.4,61.9 262.4,52.6 251.7,52.6 251.7,61.9 246.6,61.9 246.6,37.5 251.7,37.5 251.7,46.2 262.4,46.2 262.4,37.5 267.5,37.5 267.5,61.9 "
          id="polygon16"
          style="fill:#ffffff" />
       <path
@@ -134,7 +129,7 @@
          y="1636.1635"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#ffffff">Libero</tspan><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#ffffff">®</tspan><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#ffffff"> SoC Design Suite Tcl Examples</tspan></tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#ffffff"> SoC Design Suite Basic Tcl Examples</tspan></tspan></text>
   </g>
   <style
      type="text/css"
