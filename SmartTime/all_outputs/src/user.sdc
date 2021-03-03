@@ -1,5 +1,0 @@
-# Create clock on CLK port with 8ns
-create_clock -name {my_clk} -period  8 [get_ports CLK]
-
-#Sets a maximum delay by constraining all paths from all_inputs to my_clk clock with a delay less then 2ns:
-set_max_delay 2 -from [get_clocks {my_clk}] -to [all_outputs]
