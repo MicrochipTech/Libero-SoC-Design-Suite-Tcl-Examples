@@ -3,7 +3,7 @@ name: Feedback
 about: Suggest improvements
 title: "[Feedback]"
 labels: code, sample, tcl, enhancement
-assignees: 'kiranpalla-mchp'
+assignees: 'kiranpalla-mchp', 'amantalwar04'
 
 ---
 
