@@ -19,14 +19,20 @@ This code repository is designed primarily for use with the Libero&reg; SoC Desi
 
 The GitHub repository is organized by the following branches:
 
-### [Basic Tcl Examples](../../tree/basic_tcl_examples/README.md)
-
-This branch contains examples for each Libero SoC Design Suite Tcl modules. Click on the hyperlink to go to the Tcl module example location, where you will see a list of Tcl commands. Click on the file you are interested in to view the source code.
-
-
-### [Advanced Tcl Examples](../../tree/advanced_tcl_examples/README.md)
-
-This branch contains advanced Libero SoC Design Suite examples. Click on the hyperlink to go to the example location, where you will see a list of files. Click on the file you are interested in to view the source code.
+<table style="width:100%">
+<tr>
+<th width="25%">Branch</th>
+<th width="100%">Description</th>
+</tr>
+<tr>
+  <td align="center"><h4><a href="../../tree/basic_tcl_examples/README.md">Basic Tcl Examples</a></h4></td>
+<td >This branch contains examples for each Libero SoC Design Suite Tcl modules. Click on the hyperlink to go to the Tcl module example location, where you will see a list of Tcl commands. Click on the file you are interested in to view the source code.</td>
+</tr>
+<tr>
+<td align="center"><h4><a href="../../tree/advanced_tcl_examples/README.md">Advanced Tcl Examples</a></h4></td>
+<td >This branch contains advanced Libero SoC Design Suite examples. Click on the hyperlink to go to the example location, where you will see a list of files. Click on the file you are interested in to view the source code.</td>
+</tr>  
+</table>
 
 
 >**NOTE:** An example is a group or collection of one or more Tcl scripts. The entire repository is managed by a moderator.
