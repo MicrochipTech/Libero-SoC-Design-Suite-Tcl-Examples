@@ -11,7 +11,7 @@
 </tr>
 </table>
 
-<b>Welcome to the Libero&reg; SoC Design Suite basic Tcl examples GitHub repository!</b>
+## Welcome to the Libero&reg; SoC Design Suite basic Tcl examples GitHub repository!
 
 This code repository is designed primarily for use with the latest version of the Libero&reg; SoC Design Suite and serves as an example repository for the Tcl Commands User Guide. Click [here](../advanced_tcl_examples/README.md) if you are looking for advanced Tcl command examples.
 
