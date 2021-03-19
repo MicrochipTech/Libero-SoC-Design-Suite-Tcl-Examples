@@ -30,10 +30,6 @@ The following table describes each Libero SoC Design Suite Tcl module in this re
 </tr>
 </table>
 
-|Tcl Module | Description |
-|------------|-------------|
-|[SmartTime](SmartTime) | SmartTime Tcl command examples.
-
 
 >**NOTE:** An example is a group or collection of one or more Tcl scripts. The entire repository is managed by a moderator.
 
