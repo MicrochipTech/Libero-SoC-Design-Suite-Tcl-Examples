@@ -7,7 +7,7 @@
   </tr>
 <tr>
     <td width="17%" align="center" colspan="2"><a href="../main/README.md">Home</a></td>
-    <td width="16%" align="center" colspan="2"><a href="../basic_tcl_examples/README.md">Advanced Tcl Examples</a></td>
+    <td width="16%" align="center" colspan="2"><a href="../basic_tcl_examples/README.md">Basic Tcl Examples</a></td>
 </tr>
 </table>
 
