@@ -13,7 +13,7 @@
 
 ## Welcome to the Libero&reg; SoC Design Suite advanced Tcl examples GitHub Repository! 
 
-This is a code repository designed primarily for use with the Libero&reg; SoC Design Suite. Click [here](../../tree/basic_tcl_examples/README.md) if you are looking for basic Tcl command examples.
+This code repository is designed primarily for use with the Libero&reg; SoC Design Suite. Click [here](../../tree/basic_tcl_examples/README.md) if you are looking for basic Tcl command examples.
 
 >**NOTE:** Download and install the latest version of Libero SoC Design Suite from [Libero SoC v12.0 and later](https://www.microsemi.com/product-directory/design-resources/1750-libero-soc#downloads) before working with the examples provided in this repository. For more information on Libero SoC Design Suite installation and licensing setup, see [Libero Software Installation and Licensing Setup Guide](https://www.microsemi.com/document-portal/doc_download/131602-libero-and-software-installation-and-licensing-setup-guide).
 
