@@ -1,97 +1,32 @@
-//////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Mon Sep 28 10:38:17 2020
-// Version: v12.4 12.900.0.16
-//////////////////////////////////////////////////////////////////////
+//---------------------------------------------------------------------
+// File: top.v
+// Description: Unit design to demonstrate SmartTime Tcl commands.
+//---------------------------------------------------------------------
 
-`timescale 1ns / 100ps
+module top (
+            input clk, rst_n,
+            input din_a, din_b,
+            output reg dout_q
+            );
 
-// Top
-module Top(
-    // Inputs
-    CLK_0,
-    CLK_2,
-    D_0,
-    D_2,
-    // Outputs
-    Y
-);
+   reg din_a_q;
+   reg din_b_q;
+   reg dout_q1;
 
-//--------------------------------------------------------------------
-// Input
-//--------------------------------------------------------------------
-input  CLK_0;
-input  CLK_2;
-input  D_0;
-input  D_2;
-//--------------------------------------------------------------------
-// Output
-//--------------------------------------------------------------------
-output Y;
-//--------------------------------------------------------------------
-// Nets
-//--------------------------------------------------------------------
-wire   AND2_0_Y;
-wire   CLK_0;
-wire   CLK_2;
-wire   D_0;
-wire   D_2;
-wire   DFN1_0_Q;
-wire   DFN1_1_Q;
-wire   DFN1_2_Q;
-wire   Y_net_0;
-wire   Y_net_1;
-//--------------------------------------------------------------------
-// Top level output port assignments
-//--------------------------------------------------------------------
-assign Y_net_1 = Y_net_0;
-assign Y       = Y_net_1;
-//--------------------------------------------------------------------
-// Component instances
-//--------------------------------------------------------------------
-//--------AND2
-AND2 AND2_0(
-        // Inputs
-        .A ( DFN1_0_Q ),
-        .B ( DFN1_2_Q ),
-        // Outputs
-        .Y ( AND2_0_Y ) 
-        );
+   always @ (posedge clk)
+     if (!rst_n) begin
+        din_a_q <= 1'b0;
+        din_b_q <= 1'b0;
 
-//--------AND2
-AND2 AND2_1(
-        // Inputs
-        .A ( AND2_0_Y ),
-        .B ( DFN1_1_Q ),
-        // Outputs
-        .Y ( Y_net_0 ) 
-        );
+        dout_q1 <= 1'b0;
+        dout_q  <= 1'b0;
+     end
+     else begin
+        din_a_q <= din_a;
+        din_b_q <= din_b;
 
-//--------DFN1
-DFN1 DFN1_0(
-        // Inputs
-        .D   ( D_0 ),
-        .CLK ( CLK_0 ),
-        // Outputs
-        .Q   ( DFN1_0_Q ) 
-        );
-
-//--------DFN1
-DFN1 DFN1_1(
-        // Inputs
-        .D   ( DFN1_2_Q ),
-        .CLK ( CLK_2 ),
-        // Outputs
-        .Q   ( DFN1_1_Q ) 
-        );
-
-//--------DFN1
-DFN1 DFN1_2(
-        // Inputs
-        .D   ( D_2 ),
-        .CLK ( CLK_2 ),
-        // Outputs
-        .Q   ( DFN1_2_Q ) 
-        );
-
+        dout_q1 <= din_a_q & din_b_q;
+        dout_q  <= dout_q1;
+     end
 
 endmodule

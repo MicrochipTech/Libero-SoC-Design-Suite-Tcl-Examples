@@ -1,6 +1,6 @@
 #------------------------------------------------------------
 # File: example.sdc
-# Description: Demonstrate usage of remove_all_constraints command.
+# Description: Setting timing constraints on inputs and outputs.
 #------------------------------------------------------------
 
 # Create a clock as a reference to specify timing constraints.

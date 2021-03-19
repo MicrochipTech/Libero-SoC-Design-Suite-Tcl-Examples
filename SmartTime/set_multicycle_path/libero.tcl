@@ -12,26 +12,19 @@
 
 
 # Setup variables for the new_project command.
-# Not all arguments are mandatory.
 #
-set prj_location   "./myprj";
-set prj_name       "myprj";
-set prj_family     "PolarFire";
-set prj_die        "MPF300T";
-set prj_package    "FCG1152";
-set prj_speed      "-1";
-set prj_hdl        "VERILOG";
+source custom/parameters.tcl;
 
 set libero_cmd "new_project \
-                -location {$prj_location} -name {$prj_name} \
+                -location {./exprj} -name {exprj} \
                 -family {$prj_family} -die {$prj_die} -package {$prj_package} \
                 -speed {$prj_speed} \
-                -hdl {$prj_hdl}";
+                -hdl {VERILOG}";
 
 
-# Remove any existing project and timing constraint coverage report file first.
+# Remove any existing project first.
 #
-eval file delete -force $prj_location;
+eval file delete -force ./exprj;
 
 
 # Create new project
@@ -50,7 +43,7 @@ set_root top;
 # Associate the constraint file in the project with Verify Timing.
 #
 organize_tool_files -tool {VERIFYTIMING} \
-    -file "$prj_location/constraint/example.sdc" -input_type {constraint};
+    -file "./exprj/constraint/example.sdc" -input_type {constraint};
 
 
 # Configure VERIFYTIMING tool to generate a txt file report

@@ -11,3 +11,6 @@ set_input_delay -clock CLKIN 2.1 [all_inputs];
 
 # Set output delay for all outputs.
 set_output_delay -clock CLKIN 1.2 [all_outputs];
+
+#Specified all paths through dout_q net as false path.
+set_false_path -through [get_nets {dout_q}]

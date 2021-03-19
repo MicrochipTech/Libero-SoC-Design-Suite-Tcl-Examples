@@ -1,7 +1,7 @@
-#------------------------------------------------------------
+#---------------------------------------------------------------
 # File: example.sdc
-# Description: Demonstrate usage of remove_set command.
-#------------------------------------------------------------
+# Description: Setting timing constraints on inputs and outputs.
+#---------------------------------------------------------------
 
 # Create a clock as a reference to specify timing constraints.
 create_clock -name CLKIN -period 10 [get_ports clk];

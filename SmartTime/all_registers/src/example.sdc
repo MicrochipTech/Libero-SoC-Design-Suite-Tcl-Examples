@@ -11,3 +11,7 @@ set_input_delay -clock CLKIN 2.1 [all_inputs];
 
 # Set output delay for all outputs.
 set_output_delay -clock CLKIN 1.2 [all_outputs];
+
+# Set false path from all register pins which belongs to clock domain.
+set_false_path -from [ all_registers -clock CLKIN -clock_pins ]
+

@@ -4,6 +4,8 @@
 #------------------------------------------------------------
 
 # Create a clock as a reference to specify timing constraints.
+create_clock -name CLKIN1 -period 10 [get_pins {din_b_q/CLK}];
+
 create_clock -name CLKIN -period 10 [get_ports clk];
 
 # Set input delay for all input ports.

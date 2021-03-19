@@ -1,10 +1,13 @@
-#------------------------------------------------------------
+#---------------------------------------------------------------
 # File: example.sdc
-# Description: Demonstrate usage of remove_clock command.
-#------------------------------------------------------------
+# Description: Setting timing constraints on inputs and outputs.
+#---------------------------------------------------------------
 
 # Create a clock as a reference to specify timing constraints.
 create_clock -name CLKIN -period 10 [get_ports clk];
+
+# Create a clock as a reference to specify timing constraints.
+create_clock -name CLKIN1 -period 8 [get_ports din_a];
 
 # Set input delay for all input ports.
 set_input_delay -clock CLKIN 2.1 [all_inputs];
