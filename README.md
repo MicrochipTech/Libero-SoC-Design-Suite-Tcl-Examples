@@ -1,7 +1,7 @@
 <table style="width:100%">
   <tr>
 
-<th width="100%" colspan="6"><img src="images/title.svg">
+<th width="100%" colspan="6"><img src="images/title.png">
 </th>
 
   </tr>
