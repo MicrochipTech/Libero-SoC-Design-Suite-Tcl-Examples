@@ -1,7 +1,7 @@
 ---
-name: Code Sample Feedback
+name: Feedback
 about: Suggest improvements
-title: "[Code-Sample-Enhancement]"
+title: "[Feedback]"
 labels: code, sample, tcl, enhancement
 assignees: 'kiranpalla-mchp'
 
