@@ -1,0 +1,65 @@
+m255
+K4
+z2
+!s11f vlog 2019.4 2019.10, Oct 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/simulation
+vCORERXIODBITALIGN_C0_CORERXIODBITALIGN_C0_0_CORERXIODBITALIGN
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1599220492
+!i10b 1
+!s100 gPkZ<4d9bZlz@_k:S3RO>1
+!s11b b3BlhIHAU0mcgfLml1MWe2
+ICk??cTDMjOV[XnE_P0@`m3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z4 w1597636031
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/core/CoreRxIODBitAlign_top.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/core/CoreRxIODBitAlign_top.v
+!i122 -1
+L0 2
+Z5 OW;L;2019.4;69
+r1
+!s85 0
+31
+Z6 !s108 1599220492.000000
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/core/CoreRxIODBitAlign_top.v|
+!s90 -reportprogress|300|-sv|-work|CORERXIODBITALIGN_LIB|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/core/CoreRxIODBitAlign_top.v|
+!s101 -O0
+!i113 1
+Z7 o-sv -work CORERXIODBITALIGN_LIB -O0
+Z8 tCvgOpt 0
+n@c@o@r@e@r@x@i@o@d@b@i@t@a@l@i@g@n_@c0_@c@o@r@e@r@x@i@o@d@b@i@t@a@l@i@g@n_@c0_0_@c@o@r@e@r@x@i@o@d@b@i@t@a@l@i@g@n
+vCORERXIODBITALIGN_C0_CORERXIODBITALIGN_C0_0_CORERXIODBITALIGN_TRNG
+R1
+R2
+!i10b 1
+!s100 141M1=1mc61PHTEU55m_W0
+!s11b KOoanT?aC^?bb0z@Fz=Po1
+IiT=iWJPHna:JzKhUch`050
+R3
+S1
+R0
+R4
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/core/CoreRxIODBitAlign.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/core/CoreRxIODBitAlign.v
+!i122 -1
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/core/CoreRxIODBitAlign.v|
+!s90 -reportprogress|300|-sv|-work|CORERXIODBITALIGN_LIB|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/core/CoreRxIODBitAlign.v|
+!s101 -O0
+!i113 1
+R7
+R8
+n@c@o@r@e@r@x@i@o@d@b@i@t@a@l@i@g@n_@c0_@c@o@r@e@r@x@i@o@d@b@i@t@a@l@i@g@n_@c0_0_@c@o@r@e@r@x@i@o@d@b@i@t@a@l@i@g@n_@t@r@n@g

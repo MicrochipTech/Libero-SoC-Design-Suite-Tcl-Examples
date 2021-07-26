@@ -1,0 +1,27 @@
+# Microsemi Physical design constraints file
+
+# Version: v12.0 12.500.0.22
+
+# Design Name: IOG_IOD_DDRX4_COMP 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFire , Die: MPF300T , Package: FCG1152 , Speed grade: -1 
+
+# Date generated: Mon Apr 15 12:42:23 2019 
+
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# Core cell constraints
+#
+

@@ -1,0 +1,10 @@
+1589285991 -17:49:51 -0 -Client create_ipc, start a new server process in mode B !
+1589285991 -17:49:51 -0 -Server started !?
+1589285991 -17:49:51 -0 -client create_ipc modus B, open client jtagapi_c::g_pmC !
+1589285991 -17:49:51 -0 -second timeout[ms] for myJTAGClient: long: -15000
+1589285992 -17:49:52 -0 -Check for server mode B !
+1589285992 -17:49:52 -0 -check JTAG-clients (JTAG-server is in standalone mode): no JTAG-clients found !
+
+1589285992 -17:49:52 -0 -Use a new started server process, switch to mode B !
+1589285992 -17:49:52 -0 -Use a new started server process in mode B (exit after ends last connection)!
+1589285992 -17:49:52 -0 -use a started server process in mode: not standalone

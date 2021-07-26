@@ -1,0 +1,36 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 1 clock pin(s) of sequential element(s)
+11 gated/generated clock tree(s) driving 1610 clock pin(s) of sequential element(s)
+0 instances converted, 1610 sequential instances remain driven by gated/generated clocks
+
+===================================================== Non-Gated/Non-Generated Clocks =====================================================
+Clock Tree ID     Driving Element                       Drive Element Type                   Fanout     Sample Instance                   
+------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0012       PF_OSC_C1_0.PF_OSC_C1_0.I_OSC_160     clock definition on OSC_RC160MHZ     1          PF_CCC_C0_0.PF_CCC_C0_0.pll_inst_0
+==========================================================================================================================================
+====================================================================================================== Gated/Generated Clocks =======================================================================================================
+Clock Tree ID     Driving Element                                           Drive Element Type     Fanout     Sample Instance                                     Explanation                                                        
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       PF_IOD_GENERIC_RX_C1_0.HS_IO_CLK_FIFO                     HS_IO_CLK              4          PF_IOD_GENERIC_RX_C1_0.PF_LANECTRL_0.I_LANECTRL     No gated clock conversion method for cell cell:work.LANECTRL       
+@K:CKID0002       PF_IOD_TX_CCC_C0_0.PF_CCC_0.hs_io_clk_3                   HS_IO_CLK              4          PF_IOD_GENERIC_TX_C0_0.PF_IOD_TX.I_IOD_1            No gated clock conversion method for cell cell:work.IOD            
+@K:CKID0003       PF_IOD_GENERIC_TX_C0_0.LANECTRL_ADDR_CMD_0.I_LANECTRL     LANECTRL               3          PF_IOD_GENERIC_TX_C0_0.PF_IOD_TX_CLK.I_IOD_0        No gated clock conversion method for cell cell:work.IOD            
+@K:CKID0004       PF_IOD_GENERIC_TX_C0_0.LANECTRL_ADDR_CMD_0.I_LANECTRL     LANECTRL               3          PF_IOD_GENERIC_TX_C0_0.PF_IOD_TX_CLK.I_IOD_0        No gated clock conversion method for cell cell:work.IOD            
+@K:CKID0005       PF_IOD_GENERIC_RX_C1_0.HS_IO_CLK_CASCADED                 HS_IO_CLK              2          PF_IOD_GENERIC_RX_C1_0.PF_CLK_DIV_RXCLK.I_CDD       No gated clock conversion method for cell cell:work.ICB_CLKDIVDELAY
+@K:CKID0006       PF_IOD_GENERIC_RX_C1_0.PF_LANECTRL_0.I_LANECTRL           LANECTRL               2          PF_IOD_GENERIC_RX_C1_0.PF_IOD_RX.I_IOD_1            No gated clock conversion method for cell cell:work.IOD            
+@K:CKID0007       PF_IOD_TX_CCC_C0_0.PF_CCC_0.hs_io_clk_7                   HS_IO_CLK              2          PF_IOD_GENERIC_TX_C0_0.PF_IOD_TX_CLK.I_IOD_0        No gated clock conversion method for cell cell:work.IOD            
+@K:CKID0008       PF_IOD_GENERIC_RX_C1_0.HS_IO_CLK_RX                       HS_IO_CLK              1          PF_IOD_GENERIC_RX_C1_0.PF_LANECTRL_0.I_LANECTRL     No gated clock conversion method for cell cell:work.LANECTRL       
+@K:CKID0009       PF_IOD_GENERIC_RX_C1_0.PF_CLK_DIV_FIFO.I_CDD              ICB_CLKDIVDELAY        1516       PF_IOD_GENERIC_RX_C1_0.PF_LANECTRL_0.I_LANECTRL     No gated clock conversion method for cell cell:work.LANECTRL       
+@K:CKID0010       PF_IOD_TX_CCC_C0_0.PF_CCC_0.pll_inst_0                    PLL                    65         prbsgen_parallel_fab_0.prbs_out_o[3]                No gated clock conversion method for cell cell:ACG4.SLE            
+@K:CKID0011       PF_CCC_C0_0.PF_CCC_C0_0.pll_inst_0                        PLL                    8          ACT_UNIQUE_debouncer_0.DFF2                         No gated clock conversion method for cell cell:ACG4.SLE            
+=====================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

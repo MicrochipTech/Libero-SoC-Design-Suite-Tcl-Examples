@@ -1,0 +1,117 @@
+# Microsemi I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: v2021.10 2021.10.1.1
+
+# Family: PolarFire , Die: MPF300T , Package: FCG1152
+
+# Date generated: Mon Jan 11 13:13:58 2021 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io -port_name {RXD[0]}  \
+    -pin_name D23           \
+    -fixed true             \
+    -DIRECTION INPUT
+
+
+set_io -port_name {RXD[1]}  \
+    -pin_name C21           \
+    -fixed true             \
+    -DIRECTION INPUT
+
+
+set_io -port_name {RXD_N[0]}  \
+    -pin_name C23             \
+    -fixed true               \
+    -DIRECTION INPUT
+
+
+set_io -port_name {RXD_N[1]}  \
+    -pin_name B21             \
+    -fixed true               \
+    -DIRECTION INPUT
+
+
+set_io -port_name RX_CLK_N  \
+    -pin_name G25           \
+    -fixed true             \
+    -DIRECTION INPUT
+
+
+set_io -port_name RX_CLK_P  \
+    -pin_name H25           \
+    -fixed true             \
+    -DIRECTION INPUT
+
+
+set_io -port_name {TXD[0]}  \
+    -pin_name K23           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {TXD[1]}  \
+    -pin_name A17           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {TXD_N[0]}  \
+    -pin_name L23             \
+    -fixed true               \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {TXD_N[1]}  \
+    -pin_name A18             \
+    -fixed true               \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name TX_CLK  \
+    -pin_name F23         \
+    -fixed true           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name TX_CLK_N  \
+    -pin_name F24           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+
+#
+#Ports using Dedicated Pins
+
+#
+

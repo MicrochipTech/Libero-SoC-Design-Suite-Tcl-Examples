@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG334 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":99:16:99:28|Read directive translate_off.
+@N: CG333 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":102:16:102:27|Read directive translate_on.
+@N: CG334 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":113:16:113:28|Read directive translate_off.
+@N: CG333 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":131:16:131:27|Read directive translate_on.
+

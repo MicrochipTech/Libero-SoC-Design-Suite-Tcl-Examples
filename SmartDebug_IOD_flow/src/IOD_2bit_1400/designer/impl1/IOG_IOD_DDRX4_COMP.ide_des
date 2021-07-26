@@ -1,0 +1,13 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Lakshman\DBASE\WORK\CoreRxIODBitAlign\From_Suneel\TX_Ce_RX_Dy_x4_1400\designer\impl1\IOG_IOD_DDRX4_COMP.adb"
+LIST SOURCE_FILES
+VALUE "C:\Lakshman\DBASE\WORK\CoreRxIODBitAlign\From_Suneel\TX_Ce_RX_Dy_x4_1400\constraint\io\user.pdc;pdc"
+VALUE "C:\Lakshman\DBASE\WORK\CoreRxIODBitAlign\From_Suneel\TX_Ce_RX_Dy_x4_1400\constraint\fp\user.pdc;pdc"
+VALUE "C:\Lakshman\DBASE\WORK\CoreRxIODBitAlign\From_Suneel\TX_Ce_RX_Dy_x4_1400\constraint\io\user1.pdc;pdc"
+VALUE "C:\Lakshman\DBASE\WORK\CoreRxIODBitAlign\From_Suneel\TX_Ce_RX_Dy_x4_1400\constraint\IOG_IOD_DDRX4_COMP_derived_constraints.sdc;sdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Lakshman\DBASE\WORK\CoreRxIODBitAlign\From_Suneel\TX_Ce_RX_Dy_x4_1400\synthesis\IOG_IOD_DDRX4_COMP_vm.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

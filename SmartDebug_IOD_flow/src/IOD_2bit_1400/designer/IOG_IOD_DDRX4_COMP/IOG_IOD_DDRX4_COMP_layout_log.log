@@ -1,0 +1,127 @@
+INFO: Reading User SDC file C:\ALL_OLD_DATA\20211\IOD_2bitERR\constraint\IOG_IOD_DDRX4_COMP_derived_constraints.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+
+DEBUG SpnSpawn: "G:\saikiran\sn\ares_sk_sfix1_sn\btop\stg/bin64/tao "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\run_tao_adl.tcl""
+
+Can not find a proper import format!*** IMPORTANT RECOMMENDATION *** If you haven't done so, it is highly recommended to add clock jitter information for each clock domain into Libero SoC through clock uncertainty SDC timing constraints. Please refer to the Libero SoC v12.5 release notes for more details.
+
+No errors or warnings found.
+
+
+DEBUG SpnSpawn: "G:\saikiran\sn\ares_sk_sfix1_sn\btop\stg/bin64/st_shell "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\run_placer_st_shell_des.tcl" "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\run_placer_st_shell_cmd.tcl""
+
+Running execute of layout tool..
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+
+
+DEBUG SpnSpawn: "G:\saikiran\sn\ares_sk_sfix1_sn\btop\stg/bin64/g5layout "-tool" "placer" "-def_params" "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\run_placer.def""
+
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : OFF
+Global Pins Demotion     : ON
+Driver Replication       : OFF
+High-effort              : OFF
+Repair min-delay         : OFF
+Incremental              : OFF
+Inter-clock optimization : ON
+
+Reading file C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\COMPILE\IOG_IOD_DDRX4_COMP.afl
+Reading file C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\COMPILE\IOG_IOD_DDRX4_COMP.loc
+Reading file C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\COMPILE\IOG_IOD_DDRX4_COMP.seg
+INFO: Reading User PDC file C:\ALL_OLD_DATA\20211\IOD_2bitERR\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\ALL_OLD_DATA\20211\IOD_2bitERR\constraint\io\user2.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\ALL_OLD_DATA\20211\IOD_2bitERR\constraint\fp\user.pdc. 0 error(s) and 0 warning(s)
+
+ Running Timing based Global Demotion. 
+        Demoted 0 global pins.
+
+ Timing based Global Demotion completed successfully. 
+INFO: Placing lane controller macro: PF_IOD_GENERIC_RX_C1_0/PF_LANECTRL_0/I_LANECTRL @ x = 1967 y = 0
+INFO: Placing lane controller macro: PF_IOD_GENERIC_TX_C0_0/LANECTRL_ADDR_CMD_0/I_LANECTRL @ x = 2255 y = 0
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 20 fixed I/O macros, 57 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 43 seconds
+
+
+DEBUG SpnSpawn: "G:\saikiran\sn\ares_sk_sfix1_sn\btop\stg/bin64/g4placer "--name" "IOG_IOD_DDRX4_COMP" "--seed" "0" "--timing_driven" "--effort" "normal" "--dir_dtf" "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.dtf" "--file_constraints" "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.dtf\constraints" "--file_inv_ports" "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.dtf\inverted_ports" "--file_terackt" "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.dtf\terackt" "--file_teralib" "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.dtf\teralib" "--file_terapld" "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.dtf\terapld" "--file_sdc" "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.dtf\constraints.sdc" "--file_options" "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.dtf\options.txt" "--file_adl" "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.dtf\netlist.adl" "--file_afl" "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.dtf\netlist.afl" "--file_def" "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.dtf\tdpr.def" "--file_loc" "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.dtf\netlist.loc""
+
+
+Placer V5.0 - 2021.10.1 
+Design: IOG_IOD_DDRX4_COMP              Started: Tue Dec 29 11:14:53 2020
+
+Initializing Normal-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 60 seconds
+Placement                : 945 seconds
+Improvement              : 963 seconds
+
+Placer completed successfully.
+
+Design: IOG_IOD_DDRX4_COMP              
+Finished: Tue Dec 29 11:51:53 2020
+Total CPU Time:     00:37:31            Total Elapsed Time: 00:37:00
+Total Memory Usage: 1218.5 Mbytes
+                        o - o - o - o - o - o
+
+g5layout exit = 0
+
+
+DEBUG SpnSpawn: "G:\saikiran\sn\ares_sk_sfix1_sn\btop\stg/bin64/g5layout "-tool" "router" "-def_params" "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\run_router.def""
+
+Reading file C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.afl
+Reading file C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.loc
+Reading file C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.seg
+
+
+DEBUG SpnSpawn: "G:\saikiran\sn\ares_sk_sfix1_sn\btop\stg/bin64/g5router "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.dtf" "-family" "pa5m" "-part" "APA5MPA5M300" "-package" "APA5MPA5M300-FCG1152" "-schedule" "60" "-astar" "-nomap" "-useFastHierArchLoading" "-timeAware" "-useInitialPinSwapping""
+
+
+Router 
+Design: C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMPStarted: Tue Dec 29 11:52:28 2020
+
+
+Router completed successfully.
+
+Design: C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP
+Finished: Tue Dec 29 11:56:48 2020
+Total CPU Time:     00:04:44            Total Elapsed Time: 00:04:20
+Total Memory Usage: 5308.8 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+--------+------------+
+| Type          | Used | Total  | Percentage |
++---------------+------+--------+------------+
+| 4LUT          | 2936 | 299544 | 0.98       |
+| DFF           | 2331 | 299544 | 0.78       |
+| I/O Register  | 0    | 510    | 0.00       |
+| Logic Element | 3971 | 299544 | 1.33       |
++---------------+------+--------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  26   | 31.33%     |
+| Placed |  57   | 68.67%     |
++--------+-------+------------+
+
+g5layout exit = 0
+
+
+DEBUG SpnSpawn: "G:\saikiran\sn\ares_sk_sfix1_sn\btop\stg/bin64/g5layout "-tool" "pinrpt" "-def_params" "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\run_pinrpt.tcl""
+
+Can not find a proper import format!Reading file C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.afl
+Reading file C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.loc
+g5layout exit = 0

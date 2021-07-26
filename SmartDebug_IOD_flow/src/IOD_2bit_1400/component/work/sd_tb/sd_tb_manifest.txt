@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.6)
+
+Date      :  Fri Aug 28 12:11:42 2020
+Project   :  D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400
+Component :  sd_tb
+Family    :  PolarFire
+
+
+Stimulus files for all Simulation tools:
+    D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/sd_tb/sd_tb.v
+

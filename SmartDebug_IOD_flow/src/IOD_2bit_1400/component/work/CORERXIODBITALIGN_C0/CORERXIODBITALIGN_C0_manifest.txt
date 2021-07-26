@@ -1,0 +1,39 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 2021.10.1.1)
+
+Date      :  Tue Dec  8 22:49:21 2020
+Project   :  E:\saikiran_sn\TC\IOD_MAIN\IOD_2bit20211
+Component :  CORERXIODBITALIGN_C0
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/core/CoreRxIODBitAlign.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/core/CoreRxIODBitAlign_top.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0.v
+
+Stimulus files for all Simulation tools:
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/prbscheck_parallel_fab_x4.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/prbsgen_parallel_fab_x4.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/rev_bits_x4.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/CCC_COMP_CCC_COMP_0_PF_CCC.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/CCC_COMP.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/CORERXIODBITALIGN_C0.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/RXIOD_COMP_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/RXIOD_COMP_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/RXIOD_COMP_PF_IOD_CLK_TRAINING_PF_IOD.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/RXIOD_COMP_PF_IOD_RX_PF_IOD.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/PF_LANECTRL_PAUSE_SYNC.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/RXIOD_COMP_PF_LANECTRL_0_PF_LANECTRL.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/PLL_BclkSclkAlign.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/ICB_BclkSclkAlign.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/CoreBclkSclkAlign.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/RXIOD_COMP_TR.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/RXIOD_COMP.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/PF_LANECTRL_PAUSE_SYNC1.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/TXIOD_COMP_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/TXIOD_COMP_PF_IOD_TX_CLK_PF_IOD.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/TXIOD_COMP_PF_IOD_TX_PF_IOD.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/TXIOD_COMP.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/CoreRxIODBitAlign_SD_wrap.v
+    E:/saikiran_sn/TC/IOD_MAIN/IOD_2bit20211/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0_0/rtl/vlog/test/user/testbench.v
+

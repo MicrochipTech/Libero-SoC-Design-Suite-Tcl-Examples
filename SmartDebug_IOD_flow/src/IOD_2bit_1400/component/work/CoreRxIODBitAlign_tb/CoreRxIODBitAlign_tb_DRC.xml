@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>CoreRxIODBitAlign_tb</header>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.0\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin CoreRxIODBitAlign_tb:REF_CLK_0</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/CoreRxIODBitAlign_tb/pins/CoreRxIODBitAlign_tb:REF_CLK_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.0\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin IOG_IOD_DDRX4_COMP_0:OSC_160MHZ_ON</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/CoreRxIODBitAlign_tb/pins/IOG_IOD_DDRX4_COMP_0:OSC_160MHZ_ON</crossprobe>
+  </drc>
+</drcreport>

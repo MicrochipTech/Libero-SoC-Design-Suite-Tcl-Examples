@@ -1,0 +1,5 @@
+set_family {PolarFire}
+read_adl {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\designer\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.adl}
+map_netlist
+read_sdc {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\constraint\IOG_IOD_DDRX4_COMP_derived_constraints.sdc}
+check_constraints {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\constraint\placer_sdc_check.log}

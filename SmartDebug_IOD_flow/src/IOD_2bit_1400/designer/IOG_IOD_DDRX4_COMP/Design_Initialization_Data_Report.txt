@@ -1,0 +1,48 @@
+Configuration Report for SERDES XCVR, PCIe, CCC and Transmit PLL
+Microsemi Corporation - Microsemi Libero Software Release v2021.10 (Version 2021.10.1.1)
+Family: PolarFire
+Die: MPF300T
+Package: FCG1152
+Date: Tue Dec 29 13:26:11 2020
+
+Report path: C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\Design_Initialization_Data_Report.txt
+PLL_SW_0 - CCC   (PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0)
++---------------+------------------+----------------+---------------------------+-------------------+
+| Register Name | Register Address | Register Reset | Register Configured Value | Register Modified |
++---------------+------------------+----------------+---------------------------+-------------------+
+| SOFT_RESET    | 0x8400000        | 0x00000000     | 0x00000000                | No                |
+| PLL_CTRL      | 0x8400004        | 0x0000107C     | 0x00001087                | Yes               |
+| PLL_REF_FB    | 0x8400008        | 0x00000000     | 0x00000400                | Yes               |
+| PLL_FRACN     | 0x840000C        | 0x00000000     | 0x00000000                | No                |
+| PLL_DIV_0_1   | 0x8400010        | 0x00000000     | 0x01000A00                | Yes               |
+| PLL_DIV_2_3   | 0x8400014        | 0x00000000     | 0x01000100                | Yes               |
+| PLL_CTRL2     | 0x8400018        | 0x00001006     | 0x00001014                | Yes               |
+| PLL_CAL       | 0x840001C        | 0x00000000     | 0x0000000E                | Yes               |
+| PLL_PHADJ     | 0x8400020        | 0x00004001     | 0x00004000                | Yes               |
+| SSCG_REG_0    | 0x8400024        | 0x00000000     | 0x00000001                | Yes               |
+| SSCG_REG_1    | 0x8400028        | 0x00000000     | 0x0000000A                | Yes               |
+| SSCG_REG_2    | 0x840002C        | 0x00000000     | 0x0000007D                | Yes               |
+| SSCG_REG_3    | 0x8400030        | 0x00000000     | 0x00000001                | Yes               |
++---------------+------------------+----------------+---------------------------+-------------------+
+
+
+PLL_SE_0 - CCC   (PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0)
++---------------+------------------+----------------+---------------------------+-------------------+
+| Register Name | Register Address | Register Reset | Register Configured Value | Register Modified |
++---------------+------------------+----------------+---------------------------+-------------------+
+| SOFT_RESET    | 0x8010000        | 0x00000000     | 0x00000000                | No                |
+| PLL_CTRL      | 0x8010004        | 0x0000107C     | 0x000010BF                | Yes               |
+| PLL_REF_FB    | 0x8010008        | 0x00000000     | 0x00000100                | Yes               |
+| PLL_FRACN     | 0x801000C        | 0x00000000     | 0x00000000                | No                |
+| PLL_DIV_0_1   | 0x8010010        | 0x00000000     | 0x01000100                | Yes               |
+| PLL_DIV_2_3   | 0x8010014        | 0x00000000     | 0x04000400                | Yes               |
+| PLL_CTRL2     | 0x8010018        | 0x00001006     | 0x00001014                | Yes               |
+| PLL_CAL       | 0x801001C        | 0x00000000     | 0x0000000E                | Yes               |
+| PLL_PHADJ     | 0x8010020        | 0x00004001     | 0x00004040                | Yes               |
+| SSCG_REG_0    | 0x8010024        | 0x00000000     | 0x00000001                | Yes               |
+| SSCG_REG_1    | 0x8010028        | 0x00000000     | 0x0000000A                | Yes               |
+| SSCG_REG_2    | 0x801002C        | 0x00000000     | 0x00000010                | Yes               |
+| SSCG_REG_3    | 0x8010030        | 0x00000000     | 0x00000001                | Yes               |
++---------------+------------------+----------------+---------------------------+-------------------+
+
+

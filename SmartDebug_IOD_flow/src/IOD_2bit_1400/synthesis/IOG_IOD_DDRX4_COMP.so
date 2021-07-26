@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>IOG_IOD_DDRX4_COMP</design>
+	<target_verilog>D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\synthesis\synthesis_1\IOG_IOD_DDRX4_COMP.vm</target_verilog>
+</SynplifyOutput>

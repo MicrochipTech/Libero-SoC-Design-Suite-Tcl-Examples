@@ -1,0 +1,28 @@
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M
+Install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M
+OS: Windows 6.2
+
+Hostname: HYD-DK-I30406
+
+Implementation : synthesis_1
+Synopsys Synopsys Netlist Linker, Version comp202003syn, Build 175R, Built Jun  5 2020 09:18:53, @
+
+@N|Running in 64-bit mode
+File D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\synthesis\synthesis_1\synwork\IOG_IOD_DDRX4_COMP_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Sep  4 17:36:22 2020
+
+###########################################################]

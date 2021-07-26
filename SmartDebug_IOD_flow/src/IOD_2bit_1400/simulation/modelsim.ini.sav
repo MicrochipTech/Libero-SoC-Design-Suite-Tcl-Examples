@@ -1,0 +1,13 @@
+[Library]
+others = $MODEL_TECH/../modelsim.ini
+PolarFire = Y:/pc/2021_2_0_7_hiro/Designer/lib/modelsimpro/precompiled/vlog/PolarFire
+presynth = presynth
+postsynth = postsynth
+CORERXIODBITALIGN_LIB = CORERXIODBITALIGN_LIB
+syncad_vhdl_lib = Y:\pc\2021_2_0_7_hiro\Designer/lib/actel/syncad_vhdl_lib
+
+[vcom]
+VHDL93 = 1
+
+[vsim]
+IterationLimit = 5000

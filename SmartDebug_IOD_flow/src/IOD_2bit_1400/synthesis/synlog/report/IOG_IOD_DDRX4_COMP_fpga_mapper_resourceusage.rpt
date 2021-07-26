@@ -1,0 +1,52 @@
+Resource Usage Report for IOG_IOD_DDRX4_COMP 
+
+Mapping to part: mpf300tfcg1152-1
+Cell usage:
+BUFF            1 use
+CLKINT          11 uses
+HS_IO_CLK       5 uses
+ICB_CLKDIVDELAY  2 uses
+IOD             7 uses
+LANECTRL        2 uses
+MX2             1 use
+OR2             1 use
+OSC_RC160MHZ    1 use
+PLL             2 uses
+CFG1           16 uses
+CFG2           336 uses
+CFG3           907 uses
+CFG4           777 uses
+
+Carry cells:
+ARI1            320 uses - used for arithmetic functions
+ARI1            734 uses - used for Wide-Mux implementation
+Total ARI1      1054 uses
+
+
+Sequential Cells: 
+SLE            1579 uses
+
+DSP Blocks:    0 of 924 (0%)
+
+I/O ports: 35
+I/O primitives: 29
+INBUF          5 uses
+INBUF_DIFF     3 uses
+OUTBUF         18 uses
+OUTBUF_DIFF    3 uses
+
+
+Global Clock Buffers: 11
+
+Total LUTs:    3090
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  1579 + 0 + 0 + 0 = 1579;
+Total number of LUTs after P&R:  3090 + 0 + 0 + 0 = 3090;
+

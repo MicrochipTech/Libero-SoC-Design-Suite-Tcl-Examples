@@ -1,0 +1,26 @@
+set_family {PolarFire}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0.v}
+read_verilog -mode verilog_2k -lib CORERXIODBITALIGN_LIB {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v}
+read_verilog -mode verilog_2k -lib CORERXIODBITALIGN_LIB {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign_top.v}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\component\work\IOG_IOD_CLOCK\IOG_IOD_CLOCK.v}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\component\work\IOG_IOD_CLOCK\IOG_IOD_CLOCK_0\IOG_IOD_CLOCK_IOG_IOD_CLOCK_0_PF_CCC.v}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\component\work\IOG_IOD_DDRTX4\IOG_IOD_DDRTX4.v}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\component\work\IOG_IOD_DDRTX4\LANECTRL_ADDR_CMD_0\IOG_IOD_DDRTX4_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\component\work\IOG_IOD_DDRTX4\PF_IOD_TX\IOG_IOD_DDRTX4_PF_IOD_TX_PF_IOD.v}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\component\work\IOG_IOD_DDRTX4\PF_IOD_TX_CLK\IOG_IOD_DDRTX4_PF_IOD_TX_CLK_PF_IOD.v}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\component\work\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.v}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\component\work\IOG_IOD_DDRX4_PF\IOG_IOD_DDRX4_PF.v}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\component\work\IOG_IOD_DDRX4_PF\PF_CLK_DIV_FIFO\IOG_IOD_DDRX4_PF_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\component\work\IOG_IOD_DDRX4_PF\PF_CLK_DIV_RXCLK\IOG_IOD_DDRX4_PF_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\component\work\IOG_IOD_DDRX4_PF\PF_IOD_RX\IOG_IOD_DDRX4_PF_PF_IOD_RX_PF_IOD.v}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\component\work\IOG_IOD_DDRX4_PF\PF_LANECTRL_0\IOG_IOD_DDRX4_PF_PF_LANECTRL_0_PF_LANECTRL.v}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\component\work\PF_OSC_C0\PF_OSC_C0.v}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\component\work\PF_OSC_C0\PF_OSC_C0_0\PF_OSC_C0_PF_OSC_C0_0_PF_OSC.v}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\hdl\debounce.v}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\hdl\prbscheck_parallel_fab.v}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\hdl\prbsgen_parallel_fab.v}
+read_verilog -mode verilog_2k {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\hdl\rev_bits.v}
+set_top_level {IOG_IOD_DDRX4_COMP}
+map_netlist
+read_sdc {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\constraint\IOG_IOD_DDRX4_COMP_derived_constraints.sdc}
+check_constraints {E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new\constraint\synthesis_sdc_check.log}

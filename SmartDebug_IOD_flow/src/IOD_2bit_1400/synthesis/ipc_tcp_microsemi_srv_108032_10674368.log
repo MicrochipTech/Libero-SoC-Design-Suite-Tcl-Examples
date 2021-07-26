@@ -1,0 +1,7 @@
+1583419788 -20:19:48 -17629453 -ipcServer::ipcServer params
+Port:      58015
+Logfile:   E:/Suneel/Core/IOG_Reliability_Validation/laxman/2_0_110_based/CoreRxIODBitAlign_new_1400x4Mbps_updaCPZ_1_2_0_110bas/synthesis/ipc_tcp_microsemi_srv_108032_10674368.log
+Reconnect: 0
+Use ipv6:  0
+
+1583485803 -14:40:03 -1 -ipcServer.RunServer, loop stopped normal.

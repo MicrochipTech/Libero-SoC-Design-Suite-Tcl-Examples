@@ -1,0 +1,1637 @@
+#Build: Synplify Pro (R) Q-2020.03M, Build 175R, Jun  5 2020
+#install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M
+#OS: Windows 8 6.2
+#Hostname: HYD-DK-I30406
+
+# Fri Sep  4 17:36:10 2020
+
+#Implementation: synthesis_1
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M
+Install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M
+OS: Windows 6.2
+
+Hostname: HYD-DK-I30406
+
+Implementation : synthesis_1
+Synopsys HDL Compiler, Version comp202003syn, Build 175R, Built Jun  5 2020 09:18:53, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M
+Install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M
+OS: Windows 6.2
+
+Hostname: HYD-DK-I30406
+
+Implementation : synthesis_1
+Synopsys Verilog Compiler, Version comp202003syn, Build 175R, Built Jun  5 2020 09:18:53, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M\lib\generic\acg5.v" (library work)
+@I::"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\polarfire_syn_comps.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\hdl\debounce.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\hdl\prbscheck_parallel_fab.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\hdl\prbsgen_parallel_fab.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\hdl\rev_bits.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v" (library CORERXIODBITALIGN_LIB)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign_top.v" (library CORERXIODBITALIGN_LIB)
+@N: CG334 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":99:16:99:28|Read directive translate_off.
+@N: CG333 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":102:16:102:27|Read directive translate_on.
+@N: CG334 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":113:16:113:28|Read directive translate_off.
+@N: CG333 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":131:16:131:27|Read directive translate_on.
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_CCC_C0\PF_CCC_C0.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_CLK_DIV_FIFO\PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_CLK_DIV_RXCLK\PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_IOD_CLK_TRAINING\PF_IOD_GENERIC_RX_C1_PF_IOD_CLK_TRAINING_PF_IOD.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_IOD_RX\PF_IOD_GENERIC_RX_C1_PF_IOD_RX_PF_IOD.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_LANECTRL_0\PF_LANECTRL_PAUSE_SYNC.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_LANECTRL_0\PF_IOD_GENERIC_RX_C1_PF_LANECTRL_0_PF_LANECTRL.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\PLL_BclkSclkAlign.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\ICB_BclkSclkAlign.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_IOD_GENERIC_RX_C1.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\LANECTRL_ADDR_CMD_0\PF_LANECTRL_PAUSE_SYNC.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\LANECTRL_ADDR_CMD_0\PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_CLK_TRAINING\PF_IOD_GENERIC_TX_C0_PF_IOD_CLK_TRAINING_PF_IOD.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_TX_CLK\PF_IOD_GENERIC_TX_C0_PF_IOD_TX_CLK_PF_IOD.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_TX\PF_IOD_GENERIC_TX_C0_PF_IOD_TX_PF_IOD.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_GENERIC_TX_C0.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0\PF_CCC_0\PF_IOD_TX_CCC_C0_PF_CCC_0_PF_CCC.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0_TR\PF_IOD_TX_CCC_C0_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0_TR\PF_IOD_TX_CCC_C0_TR.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0\PF_IOD_TX_CCC_C0.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_OSC_C1\PF_OSC_C1_0\PF_OSC_C1_PF_OSC_C1_0_PF_OSC.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_OSC_C1\PF_OSC_C1.v" (library work)
+@I::"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.v" (library work)
+Verilog syntax check successful!
+File D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\polarfire_syn_comps.v changed - recompiling
+File D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_CLK_DIV_FIFO\PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v changed - recompiling
+File D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_CLK_DIV_RXCLK\PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v changed - recompiling
+File D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_IOD_CLK_TRAINING\PF_IOD_GENERIC_RX_C1_PF_IOD_CLK_TRAINING_PF_IOD.v changed - recompiling
+File D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_IOD_RX\PF_IOD_GENERIC_RX_C1_PF_IOD_RX_PF_IOD.v changed - recompiling
+File D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_LANECTRL_0\PF_LANECTRL_PAUSE_SYNC.v changed - recompiling
+File D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_LANECTRL_0\PF_IOD_GENERIC_RX_C1_PF_LANECTRL_0_PF_LANECTRL.v changed - recompiling
+File D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v changed - recompiling
+File D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR.v changed - recompiling
+File D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_IOD_GENERIC_RX_C1.v changed - recompiling
+File D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.v changed - recompiling
+Selecting top level module IOG_IOD_DDRX4_COMP
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\hdl\debounce.v":21:8:21:27|Synthesizing module ACT_UNIQUE_debouncer in library work.
+@N: CG179 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\hdl\debounce.v":83:90:83:95|Removing redundant assignment.
+Running optimization stage 1 on ACT_UNIQUE_debouncer .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\hdl\prbscheck_parallel_fab.v":23:7:23:39|Synthesizing module ACT_UNIQUE_prbscheck_parallel_fab in library work.
+Running optimization stage 1 on ACT_UNIQUE_prbscheck_parallel_fab .......
+@W: CL169 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\hdl\prbscheck_parallel_fab.v":61:0:61:5|Pruning unused register i[7:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\hdl\rev_bits.v":21:7:21:25|Synthesizing module ACT_UNIQUE_rev_bits in library work.
+Running optimization stage 1 on ACT_UNIQUE_rev_bits .......
+@N: CG364 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M\lib\generic\acg5.v":217:7:217:10|Synthesizing module BUFF in library work.
+Running optimization stage 1 on BUFF .......
+@N: CG775 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":2:7:2:67|Component CORERXIODBITALIGN_C0_CORERXIODBITALIGN_C0_0_CORERXIODBITALIGN not found in library "work" or "__hyper__lib__", but found in library CORERXIODBITALIGN_LIB
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":2:7:2:72|Synthesizing module CORERXIODBITALIGN_C0_CORERXIODBITALIGN_C0_0_CORERXIODBITALIGN_TRNG in library CORERXIODBITALIGN_LIB.
+
+	MIPI_TRNG=32'b00000000000000000000000000000000
+	SKIP_TRNG=32'b00000000000000000000000000000000
+	HOLD_TRNG=32'b00000000000000000000000000000000
+	MIN_WINDOW_VALUE=32'b00000000000000000000000000001010
+	RST_CNT_WIDTH=32'b00000000000000000000000000001010
+	LP_PULSE_WD=32'b00000000000000000000000000010000
+	BITALIGN_IDLE_ST=5'b00000
+	BITALIGN_LOAD_ST=5'b00001
+	BITALIGN_CLRFLAGS_ST=5'b00010
+	BITALIGN_EM_ST=5'b00011
+	BITALIGN_TAPSTORE_ST=5'b00100
+	BITALIGN_TAPCALC_ST=5'b00101
+	BITALIGN_TAPCMP_ST=5'b00110
+	BITALIGN_TAPCMP2_ST=5'b00111
+	BITALIGN_DONE_ST=5'b01000
+	BITALIGN_HOLD_ST=5'b01001
+	BITALIGN_VALID_TAP_WAIT_ST1=5'b01010
+	BITALIGN_VALID_TAP_WAIT_ST2=5'b01011
+	BITALIGN_LP_WAIT_ST=5'b01100
+	BITALIGN_TAPCALC_STRT_ST=5'b01101
+	BITALIGN_NOELY_NOLTE_ST=5'b01110
+	BITALIGN_ELY_ST=5'b01111
+	BITALIGN_LTE_ST=5'b10000
+	BITALIGN_VALID_TAP_CHK_ST=5'b10001
+   Generated name = CORERXIODBITALIGN_C0_CORERXIODBITALIGN_C0_0_CORERXIODBITALIGN_TRNG_Z1
+Running optimization stage 1 on CORERXIODBITALIGN_C0_CORERXIODBITALIGN_C0_0_CORERXIODBITALIGN_TRNG_Z1 .......
+@W: CL169 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":842:3:842:8|Pruning unused register LP_IN_reg[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":842:3:842:8|Pruning unused register LP_edge_reg[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL271 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":821:3:821:8|Pruning unused bits 1 to 0 of skip_trng_reg[2:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL265 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":144:3:144:8|Removing unused bit 7 of tapcnt_final_upd[7:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":144:3:144:8|Removing unused bit 7 of tapcnt_final[7:0]. Either assign all bits or reduce the width of the signal.
+@W: CL207 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":887:3:887:8|All reachable assignments to LP_Clear_pulse[15:0] assign 0, register removed by optimization.
+@W: CL113 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":821:3:821:8|Feedback mux created for signal skip_trng_reg[2:2]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL250 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":821:3:821:8|All reachable assignments to skip_trng_reg[2] assign 0, register removed by optimization
+@W: CL190 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":144:3:144:8|Optimizing register bit bitalign_hold_state[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":144:3:144:8|Optimizing register bit bitalign_hold_state[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":144:3:144:8|Optimizing register bit bitalign_hold_state[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":144:3:144:8|Optimizing register bit bitalign_hold_state[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":144:3:144:8|Optimizing register bit bitalign_hold_state[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":144:3:144:8|Optimizing register bit rx_BIT_ALGN_HOLD_flag to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":144:3:144:8|Pruning unused register rx_BIT_ALGN_HOLD_flag. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":144:3:144:8|Pruning unused register bitalign_hold_state[4:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":2:7:2:67|Synthesizing module CORERXIODBITALIGN_C0_CORERXIODBITALIGN_C0_0_CORERXIODBITALIGN in library CORERXIODBITALIGN_LIB.
+
+	MIPI_TRNG=32'b00000000000000000000000000000000
+	SKIP_TRNG=32'b00000000000000000000000000000000
+	HOLD_TRNG=32'b00000000000000000000000000000000
+	FAMILY=32'b00000000000000000000000000011010
+	MIN_WINDOW_VALUE=32'b00000000000000000000000000001010
+	RST_CNT_WIDTH=32'b00000000000000000000000000001010
+   Generated name = CORERXIODBITALIGN_C0_CORERXIODBITALIGN_C0_0_CORERXIODBITALIGN_0s_0s_0s_26s_10s_10s
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":59:8:59:16|Removing wire HS_RESETN, as there is no assignment to it.
+Running optimization stage 1 on CORERXIODBITALIGN_C0_CORERXIODBITALIGN_C0_0_CORERXIODBITALIGN_0s_0s_0s_26s_10s_10s .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0.v":9:7:9:26|Synthesizing module CORERXIODBITALIGN_C0 in library work.
+Running optimization stage 1 on CORERXIODBITALIGN_C0 .......
+@N: CG364 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M\lib\generic\acg5.v":489:7:489:12|Synthesizing module CLKINT in library work.
+Running optimization stage 1 on CLKINT .......
+@W: CG1283 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v":37:12:37:21|Type of parameter VCOFREQUENCY on the instance pll_inst_0 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\polarfire_syn_comps.v":8359:7:8359:9|Synthesizing module PLL in library work.
+Running optimization stage 1 on PLL .......
+@N: CG364 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M\lib\generic\acg5.v":504:7:504:9|Synthesizing module VCC in library work.
+Running optimization stage 1 on VCC .......
+@N: CG364 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M\lib\generic\acg5.v":500:7:500:9|Synthesizing module GND in library work.
+Running optimization stage 1 on GND .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v":5:7:5:34|Synthesizing module PF_CCC_C0_PF_CCC_C0_0_PF_CCC in library work.
+Running optimization stage 1 on PF_CCC_C0_PF_CCC_C0_0_PF_CCC .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_CCC_C0\PF_CCC_C0.v":9:7:9:15|Synthesizing module PF_CCC_C0 in library work.
+Running optimization stage 1 on PF_CCC_C0 .......
+@N: CG364 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M\lib\generic\acg5.v":357:7:357:16|Synthesizing module INBUF_DIFF in library work.
+Running optimization stage 1 on INBUF_DIFF .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":17:7:17:73|Synthesizing module PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN in library work.
+
+	IOG_FABRIC_RATIO=32'b00000000000000000000000000000100
+	BCLKSCLK_TRN_MODE=32'b00000000000000000000000000000001
+	FAMILY=32'b00000000000000000000000000011010
+	CLK_ALGN_SKIP_TRNG=32'b00000000000000000000000000000001
+	CLK_ALGN_HOLD_TRNG=32'b00000000000000000000000000000001
+	BCLKSCLK_ICB_MODE=32'b00000000000000000000000000000001
+	BCLKSCLK_ICB_TAP_WAIT_CNT_WIDTH=32'b00000000000000000000000000000011
+	ICB_CLK_ALGN_SKIP_TRNG=32'b00000000000000000000000000000001
+	ICB_CLK_ALGN_HOLD_TRNG=32'b00000000000000000000000000000001
+	PLL_CLK_ALGN_SKIP_TRNG=32'b00000000000000000000000000000000
+	PLL_CLK_ALGN_HOLD_TRNG=32'b00000000000000000000000000000000
+	BCLKSCLK_ICB_TAP_CNT=32'b00000000000000000000000100000000
+	BCLKSCLK_ICB_TAP_CNT_WIDTH=32'b00000000000000000000000000001000
+   Generated name = PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\ICB_BclkSclkAlign.v":2:7:2:23|Synthesizing module ICB_BCLKSCLKALIGN in library work.
+
+	BCLKSCLK_TRN_MODE=32'b00000000000000000000000000000001
+	ICB_CLK_ALGN_SKIP_TRNG=32'b00000000000000000000000000000001
+	ICB_CLK_ALGN_HOLD_TRNG=32'b00000000000000000000000000000001
+	BCLKSCLK_ICB_TAP_WAIT_CNT_WIDTH=32'b00000000000000000000000000000011
+	BCLKSCLK_ICB_TAP_CNT=32'b00000000000000000000000100000000
+	BCLKSCLK_ICB_TAP_CNT_WIDTH=32'b00000000000000000000000000001000
+	RST_CNT_WIDTH=32'b00000000000000000000000000001010
+	CLKALIGN_HOLD_ST=6'b000000
+	CLKALIGN_INIT_ST=6'b000001
+	CLKALIGN_RESE_ST=6'b000010
+	CLKALIGN_RESW_ST=6'b000011
+	CLKALIGN_START_ST=6'b000100
+	CLKALIGN_LOAD_ST=6'b000101
+	CLKALIGN_CLRFLAGS_ST=6'b000110
+	CLKALIGN_EM_ST=6'b000111
+	CLKALIGN_TAPSTORE_ST=6'b001000
+	CLKALIGN_TAPCALC_ST=6'b001001
+	CLKALIGN_TAPCALC_STRT_DLY_ST=6'b001010
+	CLKALIGN_TAPCALC_STRT_DLY1_ST=6'b001011
+	CLKALIGN_TAPCALC_STRT_DLY2_ST=6'b001100
+	CLKALIGN_TAPCALC_STRT_ST=6'b001101
+	CLKALIGN_INIT_ELY_LTE_DLY_ST=6'b001110
+	CLKALIGN_INIT_ELY_LTE_DLY1_ST=6'b001111
+	CLKALIGN_INIT_ELY_LTE_DLY2_ST=6'b010000
+	CLKALIGN_INIT_ELY_LTE_ST=6'b010001
+	CLKALIGN_INIT_NO_ELY_LTE_DLY_ST=6'b010010
+	CLKALIGN_INIT_NO_ELY_LTE_DLY1_ST=6'b010011
+	CLKALIGN_INIT_NO_ELY_LTE_DLY2_ST=6'b010100
+	CLKALIGN_INIT_NO_ELY_LTE_ST=6'b010101
+	CLKALIGN_NXT_ELY_LTE_DLY_ST=6'b010110
+	CLKALIGN_NXT_ELY_LTE_DLY1_ST=6'b010111
+	CLKALIGN_NXT_ELY_LTE_DLY2_ST=6'b011000
+	CLKALIGN_NXT_ELY_LTE_ST=6'b011001
+	CLKALIGN_VALID_TAP_CHK_DLY_ST=6'b011010
+	CLKALIGN_VALID_TAP_CHK_ST=6'b011011
+	CLKALIGN_TAPCMP_ST=6'b011100
+	CLKALIGN_TAPCMP2_ST=6'b011101
+	CLKALIGN_VALID_TAP_WAIT_ST1=6'b011110
+	CLKALIGN_VALID_TAP_WAIT_ST2=6'b011111
+	CLKALIGN_DONE_ST=6'b100000
+	CLKALIGN_TAPCMP_OFFSET_ST=6'b100001
+	CLKALIGN_TAPCMP2_OFFSET_ST=6'b100010
+	CLKALIGN_VALID_TAP_WAIT_OFFSET_ST1=6'b100011
+	CLKALIGN_VALID_TAP_WAIT_OFFSET_ST2=6'b100100
+	CLKALIGN_PAUSE_ST=6'b100101
+	CLKALIGN_RESE1_ST=6'b100110
+	CLKALIGN_DONE1_ST=6'b100111
+   Generated name = ICB_BCLKSCLKALIGN_Z3
+@W: CG1340 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\ICB_BclkSclkAlign.v":180:44:180:57|Index into variable early_flags_lsb could be out of range ; a simulation mismatch is possible.
+@W: CG1340 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\ICB_BclkSclkAlign.v":180:44:180:57|Index into variable late_flags_lsb could be out of range ; a simulation mismatch is possible.
+@W: CG1340 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\ICB_BclkSclkAlign.v":180:44:180:57|Index into variable early_flags_msb could be out of range ; a simulation mismatch is possible.
+@W: CG1340 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\ICB_BclkSclkAlign.v":180:44:180:57|Index into variable late_flags_msb could be out of range ; a simulation mismatch is possible.
+Running optimization stage 1 on ICB_BCLKSCLKALIGN_Z3 .......
+@W: CL265 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\ICB_BclkSclkAlign.v":959:3:959:8|Removing unused bit 8 of tapcnt_final[8:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\ICB_BclkSclkAlign.v":761:3:761:8|Removing unused bit 8 of sig_tapcnt_final_2[8:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\ICB_BclkSclkAlign.v":737:3:737:8|Removing unused bit 8 of sig_tapcnt_final_1[8:0]. Either assign all bits or reduce the width of the signal.
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":82:11:82:31|Removing wire PLL_VCOPHSEL_SCLK_SEL, as there is no assignment to it.
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":83:11:83:31|Removing wire PLL_VCOPHSEL_BCLK_SEL, as there is no assignment to it.
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":84:11:84:33|Removing wire PLL_VCOPHSEL_BCLK90_SEL, as there is no assignment to it.
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":85:11:85:31|Removing wire PLL_VCOPHSEL_MCLK_SEL, as there is no assignment to it.
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":86:11:86:21|Removing wire PLL_LOADPHS, as there is no assignment to it.
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":87:11:87:24|Removing wire PLL_PHS_ROTATE, as there is no assignment to it.
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":88:11:88:27|Removing wire PLL_PHS_DIRECTION, as there is no assignment to it.
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":99:17:99:38|Removing wire BCLKSCLK_BCLK_VCOPHSEL, as there is no assignment to it.
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":124:9:124:31|Removing wire PLL_BCLKSCLK_TRAIN_DONE, as there is no assignment to it.
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":150:10:150:27|Removing wire PLL_CLK_ALGN_PAUSE, as there is no assignment to it.
+Running optimization stage 1 on PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2 .......
+@W: CL318 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":82:11:82:31|*Output PLL_VCOPHSEL_SCLK_SEL has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":83:11:83:31|*Output PLL_VCOPHSEL_BCLK_SEL has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":84:11:84:33|*Output PLL_VCOPHSEL_BCLK90_SEL has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":85:11:85:31|*Output PLL_VCOPHSEL_MCLK_SEL has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":86:11:86:21|*Output PLL_LOADPHS has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":87:11:87:24|*Output PLL_PHS_ROTATE has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":88:11:88:27|*Output PLL_PHS_DIRECTION has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":99:17:99:38|*Output BCLKSCLK_BCLK_VCOPHSEL has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR.v":9:7:9:29|Synthesizing module PF_IOD_GENERIC_RX_C1_TR in library work.
+Running optimization stage 1 on PF_IOD_GENERIC_RX_C1_TR .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\polarfire_syn_comps.v":1482:7:1482:15|Synthesizing module HS_IO_CLK in library work.
+Running optimization stage 1 on HS_IO_CLK .......
+@N: CG364 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M\lib\generic\acg5.v":181:7:181:9|Synthesizing module MX2 in library work.
+Running optimization stage 1 on MX2 .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\polarfire_syn_comps.v":1517:7:1517:21|Synthesizing module ICB_CLKDIVDELAY in library work.
+Running optimization stage 1 on ICB_CLKDIVDELAY .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_CLK_DIV_FIFO\PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v":5:7:5:59|Synthesizing module PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY in library work.
+Running optimization stage 1 on PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_CLK_DIV_RXCLK\PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v":5:7:5:60|Synthesizing module PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY in library work.
+Running optimization stage 1 on PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\polarfire_syn_comps.v":1750:7:1750:9|Synthesizing module IOD in library work.
+Running optimization stage 1 on IOD .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_IOD_CLK_TRAINING\PF_IOD_GENERIC_RX_C1_PF_IOD_CLK_TRAINING_PF_IOD.v":5:7:5:53|Synthesizing module PF_IOD_GENERIC_RX_C1_PF_IOD_CLK_TRAINING_PF_IOD in library work.
+@W: CG781 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_IOD_CLK_TRAINING\PF_IOD_GENERIC_RX_C1_PF_IOD_CLK_TRAINING_PF_IOD.v":60:23:60:23|Input RX_P on instance I_IOD_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_IOD_CLK_TRAINING\PF_IOD_GENERIC_RX_C1_PF_IOD_CLK_TRAINING_PF_IOD.v":60:32:60:32|Input RX_N on instance I_IOD_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+Running optimization stage 1 on PF_IOD_GENERIC_RX_C1_PF_IOD_CLK_TRAINING_PF_IOD .......
+@W: CL168 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_IOD_CLK_TRAINING\PF_IOD_GENERIC_RX_C1_PF_IOD_CLK_TRAINING_PF_IOD.v":32:8:32:15|Removing instance vcc_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_IOD_RX\PF_IOD_GENERIC_RX_C1_PF_IOD_RX_PF_IOD.v":5:7:5:43|Synthesizing module PF_IOD_GENERIC_RX_C1_PF_IOD_RX_PF_IOD in library work.
+@W: CG781 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_IOD_RX\PF_IOD_GENERIC_RX_C1_PF_IOD_RX_PF_IOD.v":92:13:92:13|Input RX_N on instance I_IOD_1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_IOD_RX\PF_IOD_GENERIC_RX_C1_PF_IOD_RX_PF_IOD.v":139:13:139:13|Input RX_N on instance I_IOD_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+Running optimization stage 1 on PF_IOD_GENERIC_RX_C1_PF_IOD_RX_PF_IOD .......
+@W: CL168 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_IOD_RX\PF_IOD_GENERIC_RX_C1_PF_IOD_RX_PF_IOD.v":109:8:109:15|Removing instance vcc_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\polarfire_syn_comps.v":1991:7:1991:14|Synthesizing module LANECTRL in library work.
+Running optimization stage 1 on LANECTRL .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_LANECTRL_0\PF_LANECTRL_PAUSE_SYNC.v":13:7:13:63|Synthesizing module PF_IOD_GENERIC_RX_C1_PF_LANECTRL_0_PF_LANECTRL_PAUSE_SYNC in library work.
+
+	ENABLE_PAUSE_EXTENSION=3'b011
+   Generated name = PF_IOD_GENERIC_RX_C1_PF_LANECTRL_0_PF_LANECTRL_PAUSE_SYNC_3
+@N: CG364 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M\lib\generic\acg5.v":4:7:4:9|Synthesizing module SLE in library work.
+Running optimization stage 1 on SLE .......
+@W: CG133 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_LANECTRL_0\PF_LANECTRL_PAUSE_SYNC.v":20:5:20:15|Object pause_reg_0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_LANECTRL_0\PF_LANECTRL_PAUSE_SYNC.v":20:18:20:28|Object pause_reg_1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_LANECTRL_0\PF_LANECTRL_PAUSE_SYNC.v":20:31:20:35|Object pause is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on PF_IOD_GENERIC_RX_C1_PF_LANECTRL_0_PF_LANECTRL_PAUSE_SYNC_3 .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_LANECTRL_0\PF_IOD_GENERIC_RX_C1_PF_LANECTRL_0_PF_LANECTRL.v":5:7:5:52|Synthesizing module PF_IOD_GENERIC_RX_C1_PF_LANECTRL_0_PF_LANECTRL in library work.
+Running optimization stage 1 on PF_IOD_GENERIC_RX_C1_PF_LANECTRL_0_PF_LANECTRL .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1\PF_IOD_GENERIC_RX_C1.v":9:7:9:26|Synthesizing module PF_IOD_GENERIC_RX_C1 in library work.
+Running optimization stage 1 on PF_IOD_GENERIC_RX_C1 .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\LANECTRL_ADDR_CMD_0\PF_LANECTRL_PAUSE_SYNC.v":13:7:13:69|Synthesizing module PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL_PAUSE_SYNC in library work.
+
+	ENABLE_PAUSE_EXTENSION=3'b001
+   Generated name = PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL_PAUSE_SYNC_1
+@W: CG133 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\LANECTRL_ADDR_CMD_0\PF_LANECTRL_PAUSE_SYNC.v":20:5:20:15|Object pause_reg_0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\LANECTRL_ADDR_CMD_0\PF_LANECTRL_PAUSE_SYNC.v":20:18:20:28|Object pause_reg_1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\LANECTRL_ADDR_CMD_0\PF_LANECTRL_PAUSE_SYNC.v":20:31:20:35|Object pause is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL_PAUSE_SYNC_1 .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\LANECTRL_ADDR_CMD_0\PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v":5:7:5:58|Synthesizing module PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL in library work.
+Running optimization stage 1 on PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL .......
+@N: CG364 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M\lib\generic\acg5.v":133:7:133:9|Synthesizing module OR2 in library work.
+Running optimization stage 1 on OR2 .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_CLK_TRAINING\PF_IOD_GENERIC_TX_C0_PF_IOD_CLK_TRAINING_PF_IOD.v":5:7:5:53|Synthesizing module PF_IOD_GENERIC_TX_C0_PF_IOD_CLK_TRAINING_PF_IOD in library work.
+@W: CG781 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_CLK_TRAINING\PF_IOD_GENERIC_TX_C0_PF_IOD_CLK_TRAINING_PF_IOD.v":60:23:60:23|Input RX_P on instance I_IOD_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_CLK_TRAINING\PF_IOD_GENERIC_TX_C0_PF_IOD_CLK_TRAINING_PF_IOD.v":60:32:60:32|Input RX_N on instance I_IOD_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+Running optimization stage 1 on PF_IOD_GENERIC_TX_C0_PF_IOD_CLK_TRAINING_PF_IOD .......
+@W: CL168 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_CLK_TRAINING\PF_IOD_GENERIC_TX_C0_PF_IOD_CLK_TRAINING_PF_IOD.v":32:8:32:15|Removing instance vcc_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M\lib\generic\acg5.v":403:7:403:17|Synthesizing module OUTBUF_DIFF in library work.
+Running optimization stage 1 on OUTBUF_DIFF .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_TX\PF_IOD_GENERIC_TX_C0_PF_IOD_TX_PF_IOD.v":5:7:5:43|Synthesizing module PF_IOD_GENERIC_TX_C0_PF_IOD_TX_PF_IOD in library work.
+@W: CG781 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_TX\PF_IOD_GENERIC_TX_C0_PF_IOD_TX_PF_IOD.v":68:23:68:23|Input RX_P on instance I_IOD_1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_TX\PF_IOD_GENERIC_TX_C0_PF_IOD_TX_PF_IOD.v":68:32:68:32|Input RX_N on instance I_IOD_1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_TX\PF_IOD_GENERIC_TX_C0_PF_IOD_TX_PF_IOD.v":112:23:112:23|Input RX_P on instance I_IOD_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_TX\PF_IOD_GENERIC_TX_C0_PF_IOD_TX_PF_IOD.v":112:32:112:32|Input RX_N on instance I_IOD_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+Running optimization stage 1 on PF_IOD_GENERIC_TX_C0_PF_IOD_TX_PF_IOD .......
+@W: CL168 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_TX\PF_IOD_GENERIC_TX_C0_PF_IOD_TX_PF_IOD.v":83:8:83:15|Removing instance vcc_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_TX_CLK\PF_IOD_GENERIC_TX_C0_PF_IOD_TX_CLK_PF_IOD.v":5:7:5:47|Synthesizing module PF_IOD_GENERIC_TX_C0_PF_IOD_TX_CLK_PF_IOD in library work.
+@W: CG781 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_TX_CLK\PF_IOD_GENERIC_TX_C0_PF_IOD_TX_CLK_PF_IOD.v":62:59:62:59|Input RX_P on instance I_IOD_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_TX_CLK\PF_IOD_GENERIC_TX_C0_PF_IOD_TX_CLK_PF_IOD.v":62:68:62:68|Input RX_N on instance I_IOD_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+Running optimization stage 1 on PF_IOD_GENERIC_TX_C0_PF_IOD_TX_CLK_PF_IOD .......
+@W: CL168 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_TX_CLK\PF_IOD_GENERIC_TX_C0_PF_IOD_TX_CLK_PF_IOD.v":36:8:36:15|Removing instance vcc_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_TX_C0\PF_IOD_GENERIC_TX_C0.v":9:7:9:26|Synthesizing module PF_IOD_GENERIC_TX_C0 in library work.
+Running optimization stage 1 on PF_IOD_GENERIC_TX_C0 .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0_TR\PF_IOD_TX_CCC_C0_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":17:7:17:65|Synthesizing module PF_IOD_TX_CCC_C0_TR_PF_IOD_TX_CCC_C0_TR_0_COREBCLKSCLKALIGN in library work.
+
+	IOG_FABRIC_RATIO=32'b00000000000000000000000000000100
+	BCLKSCLK_TRN_MODE=32'b00000000000000000000000000000000
+	FAMILY=32'b00000000000000000000000000011010
+	CLK_ALGN_SKIP_TRNG=32'b00000000000000000000000000000001
+	CLK_ALGN_HOLD_TRNG=32'b00000000000000000000000000000001
+	BCLKSCLK_ICB_MODE=32'b00000000000000000000000000000001
+	BCLKSCLK_ICB_TAP_WAIT_CNT_WIDTH=32'b00000000000000000000000000000011
+	ICB_CLK_ALGN_SKIP_TRNG=32'b00000000000000000000000000000000
+	ICB_CLK_ALGN_HOLD_TRNG=32'b00000000000000000000000000000000
+	PLL_CLK_ALGN_SKIP_TRNG=32'b00000000000000000000000000000001
+	PLL_CLK_ALGN_HOLD_TRNG=32'b00000000000000000000000000000001
+	BCLKSCLK_ICB_TAP_CNT=32'b00000000000000000000000100000000
+	BCLKSCLK_ICB_TAP_CNT_WIDTH=32'b00000000000000000000000000001000
+   Generated name = PF_IOD_TX_CCC_C0_TR_PF_IOD_TX_CCC_C0_TR_0_COREBCLKSCLKALIGN_Z4
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\PLL_BclkSclkAlign.v":17:7:17:23|Synthesizing module PLL_BCLKSCLKALIGN in library work.
+
+	BCLKSCLK_TRN_MODE=32'b00000000000000000000000000000000
+	IOG_FABRIC_RATIO=32'b00000000000000000000000000000100
+	PLL_CLK_ALGN_SKIP_TRNG=32'b00000000000000000000000000000001
+	PLL_CLK_ALGN_HOLD_TRNG=32'b00000000000000000000000000000001
+	SM_IDLE=5'b00000
+	SM_LOAD=5'b00001
+	SM_DEM1=5'b00010
+	SM_DEM2=5'b00011
+	SM_CFLG=5'b00100
+	SM_STOR=5'b00101
+	SM_VSET=5'b00110
+	SM_DONE=5'b00111
+	SM_VSE2=5'b01000
+	SM_PAUS=5'b01001
+	SM_WAIT=5'b01010
+	SM_RESE=5'b01011
+	SM_RESW=5'b01100
+	SM_MRST=5'b01101
+	SM_MRSW=5'b01110
+	SM_RREG=5'b01111
+	SM_HOLD=5'b10000
+   Generated name = PLL_BCLKSCLKALIGN_Z5
+@N: CG179 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\PLL_BclkSclkAlign.v":205:25:205:39|Removing redundant assignment.
+@N: CG179 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\PLL_BclkSclkAlign.v":243:22:243:33|Removing redundant assignment.
+@N: CG179 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\PLL_BclkSclkAlign.v":264:23:264:35|Removing redundant assignment.
+@N: CG179 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\PLL_BclkSclkAlign.v":285:27:285:43|Removing redundant assignment.
+Running optimization stage 1 on PLL_BCLKSCLKALIGN_Z5 .......
+@W: CL169 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\PLL_BclkSclkAlign.v":210:0:210:5|Pruning unused register error. Make sure that there are no unused intermediate registers.
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0_TR\PF_IOD_TX_CCC_C0_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":94:11:94:26|Removing wire ICB_CLK_ALGN_ERR, as there is no assignment to it.
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0_TR\PF_IOD_TX_CCC_C0_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":125:9:125:31|Removing wire ICB_BCLKSCLK_TRAIN_DONE, as there is no assignment to it.
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0_TR\PF_IOD_TX_CCC_C0_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":143:43:143:61|Removing wire RX_CLK_ALIGN_TAPDLY, as there is no assignment to it.
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0_TR\PF_IOD_TX_CCC_C0_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":144:10:144:26|Removing wire RX_CLK_ALIGN_LOAD, as there is no assignment to it.
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0_TR\PF_IOD_TX_CCC_C0_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":145:10:145:25|Removing wire RX_CLK_ALIGN_DIR, as there is no assignment to it.
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0_TR\PF_IOD_TX_CCC_C0_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":146:10:146:26|Removing wire RX_CLK_ALIGN_MOVE, as there is no assignment to it.
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0_TR\PF_IOD_TX_CCC_C0_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":147:10:147:30|Removing wire RX_CLK_ALIGN_CLR_FLGS, as there is no assignment to it.
+@W: CG360 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0_TR\PF_IOD_TX_CCC_C0_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":151:10:151:27|Removing wire RX_CLK_ALIGN_PAUSE, as there is no assignment to it.
+Running optimization stage 1 on PF_IOD_TX_CCC_C0_TR_PF_IOD_TX_CCC_C0_TR_0_COREBCLKSCLKALIGN_Z4 .......
+@W: CL318 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0_TR\PF_IOD_TX_CCC_C0_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":94:11:94:26|*Output ICB_CLK_ALGN_ERR has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0_TR\PF_IOD_TX_CCC_C0_TR.v":9:7:9:25|Synthesizing module PF_IOD_TX_CCC_C0_TR in library work.
+Running optimization stage 1 on PF_IOD_TX_CCC_C0_TR .......
+@W: CG1283 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0\PF_CCC_0\PF_IOD_TX_CCC_C0_PF_CCC_0_PF_CCC.v":57:27:57:36|Type of parameter VCOFREQUENCY on the instance pll_inst_0 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0\PF_CCC_0\PF_IOD_TX_CCC_C0_PF_CCC_0_PF_CCC.v":5:7:5:38|Synthesizing module PF_IOD_TX_CCC_C0_PF_CCC_0_PF_CCC in library work.
+Running optimization stage 1 on PF_IOD_TX_CCC_C0_PF_CCC_0_PF_CCC .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0\PF_IOD_TX_CCC_C0.v":9:7:9:22|Synthesizing module PF_IOD_TX_CCC_C0 in library work.
+Running optimization stage 1 on PF_IOD_TX_CCC_C0 .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\polarfire_syn_comps.v":6864:7:6864:18|Synthesizing module OSC_RC160MHZ in library work.
+Running optimization stage 1 on OSC_RC160MHZ .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_OSC_C1\PF_OSC_C1_0\PF_OSC_C1_PF_OSC_C1_0_PF_OSC.v":5:7:5:34|Synthesizing module PF_OSC_C1_PF_OSC_C1_0_PF_OSC in library work.
+Running optimization stage 1 on PF_OSC_C1_PF_OSC_C1_0_PF_OSC .......
+@W: CL168 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_OSC_C1\PF_OSC_C1_0\PF_OSC_C1_PF_OSC_C1_0_PF_OSC.v":15:8:15:15|Removing instance gnd_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_OSC_C1\PF_OSC_C1.v":9:7:9:15|Synthesizing module PF_OSC_C1 in library work.
+Running optimization stage 1 on PF_OSC_C1 .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\hdl\prbsgen_parallel_fab.v":23:7:23:37|Synthesizing module ACT_UNIQUE_prbsgen_parallel_fab in library work.
+Running optimization stage 1 on ACT_UNIQUE_prbsgen_parallel_fab .......
+@N: CG364 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\IOG_IOD_DDRX4_COMP\IOG_IOD_DDRX4_COMP.v":9:7:9:24|Synthesizing module IOG_IOD_DDRX4_COMP in library work.
+Running optimization stage 1 on IOG_IOD_DDRX4_COMP .......
+Running optimization stage 2 on IOG_IOD_DDRX4_COMP .......
+Running optimization stage 2 on ACT_UNIQUE_prbsgen_parallel_fab .......
+Running optimization stage 2 on PF_OSC_C1 .......
+Running optimization stage 2 on PF_OSC_C1_PF_OSC_C1_0_PF_OSC .......
+Running optimization stage 2 on OSC_RC160MHZ .......
+Running optimization stage 2 on PF_IOD_TX_CCC_C0 .......
+Running optimization stage 2 on PF_IOD_TX_CCC_C0_PF_CCC_0_PF_CCC .......
+Running optimization stage 2 on PF_IOD_TX_CCC_C0_TR .......
+Running optimization stage 2 on PLL_BCLKSCLKALIGN_Z5 .......
+@N: CL201 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\PLL_BclkSclkAlign.v":314:0:314:5|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 32 reachable states with original encodings of:
+   00000
+   00001
+   00010
+   00011
+   00100
+   00101
+   00110
+   00111
+   01000
+   01001
+   01010
+   01011
+   01100
+   01101
+   01110
+   01111
+   10000
+   10001
+   10010
+   10011
+   10100
+   10101
+   10110
+   10111
+   11000
+   11001
+   11010
+   11011
+   11100
+   11101
+   11110
+   11111
+Running optimization stage 2 on PF_IOD_TX_CCC_C0_TR_PF_IOD_TX_CCC_C0_TR_0_COREBCLKSCLKALIGN_Z4 .......
+@N: CL159 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0_TR\PF_IOD_TX_CCC_C0_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":90:17:90:34|Input ICB_BCLKPHS_OFFSET is unused.
+@N: CL159 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0_TR\PF_IOD_TX_CCC_C0_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":106:10:106:18|Input IOD_EARLY is unused.
+@N: CL159 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0_TR\PF_IOD_TX_CCC_C0_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":107:10:107:17|Input IOD_LATE is unused.
+@N: CL159 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_TX_CCC_C0_TR\PF_IOD_TX_CCC_C0_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":108:10:108:16|Input IOD_OOR is unused.
+Running optimization stage 2 on PF_IOD_GENERIC_TX_C0 .......
+Running optimization stage 2 on PF_IOD_GENERIC_TX_C0_PF_IOD_TX_CLK_PF_IOD .......
+Running optimization stage 2 on PF_IOD_GENERIC_TX_C0_PF_IOD_TX_PF_IOD .......
+Running optimization stage 2 on OUTBUF_DIFF .......
+Running optimization stage 2 on PF_IOD_GENERIC_TX_C0_PF_IOD_CLK_TRAINING_PF_IOD .......
+Running optimization stage 2 on OR2 .......
+Running optimization stage 2 on PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL .......
+Running optimization stage 2 on PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL_PAUSE_SYNC_1 .......
+Running optimization stage 2 on PF_IOD_GENERIC_RX_C1 .......
+Running optimization stage 2 on PF_IOD_GENERIC_RX_C1_PF_LANECTRL_0_PF_LANECTRL .......
+Running optimization stage 2 on SLE .......
+Running optimization stage 2 on PF_IOD_GENERIC_RX_C1_PF_LANECTRL_0_PF_LANECTRL_PAUSE_SYNC_3 .......
+Running optimization stage 2 on LANECTRL .......
+Running optimization stage 2 on PF_IOD_GENERIC_RX_C1_PF_IOD_RX_PF_IOD .......
+Running optimization stage 2 on PF_IOD_GENERIC_RX_C1_PF_IOD_CLK_TRAINING_PF_IOD .......
+Running optimization stage 2 on IOD .......
+Running optimization stage 2 on PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY .......
+Running optimization stage 2 on PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY .......
+Running optimization stage 2 on ICB_CLKDIVDELAY .......
+Running optimization stage 2 on MX2 .......
+Running optimization stage 2 on HS_IO_CLK .......
+Running optimization stage 2 on PF_IOD_GENERIC_RX_C1_TR .......
+Running optimization stage 2 on ICB_BCLKSCLKALIGN_Z3 .......
+@N: CL201 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\ICB_BclkSclkAlign.v":214:3:214:8|Trying to extract state machine for register clkalign_curr_state.
+Extracted state machine for register clkalign_curr_state
+State machine has 64 reachable states with original encodings of:
+   000000
+   000001
+   000010
+   000011
+   000100
+   000101
+   000110
+   000111
+   001000
+   001001
+   001010
+   001011
+   001100
+   001101
+   001110
+   001111
+   010000
+   010001
+   010010
+   010011
+   010100
+   010101
+   010110
+   010111
+   011000
+   011001
+   011010
+   011011
+   011100
+   011101
+   011110
+   011111
+   100000
+   100001
+   100010
+   100011
+   100100
+   100101
+   100110
+   100111
+   101000
+   101001
+   101010
+   101011
+   101100
+   101101
+   101110
+   101111
+   110000
+   110001
+   110010
+   110011
+   110100
+   110101
+   110110
+   110111
+   111000
+   111001
+   111010
+   111011
+   111100
+   111101
+   111110
+   111111
+Running optimization stage 2 on PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2 .......
+@N: CL159 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":89:17:89:34|Input PLL_BCLKPHS_OFFSET is unused.
+@N: CL159 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\PF_IOD_GENERIC_RX_C1_TR\PF_IOD_GENERIC_RX_C1_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":103:33:103:45|Input BCLK_IGEAR_RX is unused.
+Running optimization stage 2 on INBUF_DIFF .......
+Running optimization stage 2 on PF_CCC_C0 .......
+Running optimization stage 2 on PF_CCC_C0_PF_CCC_C0_0_PF_CCC .......
+Running optimization stage 2 on GND .......
+Running optimization stage 2 on VCC .......
+Running optimization stage 2 on PLL .......
+Running optimization stage 2 on CLKINT .......
+Running optimization stage 2 on CORERXIODBITALIGN_C0 .......
+Running optimization stage 2 on CORERXIODBITALIGN_C0_CORERXIODBITALIGN_C0_0_CORERXIODBITALIGN_0s_0s_0s_26s_10s_10s .......
+Running optimization stage 2 on CORERXIODBITALIGN_C0_CORERXIODBITALIGN_C0_0_CORERXIODBITALIGN_TRNG_Z1 .......
+@N: CL201 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":144:3:144:8|Trying to extract state machine for register bitalign_curr_state.
+@N: CL159 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":7:10:7:14|Input LP_IN is unused.
+@N: CL159 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":15:11:15:26|Input rx_BIT_ALGN_HOLD is unused.
+@N: CL159 :"D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\component\work\CORERXIODBITALIGN_C0\CORERXIODBITALIGN_C0_0\rtl\vlog\core\CoreRxIODBitAlign.v":16:11:16:26|Input rx_BIT_ALGN_SKIP is unused.
+Running optimization stage 2 on BUFF .......
+Running optimization stage 2 on ACT_UNIQUE_rev_bits .......
+Running optimization stage 2 on ACT_UNIQUE_prbscheck_parallel_fab .......
+Running optimization stage 2 on ACT_UNIQUE_debouncer .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\synthesis\synthesis_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 128MB peak: 130MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:09s cputime
+
+Process completed successfully.
+# Fri Sep  4 17:36:20 2020
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M
+Install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M
+OS: Windows 6.2
+
+Hostname: HYD-DK-I30406
+
+Implementation : synthesis_1
+Synopsys Synopsys Netlist Linker, Version comp202003syn, Build 175R, Built Jun  5 2020 09:18:53, @
+
+@N|Running in 64-bit mode
+File D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\synthesis\synthesis_1\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 94MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Sep  4 17:36:20 2020
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\synthesis\synthesis_1\synwork\IOG_IOD_DDRX4_COMP_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 23MB peak: 23MB)
+
+Process took 0h:00m:10s realtime, 0h:00m:09s cputime
+
+Process completed successfully.
+# Fri Sep  4 17:36:20 2020
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M
+Install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M
+OS: Windows 6.2
+
+Hostname: HYD-DK-I30406
+
+Implementation : synthesis_1
+Synopsys Synopsys Netlist Linker, Version comp202003syn, Build 175R, Built Jun  5 2020 09:18:53, @
+
+@N|Running in 64-bit mode
+File D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\synthesis\synthesis_1\synwork\IOG_IOD_DDRX4_COMP_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Sep  4 17:36:22 2020
+
+###########################################################]
+Premap Report
+
+# Fri Sep  4 17:36:23 2020
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M
+Install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M
+OS: Windows 6.2
+
+Hostname: HYD-DK-I30406
+
+Implementation : synthesis_1
+Synopsys Generic Technology Pre-mapping, Version map202003act, Build 065R, Built Jun 11 2020 10:26:41, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+Reading constraint file: D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\designer\IOG_IOD_DDRX4_COMP\synthesis.fdc
+@L: D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\synthesis\synthesis_1\IOG_IOD_DDRX4_COMP_scck.rpt 
+See clock summary report "D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\synthesis\synthesis_1\IOG_IOD_DDRX4_COMP_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":99:17:99:38|Tristate driver BCLKSCLK_BCLK_VCOPHSEL_1 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net BCLKSCLK_BCLK_VCOPHSEL_1 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":99:17:99:38|Tristate driver BCLKSCLK_BCLK_VCOPHSEL_2 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net BCLKSCLK_BCLK_VCOPHSEL_2 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":99:17:99:38|Tristate driver BCLKSCLK_BCLK_VCOPHSEL_3 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net BCLKSCLK_BCLK_VCOPHSEL_3 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":99:17:99:38|Tristate driver BCLKSCLK_BCLK_VCOPHSEL_4 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net BCLKSCLK_BCLK_VCOPHSEL_4 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":99:17:99:38|Tristate driver BCLKSCLK_BCLK_VCOPHSEL_5 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net BCLKSCLK_BCLK_VCOPHSEL_5 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":99:17:99:38|Tristate driver BCLKSCLK_BCLK_VCOPHSEL_6 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net BCLKSCLK_BCLK_VCOPHSEL_6 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":99:17:99:38|Tristate driver BCLKSCLK_BCLK_VCOPHSEL_7 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net BCLKSCLK_BCLK_VCOPHSEL_7 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":86:11:86:21|Tristate driver PLL_LOADPHS (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net PLL_LOADPHS (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":88:11:88:27|Tristate driver PLL_PHS_DIRECTION (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net PLL_PHS_DIRECTION (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":87:11:87:24|Tristate driver PLL_PHS_ROTATE (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net PLL_PHS_ROTATE (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: BN115 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\iog_iod_ddrx4_comp\iog_iod_ddrx4_comp.v":284:20:284:40|Removing instance ACT_UNIQUE_rev_bits_0 (in view: work.IOG_IOD_DDRX4_COMP(verilog)) of type view:work.ACT_UNIQUE_rev_bits_1(verilog) because it does not drive other instances.
+@N: BN115 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\iog_iod_ddrx4_comp\iog_iod_ddrx4_comp.v":445:20:445:29|Removing instance rev_bits_0 (in view: work.IOG_IOD_DDRX4_COMP(verilog)) of type view:work.ACT_UNIQUE_rev_bits_0(verilog) because it does not drive other instances.
+@N: BN362 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":829:2:829:7|Removing sequential instance RX_CLK_ALIGN_START (in view: work.ICB_BCLKSCLKALIGN_Z3(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":193:0:193:5|Removing sequential instance apb_status_bclk (in view: work.PLL_BCLKSCLKALIGN_Z5(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":1112:3:1112:8|Removing sequential instance clk_align_start (in view: work.ICB_BCLKSCLKALIGN_Z3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":815:3:815:8|Removing sequential instance RX_CLK_ALIGN_TAPDLY[7:0] (in view: work.ICB_BCLKSCLKALIGN_Z3(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=952 on top level netlist IOG_IOD_DDRX4_COMP 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                                              Requested     Requested     Clock                                                      Clock                   Clock
+Level     Clock                                                                              Frequency     Period        Type                                                       Group                   Load 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       RX_CLK_P                                                                           250.0 MHz     4.000         declared                                                   default_clkgroup        9    
+1 .         PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV                               62.5 MHz      16.000        generated (from RX_CLK_P)                                  default_clkgroup        1592 
+                                                                                                                                                                                                                 
+0 -       PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160/CLK                                              160.0 MHz     6.250         declared                                                   default_clkgroup        1    
+1 .         PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0                                          125.0 MHz     8.000         generated (from PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160/CLK)     default_clkgroup        8    
+2 ..          PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2                                    125.0 MHz     8.000         generated (from PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160/CLK)     default_clkgroup        97   
+2 ..          PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT0                                    500.0 MHz     2.000         generated (from PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160/CLK)     default_clkgroup        4    
+2 ..          PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT1                                    500.0 MHz     2.000         generated (from PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160/CLK)     default_clkgroup        2    
+                                                                                                                                                                                                                 
+0 -       PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL|TX_DQS_270_inferred_clock     100.0 MHz     10.000        inferred                                                   Inferred_clkgroup_0     3    
+                                                                                                                                                                                                                 
+0 -       PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL|TX_DQS_inferred_clock         100.0 MHz     10.000        inferred                                                   Inferred_clkgroup_1     3    
+=================================================================================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                                                   Clock     Source                                                                         Clock Pin                                                        Non-clock Pin     Non-clock Pin                                         
+Clock                                                                              Load      Pin                                                                            Seq Example                                                      Seq Example       Comb Example                                          
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+RX_CLK_P                                                                           9         RX_CLK_P(port)                                                                 PF_IOD_GENERIC_RX_C1_0.PF_LANECTRL_0.I_LANECTRL.HS_IO_CLK[1]     -                 PF_IOD_GENERIC_RX_C1_0.HS_IO_CLK_CASCADED.A(HS_IO_CLK)
+PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV                                 1592      PF_IOD_GENERIC_RX_C1_0.PF_CLK_DIV_FIFO.I_CDD.Y_DIV(ICB_CLKDIVDELAY)            PF_IOD_GENERIC_RX_C1_0.PF_LANECTRL_0.I_LANECTRL.FAB_CLK          -                 PF_IOD_GENERIC_RX_C1_0.CLKINT_0.I(BUFG)               
+                                                                                                                                                                                                                                                                                                                     
+PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160/CLK                                              1         PF_OSC_C1_0.PF_OSC_C1_0.I_OSC_160.CLK(OSC_RC160MHZ)                            PF_CCC_C0_0.PF_CCC_C0_0.pll_inst_0.REF_CLK_0                     -                 PF_OSC_C1_0.PF_OSC_C1_0.I_OSC_160_INT.I(BUFG)         
+PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0                                            8         PF_CCC_C0_0.PF_CCC_C0_0.pll_inst_0.OUT0(PLL)                                   PF_IOD_TX_CCC_C0_0.PF_CCC_0.pll_inst_0.REF_CLK_0                 -                 PF_CCC_C0_0.PF_CCC_C0_0.clkint_0.I(BUFG)              
+PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2                                        97        PF_IOD_TX_CCC_C0_0.PF_CCC_0.pll_inst_0.OUT2(PLL)                               prbsgen_parallel_fab_0.prbs_out_o[7:0].C                         -                 PF_IOD_TX_CCC_C0_0.PF_CCC_0.clkint_8.I(BUFG)          
+PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT0                                        4         PF_IOD_TX_CCC_C0_0.PF_CCC_0.pll_inst_0.OUT0(PLL)                               PF_IOD_GENERIC_TX_C0_0.PF_IOD_TX.I_IOD_1.HS_IO_CLK[0]            -                 PF_IOD_TX_CCC_C0_0.PF_CCC_0.hs_io_clk_3.A(HS_IO_CLK)  
+PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT1                                        2         PF_IOD_TX_CCC_C0_0.PF_CCC_0.pll_inst_0.OUT1(PLL)                               PF_IOD_GENERIC_TX_C0_0.PF_IOD_TX_CLK.I_IOD_0.HS_IO_CLK[0]        -                 PF_IOD_TX_CCC_C0_0.PF_CCC_0.hs_io_clk_7.A(HS_IO_CLK)  
+                                                                                                                                                                                                                                                                                                                     
+PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL|TX_DQS_270_inferred_clock     3         PF_IOD_GENERIC_TX_C0_0.LANECTRL_ADDR_CMD_0.I_LANECTRL.TX_DQS_270(LANECTRL)     PF_IOD_GENERIC_TX_C0_0.PF_IOD_TX_CLK.I_IOD_0.TX_DQS_270          -                 -                                                     
+                                                                                                                                                                                                                                                                                                                     
+PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL|TX_DQS_inferred_clock         3         PF_IOD_GENERIC_TX_C0_0.LANECTRL_ADDR_CMD_0.I_LANECTRL.TX_DQS(LANECTRL)         PF_IOD_GENERIC_TX_C0_0.PF_IOD_TX_CLK.I_IOD_0.TX_DQS              -                 -                                                     
+=====================================================================================================================================================================================================================================================================================================================
+
+@W: MT530 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_tx_c0\pf_iod_tx\pf_iod_generic_tx_c0_pf_iod_tx_pf_iod.v":97:53:97:59|Found inferred clock PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL|TX_DQS_270_inferred_clock which controls 3 sequential elements including PF_IOD_GENERIC_TX_C0_0.PF_IOD_TX.I_IOD_0. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_tx_c0\pf_iod_tx\pf_iod_generic_tx_c0_pf_iod_tx_pf_iod.v":97:53:97:59|Found inferred clock PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL|TX_DQS_inferred_clock which controls 3 sequential elements including PF_IOD_GENERIC_TX_C0_0.PF_IOD_TX.I_IOD_0. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\synthesis\synthesis_1\IOG_IOD_DDRX4_COMP.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 175MB)
+
+Encoding state machine clkalign_curr_state[63:0] (in view: work.ICB_BCLKSCLKALIGN_Z3(verilog))
+original code -> new code
+   000000 -> 000000
+   000001 -> 000001
+   000010 -> 000011
+   000011 -> 000010
+   000100 -> 000110
+   000101 -> 000111
+   000110 -> 000101
+   000111 -> 000100
+   001000 -> 001100
+   001001 -> 001101
+   001010 -> 001111
+   001011 -> 001110
+   001100 -> 001010
+   001101 -> 001011
+   001110 -> 001001
+   001111 -> 001000
+   010000 -> 011000
+   010001 -> 011001
+   010010 -> 011011
+   010011 -> 011010
+   010100 -> 011110
+   010101 -> 011111
+   010110 -> 011101
+   010111 -> 011100
+   011000 -> 010100
+   011001 -> 010101
+   011010 -> 010111
+   011011 -> 010110
+   011100 -> 010010
+   011101 -> 010011
+   011110 -> 010001
+   011111 -> 010000
+   100000 -> 110000
+   100001 -> 110001
+   100010 -> 110011
+   100011 -> 110010
+   100100 -> 110110
+   100101 -> 110111
+   100110 -> 110101
+   100111 -> 110100
+   101000 -> 111100
+   101001 -> 111101
+   101010 -> 111111
+   101011 -> 111110
+   101100 -> 111010
+   101101 -> 111011
+   101110 -> 111001
+   101111 -> 111000
+   110000 -> 101000
+   110001 -> 101001
+   110010 -> 101011
+   110011 -> 101010
+   110100 -> 101110
+   110101 -> 101111
+   110110 -> 101101
+   110111 -> 101100
+   111000 -> 100100
+   111001 -> 100101
+   111010 -> 100111
+   111011 -> 100110
+   111100 -> 100010
+   111101 -> 100011
+   111110 -> 100001
+   111111 -> 100000
+@N: MO225 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":214:3:214:8|There are no possible illegal states for state machine clkalign_curr_state[63:0] (in view: work.ICB_BCLKSCLKALIGN_Z3(verilog)); safe FSM implementation is not required.
+Encoding state machine current_state[31:0] (in view: work.PLL_BCLKSCLKALIGN_Z5(verilog))
+original code -> new code
+   00000 -> 00000000000000000000000000000001
+   00001 -> 00000000000000000000000000000010
+   00010 -> 00000000000000000000000000000100
+   00011 -> 00000000000000000000000000001000
+   00100 -> 00000000000000000000000000010000
+   00101 -> 00000000000000000000000000100000
+   00110 -> 00000000000000000000000001000000
+   00111 -> 00000000000000000000000010000000
+   01000 -> 00000000000000000000000100000000
+   01001 -> 00000000000000000000001000000000
+   01010 -> 00000000000000000000010000000000
+   01011 -> 00000000000000000000100000000000
+   01100 -> 00000000000000000001000000000000
+   01101 -> 00000000000000000010000000000000
+   01110 -> 00000000000000000100000000000000
+   01111 -> 00000000000000001000000000000000
+   10000 -> 00000000000000010000000000000000
+   10001 -> 00000000000000100000000000000000
+   10010 -> 00000000000001000000000000000000
+   10011 -> 00000000000010000000000000000000
+   10100 -> 00000000000100000000000000000000
+   10101 -> 00000000001000000000000000000000
+   10110 -> 00000000010000000000000000000000
+   10111 -> 00000000100000000000000000000000
+   11000 -> 00000001000000000000000000000000
+   11001 -> 00000010000000000000000000000000
+   11010 -> 00000100000000000000000000000000
+   11011 -> 00001000000000000000000000000000
+   11100 -> 00010000000000000000000000000000
+   11101 -> 00100000000000000000000000000000
+   11110 -> 01000000000000000000000000000000
+   11111 -> 10000000000000000000000000000000
+@N: BN362 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":314:0:314:5|Removing sequential instance hold_state[4:0] (in view: work.PLL_BCLKSCLKALIGN_Z5(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 180MB)
+
+@W: MF511 |Found issues with constraints. Please check constraint checker report "D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\synthesis\synthesis_1\IOG_IOD_DDRX4_COMP_cck.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 184MB peak: 184MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 94MB peak: 185MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Fri Sep  4 17:36:26 2020
+
+###########################################################]
+Map & Optimize Report
+
+# Fri Sep  4 17:36:27 2020
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M
+Install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003M
+OS: Windows 6.2
+
+Hostname: HYD-DK-I30406
+
+Implementation : synthesis_1
+Synopsys Generic Technology Mapper, Version map202003act, Build 065R, Built Jun 11 2020 10:26:41, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 129MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 129MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
+
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":99:17:99:38|Tristate driver BCLKSCLK_BCLK_VCOPHSEL_1 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net BCLKSCLK_BCLK_VCOPHSEL_1 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":99:17:99:38|Tristate driver BCLKSCLK_BCLK_VCOPHSEL_2 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net BCLKSCLK_BCLK_VCOPHSEL_2 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":99:17:99:38|Tristate driver BCLKSCLK_BCLK_VCOPHSEL_3 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net BCLKSCLK_BCLK_VCOPHSEL_3 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":99:17:99:38|Tristate driver BCLKSCLK_BCLK_VCOPHSEL_4 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net BCLKSCLK_BCLK_VCOPHSEL_4 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":99:17:99:38|Tristate driver BCLKSCLK_BCLK_VCOPHSEL_5 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net BCLKSCLK_BCLK_VCOPHSEL_5 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":99:17:99:38|Tristate driver BCLKSCLK_BCLK_VCOPHSEL_6 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net BCLKSCLK_BCLK_VCOPHSEL_6 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":99:17:99:38|Tristate driver BCLKSCLK_BCLK_VCOPHSEL_7 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net BCLKSCLK_BCLK_VCOPHSEL_7 (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":88:11:88:27|Tristate driver PLL_PHS_DIRECTION (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net PLL_PHS_DIRECTION (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":87:11:87:24|Tristate driver PLL_PHS_ROTATE (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net PLL_PHS_ROTATE (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_iod_generic_rx_c1_tr\pf_iod_generic_rx_c1_tr_0\rtl\vlog\core\corebclksclkalign.v":86:11:86:21|Tristate driver PLL_LOADPHS (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) on net PLL_LOADPHS (in view: work.PF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN_Z2(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: BN132 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":1214:3:1214:8|Removing sequential instance PF_IOD_GENERIC_RX_C1_0.COREBCLKSCLKALIGN_0.PF_IOD_GENERIC_RX_C1_TR_0.genblk1.U_ICB_BCLKSCLKALIGN.skip_trng_reg[2:0] because it is equivalent to instance PF_IOD_GENERIC_RX_C1_0.COREBCLKSCLKALIGN_0.PF_IOD_GENERIC_RX_C1_TR_0.genblk1.U_ICB_BCLKSCLKALIGN.restart_reg[2:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":469:0:469:5|Removing sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.skip_trng_reg[2:0] because it is equivalent to instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.restart_reg[2:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
+
+@N: MO231 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\corerxiodbitalign_c0\corerxiodbitalign_c0_0\rtl\vlog\core\corerxiodbitalign.v":144:3:144:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C0_CORERXIODBITALIGN_C0_0_CORERXIODBITALIGN_TRNG_Z1_0(verilog) instance timeout_cnt[7:0] 
+@N: MO231 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\corerxiodbitalign_c0\corerxiodbitalign_c0_0\rtl\vlog\core\corerxiodbitalign.v":144:3:144:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C0_CORERXIODBITALIGN_C0_0_CORERXIODBITALIGN_TRNG_Z1_0(verilog) instance emflag_cnt[6:0] 
+@N: MO231 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\corerxiodbitalign_c0\corerxiodbitalign_c0_0\rtl\vlog\core\corerxiodbitalign.v":830:3:830:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C0_CORERXIODBITALIGN_C0_0_CORERXIODBITALIGN_TRNG_Z1_0(verilog) instance rst_cnt[9:0] 
+@N: MO231 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\corerxiodbitalign_c0\corerxiodbitalign_c0_0\rtl\vlog\core\corerxiodbitalign.v":144:3:144:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C0_CORERXIODBITALIGN_C0_0_CORERXIODBITALIGN_TRNG_Z1_1(verilog) instance timeout_cnt[7:0] 
+@N: MO231 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\corerxiodbitalign_c0\corerxiodbitalign_c0_0\rtl\vlog\core\corerxiodbitalign.v":144:3:144:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C0_CORERXIODBITALIGN_C0_0_CORERXIODBITALIGN_TRNG_Z1_1(verilog) instance emflag_cnt[6:0] 
+@N: MO231 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\corerxiodbitalign_c0\corerxiodbitalign_c0_0\rtl\vlog\core\corerxiodbitalign.v":830:3:830:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C0_CORERXIODBITALIGN_C0_0_CORERXIODBITALIGN_TRNG_Z1_1(verilog) instance rst_cnt[9:0] 
+Encoding state machine clkalign_curr_state[63:0] (in view: work.ICB_BCLKSCLKALIGN_Z3(verilog))
+original code -> new code
+   000000 -> 000000
+   000001 -> 000001
+   000010 -> 000011
+   000011 -> 000010
+   000100 -> 000110
+   000101 -> 000111
+   000110 -> 000101
+   000111 -> 000100
+   001000 -> 001100
+   001001 -> 001101
+   001010 -> 001111
+   001011 -> 001110
+   001100 -> 001010
+   001101 -> 001011
+   001110 -> 001001
+   001111 -> 001000
+   010000 -> 011000
+   010001 -> 011001
+   010010 -> 011011
+   010011 -> 011010
+   010100 -> 011110
+   010101 -> 011111
+   010110 -> 011101
+   010111 -> 011100
+   011000 -> 010100
+   011001 -> 010101
+   011010 -> 010111
+   011011 -> 010110
+   011100 -> 010010
+   011101 -> 010011
+   011110 -> 010001
+   011111 -> 010000
+   100000 -> 110000
+   100001 -> 110001
+   100010 -> 110011
+   100011 -> 110010
+   100100 -> 110110
+   100101 -> 110111
+   100110 -> 110101
+   100111 -> 110100
+   101000 -> 111100
+   101001 -> 111101
+   101010 -> 111111
+   101011 -> 111110
+   101100 -> 111010
+   101101 -> 111011
+   101110 -> 111001
+   101111 -> 111000
+   110000 -> 101000
+   110001 -> 101001
+   110010 -> 101011
+   110011 -> 101010
+   110100 -> 101110
+   110101 -> 101111
+   110110 -> 101101
+   110111 -> 101100
+   111000 -> 100100
+   111001 -> 100101
+   111010 -> 100111
+   111011 -> 100110
+   111100 -> 100010
+   111101 -> 100011
+   111110 -> 100001
+   111111 -> 100000
+@N: MO225 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":214:3:214:8|There are no possible illegal states for state machine clkalign_curr_state[63:0] (in view: work.ICB_BCLKSCLKALIGN_Z3(verilog)); safe FSM implementation is not required.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":660:3:660:8|Sequential instance PF_IOD_GENERIC_RX_C1_0.COREBCLKSCLKALIGN_0.PF_IOD_GENERIC_RX_C1_TR_0.genblk1.U_ICB_BCLKSCLKALIGN.internal_rst_en_2 is reduced to a combinational gate by constant propagation.
+@N: MO231 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":991:3:991:8|Found counter in view:work.ICB_BCLKSCLKALIGN_Z3(verilog) instance tapcnt_offset[7:0] 
+@N: MO231 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":947:3:947:8|Found counter in view:work.ICB_BCLKSCLKALIGN_Z3(verilog) instance tap_cnt[7:0] 
+@N: MO231 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":907:3:907:8|Found counter in view:work.ICB_BCLKSCLKALIGN_Z3(verilog) instance timeout_cnt[7:0] 
+@N: MO231 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":1007:3:1007:8|Found counter in view:work.ICB_BCLKSCLKALIGN_Z3(verilog) instance emflag_cnt[7:0] 
+@N: MO231 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":1191:3:1191:8|Found counter in view:work.ICB_BCLKSCLKALIGN_Z3(verilog) instance rst_cnt[9:0] 
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":1203:3:1203:8|Sequential instance PF_IOD_GENERIC_RX_C1_0.COREBCLKSCLKALIGN_0.PF_IOD_GENERIC_RX_C1_TR_0.genblk1.U_ICB_BCLKSCLKALIGN.restart_edge_reg[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":1203:3:1203:8|Sequential instance PF_IOD_GENERIC_RX_C1_0.COREBCLKSCLKALIGN_0.PF_IOD_GENERIC_RX_C1_TR_0.genblk1.U_ICB_BCLKSCLKALIGN.restart_edge_reg[2] is reduced to a combinational gate by constant propagation.
+@W: MO160 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":1171:3:1171:8|Register bit clkalign_hold_state[5] (in view view:work.ICB_BCLKSCLKALIGN_Z3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":1171:3:1171:8|Register bit clkalign_hold_state[4] (in view view:work.ICB_BCLKSCLKALIGN_Z3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":1171:3:1171:8|Register bit clkalign_hold_state[3] (in view view:work.ICB_BCLKSCLKALIGN_Z3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":1171:3:1171:8|Register bit clkalign_hold_state[2] (in view view:work.ICB_BCLKSCLKALIGN_Z3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":1171:3:1171:8|Register bit clkalign_hold_state[1] (in view view:work.ICB_BCLKSCLKALIGN_Z3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":1171:3:1171:8|Register bit clkalign_hold_state[0] (in view view:work.ICB_BCLKSCLKALIGN_Z3(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":652:3:652:8|Sequential instance PF_IOD_GENERIC_RX_C1_0.COREBCLKSCLKALIGN_0.PF_IOD_GENERIC_RX_C1_TR_0.genblk1.U_ICB_BCLKSCLKALIGN.internal_rst_en_1 is reduced to a combinational gate by constant propagation.
+Encoding state machine current_state[31:0] (in view: work.PLL_BCLKSCLKALIGN_Z5(verilog))
+original code -> new code
+   00000 -> 00000000000000000000000000000001
+   00001 -> 00000000000000000000000000000010
+   00010 -> 00000000000000000000000000000100
+   00011 -> 00000000000000000000000000001000
+   00100 -> 00000000000000000000000000010000
+   00101 -> 00000000000000000000000000100000
+   00110 -> 00000000000000000000000001000000
+   00111 -> 00000000000000000000000010000000
+   01000 -> 00000000000000000000000100000000
+   01001 -> 00000000000000000000001000000000
+   01010 -> 00000000000000000000010000000000
+   01011 -> 00000000000000000000100000000000
+   01100 -> 00000000000000000001000000000000
+   01101 -> 00000000000000000010000000000000
+   01110 -> 00000000000000000100000000000000
+   01111 -> 00000000000000001000000000000000
+   10000 -> 00000000000000010000000000000000
+   10001 -> 00000000000000100000000000000000
+   10010 -> 00000000000001000000000000000000
+   10011 -> 00000000000010000000000000000000
+   10100 -> 00000000000100000000000000000000
+   10101 -> 00000000001000000000000000000000
+   10110 -> 00000000010000000000000000000000
+   10111 -> 00000000100000000000000000000000
+   11000 -> 00000001000000000000000000000000
+   11001 -> 00000010000000000000000000000000
+   11010 -> 00000100000000000000000000000000
+   11011 -> 00001000000000000000000000000000
+   11100 -> 00010000000000000000000000000000
+   11101 -> 00100000000000000000000000000000
+   11110 -> 01000000000000000000000000000000
+   11111 -> 10000000000000000000000000000000
+@N: BN362 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":314:0:314:5|Removing sequential instance hold_state[4:0] (in view: work.PLL_BCLKSCLKALIGN_Z5(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":314:0:314:5|Sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.current_state[17] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":314:0:314:5|Sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.current_state[18] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":314:0:314:5|Sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.current_state[19] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":314:0:314:5|Sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.current_state[20] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":314:0:314:5|Sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.current_state[21] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":314:0:314:5|Sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.current_state[22] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":314:0:314:5|Sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.current_state[23] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":314:0:314:5|Sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.current_state[24] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":314:0:314:5|Sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.current_state[25] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":314:0:314:5|Sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.current_state[26] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":314:0:314:5|Sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.current_state[27] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":314:0:314:5|Sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.current_state[28] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":314:0:314:5|Sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.current_state[29] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":314:0:314:5|Sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.current_state[30] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":314:0:314:5|Sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.current_state[31] is reduced to a combinational gate by constant propagation.
+@W: MO160 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":314:0:314:5|Register bit current_state[16] (in view view:work.PLL_BCLKSCLKALIGN_Z5(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MO231 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":290:0:290:5|Found counter in view:work.PLL_BCLKSCLKALIGN_Z5(verilog) instance dly_cnt[4:0] 
+@N: MO231 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":179:0:179:5|Found counter in view:work.PLL_BCLKSCLKALIGN_Z5(verilog) instance transition_check_counter[9:0] 
+@N: MO231 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":251:0:251:5|Found counter in view:work.PLL_BCLKSCLKALIGN_Z5(verilog) instance vcophsel_bclk[6:0] 
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":457:0:457:5|Sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.restart_edge_reg[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":457:0:457:5|Sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.restart_edge_reg[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\pll_bclksclkalign.v":446:0:446:5|Sequential instance PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1.U_PLL_BCLKSCLKALIGN.rst_clk_align_trng is reduced to a combinational gate by constant propagation.
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 187MB peak: 187MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 230MB peak: 230MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 195MB peak: 230MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 196MB peak: 230MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 196MB peak: 230MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 196MB peak: 230MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 193MB peak: 230MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 219MB peak: 271MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:09s		     4.26ns		3797 /      1574
+@N: FP130 |Promoting Net RX_CLK_ALIGN_DONE_arst on CLKINT  I_1679 
+@N: FP130 |Promoting Net PF_IOD_TX_CCC_C0_0_IOD_TX_CLKS_HS_IO_CLK_0 on CLKINT  I_170 
+@N: FP130 |Promoting Net HS_IO_CLK_FIFO_Y on CLKINT  I_1 
+@N: FP130 |Promoting Net PF_IOD_GENERIC_TX_C0_0.LANECTRL_ADDR_CMD_0_TX_DQS_270 on CLKINT  I_171 
+@N: FP130 |Promoting Net PF_IOD_GENERIC_TX_C0_0.LANECTRL_ADDR_CMD_0_TX_DQS on CLKINT  I_172 
+@N: FP130 |Promoting Net PF_IOD_TX_CCC_C0_0_IOD_TX_CLKS_HS_IO_CLK_90 on CLKINT  I_173 
+@N: FP130 |Promoting Net HS_IO_CLK_CASCADED_Y on CLKINT  I_2 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 222MB peak: 271MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 231MB peak: 271MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 1 clock pin(s) of sequential element(s)
+11 gated/generated clock tree(s) driving 1610 clock pin(s) of sequential element(s)
+0 instances converted, 1610 sequential instances remain driven by gated/generated clocks
+
+===================================================== Non-Gated/Non-Generated Clocks =====================================================
+Clock Tree ID     Driving Element                       Drive Element Type                   Fanout     Sample Instance                   
+------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0012       PF_OSC_C1_0.PF_OSC_C1_0.I_OSC_160     clock definition on OSC_RC160MHZ     1          PF_CCC_C0_0.PF_CCC_C0_0.pll_inst_0
+==========================================================================================================================================
+====================================================================================================== Gated/Generated Clocks =======================================================================================================
+Clock Tree ID     Driving Element                                           Drive Element Type     Fanout     Sample Instance                                     Explanation                                                        
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       PF_IOD_GENERIC_RX_C1_0.HS_IO_CLK_FIFO                     HS_IO_CLK              4          PF_IOD_GENERIC_RX_C1_0.PF_LANECTRL_0.I_LANECTRL     No gated clock conversion method for cell cell:work.LANECTRL       
+@K:CKID0002       PF_IOD_TX_CCC_C0_0.PF_CCC_0.hs_io_clk_3                   HS_IO_CLK              4          PF_IOD_GENERIC_TX_C0_0.PF_IOD_TX.I_IOD_1            No gated clock conversion method for cell cell:work.IOD            
+@K:CKID0003       PF_IOD_GENERIC_TX_C0_0.LANECTRL_ADDR_CMD_0.I_LANECTRL     LANECTRL               3          PF_IOD_GENERIC_TX_C0_0.PF_IOD_TX_CLK.I_IOD_0        No gated clock conversion method for cell cell:work.IOD            
+@K:CKID0004       PF_IOD_GENERIC_TX_C0_0.LANECTRL_ADDR_CMD_0.I_LANECTRL     LANECTRL               3          PF_IOD_GENERIC_TX_C0_0.PF_IOD_TX_CLK.I_IOD_0        No gated clock conversion method for cell cell:work.IOD            
+@K:CKID0005       PF_IOD_GENERIC_RX_C1_0.HS_IO_CLK_CASCADED                 HS_IO_CLK              2          PF_IOD_GENERIC_RX_C1_0.PF_CLK_DIV_RXCLK.I_CDD       No gated clock conversion method for cell cell:work.ICB_CLKDIVDELAY
+@K:CKID0006       PF_IOD_GENERIC_RX_C1_0.PF_LANECTRL_0.I_LANECTRL           LANECTRL               2          PF_IOD_GENERIC_RX_C1_0.PF_IOD_RX.I_IOD_1            No gated clock conversion method for cell cell:work.IOD            
+@K:CKID0007       PF_IOD_TX_CCC_C0_0.PF_CCC_0.hs_io_clk_7                   HS_IO_CLK              2          PF_IOD_GENERIC_TX_C0_0.PF_IOD_TX_CLK.I_IOD_0        No gated clock conversion method for cell cell:work.IOD            
+@K:CKID0008       PF_IOD_GENERIC_RX_C1_0.HS_IO_CLK_RX                       HS_IO_CLK              1          PF_IOD_GENERIC_RX_C1_0.PF_LANECTRL_0.I_LANECTRL     No gated clock conversion method for cell cell:work.LANECTRL       
+@K:CKID0009       PF_IOD_GENERIC_RX_C1_0.PF_CLK_DIV_FIFO.I_CDD              ICB_CLKDIVDELAY        1516       PF_IOD_GENERIC_RX_C1_0.PF_LANECTRL_0.I_LANECTRL     No gated clock conversion method for cell cell:work.LANECTRL       
+@K:CKID0010       PF_IOD_TX_CCC_C0_0.PF_CCC_0.pll_inst_0                    PLL                    65         prbsgen_parallel_fab_0.prbs_out_o[3]                No gated clock conversion method for cell cell:ACG4.SLE            
+@K:CKID0011       PF_CCC_C0_0.PF_CCC_C0_0.pll_inst_0                        PLL                    8          ACT_UNIQUE_debouncer_0.DFF2                         No gated clock conversion method for cell cell:ACG4.SLE            
+=====================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 181MB peak: 271MB)
+
+Writing Analyst data base D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\synthesis\synthesis_1\synwork\IOG_IOD_DDRX4_COMP_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 217MB peak: 271MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 218MB peak: 271MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 213MB peak: 271MB)
+
+@W: MT246 :"d:\polarfire_sandbox\iod_12_5\tx_ce_rx_dy_x4_1400\component\work\pf_osc_c1\pf_osc_c1_0\pf_osc_c1_pf_osc_c1_0_pf_osc.v":13:17:13:25|Blackbox OSC_RC160MHZ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@N: MT615 |Found clock PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160/CLK with period 6.25ns 
+@N: MT615 |Found clock RX_CLK_P with period 4.00ns 
+@N: MT615 |Found clock PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 with period 8.00ns 
+@N: MT615 |Found clock PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV with period 16.00ns 
+@N: MT615 |Found clock PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT0 with period 2.00ns 
+@N: MT615 |Found clock PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT1 with period 2.00ns 
+@N: MT615 |Found clock PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2 with period 8.00ns 
+@W: MT420 |Found inferred clock PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL|TX_DQS_270_inferred_clock with period 10.00ns. Please declare a user-defined clock on net PF_IOD_GENERIC_TX_C0_0.LANECTRL_ADDR_CMD_0.TX_DQS_270.
+@W: MT420 |Found inferred clock PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL|TX_DQS_inferred_clock with period 10.00ns. Please declare a user-defined clock on net PF_IOD_GENERIC_TX_C0_0.LANECTRL_ADDR_CMD_0.TX_DQS.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Fri Sep  4 17:36:41 2020
+#
+
+
+Top view:               IOG_IOD_DDRX4_COMP
+Requested Frequency:    62.5 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400\designer\IOG_IOD_DDRX4_COMP\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 4.882
+
+                                                                                   Requested     Estimated     Requested     Estimated               Clock                                                      Clock              
+Starting Clock                                                                     Frequency     Frequency     Period        Period        Slack     Type                                                       Group              
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0                                            125.0 MHz     744.6 MHz     8.000         1.343         6.657     generated (from PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160/CLK)     default_clkgroup   
+PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV                                 62.5 MHz      157.9 MHz     16.000        6.333         7.664     generated (from RX_CLK_P)                                  default_clkgroup   
+PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL|TX_DQS_270_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred                                                   Inferred_clkgroup_0
+PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL|TX_DQS_inferred_clock         100.0 MHz     NA            10.000        NA            NA        inferred                                                   Inferred_clkgroup_1
+PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT0                                        500.0 MHz     NA            2.000         NA            NA        generated (from PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160/CLK)     default_clkgroup   
+PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT1                                        500.0 MHz     NA            2.000         NA            NA        generated (from PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160/CLK)     default_clkgroup   
+PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2                                        125.0 MHz     320.7 MHz     8.000         3.118         4.882     generated (from PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160/CLK)     default_clkgroup   
+PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160/CLK                                              160.0 MHz     NA            6.250         NA            NA        declared                                                   default_clkgroup   
+RX_CLK_P                                                                           250.0 MHz     NA            4.000         NA            NA        declared                                                   default_clkgroup   
+===================================================================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                            Ending                                              |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0             PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0             |  8.000       6.657  |  No paths    -      |  No paths    -      |  No paths    -    
+PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV  PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV  |  16.000      9.667  |  No paths    -      |  8.000       7.664  |  No paths    -    
+PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2         PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV  |  8.000       6.367  |  No paths    -      |  No paths    -      |  No paths    -    
+PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2         PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2         |  8.000       4.882  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                    Starting                                                                  Arrival          
+Instance                            Reference                                   Type     Pin     Net          Time        Slack
+                                    Clock                                                                                      
+-------------------------------------------------------------------------------------------------------------------------------
+ACT_UNIQUE_debouncer_0.DFF2         PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       DFF2         0.218       6.657
+ACT_UNIQUE_debouncer_0.DFF1         PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       DFF1         0.218       6.694
+ACT_UNIQUE_debouncer_0.q_reg[3]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       q_reg[3]     0.218       6.741
+ACT_UNIQUE_debouncer_0.q_reg[0]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       q_reg[0]     0.218       6.794
+ACT_UNIQUE_debouncer_0.q_reg[1]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       q_reg[1]     0.218       7.120
+ACT_UNIQUE_debouncer_0.q_reg[2]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       q_reg[2]     0.218       7.452
+===============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                    Starting                                                                   Required          
+Instance                            Reference                                   Type     Pin     Net           Time         Slack
+                                    Clock                                                                                        
+---------------------------------------------------------------------------------------------------------------------------------
+ACT_UNIQUE_debouncer_0.q_reg[3]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       q_next[3]     8.000        6.657
+ACT_UNIQUE_debouncer_0.q_reg[2]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       q_next[2]     8.000        6.741
+ACT_UNIQUE_debouncer_0.q_reg[0]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       q_next[0]     8.000        6.801
+ACT_UNIQUE_debouncer_0.q_reg[1]     PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       q_next[1]     8.000        6.801
+ACT_UNIQUE_debouncer_0.DB_OUT       PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      EN      q_reg[3]      7.873        7.091
+ACT_UNIQUE_debouncer_0.DB_OUT       PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       DFF2          8.000        7.658
+ACT_UNIQUE_debouncer_0.DFF2         PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       DFF1          8.000        7.658
+=================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      8.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.000
+
+    - Propagation time:                      1.343
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 6.657
+
+    Number of logic level(s):                2
+    Starting point:                          ACT_UNIQUE_debouncer_0.DFF2 / Q
+    Ending point:                            ACT_UNIQUE_debouncer_0.q_reg[3] / D
+    The start point is clocked by            PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=4.000 period=8.000) on pin CLK
+    The end   point is clocked by            PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=4.000 period=8.000) on pin CLK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+ACT_UNIQUE_debouncer_0.DFF2          SLE      Q        Out     0.218     0.218 r     -         
+DFF2                                 Net      -        -       0.124     -           2         
+ACT_UNIQUE_debouncer_0.q_reset       CFG2     B        In      -         0.342 r     -         
+ACT_UNIQUE_debouncer_0.q_reset       CFG2     Y        Out     0.088     0.430 f     -         
+q_reset                              Net      -        -       0.563     -           4         
+ACT_UNIQUE_debouncer_0.q_next[3]     CFG4     D        In      -         0.993 f     -         
+ACT_UNIQUE_debouncer_0.q_next[3]     CFG4     Y        Out     0.232     1.225 r     -         
+q_next[3]                            Net      -        -       0.118     -           1         
+ACT_UNIQUE_debouncer_0.q_reg[3]      SLE      D        In      -         1.343 r     -         
+===============================================================================================
+Total path delay (propagation time + setup) of 1.343 is 0.538(40.0%) logic and 0.805(60.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                       Starting                                                                                     Arrival          
+Instance                                                                               Reference                                              Type     Pin     Net                  Time        Slack
+                                                                                       Clock                                                                                                         
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PF_IOD_GENERIC_RX_C1_0.PF_LANECTRL_0.I_LANECTRL_PAUSE_SYNC.pipe_fall\.pause_sync_0     PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       pause_sync_0_i       0.218       7.664
+CORERXIODBITALIGN_C0_1.CORERXIODBITALIGN_C0_0.u_CoreRxIODBitAlign.early_flags[52]      PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       early_flags[52]      0.218       9.667
+CORERXIODBITALIGN_C0_1.CORERXIODBITALIGN_C0_0.u_CoreRxIODBitAlign.early_flags[100]     PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       early_flags[100]     0.218       9.667
+CORERXIODBITALIGN_C0_0.CORERXIODBITALIGN_C0_0.u_CoreRxIODBitAlign.emflag_cnt[5]        PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       emflag_cnt[5]        0.218       9.668
+CORERXIODBITALIGN_C0_0.CORERXIODBITALIGN_C0_0.u_CoreRxIODBitAlign.late_flags[12]       PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       late_flags[12]       0.218       9.676
+CORERXIODBITALIGN_C0_1.CORERXIODBITALIGN_C0_0.u_CoreRxIODBitAlign.early_flags[36]      PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       early_flags[36]      0.201       9.694
+CORERXIODBITALIGN_C0_1.CORERXIODBITALIGN_C0_0.u_CoreRxIODBitAlign.early_flags[48]      PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       early_flags[48]      0.201       9.694
+CORERXIODBITALIGN_C0_1.CORERXIODBITALIGN_C0_0.u_CoreRxIODBitAlign.early_flags[96]      PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       early_flags[96]      0.201       9.694
+CORERXIODBITALIGN_C0_0.CORERXIODBITALIGN_C0_0.u_CoreRxIODBitAlign.late_flags[60]       PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       late_flags[60]       0.218       9.703
+CORERXIODBITALIGN_C0_1.CORERXIODBITALIGN_C0_0.u_CoreRxIODBitAlign.early_flags[32]      PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       early_flags[32]      0.201       9.714
+=====================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                             Starting                                                                                              Required          
+Instance                                                                                     Reference                                              Type     Pin     Net                           Time         Slack
+                                                                                             Clock                                                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PF_IOD_GENERIC_RX_C1_0.PF_LANECTRL_0.I_LANECTRL_PAUSE_SYNC.pipe_fall\.pause_sync             PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      D       pause_sync_0_i                8.000        7.664
+CORERXIODBITALIGN_C0_1.CORERXIODBITALIGN_C0_0.u_CoreRxIODBitAlign.tapcnt_final[5]            PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      D       tapcnt_final_13_1[5]          16.000       9.667
+CORERXIODBITALIGN_C0_0.CORERXIODBITALIGN_C0_0.u_CoreRxIODBitAlign.bitalign_curr_state[3]     PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      D       bitalign_curr_state_34[3]     16.000       9.668
+CORERXIODBITALIGN_C0_1.CORERXIODBITALIGN_C0_0.u_CoreRxIODBitAlign.tapcnt_final[4]            PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      D       tapcnt_final_13_1[4]          16.000       9.675
+CORERXIODBITALIGN_C0_0.CORERXIODBITALIGN_C0_0.u_CoreRxIODBitAlign.tapcnt_final[5]            PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      D       tapcnt_final_13_1[5]          16.000       9.676
+CORERXIODBITALIGN_C0_1.CORERXIODBITALIGN_C0_0.u_CoreRxIODBitAlign.tapcnt_final[3]            PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      D       tapcnt_final_13_1[3]          16.000       9.683
+CORERXIODBITALIGN_C0_0.CORERXIODBITALIGN_C0_0.u_CoreRxIODBitAlign.tapcnt_final[4]            PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      D       tapcnt_final_13_1[4]          16.000       9.684
+CORERXIODBITALIGN_C0_1.CORERXIODBITALIGN_C0_0.u_CoreRxIODBitAlign.tapcnt_final[2]            PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      D       tapcnt_final_13_1[2]          16.000       9.691
+CORERXIODBITALIGN_C0_0.CORERXIODBITALIGN_C0_0.u_CoreRxIODBitAlign.tapcnt_final[3]            PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      D       tapcnt_final_13_1[3]          16.000       9.692
+CORERXIODBITALIGN_C0_1.CORERXIODBITALIGN_C0_0.u_CoreRxIODBitAlign.tapcnt_final[1]            PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      D       tapcnt_final_13_1[1]          16.000       9.699
+=====================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      8.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.000
+
+    - Propagation time:                      0.336
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 7.664
+
+    Number of logic level(s):                0
+    Starting point:                          PF_IOD_GENERIC_RX_C1_0.PF_LANECTRL_0.I_LANECTRL_PAUSE_SYNC.pipe_fall\.pause_sync_0 / Q
+    Ending point:                            PF_IOD_GENERIC_RX_C1_0.PF_LANECTRL_0.I_LANECTRL_PAUSE_SYNC.pipe_fall\.pause_sync / D
+    The start point is clocked by            PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV [rising] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+    The end   point is clocked by            PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV [falling] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+
+Instance / Net                                                                                  Pin      Pin               Arrival     No. of    
+Name                                                                                   Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+PF_IOD_GENERIC_RX_C1_0.PF_LANECTRL_0.I_LANECTRL_PAUSE_SYNC.pipe_fall\.pause_sync_0     SLE      Q        Out     0.218     0.218 r     -         
+pause_sync_0_i                                                                         Net      -        -       0.118     -           1         
+PF_IOD_GENERIC_RX_C1_0.PF_LANECTRL_0.I_LANECTRL_PAUSE_SYNC.pipe_fall\.pause_sync       SLE      D        In      -         0.336 r     -         
+=================================================================================================================================================
+Total path delay (propagation time + setup) of 0.336 is 0.218(64.9%) logic and 0.118(35.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                   Starting                                                                                                                       Arrival          
+Instance                                                                                                           Reference                                       Type     Pin            Net                                                    Time        Slack
+                                                                                                                   Clock                                                                                                                                           
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PF_IOD_GENERIC_TX_C0_0.PF_IOD_CLK_TRAINING.I_IOD_0                                                                 PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     IOD      RX_DATA[2]     PF_IOD_TX_CCC_C0_0_IOD_TX_CLKS_CLK_ALIGN_IOD_RX[0]     1.912       4.882
+PF_IOD_GENERIC_TX_C0_0.PF_IOD_CLK_TRAINING.I_IOD_0                                                                 PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     IOD      RX_DATA[6]     PF_IOD_TX_CCC_C0_0_IOD_TX_CLKS_CLK_ALIGN_IOD_RX[2]     1.922       4.915
+PF_IOD_GENERIC_TX_C0_0.PF_IOD_CLK_TRAINING.I_IOD_0                                                                 PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     IOD      RX_DATA[4]     PF_IOD_TX_CCC_C0_0_IOD_TX_CLKS_CLK_ALIGN_IOD_RX[1]     1.910       4.968
+PF_IOD_GENERIC_TX_C0_0.PF_IOD_CLK_TRAINING.I_IOD_0                                                                 PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     IOD      RX_DATA[8]     PF_IOD_TX_CCC_C0_0_IOD_TX_CLKS_CLK_ALIGN_IOD_RX[3]     1.917       5.004
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.dly_cnt[0]               PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     SLE      Q              dly_cnt[0]                                             0.218       5.337
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.dly_cnt[1]               PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     SLE      Q              dly_cnt[1]                                             0.218       5.372
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.reset_cycle_count[0]     PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     SLE      Q              reset_cycle_count[0]                                   0.218       5.401
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.dly_cnt[2]               PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     SLE      Q              dly_cnt[2]                                             0.218       5.454
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.reset_cycle_count[1]     PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     SLE      Q              reset_cycle_count[1]                                   0.218       5.497
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.reset_cycle_count[2]     PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     SLE      Q              reset_cycle_count[2]                                   0.218       5.542
+===================================================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                   Starting                                                                                   Required          
+Instance                                                                                                           Reference                                       Type     Pin     Net                       Time         Slack
+                                                                                                                   Clock                                                                                                        
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.transition_detected      PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     SLE      D       transition_detected_3     8.000        4.882
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.dly_cnt[0]               PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     SLE      EN      N_97_i                    7.873        5.337
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.dly_cnt[1]               PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     SLE      EN      N_97_i                    7.873        5.337
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.dly_cnt[2]               PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     SLE      EN      N_97_i                    7.873        5.337
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.dly_cnt[3]               PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     SLE      EN      N_97_i                    7.873        5.337
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.dly_cnt[4]               PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     SLE      EN      N_97_i                    7.873        5.337
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.reset_cycle_count[1]     PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     SLE      D       N_51_i                    8.000        5.401
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.reset_cycle_count[0]     PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     SLE      D       N_53_i                    8.000        5.496
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.reset_cycle_count[3]     PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     SLE      D       N_47_i                    8.000        5.496
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.current_state[7]         PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2     SLE      D       current_state_ns[7]       8.000        5.509
+================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      8.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.000
+
+    - Propagation time:                      3.118
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     4.882
+
+    Number of logic level(s):                2
+    Starting point:                          PF_IOD_GENERIC_TX_C0_0.PF_IOD_CLK_TRAINING.I_IOD_0 / RX_DATA[2]
+    Ending point:                            PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.transition_detected / D
+    The start point is clocked by            PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2 [rising] (rise=0.000 fall=4.000 period=8.000) on pin RX_CLK
+    The end   point is clocked by            PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2 [rising] (rise=0.000 fall=4.000 period=8.000) on pin CLK
+
+Instance / Net                                                                                                                                Pin            Pin               Arrival     No. of    
+Name                                                                                                                                 Type     Name           Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PF_IOD_GENERIC_TX_C0_0.PF_IOD_CLK_TRAINING.I_IOD_0                                                                                   IOD      RX_DATA[2]     Out     1.912     1.912 r     -         
+PF_IOD_TX_CCC_C0_0_IOD_TX_CLKS_CLK_ALIGN_IOD_RX[0]                                                                                   Net      -              -       0.547     -           3         
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.register_rx\.un4_transition_detected_0     CFG4     D              In      -         2.459 r     -         
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.register_rx\.un4_transition_detected_0     CFG4     Y              Out     0.232     2.691 f     -         
+un4_transition_detected_0                                                                                                            Net      -              -       0.118     -           1         
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.register_rx\.transition_detected_3         CFG4     D              In      -         2.809 f     -         
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.register_rx\.transition_detected_3         CFG4     Y              Out     0.192     3.000 f     -         
+transition_detected_3                                                                                                                Net      -              -       0.118     -           1         
+PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.PF_IOD_TX_CCC_C0_TR_0.genblk1\.U_PLL_BCLKSCLKALIGN.transition_detected                        SLE      D              In      -         3.118 f     -         
+=====================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 3.118 is 2.335(74.9%) logic and 0.783(25.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"d:/polarfire_sandbox/iod_12_5/tx_ce_rx_dy_x4_1400/designer/iog_iod_ddrx4_comp/synthesis.fdc":68:0:68:0|Timing constraint (to [get_pins { PF_IOD_GENERIC_RX_C1_0.PF_LANECTRL_0.I_LANECTRL*.HS_IO_CLK_PAUSE }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"d:/polarfire_sandbox/iod_12_5/tx_ce_rx_dy_x4_1400/designer/iog_iod_ddrx4_comp/synthesis.fdc":69:0:69:0|Timing constraint (to [get_pins { PF_IOD_GENERIC_TX_C0_0.LANECTRL_ADDR_CMD_0.I_LANECTRL*.HS_IO_CLK_PAUSE }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"d:/polarfire_sandbox/iod_12_5/tx_ce_rx_dy_x4_1400/designer/iog_iod_ddrx4_comp/synthesis.fdc":70:0:70:0|Timing constraint (to [get_pins { PF_IOD_TX_CCC_C0_0.PF_CCC_0.pll_inst_0.LOAD_PHASE_N }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"d:/polarfire_sandbox/iod_12_5/tx_ce_rx_dy_x4_1400/designer/iog_iod_ddrx4_comp/synthesis.fdc":71:0:71:0|Timing constraint (to [get_pins { PF_IOD_TX_CCC_C0_0.PF_CCC_0.pll_inst_0.PHASE_DIRECTION }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"d:/polarfire_sandbox/iod_12_5/tx_ce_rx_dy_x4_1400/designer/iog_iod_ddrx4_comp/synthesis.fdc":72:0:72:0|Timing constraint (to [get_pins { PF_IOD_TX_CCC_C0_0.PF_CCC_0.pll_inst_0.PHASE_ROTATE }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"d:/polarfire_sandbox/iod_12_5/tx_ce_rx_dy_x4_1400/designer/iog_iod_ddrx4_comp/synthesis.fdc":73:0:73:0|Timing constraint (to [get_pins { PF_IOD_TX_CCC_C0_0.PF_CCC_0.pll_inst_0.PHASE_OUT0_SEL }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"d:/polarfire_sandbox/iod_12_5/tx_ce_rx_dy_x4_1400/designer/iog_iod_ddrx4_comp/synthesis.fdc":74:0:74:0|Timing constraint (to [get_pins { PF_IOD_TX_CCC_C0_0.PF_CCC_0.pll_inst_0.PHASE_OUT1_SEL }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"d:/polarfire_sandbox/iod_12_5/tx_ce_rx_dy_x4_1400/designer/iog_iod_ddrx4_comp/synthesis.fdc":75:0:75:0|Timing constraint (from [get_cells { PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.*.genblk1.U_PLL_BCLKSCLKALIGN.hold_state_flag }] to [get_cells { PF_IOD_TX_CCC_C0_0.COREBCLKSCLKALIGN_0.*.genblk1.U_PLL_BCLKSCLKALIGN.current_state[*] }]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 215MB peak: 271MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 215MB peak: 271MB)
+
+---------------------------------------
+Resource Usage Report for IOG_IOD_DDRX4_COMP 
+
+Mapping to part: mpf300tfcg1152-1
+Cell usage:
+BUFF            1 use
+CLKINT          11 uses
+HS_IO_CLK       5 uses
+ICB_CLKDIVDELAY  2 uses
+IOD             7 uses
+LANECTRL        2 uses
+MX2             1 use
+OR2             1 use
+OSC_RC160MHZ    1 use
+PLL             2 uses
+CFG1           16 uses
+CFG2           336 uses
+CFG3           907 uses
+CFG4           777 uses
+
+Carry cells:
+ARI1            320 uses - used for arithmetic functions
+ARI1            734 uses - used for Wide-Mux implementation
+Total ARI1      1054 uses
+
+
+Sequential Cells: 
+SLE            1579 uses
+
+DSP Blocks:    0 of 924 (0%)
+
+I/O ports: 35
+I/O primitives: 29
+INBUF          5 uses
+INBUF_DIFF     3 uses
+OUTBUF         18 uses
+OUTBUF_DIFF    3 uses
+
+
+Global Clock Buffers: 11
+
+Total LUTs:    3090
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  1579 + 0 + 0 + 0 = 1579;
+Total number of LUTs after P&R:  3090 + 0 + 0 + 0 = 3090;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 75MB peak: 271MB)
+
+Process took 0h:00m:14s realtime, 0h:00m:14s cputime
+# Fri Sep  4 17:36:41 2020
+
+###########################################################]

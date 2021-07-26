@@ -1,0 +1,7 @@
+1589285991 -17:49:51 -17629453 -ipcServer::ipcServer params
+Port:      58015
+Logfile:   C:/CoreRxIODBitAlign/TX_Ce_RX_Dy_x4_1400/synthesis/ipc_tcp_microsemi_srv_81964_21767616.log
+Reconnect: 0
+Use ipv6:  0
+
+1589288404 -18:30:04 -1 -ipcServer.RunServer, loop stopped normal.

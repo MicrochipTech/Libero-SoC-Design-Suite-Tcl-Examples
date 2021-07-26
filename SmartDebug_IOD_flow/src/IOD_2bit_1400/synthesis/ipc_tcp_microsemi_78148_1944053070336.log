@@ -1,0 +1,16 @@
+1584101252 -17:37:32 -17629453 -ipcClient::Reconnect params
+Hostname:  127.0.0.1
+Port:      58015
+Logfile:   E:/Suneel/Core/IOG_Reliability_Validation/Validation_designs/CoreRxIODBitAlign_new_1400x4Mbps_updaCPZ_1_2_0_110bas/synthesis/ipc_tcp_microsemi_78148_1944053070336.log
+Reconnect: 0
+Use ipv6:  0
+
+1584101252 -17:37:32 -10035 -::HaveSocketEvent, wait for ::select
+1584101252 -17:37:32 -10035 -::HaveSocketEvent, timeout for select: tv.tv_sec: 0 tv.tv_usec: 600000
+1584101253 -17:37:33 -0 -goto REPEAT, ::connect as unblocked, - addr_rp->ai_next == nullptr
+1584101253 -17:37:33 -10035 -::HaveSocketEvent, wait for ::select
+1584101253 -17:37:33 -10035 -::HaveSocketEvent, timeout for select: tv.tv_sec: 0 tv.tv_usec: 600000
+1584101254 -17:37:34 -0 -goto REPEAT, ::connect as unblocked, - addr_rp->ai_next == nullptr
+1584101254 -17:37:34 -10035 -::HaveSocketEvent, wait for ::select
+1584101254 -17:37:34 -10035 -::HaveSocketEvent, timeout for select: tv.tv_sec: 0 tv.tv_usec: 600000
+1584101255 -17:37:35 -0 -ipcClient.socket or .connect

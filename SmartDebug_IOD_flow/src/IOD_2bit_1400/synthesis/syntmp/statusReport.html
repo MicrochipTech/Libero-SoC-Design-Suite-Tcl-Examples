@@ -1,0 +1,120 @@
+<html> 
+ 			<head> 			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+			<title>Project Status Summary Page</title>
+			<link rel="stylesheet" type="text/css" href="projectstatuspage.css" />
+			<script type = "text/javascript" src="projectstatuspage.js"></script>
+			</head>
+
+ 			<body style="background-color:#f0f0ff;">
+ 			
+<table style="border:none;" width="100%" ><tr> <td class="outline">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"> 	     <thead class="tablehead"><tr><th colspan="4">Project Settings</th><tr> 
+ <tr> <td class="optionTitle" align="left"> Project Name</td> <td> IOG_IOD_DDRX4_COMP_syn</td> <td class="optionTitle" align="left"> Device Name</td> <td> synthesis_1: Microchip PolarFire : MPF300T</td> </tr>
+<tr> <td class="optionTitle" align="left"> Implementation Name</td> <td> synthesis_1</td> <td class="optionTitle" align="left"> Top Module</td> <td> IOG_IOD_DDRX4_COMP</td> </tr>
+ 		 </thead> 
+		 <tbody> <tr> <td class="optionTitle" align="left"> Retiming</td> <td> 0</td> <td class="optionTitle" align="left"> Resource Sharing</td> <td> 1</td> </tr>
+<tr> <td class="optionTitle" align="left"> Fanout Guide</td> <td> 10000</td> <td class="optionTitle" align="left"> Disable I/O Insertion</td> <td> 0</td> </tr>
+<tr> <td class="optionTitle" align="left"> Disable Sequential Optimizations</td> <td> 0</td> <td class="optionTitle" align="left"> FSM Compiler</td> <td> 1</td> </tr>
+ 
+</tbody> 
+  </table><br>	 <table width="100%" border="1" cellspacing= "0" cellpadding= "0" >
+ 				   <thead class="tablehead"><tr><th   colspan="9">Run Status</th></tr></thead>
+         <tbody>
+ 		<tr>
+ 			<th align="left" width="17%">Job Name</th>
+			<th align="left">Status</th>
+ 			<td class="lnote" align="center" title="Notes"></td>
+ 			<td class="lwarn" align="center" title="Warnings"></td>
+ 			<td class="lerror" align="center" title="Errors"></td>
+ 			<th align="left">CPU Time</th>
+ 			<th align="left">Real Time</th>
+ 			<th align="left">Memory</th>
+ 			<th align="left">Date/Time</th>
+         </tr>
+  <tr>
+  <td class="optionTitle"> (compiler)</td><td>Complete</td>
+ <td>74</td>
+ <td>79</td>
+<td>0</td>
+<td>-</td>
+<td>00m:11s</td>
+<td>-</td>
+<td><font size="-1">04-Sep-20</font><br/><font size="-2">5:36:20 PM</font></td>
+</tr> 
+
+ <tr>
+  <td class="optionTitle"> (premap)</td><td>Complete</td>
+ <td>24</td>
+ <td>3</td>
+<td>0</td>
+<td>0m:02s</td>
+<td>0m:02s</td>
+<td>185MB</td>
+<td><font size="-1">04-Sep-20</font><br/><font size="-2">5:36:26 PM</font></td>
+</tr> 
+
+ <tr>
+  <td class="optionTitle"> (fpga_mapper)</td><td>Complete</td>
+ <td>47</td>
+ <td>44</td>
+<td>0</td>
+<td>0m:14s</td>
+<td>0m:14s</td>
+<td>271MB</td>
+<td><font size="-1">04-Sep-20</font><br/><font size="-2">5:36:41 PM</font></td>
+</tr> 
+
+<tr>
+  <td class="optionTitle">Multi-srs Generator</td>
+  <td>Complete</td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td></td><td class="empty"></td><td class="empty"></td><td><font size="-1">04-Sep-20</font><br/><font size="-2">5:36:22 PM</font></td> 		</tbody>
+     </table>
+ <br> 
+ <table width="100%" border="1" cellspacing= "0" cellpadding= "0" >
+ 				   <thead class="tablehead"><tr><th   colspan="4">Area Summary</th></tr></thead>
+<tfoot> <tr> <td class="optionTitle" colspan="2"></td><td class="optionTitle" colspan="2"></td></tr> 
+ </tfoot> 
+ <tbody> <tr> 
+<td title ="Total Carry Cells used" class="optionTitle" align="left">Carry Cells</td> <td>1054</td>
+<td title ="Total Sequential Cells used" class="optionTitle" align="left">Sequential Cells</td> <td>1579</td>
+</tr>
+<tr> 
+<td title ="Total DSP Blocks used" class="optionTitle" align="left">DSP Blocks
+(dsp_used)</td> <td>0</td>
+<td title ="Total I/O Cells used" class="optionTitle" align="left">I/O Cells</td> <td>29</td>
+</tr>
+<tr> 
+<td title ="Total Global Clock Buffers used" class="optionTitle" align="left">Global Clock Buffers</td> <td>11</td>
+<td title ="Total LUTs used" class="optionTitle" align="left">LUTs
+(total_luts)</td> <td>3090</td>
+</tr>
+ 
+</tbody>
+    </table><br>
+ <table width="100%" border="1" cellspacing= "0" cellpadding= "0" >
+ 				   <thead class="tablehead"><tr><th   colspan="4">Timing Summary</th></tr></thead>
+<tfoot> <tr> <td class="optionTitle" colspan="4"></td></tr> 
+ </tfoot> 
+<tbody> 
+   <tr><th class="optionTitle" align= "left ">Clock Name</th><th class="optionTitle" align= "left ">Req Freq</th><th class="optionTitle" align= "left ">Est Freq</th><th class="optionTitle" align= "left ">Slack</th></tr> 
+<tr> <td  align="left">PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0</td><td  align="left">125.0 MHz</td><td  align="left">744.6 MHz</td><td  align="left">6.657</td></tr> 
+<tr> <td  align="left">PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV</td><td  align="left">62.5 MHz</td><td  align="left">157.9 MHz</td><td  align="left">7.664</td></tr> 
+<tr> <td  align="left">PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL|TX_DQS_270_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL|TX_DQS_inferred_clock</td><td  align="left">100.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT0</td><td  align="left">500.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT1</td><td  align="left">500.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2</td><td  align="left">125.0 MHz</td><td  align="left">320.7 MHz</td><td  align="left">4.882</td></tr> 
+<tr> <td  align="left">PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160/CLK</td><td  align="left">160.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">RX_CLK_P</td><td  align="left">250.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+</tbody> 
+ </table>
+<br>
+ <table width="100%" border="1" cellspacing= "0" cellpadding= "0" >
+ 				   <thead class="tablehead"><tr><th   colspan="4">Optimizations Summary</th></tr></thead>
+ <tbody> <tr> 
+<td title ="Non-gated/non-generated clock trees / Gated/generated clock trees" class="optionTitle" align="left">Combined Clock Conversion</td> <td>1 / 11</td>
+<td class="optionTitle"></td><td></td></tr> 
+</tbody>
+    </table><br>
+<br> 
+</td></tr></table></body> 
+ </html>

@@ -1,0 +1,27 @@
+1583419785 -20:19:45 -17629453 -ipcClient::Reconnect params
+Hostname:  127.0.0.1
+Port:      58015
+Logfile:   E:/Suneel/Core/IOG_Reliability_Validation/laxman/2_0_110_based/CoreRxIODBitAlign_new_1400x4Mbps_updaCPZ_1_2_0_110bas/synthesis/ipc_tcp_microsemi_80792_2962726357296.log
+Reconnect: 0
+Use ipv6:  0
+
+1583419785 -20:19:45 -10035 -::HaveSocketEvent, wait for ::select
+1583419785 -20:19:45 -10035 -::HaveSocketEvent, timeout for select: tv.tv_sec: 0 tv.tv_usec: 600000
+1583419786 -20:19:46 -0 -goto REPEAT, ::connect as unblocked, - addr_rp->ai_next == nullptr
+1583419786 -20:19:46 -10035 -::HaveSocketEvent, wait for ::select
+1583419786 -20:19:46 -10035 -::HaveSocketEvent, timeout for select: tv.tv_sec: 0 tv.tv_usec: 600000
+1583419787 -20:19:47 -0 -goto REPEAT, ::connect as unblocked, - addr_rp->ai_next == nullptr
+1583419787 -20:19:47 -10035 -::HaveSocketEvent, wait for ::select
+1583419787 -20:19:47 -10035 -::HaveSocketEvent, timeout for select: tv.tv_sec: 0 tv.tv_usec: 600000
+1583419788 -20:19:48 -0 -ipcClient.socket or .connect
+1583419788 -20:19:48 -17629453 -ipcClient::Reconnect params
+Hostname:  127.0.0.1
+Port:      58015
+Logfile:   E:/Suneel/Core/IOG_Reliability_Validation/laxman/2_0_110_based/CoreRxIODBitAlign_new_1400x4Mbps_updaCPZ_1_2_0_110bas/synthesis/ipc_tcp_microsemi_80792_2962726357296.log
+Reconnect: 0
+Use ipv6:  0
+
+1583419788 -20:19:48 -10035 -::HaveSocketEvent, wait for ::select
+1583419788 -20:19:48 -10035 -::HaveSocketEvent, timeout for select: tv.tv_sec: 15 tv.tv_usec: 0
+1583419788 -20:19:48 -0 -::HaveSocketEvent, ::getpeername own: '127.0.0.1' peer: '127.0.0.1'
+1583419788 -20:19:48 -10035 -::HaveSocketEvent, ::select, retval >= 0, success

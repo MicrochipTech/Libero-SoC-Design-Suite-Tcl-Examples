@@ -1,0 +1,2092 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/simulation
+vACT_UNIQUE_debouncer
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1599220491
+!i10b 1
+!s100 bE`3C[0J^khPe3b^4[;6b3
+!s11b c@9n;cMnlWkXmBJ>`Ti693
+I6AZGzPbSbDeHa4XSgRbRJ3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z3 dD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/simulation
+w1576738582
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/hdl/debounce.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/hdl/debounce.v
+!i122 -1
+Z4 L0 21
+Z5 OW;L;2019.4;69
+r1
+!s85 0
+31
+!s108 1599220491.000000
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/hdl/debounce.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/hdl/debounce.v|
+!s101 -O0
+!i113 1
+Z6 o-sv -work presynth -O0
+Z7 tCvgOpt 0
+n@a@c@t_@u@n@i@q@u@e_debouncer
+vACT_UNIQUE_prbscheck_parallel_fab
+R1
+Z8 !s110 1599220492
+!i10b 1
+!s100 Z7Z]h;;]6lV8<4K]V?:M`1
+!s11b =F1CSh;dli1Z6Bzj7^l3`1
+I=bGBJezC_VboUaZ5OG:K<2
+R2
+S1
+R3
+w1582865940
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/hdl/prbscheck_parallel_fab.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/hdl/prbscheck_parallel_fab.v
+!i122 -1
+Z9 L0 23
+R5
+r1
+!s85 0
+31
+Z10 !s108 1599220492.000000
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/hdl/prbscheck_parallel_fab.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/hdl/prbscheck_parallel_fab.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@a@c@t_@u@n@i@q@u@e_prbscheck_parallel_fab
+vACT_UNIQUE_prbsgen_parallel_fab
+R1
+R8
+!i10b 1
+!s100 mW1FLc1_2<:5KHk^FPbSh0
+!s11b 6`nD?YjajP<G8C7bDmHjV3
+IOfaWM3bl9KAn;KY=?CnnV2
+R2
+S1
+R3
+w1582865558
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/hdl/prbsgen_parallel_fab.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/hdl/prbsgen_parallel_fab.v
+!i122 -1
+R9
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/hdl/prbsgen_parallel_fab.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/hdl/prbsgen_parallel_fab.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@a@c@t_@u@n@i@q@u@e_prbsgen_parallel_fab
+vACT_UNIQUE_rev_bits
+R1
+R8
+!i10b 1
+!s100 Y0IHlobc?8?eP5g_dkYYz2
+!s11b 9:^H`fgg[b3eB=Io37OFa1
+IVYgb1m8[9Q1njGVU1:PIT1
+R2
+S1
+R3
+w1582865876
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/hdl/rev_bits.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/hdl/rev_bits.v
+!i122 -1
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/hdl/rev_bits.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/hdl/rev_bits.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@a@c@t_@u@n@i@q@u@e_rev_bits
+vchecker
+Z11 !s110 1551097446
+!i10b 1
+!s100 <l0XNo<b<=kKW;V1UBLPk3
+I>=Ako4V_fBgL8be?`<[SS1
+R2
+R0
+w1546940606
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/checker.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/checker.v
+R4
+Z12 OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1551097446.000000
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/checker.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/checker.v|
+!s101 -O0
+!i113 1
+Z13 o-vlog01compat -work presynth -O0
+R7
+vCLK_MUX
+Z14 !s110 1551257320
+!i10b 1
+!s100 JnQ0ZbUReb1db?XTVAkab3
+IIScoPiFF`bE]L??<W<LY^3
+R2
+R0
+Z15 w1551083752
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/CLK_MUX/CLK_MUX.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/CLK_MUX/CLK_MUX.v
+L0 9
+R12
+r1
+!s85 0
+31
+Z16 !s108 1551257320.000000
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/CLK_MUX/CLK_MUX.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/CLK_MUX/CLK_MUX.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@c@l@k_@m@u@x
+vCLK_MUX_CLK_MUX_0_PF_NGMUX
+R14
+!i10b 1
+!s100 8WLZHW`=mP>QoV677l8h`0
+I3HY1ZdeDEQCeXI5eJm9b?3
+R2
+R0
+R15
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/CLK_MUX/CLK_MUX_0/CLK_MUX_CLK_MUX_0_PF_NGMUX.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/CLK_MUX/CLK_MUX_0/CLK_MUX_CLK_MUX_0_PF_NGMUX.v
+L0 5
+R12
+r1
+!s85 0
+31
+R16
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/CLK_MUX/CLK_MUX_0/CLK_MUX_CLK_MUX_0_PF_NGMUX.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/CLK_MUX/CLK_MUX_0/CLK_MUX_CLK_MUX_0_PF_NGMUX.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@c@l@k_@m@u@x_@c@l@k_@m@u@x_0_@p@f_@n@g@m@u@x
+vCMUX
+!s110 1551325945
+!i10b 1
+!s100 C4@bl;goCbZ^i_XAI`U9z3
+IlOZl3LMQJI8JDC[2X^1JM2
+R2
+R0
+Z17 w1551257180
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/CMUX/CMUX.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/CMUX/CMUX.v
+L0 9
+R12
+r1
+!s85 0
+31
+Z18 !s108 1551325944.000000
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/CMUX/CMUX.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/CMUX/CMUX.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@c@m@u@x
+vCMUX_CMUX_0_PF_NGMUX
+!s110 1551325944
+!i10b 1
+!s100 Ei;oOF@0CihBQBhbFAYBK0
+Imz^A^>G1WiL_CbhBB[Tca1
+R2
+R0
+R17
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/CMUX/CMUX_0/CMUX_CMUX_0_PF_NGMUX.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/CMUX/CMUX_0/CMUX_CMUX_0_PF_NGMUX.v
+L0 5
+R12
+r1
+!s85 0
+31
+R18
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/CMUX/CMUX_0/CMUX_CMUX_0_PF_NGMUX.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/CMUX/CMUX_0/CMUX_CMUX_0_PF_NGMUX.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@c@m@u@x_@c@m@u@x_0_@p@f_@n@g@m@u@x
+vCoreRxIODBitAlign
+!s110 1557833374
+!i10b 1
+!s100 =h29HOEmki7iQ`]4R74]b2
+IDie_YMEXn[DFVM^Tan`I?1
+R2
+Z19 dC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/simulation
+w1557306293
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign.v
+L0 2
+Z20 OW;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1557833374.000000
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@core@rx@i@o@d@bit@align
+vCoreRxIODBitAlign_bit_slip_chk
+Z21 !s110 1554116768
+!i10b 1
+!s100 BG=O?ZWQjR2;o0Ll_;4DT3
+I<_?l@VE9j[QP72o0710Bl0
+R2
+R0
+w1553494708
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_bit_slip_chk.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_bit_slip_chk.v
+L0 1
+R12
+r1
+!s85 0
+31
+Z22 !s108 1554116768.000000
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_bit_slip_chk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_bit_slip_chk.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@core@rx@i@o@d@bit@align_bit_slip_chk
+vCoreRxIODBitAlign_bit_slip_gen
+R21
+!i10b 1
+!s100 L;iFZ@Z0;2Z]BeO1XEhTN0
+IOOb33z=g8?9f93G_2`GUi1
+R2
+R0
+w1553593862
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_bit_slip_gen.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_bit_slip_gen.v
+L0 1
+R12
+r1
+!s85 0
+31
+R22
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_bit_slip_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_bit_slip_gen.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@core@rx@i@o@d@bit@align_bit_slip_gen
+vCoreRxIODBitAlign_bit_slip_shft
+R21
+!i10b 1
+!s100 EfbGVRSkX2Lm9`F40b?IY1
+IofHSWZZ8bACAY:mzl>0dL0
+R2
+R0
+w1552087991
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_bit_slip_shft.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_bit_slip_shft.v
+L0 1
+R12
+r1
+!s85 0
+31
+R22
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_bit_slip_shft.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_bit_slip_shft.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@core@rx@i@o@d@bit@align_bit_slip_shft
+vCoreRxIODBitAlign_bit_slip_wrap
+R21
+!i10b 1
+!s100 mB3_eLlcXioDl8C`jj9zh2
+I>X;R4d59IH]z6AenUi>=@1
+R2
+R0
+w1553664232
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_bit_slip_wrap.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_bit_slip_wrap.v
+R4
+R12
+r1
+!s85 0
+31
+R22
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_bit_slip_wrap.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_bit_slip_wrap.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@core@rx@i@o@d@bit@align_bit_slip_wrap
+vCORERXIODBITALIGN_C0
+R1
+R8
+!i10b 1
+!s100 <664TYajIXEMOgkhQaVRc3
+!s11b KkWIEZoIEONJKYcM@^^<T3
+I@ZAScYI:E]LBG3=>D=i333
+R2
+S1
+R3
+w1597636031
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0.v
+!i122 -1
+L0 9
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/CORERXIODBITALIGN_C0/CORERXIODBITALIGN_C0.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@c@o@r@e@r@x@i@o@d@b@i@t@a@l@i@g@n_@c0
+vCoreRxIODBitAlign_monitor
+!s110 1550731008
+!i10b 1
+!s100 mbnY1;Zb:RKZ_AgA5@bJX1
+IR?MN1UDi?=nC]io86^jOZ1
+R2
+R0
+w1550569757
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_monitor.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_monitor.v
+L0 2
+R12
+r1
+!s85 0
+31
+!s108 1550731008.000000
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_monitor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_monitor.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@core@rx@i@o@d@bit@align_monitor
+vCoreRxIODBitAlign_pulse_sync
+!s110 1550731009
+!i10b 1
+!s100 _ILHzd>lz=KkkMaKHSY8:2
+ImLh[OOM@<AGHz=0cR`aO^1
+R2
+R0
+w1550473169
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_pulse_sync.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_pulse_sync.v
+L0 1
+R12
+r1
+!s85 0
+31
+!s108 1550731009.000000
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_pulse_sync.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_pulse_sync.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@core@rx@i@o@d@bit@align_pulse_sync
+vCoreRxIODBitAlign_sync_flops
+Z23 !s110 1554116769
+!i10b 1
+!s100 W;dlW=:WWQb;g5]l@i^OU0
+IThj7JC8B1?3FVAM3Y<4k@0
+R2
+R0
+w1550226299
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_sync_flops.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_sync_flops.v
+L0 3
+R12
+r1
+!s85 0
+31
+R22
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_sync_flops.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_sync_flops.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@core@rx@i@o@d@bit@align_sync_flops
+vCoreRxIODBitAlign_sync_reset
+R23
+!i10b 1
+!s100 V=Nh6f97;k?DEVA5I8of@0
+IBBl5YJQ[[=ZPh3GogNehh0
+R2
+R0
+w1550223749
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_sync_reset.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_sync_reset.v
+L0 3
+R12
+r1
+!s85 0
+31
+Z24 !s108 1554116769.000000
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_sync_reset.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_sync_reset.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@core@rx@i@o@d@bit@align_sync_reset
+vCoreRxIODBitAlign_tb
+Z25 !s110 1557833674
+!i10b 1
+!s100 n:EdF<6iO>7ZzizVAO]nN1
+IZh[d7iSha`=c@Z`2]6;ko2
+R2
+R19
+w1557833656
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/CoreRxIODBitAlign_tb/CoreRxIODBitAlign_tb.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/CoreRxIODBitAlign_tb/CoreRxIODBitAlign_tb.v
+L0 10
+R20
+r1
+!s85 0
+31
+Z26 !s108 1557833674.000000
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/CoreRxIODBitAlign_tb/CoreRxIODBitAlign_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/CoreRxIODBitAlign_tb|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/CoreRxIODBitAlign_tb/CoreRxIODBitAlign_tb.v|
+!s101 -O0
+!i113 1
+R13
+!s92 +incdir+C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/CoreRxIODBitAlign_tb -vlog01compat -work presynth -O0
+R7
+n@core@rx@i@o@d@bit@align_tb
+vCoreRxIODBitAlign_top
+Z27 !s110 1557833670
+!i10b 1
+!s100 75YbP7RVYaYL?<<DSkTjn0
+I=eMoESN>zhL0lz:nXZ?AS2
+R2
+R19
+w1557728688
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_top.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_top.v
+L0 2
+R20
+r1
+!s85 0
+31
+Z28 !s108 1557833670.000000
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_top.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@core@rx@i@o@d@bit@align_top
+vCoreRxIODBitAlign_trng_monitor
+R23
+!i10b 1
+!s100 zD3mQ]DFV_RZCGR@7ZO<k1
+I0Ocg_Rz463hz9iMY1m_021
+R2
+R0
+w1550839283
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_trng_monitor.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_trng_monitor.v
+L0 2
+R12
+r1
+!s85 0
+31
+R24
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_trng_monitor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/CoreRxIODBitAlign_trng_monitor.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@core@rx@i@o@d@bit@align_trng_monitor
+vCoreTxIOD
+R27
+!i10b 1
+!s100 ;Z^LBOGE7ibhCiGP7gL8W1
+IP=@IKUC4cWdg]e2]XZ56V1
+R2
+R19
+w1552088282
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/CoreTxIOD.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/CoreTxIOD.v
+L0 2
+R20
+r1
+!s85 0
+31
+!s108 1557833669.000000
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/CoreTxIOD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/CoreTxIOD.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@core@tx@i@o@d
+vdebouncer
+Z29 !s110 1557833673
+!i10b 1
+!s100 aR<A38oz^XTG;8iYiD`U@1
+I0H^6GdAN24J[^cY@?a8a60
+R2
+R19
+w1545390773
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/debounce.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/debounce.v
+R4
+R20
+r1
+!s85 0
+31
+Z30 !s108 1557833673.000000
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/debounce.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/debounce.v|
+!s101 -O0
+!i113 1
+R13
+R7
+vICB_BCLKSCLKALIGN
+R1
+Z31 !s110 1599220494
+!i10b 1
+!s100 ^QF>QW=9lE>BnFEh54a580
+!s11b oTUha0VDKPz=fIZdX:;F41
+ID:@a`X7;=Z^9HjS^z6GkP0
+R2
+S1
+R3
+Z32 w1591524867
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/core/ICB_BclkSclkAlign.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/core/ICB_BclkSclkAlign.v
+!i122 -1
+L0 2
+R5
+r1
+!s85 0
+31
+Z33 !s108 1599220494.000000
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/core/ICB_BclkSclkAlign.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/core/ICB_BclkSclkAlign.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@i@c@b_@b@c@l@k@s@c@l@k@a@l@i@g@n
+vIOG_IOD_CLOCK
+R27
+!i10b 1
+!s100 i5`UP5HR24gE0T0VcHKdE0
+Ic`J4elf7OD_Y<>DWbc]<R2
+R2
+R19
+Z34 w1557726908
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_CLOCK/IOG_IOD_CLOCK.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_CLOCK/IOG_IOD_CLOCK.v
+L0 9
+R20
+r1
+!s85 0
+31
+R28
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_CLOCK/IOG_IOD_CLOCK.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_CLOCK/IOG_IOD_CLOCK.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@c@l@o@c@k
+vIOG_IOD_CLOCK_IOG_IOD_CLOCK_0_PF_CCC
+R27
+!i10b 1
+!s100 D4;P^lWYK?<eo:6GJUJ5j0
+Ii;K@Aj>zmYchPC70edjgm3
+R2
+R19
+R34
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_CLOCK/IOG_IOD_CLOCK_0/IOG_IOD_CLOCK_IOG_IOD_CLOCK_0_PF_CCC.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_CLOCK/IOG_IOD_CLOCK_0/IOG_IOD_CLOCK_IOG_IOD_CLOCK_0_PF_CCC.v
+L0 5
+R20
+r1
+!s85 0
+31
+R28
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_CLOCK/IOG_IOD_CLOCK_0/IOG_IOD_CLOCK_IOG_IOD_CLOCK_0_PF_CCC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_CLOCK/IOG_IOD_CLOCK_0/IOG_IOD_CLOCK_IOG_IOD_CLOCK_0_PF_CCC.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@c@l@o@c@k_@i@o@g_@i@o@d_@c@l@o@c@k_0_@p@f_@c@c@c
+vIOG_IOD_DDRTX4
+Z35 !s110 1557833671
+!i10b 1
+!s100 _Dg[?UDdU_b4SazVdga9a0
+IjD@nHA0dWmmEUKUASRcPX2
+R2
+R19
+Z36 w1557726718
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4/IOG_IOD_DDRTX4.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4/IOG_IOD_DDRTX4.v
+L0 9
+R20
+r1
+!s85 0
+31
+Z37 !s108 1557833671.000000
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4/IOG_IOD_DDRTX4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4/IOG_IOD_DDRTX4.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@r@t@x4
+vIOG_IOD_DDRTX4_CENT_0
+Z38 !s110 1551345647
+!i10b 1
+!s100 oRi0Q5U5iei:MA3g^aPbP2
+IekzI2=i9AaACkXX<Kd1B_3
+R2
+R0
+Z39 w1551344156
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4_CENT_0/IOG_IOD_DDRTX4_CENT_0.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4_CENT_0/IOG_IOD_DDRTX4_CENT_0.v
+L0 9
+R12
+r1
+!s85 0
+31
+Z40 !s108 1551345647.000000
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4_CENT_0/IOG_IOD_DDRTX4_CENT_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4_CENT_0/IOG_IOD_DDRTX4_CENT_0.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@r@t@x4_@c@e@n@t_0
+vIOG_IOD_DDRTX4_CENT_0_LANECTRL_ADDR_CMD_0_PF_LANECTRL
+!s110 1551345646
+!i10b 1
+!s100 4@7C3jGgYB?NiiRT9^ZmH3
+IEB@ARaPnUHfS]W<G0mF]C2
+R2
+R0
+w1551344154
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4_CENT_0/LANECTRL_ADDR_CMD_0/IOG_IOD_DDRTX4_CENT_0_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4_CENT_0/LANECTRL_ADDR_CMD_0/IOG_IOD_DDRTX4_CENT_0_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v
+L0 5
+R12
+r1
+!s85 0
+31
+Z41 !s108 1551345646.000000
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4_CENT_0/LANECTRL_ADDR_CMD_0/IOG_IOD_DDRTX4_CENT_0_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4_CENT_0/LANECTRL_ADDR_CMD_0/IOG_IOD_DDRTX4_CENT_0_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@r@t@x4_@c@e@n@t_0_@l@a@n@e@c@t@r@l_@a@d@d@r_@c@m@d_0_@p@f_@l@a@n@e@c@t@r@l
+vIOG_IOD_DDRTX4_CENT_0_PF_IOD_TX_CLK_PF_IOD
+R38
+!i10b 1
+!s100 5dSTLD0c`k=N0an;GMmTS2
+IYE43NHaHX^mhdIlicW>Md2
+R2
+R0
+R39
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4_CENT_0/PF_IOD_TX_CLK/IOG_IOD_DDRTX4_CENT_0_PF_IOD_TX_CLK_PF_IOD.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4_CENT_0/PF_IOD_TX_CLK/IOG_IOD_DDRTX4_CENT_0_PF_IOD_TX_CLK_PF_IOD.v
+L0 5
+R12
+r1
+!s85 0
+31
+R41
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4_CENT_0/PF_IOD_TX_CLK/IOG_IOD_DDRTX4_CENT_0_PF_IOD_TX_CLK_PF_IOD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4_CENT_0/PF_IOD_TX_CLK/IOG_IOD_DDRTX4_CENT_0_PF_IOD_TX_CLK_PF_IOD.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@r@t@x4_@c@e@n@t_0_@p@f_@i@o@d_@t@x_@c@l@k_@p@f_@i@o@d
+vIOG_IOD_DDRTX4_CENT_0_PF_IOD_TX_PF_IOD
+R38
+!i10b 1
+!s100 >jC>?gRb2K2loc`aBi=JX2
+I;TG`DH=jFELnQLZA;B89`1
+R2
+R0
+w1551345589
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4_CENT_0/PF_IOD_TX/IOG_IOD_DDRTX4_CENT_0_PF_IOD_TX_PF_IOD.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4_CENT_0/PF_IOD_TX/IOG_IOD_DDRTX4_CENT_0_PF_IOD_TX_PF_IOD.v
+L0 5
+R12
+r1
+!s85 0
+31
+R40
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4_CENT_0/PF_IOD_TX/IOG_IOD_DDRTX4_CENT_0_PF_IOD_TX_PF_IOD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4_CENT_0/PF_IOD_TX/IOG_IOD_DDRTX4_CENT_0_PF_IOD_TX_PF_IOD.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@r@t@x4_@c@e@n@t_0_@p@f_@i@o@d_@t@x_@p@f_@i@o@d
+vIOG_IOD_DDRTX4_LANECTRL_ADDR_CMD_0_PF_LANECTRL
+R27
+!i10b 1
+!s100 ^693cHkkzQWO78BVf1Hm^2
+Io5=ZLJ0Jm6[GFeflO`]=C0
+R2
+R19
+w1557726716
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4/LANECTRL_ADDR_CMD_0/IOG_IOD_DDRTX4_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4/LANECTRL_ADDR_CMD_0/IOG_IOD_DDRTX4_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v
+L0 5
+R20
+r1
+!s85 0
+31
+R28
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4/LANECTRL_ADDR_CMD_0/IOG_IOD_DDRTX4_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4/LANECTRL_ADDR_CMD_0/IOG_IOD_DDRTX4_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@r@t@x4_@l@a@n@e@c@t@r@l_@a@d@d@r_@c@m@d_0_@p@f_@l@a@n@e@c@t@r@l
+vIOG_IOD_DDRTX4_PF_IOD_TX_CLK_PF_IOD
+R35
+!i10b 1
+!s100 ?be6LQIh60^Fz0b?EgKO41
+I1^AHjmecSnHbZ9ROO`=L13
+R2
+R19
+R36
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4/PF_IOD_TX_CLK/IOG_IOD_DDRTX4_PF_IOD_TX_CLK_PF_IOD.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4/PF_IOD_TX_CLK/IOG_IOD_DDRTX4_PF_IOD_TX_CLK_PF_IOD.v
+L0 5
+R20
+r1
+!s85 0
+31
+R37
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4/PF_IOD_TX_CLK/IOG_IOD_DDRTX4_PF_IOD_TX_CLK_PF_IOD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4/PF_IOD_TX_CLK/IOG_IOD_DDRTX4_PF_IOD_TX_CLK_PF_IOD.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@r@t@x4_@p@f_@i@o@d_@t@x_@c@l@k_@p@f_@i@o@d
+vIOG_IOD_DDRTX4_PF_IOD_TX_PF_IOD
+R35
+!i10b 1
+!s100 5F>:OSdHPXX0IKZbd7;7l0
+IzX:1C1S5[7=MRIBUde:Mi2
+R2
+R19
+w1557727494
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4/PF_IOD_TX/IOG_IOD_DDRTX4_PF_IOD_TX_PF_IOD.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4/PF_IOD_TX/IOG_IOD_DDRTX4_PF_IOD_TX_PF_IOD.v
+L0 5
+R20
+r1
+!s85 0
+31
+R37
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4/PF_IOD_TX/IOG_IOD_DDRTX4_PF_IOD_TX_PF_IOD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRTX4/PF_IOD_TX/IOG_IOD_DDRTX4_PF_IOD_TX_PF_IOD.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@r@t@x4_@p@f_@i@o@d_@t@x_@p@f_@i@o@d
+vIOG_IOD_DDRX4
+!s110 1550557992
+!i10b 1
+!s100 [PG60NHH57I35]QZ9ObjE3
+IZioj5`F3P2:ZaUHO0_[<f0
+R2
+R0
+Z42 w1549945916
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/IOG_IOD_DDRX4.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/IOG_IOD_DDRX4.v
+L0 9
+R12
+r1
+!s85 0
+31
+Z43 !s108 1550557991.000000
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/IOG_IOD_DDRX4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/IOG_IOD_DDRX4.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@r@x4
+vIOG_IOD_DDRX4_COMP
+R1
+Z44 !s110 1599220496
+!i10b 1
+!s100 jfa_X=za]4fa25@GL8dhz2
+!s11b hI]Af2Y0jC45i1Ma9nWhk0
+I89l`f:W;kI4QYPPh4N5CW1
+R2
+S1
+R3
+w1599220434
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/IOG_IOD_DDRX4_COMP/IOG_IOD_DDRX4_COMP.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/IOG_IOD_DDRX4_COMP/IOG_IOD_DDRX4_COMP.v
+!i122 -1
+L0 9
+R5
+r1
+!s85 0
+31
+Z45 !s108 1599220496.000000
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/IOG_IOD_DDRX4_COMP/IOG_IOD_DDRX4_COMP.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/IOG_IOD_DDRX4_COMP/IOG_IOD_DDRX4_COMP.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@i@o@g_@i@o@d_@d@d@r@x4_@c@o@m@p
+vIOG_IOD_DDRX4_PF
+Z46 !s110 1557833672
+!i10b 1
+!s100 P9Q2o^_R[Jajndm7nNgZV0
+IN=oB9ea7P=S<^80KgAYH53
+R2
+R19
+Z47 w1557726519
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/IOG_IOD_DDRX4_PF.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/IOG_IOD_DDRX4_PF.v
+L0 9
+R20
+r1
+!s85 0
+31
+Z48 !s108 1557833672.000000
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/IOG_IOD_DDRX4_PF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/IOG_IOD_DDRX4_PF.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@r@x4_@p@f
+vIOG_IOD_DDRX4_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY
+Z49 !s110 1550567263
+!i10b 1
+!s100 [?L]QXzMNRA=`a<SiVV]Y2
+IdE;>7@2^CH<=34]Gc2>Tk2
+R2
+R0
+w1550566687
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/PF_CLK_DIV_FIFO/IOG_IOD_DDRX4_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/PF_CLK_DIV_FIFO/IOG_IOD_DDRX4_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v
+L0 5
+R12
+r1
+!s85 0
+31
+!s108 1550567262.000000
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/PF_CLK_DIV_FIFO/IOG_IOD_DDRX4_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/PF_CLK_DIV_FIFO/IOG_IOD_DDRX4_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@r@x4_@p@f_@c@l@k_@d@i@v_@f@i@f@o_@p@f_@c@l@k_@d@i@v_@d@e@l@a@y
+vIOG_IOD_DDRX4_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY
+R49
+!i10b 1
+!s100 WBA9YcFA;RPjihPKa6W9P3
+IgOh1Ve3:>_zncZNT_10kb3
+R2
+R0
+w1550566688
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/PF_CLK_DIV_RXCLK/IOG_IOD_DDRX4_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/PF_CLK_DIV_RXCLK/IOG_IOD_DDRX4_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v
+L0 5
+R12
+r1
+!s85 0
+31
+!s108 1550567263.000000
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/PF_CLK_DIV_RXCLK/IOG_IOD_DDRX4_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/PF_CLK_DIV_RXCLK/IOG_IOD_DDRX4_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@r@x4_@p@f_@c@l@k_@d@i@v_@r@x@c@l@k_@p@f_@c@l@k_@d@i@v_@d@e@l@a@y
+vIOG_IOD_DDRX4_PF_IOD_RX_PF_IOD
+Z50 !s110 1550557991
+!i10b 1
+!s100 5:PCVFNm2RC;<^C`fUf]M0
+I0G:FCk6D03D?=80jZh[?O3
+R2
+R0
+w1549948696
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/PF_IOD_RX/IOG_IOD_DDRX4_PF_IOD_RX_PF_IOD.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/PF_IOD_RX/IOG_IOD_DDRX4_PF_IOD_RX_PF_IOD.v
+L0 5
+R12
+r1
+!s85 0
+31
+R43
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/PF_IOD_RX/IOG_IOD_DDRX4_PF_IOD_RX_PF_IOD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/PF_IOD_RX/IOG_IOD_DDRX4_PF_IOD_RX_PF_IOD.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@r@x4_@p@f_@i@o@d_@r@x_@p@f_@i@o@d
+vIOG_IOD_DDRX4_PF_LANECTRL_0_PF_LANECTRL
+R50
+!i10b 1
+!s100 8B2EzF:AUTGWjb6D_hb923
+ISce2LU9AmbVAd?Qh@_OW=0
+R2
+R0
+R42
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/PF_LANECTRL_0/IOG_IOD_DDRX4_PF_LANECTRL_0_PF_LANECTRL.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/PF_LANECTRL_0/IOG_IOD_DDRX4_PF_LANECTRL_0_PF_LANECTRL.v
+L0 5
+R12
+r1
+!s85 0
+31
+R43
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/PF_LANECTRL_0/IOG_IOD_DDRX4_PF_LANECTRL_0_PF_LANECTRL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4/PF_LANECTRL_0/IOG_IOD_DDRX4_PF_LANECTRL_0_PF_LANECTRL.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@r@x4_@p@f_@l@a@n@e@c@t@r@l_0_@p@f_@l@a@n@e@c@t@r@l
+vIOG_IOD_DDRX4_PF_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY
+R35
+!i10b 1
+!s100 A00l7F3<2ZZQY?lBZLID`2
+IXm7`egNU>3hz03@^hGX6e3
+R2
+R19
+w1557726517
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/PF_CLK_DIV_FIFO/IOG_IOD_DDRX4_PF_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/PF_CLK_DIV_FIFO/IOG_IOD_DDRX4_PF_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v
+L0 5
+R20
+r1
+!s85 0
+31
+R37
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/PF_CLK_DIV_FIFO/IOG_IOD_DDRX4_PF_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/PF_CLK_DIV_FIFO/IOG_IOD_DDRX4_PF_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@r@x4_@p@f_@p@f_@c@l@k_@d@i@v_@f@i@f@o_@p@f_@c@l@k_@d@i@v_@d@e@l@a@y
+vIOG_IOD_DDRX4_PF_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY
+R35
+!i10b 1
+!s100 F>5R4GD7k:K8Be63XbaN71
+Izd=ZLk;XcRz1j6G`@jTL`0
+R2
+R19
+w1557726518
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/PF_CLK_DIV_RXCLK/IOG_IOD_DDRX4_PF_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/PF_CLK_DIV_RXCLK/IOG_IOD_DDRX4_PF_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v
+L0 5
+R20
+r1
+!s85 0
+31
+R37
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/PF_CLK_DIV_RXCLK/IOG_IOD_DDRX4_PF_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/PF_CLK_DIV_RXCLK/IOG_IOD_DDRX4_PF_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@r@x4_@p@f_@p@f_@c@l@k_@d@i@v_@r@x@c@l@k_@p@f_@c@l@k_@d@i@v_@d@e@l@a@y
+vIOG_IOD_DDRX4_PF_PF_IOD_RX_PF_IOD
+R46
+!i10b 1
+!s100 @k:S515EIa4n;fEDff8jG3
+IEh_^:a6^gBn0:L[ZRn5Va2
+R2
+R19
+w1557727512
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/PF_IOD_RX/IOG_IOD_DDRX4_PF_PF_IOD_RX_PF_IOD.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/PF_IOD_RX/IOG_IOD_DDRX4_PF_PF_IOD_RX_PF_IOD.v
+L0 5
+R20
+r1
+!s85 0
+31
+R48
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/PF_IOD_RX/IOG_IOD_DDRX4_PF_PF_IOD_RX_PF_IOD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/PF_IOD_RX/IOG_IOD_DDRX4_PF_PF_IOD_RX_PF_IOD.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@r@x4_@p@f_@p@f_@i@o@d_@r@x_@p@f_@i@o@d
+vIOG_IOD_DDRX4_PF_PF_LANECTRL_0_PF_LANECTRL
+R46
+!i10b 1
+!s100 Gj3mI?0Y?X7?>O>:gdaBF0
+IWI@<KD0GhzXnYjS`JFI[83
+R2
+R19
+R47
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/PF_LANECTRL_0/IOG_IOD_DDRX4_PF_PF_LANECTRL_0_PF_LANECTRL.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/PF_LANECTRL_0/IOG_IOD_DDRX4_PF_PF_LANECTRL_0_PF_LANECTRL.v
+L0 5
+R20
+r1
+!s85 0
+31
+R48
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/PF_LANECTRL_0/IOG_IOD_DDRX4_PF_PF_LANECTRL_0_PF_LANECTRL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/IOG_IOD_DDRX4_PF/PF_LANECTRL_0/IOG_IOD_DDRX4_PF_PF_LANECTRL_0_PF_LANECTRL.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@r@x4_@p@f_@p@f_@l@a@n@e@c@t@r@l_0_@p@f_@l@a@n@e@c@t@r@l
+vIOG_IOD_DDTX4_1
+R11
+!i10b 1
+!s100 Zih2j2Fg_<iOQKmQeLc@K1
+IPBYbM]1]8ZKDeYRKlAEn@2
+R2
+R0
+Z51 w1551093000
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDTX4_1/IOG_IOD_DDTX4_1.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDTX4_1/IOG_IOD_DDTX4_1.v
+L0 9
+R12
+r1
+!s85 0
+31
+Z52 !s108 1551097445.000000
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDTX4_1/IOG_IOD_DDTX4_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDTX4_1/IOG_IOD_DDTX4_1.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@t@x4_1
+vIOG_IOD_DDTX4_1_LANECTRL_ADDR_CMD_0_PF_LANECTRL
+Z53 !s110 1551097445
+!i10b 1
+!s100 a0C7^lE8>8P>`bHB9ZX;=2
+ICkWU17NG8cZ@<hIn=4Qje1
+R2
+R0
+w1551092998
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDTX4_1/LANECTRL_ADDR_CMD_0/IOG_IOD_DDTX4_1_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDTX4_1/LANECTRL_ADDR_CMD_0/IOG_IOD_DDTX4_1_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v
+L0 5
+R12
+r1
+!s85 0
+31
+R52
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDTX4_1/LANECTRL_ADDR_CMD_0/IOG_IOD_DDTX4_1_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDTX4_1/LANECTRL_ADDR_CMD_0/IOG_IOD_DDTX4_1_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@t@x4_1_@l@a@n@e@c@t@r@l_@a@d@d@r_@c@m@d_0_@p@f_@l@a@n@e@c@t@r@l
+vIOG_IOD_DDTX4_1_PF_IOD_TX_CLK_PF_IOD
+R53
+!i10b 1
+!s100 ;aL^zMYmCJLY63o2HPjC>0
+I5@9iMLo1WKzkdb<W]boQR3
+R2
+R0
+R51
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDTX4_1/PF_IOD_TX_CLK/IOG_IOD_DDTX4_1_PF_IOD_TX_CLK_PF_IOD.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDTX4_1/PF_IOD_TX_CLK/IOG_IOD_DDTX4_1_PF_IOD_TX_CLK_PF_IOD.v
+L0 5
+R12
+r1
+!s85 0
+31
+R52
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDTX4_1/PF_IOD_TX_CLK/IOG_IOD_DDTX4_1_PF_IOD_TX_CLK_PF_IOD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDTX4_1/PF_IOD_TX_CLK/IOG_IOD_DDTX4_1_PF_IOD_TX_CLK_PF_IOD.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@t@x4_1_@p@f_@i@o@d_@t@x_@c@l@k_@p@f_@i@o@d
+vIOG_IOD_DDTX4_1_PF_IOD_TX_PF_IOD
+R53
+!i10b 1
+!s100 Si]BX`;82=fdELoj1ej0D2
+I;<1AVdIdd<^fe5X4MQP?D1
+R2
+R0
+w1551092999
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDTX4_1/PF_IOD_TX/IOG_IOD_DDTX4_1_PF_IOD_TX_PF_IOD.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDTX4_1/PF_IOD_TX/IOG_IOD_DDTX4_1_PF_IOD_TX_PF_IOD.v
+L0 5
+R12
+r1
+!s85 0
+31
+R52
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDTX4_1/PF_IOD_TX/IOG_IOD_DDTX4_1_PF_IOD_TX_PF_IOD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/component/work/IOG_IOD_DDTX4_1/PF_IOD_TX/IOG_IOD_DDTX4_1_PF_IOD_TX_PF_IOD.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@i@o@g_@i@o@d_@d@d@t@x4_1_@p@f_@i@o@d_@t@x_@p@f_@i@o@d
+vpattern_gen
+!s110 1554116771
+!i10b 1
+!s100 ibIAQOZaZ<[<X;lAMTPSR3
+IThcNGM[5OQ7MJA[3[HS7i0
+R2
+R0
+w1551266934
+8C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/pattern_gen.v
+FC:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/pattern_gen.v
+L0 25
+R12
+r1
+!s85 0
+31
+!s108 1554116771.000000
+!s107 C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/pattern_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/LOOPBACK/CoreRxIODBitAlign/hdl/pattern_gen.v|
+!s101 -O0
+!i113 1
+R13
+R7
+vPF_CCC_C0
+R1
+Z54 !s110 1599220493
+!i10b 1
+!s100 ^E=JhP=7KXM4^edRDl6T;1
+!s11b ?z]eCzLnVbmzbgdbGV>Qo3
+Ii0j=g@2E^cKE><3iU2UHU2
+R2
+S1
+R3
+Z55 w1599202364
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_CCC_C0/PF_CCC_C0.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_CCC_C0/PF_CCC_C0.v
+!i122 -1
+L0 9
+R5
+r1
+!s85 0
+31
+Z56 !s108 1599220493.000000
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_CCC_C0/PF_CCC_C0.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_CCC_C0/PF_CCC_C0.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@c@c@c_@c0
+vPF_CCC_C0_PF_CCC_C0_0_PF_CCC
+R1
+R8
+!i10b 1
+!s100 Io`QKKAoo=D0FG;?Tl3T30
+!s11b o]ElBghKj489[R6IL`lgz2
+IPl:=J8mLC;KMbM2;A4MMD3
+R2
+S1
+R3
+R55
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v
+!i122 -1
+L0 5
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@c@c@c_@c0_@p@f_@c@c@c_@c0_0_@p@f_@c@c@c
+vPF_INIT_MON
+R29
+!i10b 1
+!s100 L>J?NAPjz;:cQoi?51N[83
+I<ih?CCAESd1BFU^J3_1hA3
+R2
+R19
+Z57 w1554201344
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/PF_INIT_MON/PF_INIT_MON.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/PF_INIT_MON/PF_INIT_MON.v
+L0 9
+R20
+r1
+!s85 0
+31
+R48
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/PF_INIT_MON/PF_INIT_MON.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/PF_INIT_MON/PF_INIT_MON.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@p@f_@i@n@i@t_@m@o@n
+vPF_INIT_MON_PF_INIT_MON_0_PF_INIT_MONITOR
+R46
+!i10b 1
+!s100 ?Sb4CNIk5<GQ0I6J>znnM0
+IDc5M;HEbjg?Sl=3kKPNJY0
+R2
+R19
+R57
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/PF_INIT_MON/PF_INIT_MON_0/PF_INIT_MON_PF_INIT_MON_0_PF_INIT_MONITOR.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/PF_INIT_MON/PF_INIT_MON_0/PF_INIT_MON_PF_INIT_MON_0_PF_INIT_MONITOR.v
+L0 5
+R20
+r1
+!s85 0
+31
+R48
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/PF_INIT_MON/PF_INIT_MON_0/PF_INIT_MON_PF_INIT_MON_0_PF_INIT_MONITOR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/PF_INIT_MON/PF_INIT_MON_0/PF_INIT_MON_PF_INIT_MON_0_PF_INIT_MONITOR.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@p@f_@i@n@i@t_@m@o@n_@p@f_@i@n@i@t_@m@o@n_0_@p@f_@i@n@i@t_@m@o@n@i@t@o@r
+vPF_IOD_GENERIC_RX_C1
+R1
+R31
+!i10b 1
+!s100 iiMOa0lHWO[W5n0``UF>62
+!s11b ci29g@:HF=XR0UTG<[g2?2
+I?^dZ=K?80`a1@=^D9f[F52
+R2
+S1
+R3
+Z58 w1599220429
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_IOD_GENERIC_RX_C1.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_IOD_GENERIC_RX_C1.v
+!i122 -1
+L0 9
+R5
+r1
+!s85 0
+31
+R33
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_IOD_GENERIC_RX_C1.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_IOD_GENERIC_RX_C1.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@g@e@n@e@r@i@c_@r@x_@c1
+vPF_IOD_GENERIC_RX_C1_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY
+R1
+R54
+!i10b 1
+!s100 >_DkcYR62h7GKUPH`GJHD3
+!s11b 61@SC==X6^dA:M<]z5boD2
+IHOhbP4`TY6WX0]5eBLzFN3
+R2
+S1
+R3
+w1599220425
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_CLK_DIV_FIFO/PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_CLK_DIV_FIFO/PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v
+!i122 -1
+L0 5
+R5
+r1
+!s85 0
+31
+R56
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_CLK_DIV_FIFO/PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_CLK_DIV_FIFO/PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@g@e@n@e@r@i@c_@r@x_@c1_@p@f_@c@l@k_@d@i@v_@f@i@f@o_@p@f_@c@l@k_@d@i@v_@d@e@l@a@y
+vPF_IOD_GENERIC_RX_C1_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY
+R1
+R54
+!i10b 1
+!s100 A2LHC@X@d=BB^Y9EFH<RL0
+!s11b KX04cHfg^I[2LJD;Z>Xe`0
+I^bGNKN]LFBaQc^i7`g1`S3
+R2
+S1
+R3
+w1599220426
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_CLK_DIV_RXCLK/PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_CLK_DIV_RXCLK/PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v
+!i122 -1
+L0 5
+R5
+r1
+!s85 0
+31
+R56
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_CLK_DIV_RXCLK/PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_CLK_DIV_RXCLK/PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@g@e@n@e@r@i@c_@r@x_@c1_@p@f_@c@l@k_@d@i@v_@r@x@c@l@k_@p@f_@c@l@k_@d@i@v_@d@e@l@a@y
+vPF_IOD_GENERIC_RX_C1_PF_IOD_CLK_TRAINING_PF_IOD
+R1
+R54
+!i10b 1
+!s100 5_SbNWKP[@j8@L`[4c=ZN0
+!s11b H7W;nIVOc_GO3mzn@B4b<3
+I=Uk6[oIMOLY7:4JRAZWMb3
+R2
+S1
+R3
+w1599220427
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_IOD_CLK_TRAINING/PF_IOD_GENERIC_RX_C1_PF_IOD_CLK_TRAINING_PF_IOD.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_IOD_CLK_TRAINING/PF_IOD_GENERIC_RX_C1_PF_IOD_CLK_TRAINING_PF_IOD.v
+!i122 -1
+L0 5
+R5
+r1
+!s85 0
+31
+R56
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_IOD_CLK_TRAINING/PF_IOD_GENERIC_RX_C1_PF_IOD_CLK_TRAINING_PF_IOD.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_IOD_CLK_TRAINING/PF_IOD_GENERIC_RX_C1_PF_IOD_CLK_TRAINING_PF_IOD.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@g@e@n@e@r@i@c_@r@x_@c1_@p@f_@i@o@d_@c@l@k_@t@r@a@i@n@i@n@g_@p@f_@i@o@d
+vPF_IOD_GENERIC_RX_C1_PF_IOD_RX_PF_IOD
+R1
+R54
+!i10b 1
+!s100 bN[XQRmd13<_jl`>GiH]C2
+!s11b 6<B_mOnN=io;QURLM8f^f1
+I3c?>^Q63IdCQAnEUNGD2[1
+R2
+S1
+R3
+w1599220428
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_IOD_RX/PF_IOD_GENERIC_RX_C1_PF_IOD_RX_PF_IOD.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_IOD_RX/PF_IOD_GENERIC_RX_C1_PF_IOD_RX_PF_IOD.v
+!i122 -1
+L0 5
+R5
+r1
+!s85 0
+31
+R56
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_IOD_RX/PF_IOD_GENERIC_RX_C1_PF_IOD_RX_PF_IOD.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_IOD_RX/PF_IOD_GENERIC_RX_C1_PF_IOD_RX_PF_IOD.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@g@e@n@e@r@i@c_@r@x_@c1_@p@f_@i@o@d_@r@x_@p@f_@i@o@d
+vPF_IOD_GENERIC_RX_C1_PF_LANECTRL_0_PF_LANECTRL
+R1
+R54
+!i10b 1
+!s100 UMn_AmNIXFaMI[C7Q`Dh60
+!s11b bHB@g^kK?1:fVSczJ?66c3
+IohhMU`kmg?O`^aM3<2LW;2
+R2
+S1
+R3
+R58
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_LANECTRL_0/PF_IOD_GENERIC_RX_C1_PF_LANECTRL_0_PF_LANECTRL.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_LANECTRL_0/PF_IOD_GENERIC_RX_C1_PF_LANECTRL_0_PF_LANECTRL.v
+!i122 -1
+L0 5
+R5
+r1
+!s85 0
+31
+R56
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_LANECTRL_0/PF_IOD_GENERIC_RX_C1_PF_LANECTRL_0_PF_LANECTRL.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_LANECTRL_0/PF_IOD_GENERIC_RX_C1_PF_LANECTRL_0_PF_LANECTRL.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@g@e@n@e@r@i@c_@r@x_@c1_@p@f_@l@a@n@e@c@t@r@l_0_@p@f_@l@a@n@e@c@t@r@l
+vPF_IOD_GENERIC_RX_C1_PF_LANECTRL_0_PF_LANECTRL_PAUSE_SYNC
+R1
+R54
+!i10b 1
+!s100 TDhn1c[l9oQh]:5GInbKK1
+Z59 !s11b jfG;_3mDIIfIi4588jA5O1
+I@IWOOkEh`58mLP>n8KkNV1
+R2
+S1
+R3
+R58
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_LANECTRL_0/PF_LANECTRL_PAUSE_SYNC.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_LANECTRL_0/PF_LANECTRL_PAUSE_SYNC.v
+!i122 -1
+Z60 L0 13
+R5
+r1
+!s85 0
+31
+R56
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_LANECTRL_0/PF_LANECTRL_PAUSE_SYNC.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1/PF_LANECTRL_0/PF_LANECTRL_PAUSE_SYNC.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@g@e@n@e@r@i@c_@r@x_@c1_@p@f_@l@a@n@e@c@t@r@l_0_@p@f_@l@a@n@e@c@t@r@l_@p@a@u@s@e_@s@y@n@c
+vPF_IOD_GENERIC_RX_C1_TR
+R1
+R31
+!i10b 1
+!s100 :jF]aRS?gD;O5@aK6geJ[2
+!s11b I4iM[LQfjGG05I8NTzAWX2
+I_d^h@<FEgIn6]BiPW45Go3
+R2
+S1
+R3
+Z61 w1599220419
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1_TR/PF_IOD_GENERIC_RX_C1_TR.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1_TR/PF_IOD_GENERIC_RX_C1_TR.v
+!i122 -1
+L0 9
+R5
+r1
+!s85 0
+31
+R33
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1_TR/PF_IOD_GENERIC_RX_C1_TR.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1_TR/PF_IOD_GENERIC_RX_C1_TR.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@g@e@n@e@r@i@c_@r@x_@c1_@t@r
+vPF_IOD_GENERIC_RX_C1_TR_PF_IOD_GENERIC_RX_C1_TR_0_COREBCLKSCLKALIGN
+R1
+R31
+!i10b 1
+!s100 DHn[kj>SVRjWSYC`^@FS;1
+Z62 !s11b YVm2<?70QnnRZX?_1gLL_3
+I56;VNYWJ51Sk>=bCKH66J2
+R2
+S1
+R3
+R61
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1_TR/PF_IOD_GENERIC_RX_C1_TR_0/rtl/vlog/core/CoreBclkSclkAlign.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1_TR/PF_IOD_GENERIC_RX_C1_TR_0/rtl/vlog/core/CoreBclkSclkAlign.v
+!i122 -1
+Z63 L0 17
+R5
+r1
+!s85 0
+31
+R33
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1_TR/PF_IOD_GENERIC_RX_C1_TR_0/rtl/vlog/core/CoreBclkSclkAlign.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_RX_C1_TR/PF_IOD_GENERIC_RX_C1_TR_0/rtl/vlog/core/CoreBclkSclkAlign.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@g@e@n@e@r@i@c_@r@x_@c1_@t@r_@p@f_@i@o@d_@g@e@n@e@r@i@c_@r@x_@c1_@t@r_0_@c@o@r@e@b@c@l@k@s@c@l@k@a@l@i@g@n
+vPF_IOD_GENERIC_TX_C0
+R1
+Z64 !s110 1599220495
+!i10b 1
+!s100 ^:7eZAW0KMIaAf=?n@P820
+!s11b <aiOWhMXA30c=cGJUhOKN3
+IVFLeJ@Q0QbL20k76Q8NQ50
+R2
+S1
+R3
+w1598413880
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/PF_IOD_GENERIC_TX_C0.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/PF_IOD_GENERIC_TX_C0.v
+!i122 -1
+L0 9
+R5
+r1
+!s85 0
+31
+Z65 !s108 1599220495.000000
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/PF_IOD_GENERIC_TX_C0.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/PF_IOD_GENERIC_TX_C0.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@g@e@n@e@r@i@c_@t@x_@c0
+vPF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL
+R1
+R31
+!i10b 1
+!s100 QC]UFkP9HWlOCoT5:cMTl3
+!s11b Q5kFM6>_IcO0U:3jcYhm[1
+I]]kY[l3D?1Xcz_29;zcZ^2
+R2
+S1
+R3
+w1598413875
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/LANECTRL_ADDR_CMD_0/PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/LANECTRL_ADDR_CMD_0/PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v
+!i122 -1
+L0 5
+R5
+r1
+!s85 0
+31
+R33
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/LANECTRL_ADDR_CMD_0/PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/LANECTRL_ADDR_CMD_0/PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@g@e@n@e@r@i@c_@t@x_@c0_@l@a@n@e@c@t@r@l_@a@d@d@r_@c@m@d_0_@p@f_@l@a@n@e@c@t@r@l
+vPF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL_PAUSE_SYNC
+R1
+R31
+!i10b 1
+!s100 BN?mzT@77U^Gzn^E27OO80
+R59
+II7kHE:_^iKiJ[@bY9<gmW0
+R2
+S1
+R3
+w1598413876
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/LANECTRL_ADDR_CMD_0/PF_LANECTRL_PAUSE_SYNC.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/LANECTRL_ADDR_CMD_0/PF_LANECTRL_PAUSE_SYNC.v
+!i122 -1
+R60
+R5
+r1
+!s85 0
+31
+R33
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/LANECTRL_ADDR_CMD_0/PF_LANECTRL_PAUSE_SYNC.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/LANECTRL_ADDR_CMD_0/PF_LANECTRL_PAUSE_SYNC.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@g@e@n@e@r@i@c_@t@x_@c0_@l@a@n@e@c@t@r@l_@a@d@d@r_@c@m@d_0_@p@f_@l@a@n@e@c@t@r@l_@p@a@u@s@e_@s@y@n@c
+vPF_IOD_GENERIC_TX_C0_PF_IOD_CLK_TRAINING_PF_IOD
+R1
+R64
+!i10b 1
+!s100 [>_fc[hR5YYAheJ0Xcgm:1
+!s11b JalGo;DanB0^A4BPlUN__1
+I[BkZ0UzBYBa22h1_CV_@e0
+R2
+S1
+R3
+w1598413877
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/PF_IOD_CLK_TRAINING/PF_IOD_GENERIC_TX_C0_PF_IOD_CLK_TRAINING_PF_IOD.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/PF_IOD_CLK_TRAINING/PF_IOD_GENERIC_TX_C0_PF_IOD_CLK_TRAINING_PF_IOD.v
+!i122 -1
+L0 5
+R5
+r1
+!s85 0
+31
+R33
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/PF_IOD_CLK_TRAINING/PF_IOD_GENERIC_TX_C0_PF_IOD_CLK_TRAINING_PF_IOD.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/PF_IOD_CLK_TRAINING/PF_IOD_GENERIC_TX_C0_PF_IOD_CLK_TRAINING_PF_IOD.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@g@e@n@e@r@i@c_@t@x_@c0_@p@f_@i@o@d_@c@l@k_@t@r@a@i@n@i@n@g_@p@f_@i@o@d
+vPF_IOD_GENERIC_TX_C0_PF_IOD_TX_CLK_PF_IOD
+R1
+R64
+!i10b 1
+!s100 IXfLKmSngQ;Qb>@4HF1Q42
+!s11b FgNRkOY<>HHLF`ColP@9k1
+IFQjHl8kXeSXbCP0LjbG;93
+R2
+S1
+R3
+w1598413879
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/PF_IOD_TX_CLK/PF_IOD_GENERIC_TX_C0_PF_IOD_TX_CLK_PF_IOD.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/PF_IOD_TX_CLK/PF_IOD_GENERIC_TX_C0_PF_IOD_TX_CLK_PF_IOD.v
+!i122 -1
+L0 5
+R5
+r1
+!s85 0
+31
+R65
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/PF_IOD_TX_CLK/PF_IOD_GENERIC_TX_C0_PF_IOD_TX_CLK_PF_IOD.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/PF_IOD_TX_CLK/PF_IOD_GENERIC_TX_C0_PF_IOD_TX_CLK_PF_IOD.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@g@e@n@e@r@i@c_@t@x_@c0_@p@f_@i@o@d_@t@x_@c@l@k_@p@f_@i@o@d
+vPF_IOD_GENERIC_TX_C0_PF_IOD_TX_PF_IOD
+R1
+R64
+!i10b 1
+!s100 Qfg<GGl@dEUg0H8Hc=43d3
+!s11b Ke]B:HB^EmEnZGAEPTE@31
+IQ3a7a_W2839mNVc`@EnVD0
+R2
+S1
+R3
+w1598413878
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/PF_IOD_TX/PF_IOD_GENERIC_TX_C0_PF_IOD_TX_PF_IOD.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/PF_IOD_TX/PF_IOD_GENERIC_TX_C0_PF_IOD_TX_PF_IOD.v
+!i122 -1
+L0 5
+R5
+r1
+!s85 0
+31
+R65
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/PF_IOD_TX/PF_IOD_GENERIC_TX_C0_PF_IOD_TX_PF_IOD.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_GENERIC_TX_C0/PF_IOD_TX/PF_IOD_GENERIC_TX_C0_PF_IOD_TX_PF_IOD.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@g@e@n@e@r@i@c_@t@x_@c0_@p@f_@i@o@d_@t@x_@p@f_@i@o@d
+vPF_IOD_TX_CCC_C0
+R1
+R64
+!i10b 1
+!s100 CLZVPA0ak6Ig;0K:aO_mX2
+!s11b RX0TCaAU[m>HD8=QT^m4B3
+IA[4]MdXYJQTgM@5i]SS:^0
+R2
+S1
+R3
+Z66 w1599202333
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0/PF_IOD_TX_CCC_C0.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0/PF_IOD_TX_CCC_C0.v
+!i122 -1
+L0 9
+R5
+r1
+!s85 0
+31
+R65
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0/PF_IOD_TX_CCC_C0.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0/PF_IOD_TX_CCC_C0.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@t@x_@c@c@c_@c0
+vPF_IOD_TX_CCC_C0_PF_CCC_0_PF_CCC
+R1
+R64
+!i10b 1
+!s100 Iz;3D2WOc;f3mQI3;jI=n2
+!s11b Xg54;:I:FO>3Qi`zPPL=T2
+I7;gnEb7Jj=FREcmmzYQf;1
+R2
+S1
+R3
+R66
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0/PF_CCC_0/PF_IOD_TX_CCC_C0_PF_CCC_0_PF_CCC.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0/PF_CCC_0/PF_IOD_TX_CCC_C0_PF_CCC_0_PF_CCC.v
+!i122 -1
+L0 5
+R5
+r1
+!s85 0
+31
+R65
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0/PF_CCC_0/PF_IOD_TX_CCC_C0_PF_CCC_0_PF_CCC.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0/PF_CCC_0/PF_IOD_TX_CCC_C0_PF_CCC_0_PF_CCC.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@t@x_@c@c@c_@c0_@p@f_@c@c@c_0_@p@f_@c@c@c
+vPF_IOD_TX_CCC_C0_TR
+R1
+R64
+!i10b 1
+!s100 0V^oPh2J7TzKMLADhbJCf1
+!s11b a[HPFYIV=FD`z]cRn@l=R0
+Id_YWe;z30IEh1dO17mTZS2
+R2
+S1
+R3
+Z67 w1599202328
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0_TR/PF_IOD_TX_CCC_C0_TR.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0_TR/PF_IOD_TX_CCC_C0_TR.v
+!i122 -1
+L0 9
+R5
+r1
+!s85 0
+31
+R65
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0_TR/PF_IOD_TX_CCC_C0_TR.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0_TR/PF_IOD_TX_CCC_C0_TR.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@t@x_@c@c@c_@c0_@t@r
+vPF_IOD_TX_CCC_C0_TR_PF_IOD_TX_CCC_C0_TR_0_COREBCLKSCLKALIGN
+R1
+R64
+!i10b 1
+!s100 4Agzh[SiaGLY:83@MeQ>n0
+R62
+IMV631[^>K=<bBKoXGbEXa3
+R2
+S1
+R3
+R67
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0_TR/PF_IOD_TX_CCC_C0_TR_0/rtl/vlog/core/CoreBclkSclkAlign.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0_TR/PF_IOD_TX_CCC_C0_TR_0/rtl/vlog/core/CoreBclkSclkAlign.v
+!i122 -1
+R63
+R5
+r1
+!s85 0
+31
+R65
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0_TR/PF_IOD_TX_CCC_C0_TR_0/rtl/vlog/core/CoreBclkSclkAlign.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0_TR/PF_IOD_TX_CCC_C0_TR_0/rtl/vlog/core/CoreBclkSclkAlign.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@i@o@d_@t@x_@c@c@c_@c0_@t@r_@p@f_@i@o@d_@t@x_@c@c@c_@c0_@t@r_0_@c@o@r@e@b@c@l@k@s@c@l@k@a@l@i@g@n
+vPF_OSC_C0
+R29
+!i10b 1
+!s100 11U3XhiM=^6VI7JDeREJh0
+I3Nmk]lHS[[4VikkhJbgm13
+R2
+R19
+Z68 w1557730263
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/PF_OSC_C0/PF_OSC_C0.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/PF_OSC_C0/PF_OSC_C0.v
+L0 9
+R20
+r1
+!s85 0
+31
+R30
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/PF_OSC_C0/PF_OSC_C0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/PF_OSC_C0/PF_OSC_C0.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@p@f_@o@s@c_@c0
+vPF_OSC_C0_PF_OSC_C0_0_PF_OSC
+R29
+!i10b 1
+!s100 UgkKZZ]B>H_QW4maHcJ_Q3
+I27H4XNllel>E>ITajU7jC0
+R2
+R19
+R68
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/PF_OSC_C0/PF_OSC_C0_0/PF_OSC_C0_PF_OSC_C0_0_PF_OSC.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/PF_OSC_C0/PF_OSC_C0_0/PF_OSC_C0_PF_OSC_C0_0_PF_OSC.v
+L0 5
+R20
+r1
+!s85 0
+31
+R30
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/PF_OSC_C0/PF_OSC_C0_0/PF_OSC_C0_PF_OSC_C0_0_PF_OSC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/component/work/PF_OSC_C0/PF_OSC_C0_0/PF_OSC_C0_PF_OSC_C0_0_PF_OSC.v|
+!s101 -O0
+!i113 1
+R13
+R7
+n@p@f_@o@s@c_@c0_@p@f_@o@s@c_@c0_0_@p@f_@o@s@c
+vPF_OSC_C1
+R1
+R44
+!i10b 1
+!s100 ^mKn:4=4=@[U5on[Uj^=D3
+!s11b f1W@>3VXQg[?IEMUl9Z?E3
+IWO@SnUiK??1Z[3g[`U9Nb2
+R2
+S1
+R3
+Z69 w1595408590
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_OSC_C1/PF_OSC_C1.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_OSC_C1/PF_OSC_C1.v
+!i122 -1
+L0 9
+R5
+r1
+!s85 0
+31
+R45
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_OSC_C1/PF_OSC_C1.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_OSC_C1/PF_OSC_C1.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@o@s@c_@c1
+vPF_OSC_C1_PF_OSC_C1_0_PF_OSC
+R1
+R44
+!i10b 1
+!s100 9jT`cR]0Tj=LYfea8dK573
+!s11b 4W?3[HUFIITKHNLm_k@Oh2
+IJ_NB<cT>eOfS;4G1c4AD=0
+R2
+S1
+R3
+R69
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_OSC_C1/PF_OSC_C1_0/PF_OSC_C1_PF_OSC_C1_0_PF_OSC.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_OSC_C1/PF_OSC_C1_0/PF_OSC_C1_PF_OSC_C1_0_PF_OSC.v
+!i122 -1
+L0 5
+R5
+r1
+!s85 0
+31
+R45
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_OSC_C1/PF_OSC_C1_0/PF_OSC_C1_PF_OSC_C1_0_PF_OSC.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_OSC_C1/PF_OSC_C1_0/PF_OSC_C1_PF_OSC_C1_0_PF_OSC.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@o@s@c_@c1_@p@f_@o@s@c_@c1_0_@p@f_@o@s@c
+vPLL_BCLKSCLKALIGN
+R1
+R31
+!i10b 1
+!s100 _aVVgM:Gd_J>0OnB55HeK0
+!s11b ;3K:0i2RjhT]Abf6gEoSo0
+I;hR?I<zRE@<zOkdJ[_43Q1
+R2
+S1
+R3
+R32
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/core/PLL_BclkSclkAlign.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/core/PLL_BclkSclkAlign.v
+!i122 -1
+R63
+R5
+r1
+!s85 0
+31
+R56
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/core/PLL_BclkSclkAlign.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/core/PLL_BclkSclkAlign.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@l@l_@b@c@l@k@s@c@l@k@a@l@i@g@n
+vprbscheck_parallel_fab
+R29
+!i10b 1
+!s100 2l_4=eD?=4F@FLFM5W:m`2
+I^CLRCJ<6ZBdPY07]1z_Vd1
+R2
+R19
+Z70 w1557725734
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/prbscheck_parallel_fab.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/prbscheck_parallel_fab.v
+R9
+R20
+r1
+!s85 0
+31
+R30
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/prbscheck_parallel_fab.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/prbscheck_parallel_fab.v|
+!s101 -O0
+!i113 1
+R13
+R7
+vprbsgen_parallel_fab
+R29
+!i10b 1
+!s100 l[U^YIFDL=B^Do_>D<T8K0
+I3:@iFdgV[75N5<^hE[nDh3
+R2
+R19
+R70
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/prbsgen_parallel_fab.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/prbsgen_parallel_fab.v
+R9
+R20
+r1
+!s85 0
+31
+R30
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/prbsgen_parallel_fab.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/prbsgen_parallel_fab.v|
+!s101 -O0
+!i113 1
+R13
+R7
+vreset_delay
+R25
+!i10b 1
+!s100 F_[6=ac784@0A71bkOEBA1
+IW[oFTTT59@28kJO`bV[j62
+R2
+R19
+w1550129276
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/reset_delay.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/reset_delay.v
+L0 1
+R20
+r1
+!s85 0
+31
+R26
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/reset_delay.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/reset_delay.v|
+!s101 -O0
+!i113 1
+R13
+R7
+vrev_bits
+R25
+!i10b 1
+!s100 bCgXT[DCOzg5a<Ah^LW342
+IBPPIQNndPXJ`4cN0XoV`N0
+R2
+R19
+w1557725907
+8C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/rev_bits.v
+FC:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/rev_bits.v
+R4
+R20
+r1
+!s85 0
+31
+R26
+!s107 C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/rev_bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Lakshman/Libero/Board/HSV_KIT/DDRX4/CENTERED/RAND/CoreRxIODBitAlign_PF_HSVKit_1400_Mbps/CoreRxIODBitAlign/hdl/rev_bits.v|
+!s101 -O0
+!i113 1
+R13
+R7
+vsd_tb
+R1
+R44
+!i10b 1
+!s100 1=i1GdLVKB2GfZo2V>oPo2
+Z71 !s11b O:XAmXKE2bLCT=zdUl>iS3
+IgTaW@O0@9_CETz:;TaZ850
+R2
+S1
+R3
+w1598596902
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/sd_tb/sd_tb.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/sd_tb/sd_tb.v
+!i122 -1
+L0 9
+R5
+r1
+!s85 0
+31
+R45
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/sd_tb/sd_tb.v|
+!s90 -reportprogress|300|+incdir+D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/sd_tb|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/sd_tb/sd_tb.v|
+!s101 -O0
+!i113 1
+R6
+!s92 +incdir+D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/sd_tb -sv -work presynth -O0
+R7
+vtb
+R1
+!s110 1598607996
+!i10b 1
+!s100 SD;ISco4X8azjR964l`[^0
+R71
+I<BS5RXzgZ;2ah:AIJ@JDo3
+R2
+S1
+R3
+w1598600412
+8D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/stimulus/tb.v
+FD:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/stimulus/tb.v
+!i122 -1
+L0 9
+R5
+r1
+!s85 0
+31
+!s108 1598607996.000000
+!s107 D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/stimulus/tb.v|
+!s90 -reportprogress|300|+incdir+D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/stimulus|-sv|-work|presynth|D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/stimulus/tb.v|
+!s101 -O0
+!i113 1
+R6
+!s92 +incdir+D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/stimulus -sv -work presynth -O0
+R7

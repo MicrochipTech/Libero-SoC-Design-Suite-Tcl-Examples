@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 2021.10.1.0</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release  (Version 2021.10.1.0)
+Date: Tue Dec 29 11:13:09 2020 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>IOG_IOD_DDRX4_COMP</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFire</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>MPF300T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCG1152</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>-40 - 100 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>0.97 - 1.03 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+</table>
+<text></text>
+<text>*** IMPORTANT RECOMMENDATION *** If you haven&apos;t done so, it is highly recommended to add clock jitter information for each clock domain into Libero SoC through clock uncertainty SDC timing constraints. Please refer to the Libero SoC v12.5 release notes for more details.</text>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>         5928</cell>
+ <cell>           16</cell>
+ <cell>         5944</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>         2318</cell>
+ <cell>           39</cell>
+ <cell>         2357</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>           18</cell>
+ <cell>          180</cell>
+ <cell>          198</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>         8264</cell>
+ <cell>          235</cell>
+ <cell>         8499</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>         5928</cell>
+ <cell>           16</cell>
+ <cell>         5944</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>         2318</cell>
+ <cell>           39</cell>
+ <cell>         2357</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>           18</cell>
+ <cell>          180</cell>
+ <cell>          198</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>         8264</cell>
+ <cell>          235</cell>
+ <cell>         8499</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>CORERXIODBITALIGN_C0_0/CORERXIODBITALIGN_C0_0/u_CoreRxIODBitAlign/rx_BIT_ALGN_MOVE:Q</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text></text>
+<text> - Max output delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>BIT_ALGN_OOR_0</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>BIT_ALGN_OOR_0</item>
+</list>
+<text></text>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>CORERXIODBITALIGN_C0_1/CORERXIODBITALIGN_C0_0/u_CoreRxIODBitAlign/rx_BIT_ALGN_MOVE:Q</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text></text>
+<text> - Max output delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>BIT_ALGN_OOR</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>BIT_ALGN_OOR</item>
+</list>
+<text></text>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            7</cell>
+ <cell>            1</cell>
+ <cell>            8</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            7</cell>
+ <cell>            7</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            6</cell>
+ <cell>           55</cell>
+ <cell>           61</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>           13</cell>
+ <cell>           63</cell>
+ <cell>           76</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            7</cell>
+ <cell>            1</cell>
+ <cell>            8</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            7</cell>
+ <cell>            7</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            6</cell>
+ <cell>           55</cell>
+ <cell>           61</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>           13</cell>
+ <cell>           63</cell>
+ <cell>           76</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>SWITCH</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>SWITCH</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>Algn_Err</item>
+ <item>BIT_ALGN_ERR</item>
+ <item>BIT_ALGN_ERR_0</item>
+ <item>CLK_TRAIN_ERROR</item>
+ <item>DEM_BIT_ALGN_TAPDLY[0]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[1]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[2]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[3]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[4]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[5]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[6]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[7]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[0]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[1]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[2]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[3]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[4]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[5]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[6]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[7]</item>
+ <item>PRBS_ERR</item>
+ <item>PRBS_ERR_0</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[0]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[1]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[2]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[3]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[4]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[5]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[6]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[7]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[0]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[1]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[2]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[3]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[4]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[5]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[6]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[7]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[0]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[1]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[2]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[3]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[4]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[5]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[6]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[7]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[0]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[1]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[2]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[3]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[4]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[5]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[6]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[7]</item>
+ <item>prbs_chk_error_o_1</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>Algn_Err</item>
+ <item>BIT_ALGN_ERR</item>
+ <item>BIT_ALGN_ERR_0</item>
+ <item>CLK_TRAIN_ERROR</item>
+ <item>DEM_BIT_ALGN_TAPDLY[0]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[1]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[2]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[3]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[4]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[5]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[6]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[7]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[0]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[1]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[2]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[3]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[4]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[5]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[6]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[7]</item>
+ <item>PRBS_ERR</item>
+ <item>PRBS_ERR_0</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[0]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[1]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[2]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[3]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[4]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[5]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[6]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[7]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[0]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[1]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[2]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[3]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[4]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[5]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[6]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[7]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[0]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[1]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[2]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[3]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[4]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[5]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[6]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[7]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[0]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[1]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[2]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[3]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[4]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[5]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[6]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[7]</item>
+ <item>prbs_chk_error_o_1</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>ACT_UNIQUE_debouncer_0/DFF1:D</item>
+</list>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>ACT_UNIQUE_debouncer_0/DB_OUT:ALn</item>
+ <item>ACT_UNIQUE_debouncer_0/DFF1:ALn</item>
+ <item>ACT_UNIQUE_debouncer_0/DFF2:ALn</item>
+ <item>ACT_UNIQUE_debouncer_0/q_reg[0]:ALn</item>
+ <item>ACT_UNIQUE_debouncer_0/q_reg[1]:ALn</item>
+ <item>ACT_UNIQUE_debouncer_0/q_reg[2]:ALn</item>
+ <item>ACT_UNIQUE_debouncer_0/q_reg[3]:ALn</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>ACT_UNIQUE_debouncer_0/DFF1:D</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>ACT_UNIQUE_debouncer_0/DB_OUT:ALn</item>
+ <item>ACT_UNIQUE_debouncer_0/DFF1:ALn</item>
+ <item>ACT_UNIQUE_debouncer_0/DFF2:ALn</item>
+ <item>ACT_UNIQUE_debouncer_0/q_reg[0]:ALn</item>
+ <item>ACT_UNIQUE_debouncer_0/q_reg[1]:ALn</item>
+ <item>ACT_UNIQUE_debouncer_0/q_reg[2]:ALn</item>
+ <item>ACT_UNIQUE_debouncer_0/q_reg[3]:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>PF_IOD_GENERIC_RX_C1_0/COREBCLKSCLKALIGN_0/PF_IOD_GENERIC_RX_C1_TR_0/genblk1.U_ICB_BCLKSCLKALIGN/RX_CLK_ALIGN_MOVE:Q</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text></text>
+<text></text>
+<text> - Recovery unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD:DELAY_LINE_LOAD</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD:DELAY_LINE_LOAD</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>PF_IOD_GENERIC_RX_C1_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>         5828</cell>
+ <cell>           13</cell>
+ <cell>         5841</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>         2256</cell>
+ <cell>           10</cell>
+ <cell>         2266</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            6</cell>
+ <cell>           55</cell>
+ <cell>           61</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>         8090</cell>
+ <cell>           78</cell>
+ <cell>         8168</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>         5828</cell>
+ <cell>           13</cell>
+ <cell>         5841</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>         2256</cell>
+ <cell>           10</cell>
+ <cell>         2266</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            6</cell>
+ <cell>           55</cell>
+ <cell>           61</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>         8090</cell>
+ <cell>           78</cell>
+ <cell>         8168</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>RESTARTN</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>RESTARTN</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>Algn_Err</item>
+ <item>BIT_ALGN_ERR</item>
+ <item>BIT_ALGN_ERR_0</item>
+ <item>CLK_TRAIN_ERROR</item>
+ <item>DEM_BIT_ALGN_TAPDLY[0]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[1]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[2]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[3]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[4]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[5]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[6]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[7]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[0]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[1]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[2]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[3]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[4]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[5]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[6]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[7]</item>
+ <item>PRBS_ERR</item>
+ <item>PRBS_ERR_0</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[0]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[1]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[2]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[3]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[4]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[5]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[6]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[7]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[0]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[1]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[2]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[3]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[4]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[5]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[6]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[7]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[0]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[1]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[2]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[3]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[4]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[5]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[6]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[7]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[0]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[1]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[2]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[3]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[4]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[5]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[6]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[7]</item>
+ <item>prbs_chk_error_o_1</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>Algn_Err</item>
+ <item>BIT_ALGN_ERR</item>
+ <item>BIT_ALGN_ERR_0</item>
+ <item>CLK_TRAIN_ERROR</item>
+ <item>DEM_BIT_ALGN_TAPDLY[0]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[1]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[2]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[3]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[4]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[5]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[6]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[7]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[0]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[1]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[2]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[3]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[4]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[5]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[6]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[7]</item>
+ <item>PRBS_ERR</item>
+ <item>PRBS_ERR_0</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[0]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[1]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[2]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[3]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[4]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[5]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[6]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[7]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[0]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[1]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[2]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[3]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[4]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[5]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[6]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[7]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[0]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[1]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[2]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[3]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[4]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[5]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[6]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[7]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[0]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[1]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[2]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[3]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[4]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[5]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[6]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[7]</item>
+ <item>prbs_chk_error_o_1</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CORERXIODBITALIGN_C0_0/CORERXIODBITALIGN_C0_0/u_CoreRxIODBitAlign/early_flags_lsb[127]:D</item>
+ <item>CORERXIODBITALIGN_C0_0/CORERXIODBITALIGN_C0_0/u_CoreRxIODBitAlign/early_flags_msb[127]:D</item>
+ <item>CORERXIODBITALIGN_C0_0/CORERXIODBITALIGN_C0_0/u_CoreRxIODBitAlign/late_flags_lsb[127]:D</item>
+ <item>CORERXIODBITALIGN_C0_0/CORERXIODBITALIGN_C0_0/u_CoreRxIODBitAlign/late_flags_msb[127]:D</item>
+ <item>CORERXIODBITALIGN_C0_1/CORERXIODBITALIGN_C0_0/u_CoreRxIODBitAlign/early_flags_lsb[127]:D</item>
+ <item>CORERXIODBITALIGN_C0_1/CORERXIODBITALIGN_C0_0/u_CoreRxIODBitAlign/early_flags_msb[127]:D</item>
+ <item>CORERXIODBITALIGN_C0_1/CORERXIODBITALIGN_C0_0/u_CoreRxIODBitAlign/late_flags_lsb[127]:D</item>
+ <item>CORERXIODBITALIGN_C0_1/CORERXIODBITALIGN_C0_0/u_CoreRxIODBitAlign/late_flags_msb[127]:D</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/COREBCLKSCLKALIGN_0/PF_IOD_GENERIC_RX_C1_TR_0/genblk1.U_ICB_BCLKSCLKALIGN/early_flags_lsb[127]:D</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/COREBCLKSCLKALIGN_0/PF_IOD_GENERIC_RX_C1_TR_0/genblk1.U_ICB_BCLKSCLKALIGN/early_flags_msb[127]:D</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/COREBCLKSCLKALIGN_0/PF_IOD_GENERIC_RX_C1_TR_0/genblk1.U_ICB_BCLKSCLKALIGN/late_flags_lsb[127]:D</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/COREBCLKSCLKALIGN_0/PF_IOD_GENERIC_RX_C1_TR_0/genblk1.U_ICB_BCLKSCLKALIGN/late_flags_msb[127]:D</item>
+ <item>debouncer_0/DFF1:D</item>
+</list>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_IOD_CLK_TRAINING/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_IOD_RX/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_IOD_RX/I_IOD_1:ARST_N</item>
+ <item>debouncer_0/DB_OUT:ALn</item>
+ <item>debouncer_0/DFF1:ALn</item>
+ <item>debouncer_0/DFF2:ALn</item>
+ <item>debouncer_0/q_reg[0]:ALn</item>
+ <item>debouncer_0/q_reg[1]:ALn</item>
+ <item>debouncer_0/q_reg[2]:ALn</item>
+ <item>debouncer_0/q_reg[3]:ALn</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CORERXIODBITALIGN_C0_0/CORERXIODBITALIGN_C0_0/u_CoreRxIODBitAlign/early_flags_lsb[127]:D</item>
+ <item>CORERXIODBITALIGN_C0_0/CORERXIODBITALIGN_C0_0/u_CoreRxIODBitAlign/early_flags_msb[127]:D</item>
+ <item>CORERXIODBITALIGN_C0_0/CORERXIODBITALIGN_C0_0/u_CoreRxIODBitAlign/late_flags_lsb[127]:D</item>
+ <item>CORERXIODBITALIGN_C0_0/CORERXIODBITALIGN_C0_0/u_CoreRxIODBitAlign/late_flags_msb[127]:D</item>
+ <item>CORERXIODBITALIGN_C0_1/CORERXIODBITALIGN_C0_0/u_CoreRxIODBitAlign/early_flags_lsb[127]:D</item>
+ <item>CORERXIODBITALIGN_C0_1/CORERXIODBITALIGN_C0_0/u_CoreRxIODBitAlign/early_flags_msb[127]:D</item>
+ <item>CORERXIODBITALIGN_C0_1/CORERXIODBITALIGN_C0_0/u_CoreRxIODBitAlign/late_flags_lsb[127]:D</item>
+ <item>CORERXIODBITALIGN_C0_1/CORERXIODBITALIGN_C0_0/u_CoreRxIODBitAlign/late_flags_msb[127]:D</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/COREBCLKSCLKALIGN_0/PF_IOD_GENERIC_RX_C1_TR_0/genblk1.U_ICB_BCLKSCLKALIGN/early_flags_lsb[127]:D</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/COREBCLKSCLKALIGN_0/PF_IOD_GENERIC_RX_C1_TR_0/genblk1.U_ICB_BCLKSCLKALIGN/early_flags_msb[127]:D</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/COREBCLKSCLKALIGN_0/PF_IOD_GENERIC_RX_C1_TR_0/genblk1.U_ICB_BCLKSCLKALIGN/late_flags_lsb[127]:D</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/COREBCLKSCLKALIGN_0/PF_IOD_GENERIC_RX_C1_TR_0/genblk1.U_ICB_BCLKSCLKALIGN/late_flags_msb[127]:D</item>
+ <item>debouncer_0/DFF1:D</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_IOD_CLK_TRAINING/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_IOD_RX/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_IOD_RX/I_IOD_1:ARST_N</item>
+ <item>debouncer_0/DB_OUT:ALn</item>
+ <item>debouncer_0/DFF1:ALn</item>
+ <item>debouncer_0/DFF2:ALn</item>
+ <item>debouncer_0/q_reg[0]:ALn</item>
+ <item>debouncer_0/q_reg[1]:ALn</item>
+ <item>debouncer_0/q_reg[2]:ALn</item>
+ <item>debouncer_0/q_reg[3]:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT0</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            1</cell>
+ <cell>            7</cell>
+ <cell>            8</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            3</cell>
+ <cell>            3</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            1</cell>
+ <cell>           10</cell>
+ <cell>           11</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            1</cell>
+ <cell>            7</cell>
+ <cell>            8</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            3</cell>
+ <cell>            3</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            1</cell>
+ <cell>           10</cell>
+ <cell>           11</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>TXD[0]</item>
+ <item>TXD[1]</item>
+ <item>TX_CLK</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>TXD[0]</item>
+ <item>TXD[1]</item>
+ <item>TX_CLK</item>
+</list>
+<text></text>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_CLK_TRAINING/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_CLK_TRAINING/I_IOD_0:RX_SYNC_RST</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX/I_IOD_0:RX_SYNC_RST</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX/I_IOD_1:ARST_N</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX/I_IOD_1:RX_SYNC_RST</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX_CLK/I_IOD_0:ARST_N</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_CLK_TRAINING/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_CLK_TRAINING/I_IOD_0:RX_SYNC_RST</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX/I_IOD_0:RX_SYNC_RST</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX/I_IOD_1:ARST_N</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX/I_IOD_1:RX_SYNC_RST</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX_CLK/I_IOD_0:ARST_N</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT1</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            1</cell>
+ <cell>            4</cell>
+ <cell>            5</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            3</cell>
+ <cell>            3</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            1</cell>
+ <cell>            7</cell>
+ <cell>            8</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            1</cell>
+ <cell>            4</cell>
+ <cell>            5</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            3</cell>
+ <cell>            3</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            1</cell>
+ <cell>            7</cell>
+ <cell>            8</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>TXD[0]</item>
+ <item>TXD[1]</item>
+ <item>TX_CLK</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>TXD[0]</item>
+ <item>TXD[1]</item>
+ <item>TX_CLK</item>
+</list>
+<text></text>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX/I_IOD_1:ARST_N</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX_CLK/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX_CLK/I_IOD_0:RX_SYNC_RST</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX/I_IOD_1:ARST_N</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX_CLK/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX_CLK/I_IOD_0:RX_SYNC_RST</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0/OUT2</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>           93</cell>
+ <cell>            0</cell>
+ <cell>           93</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>           58</cell>
+ <cell>            4</cell>
+ <cell>           62</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            6</cell>
+ <cell>           58</cell>
+ <cell>           64</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>          157</cell>
+ <cell>           62</cell>
+ <cell>          219</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>           93</cell>
+ <cell>            0</cell>
+ <cell>           93</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>           58</cell>
+ <cell>            4</cell>
+ <cell>           62</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            6</cell>
+ <cell>           58</cell>
+ <cell>           64</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>          157</cell>
+ <cell>           62</cell>
+ <cell>          219</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>Algn_Err</item>
+ <item>BIT_ALGN_ERR</item>
+ <item>BIT_ALGN_ERR_0</item>
+ <item>CLK_TRAIN_ERROR</item>
+ <item>DEM_BIT_ALGN_TAPDLY[0]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[1]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[2]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[3]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[4]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[5]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[6]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[7]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[0]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[1]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[2]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[3]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[4]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[5]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[6]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[7]</item>
+ <item>PRBS_ERR</item>
+ <item>PRBS_ERR_0</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[0]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[1]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[2]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[3]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[4]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[5]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[6]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[7]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[0]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[1]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[2]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[3]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[4]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[5]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[6]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[7]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[0]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[1]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[2]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[3]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[4]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[5]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[6]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[7]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[0]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[1]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[2]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[3]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[4]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[5]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[6]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[7]</item>
+ <item>TXD[0]</item>
+ <item>TXD[1]</item>
+ <item>TX_CLK</item>
+ <item>prbs_chk_error_o_1</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>Algn_Err</item>
+ <item>BIT_ALGN_ERR</item>
+ <item>BIT_ALGN_ERR_0</item>
+ <item>CLK_TRAIN_ERROR</item>
+ <item>DEM_BIT_ALGN_TAPDLY[0]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[1]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[2]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[3]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[4]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[5]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[6]</item>
+ <item>DEM_BIT_ALGN_TAPDLY[7]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[0]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[1]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[2]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[3]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[4]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[5]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[6]</item>
+ <item>DEM_BIT_ALGN_TAPDLY_0[7]</item>
+ <item>PRBS_ERR</item>
+ <item>PRBS_ERR_0</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[0]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[1]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[2]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[3]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[4]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[5]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[6]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN[7]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[0]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[1]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[2]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[3]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[4]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[5]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[6]</item>
+ <item>RX_BIT_ALIGN_LEFT_WIN_0[7]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[0]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[1]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[2]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[3]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[4]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[5]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[6]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN[7]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[0]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[1]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[2]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[3]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[4]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[5]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[6]</item>
+ <item>RX_BIT_ALIGN_RGHT_WIN_0[7]</item>
+ <item>TXD[0]</item>
+ <item>TXD[1]</item>
+ <item>TX_CLK</item>
+ <item>prbs_chk_error_o_1</item>
+</list>
+<text></text>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_CLK_TRAINING/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX/I_IOD_1:ARST_N</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX_CLK/I_IOD_0:ARST_N</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_CLK_TRAINING/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX/I_IOD_1:ARST_N</item>
+ <item>PF_IOD_GENERIC_TX_C0_0/PF_IOD_TX_CLK/I_IOD_0:ARST_N</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160/CLK</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>RX_CLK_P</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            2</cell>
+ <cell>            6</cell>
+ <cell>            8</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            2</cell>
+ <cell>            6</cell>
+ <cell>            8</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            2</cell>
+ <cell>            6</cell>
+ <cell>            8</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            2</cell>
+ <cell>            6</cell>
+ <cell>            8</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text></text>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_IOD_CLK_TRAINING/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_IOD_CLK_TRAINING/I_IOD_0:RX_SYNC_RST</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_IOD_RX/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_IOD_RX/I_IOD_0:RX_SYNC_RST</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_IOD_RX/I_IOD_1:ARST_N</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_IOD_RX/I_IOD_1:RX_SYNC_RST</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_IOD_CLK_TRAINING/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_IOD_CLK_TRAINING/I_IOD_0:RX_SYNC_RST</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_IOD_RX/I_IOD_0:ARST_N</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_IOD_RX/I_IOD_0:RX_SYNC_RST</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_IOD_RX/I_IOD_1:ARST_N</item>
+ <item>PF_IOD_GENERIC_RX_C1_0/PF_IOD_RX/I_IOD_1:RX_SYNC_RST</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>gated-clocks</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            2</cell>
+ <cell>            2</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            3</cell>
+ <cell>            3</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            5</cell>
+ <cell>            5</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            2</cell>
+ <cell>            2</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            3</cell>
+ <cell>            3</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            5</cell>
+ <cell>            5</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0:PHASE_OUT0_SEL</item>
+ <item>PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0:PHASE_OUT1_SEL</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0:PHASE_OUT0_SEL</item>
+ <item>PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0:PHASE_OUT1_SEL</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max delay constraint missing on input port:</text>
+<text>   </text>
+<list>
+ <item>RESTARTN</item>
+</list>
+<text></text>
+<text> - Min delay constraint missing on input port:</text>
+<text>   </text>
+<list>
+ <item>RESTARTN</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max delay constraint missing on output port:</text>
+<text>   </text>
+<list>
+ <item>Y</item>
+</list>
+<text></text>
+<text> - Min delay constraint missing on output port:</text>
+<text>   </text>
+<list>
+ <item>Y</item>
+</list>
+<text></text>
+<text></text>
+</section>
+</section>
+</section>
+</doc>

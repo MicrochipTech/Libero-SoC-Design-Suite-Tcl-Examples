@@ -1,0 +1,41 @@
+Microsemi Corporation - Microsemi Libero Software Release v2021.10 (Version 2021.10.1.1)
+
+Date      :  Tue Dec 29 11:04:54 2020
+Project   :  C:\ALL_OLD_DATA\20211\IOD_2bitERR
+Component :  PF_IOD_GENERIC_RX_C1_TR
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/core/PLL_BclkSclkAlign.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/core/ICB_BclkSclkAlign.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/work/PF_IOD_GENERIC_RX_C1_TR/PF_IOD_GENERIC_RX_C1_TR_0/rtl/vlog/core/CoreBclkSclkAlign.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/work/PF_IOD_GENERIC_RX_C1_TR/PF_IOD_GENERIC_RX_C1_TR.v
+
+Stimulus files for all Simulation tools:
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/work/PF_IOD_GENERIC_RX_C1_TR/PF_IOD_GENERIC_RX_C1_TR_0/rtl/vlog/test/user/BclkSclk_PLL_TX2_1200mbps_SD_wrap.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/work/PF_IOD_GENERIC_RX_C1_TR/PF_IOD_GENERIC_RX_C1_TR_0/rtl/vlog/test/user/BclkSclk_PLL_TX2_1200mbps_TB.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/CoreBclkSclkAlign.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/ICB_BclkSclkAlign.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/PF_CCC_C0.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/PF_DRI_C0.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/PF_DRI_C0_PF_DRI_C0_0_PF_DRI.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/PF_IOD_GENERIC_RX_C1.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/PF_IOD_GENERIC_RX_C1_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/PF_IOD_GENERIC_RX_C1_PF_IOD_CLK_TRAINING_PF_IOD.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/PF_IOD_GENERIC_RX_C1_PF_IOD_RX_PF_IOD.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/PF_IOD_GENERIC_RX_C1_PF_LANECTRL_0_PF_LANECTRL.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/PF_IOD_GENERIC_TX_C0.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/PF_IOD_GENERIC_TX_C0_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/PF_IOD_GENERIC_TX_C0_PF_IOD_CLK_TRAINING_PF_IOD.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/PF_IOD_GENERIC_TX_C0_PF_IOD_TX_CLK_PF_IOD.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/PF_IOD_GENERIC_TX_C0_PF_IOD_TX_PF_IOD.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/PF_LANECTRL_PAUSE_SYNC.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/PF_LANECTRL_PAUSE_SYNC_2.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/Actel/DirectCore/COREBCLKSCLKALIGN/2.0.111/rtl/vlog/test/user/PLL_BclkSclkAlign.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/work/PF_IOD_GENERIC_RX_C1_TR/PF_IOD_GENERIC_RX_C1_TR_0/rtl/vlog/test/user/prbscheck_parallel_fab_x2.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/work/PF_IOD_GENERIC_RX_C1_TR/PF_IOD_GENERIC_RX_C1_TR_0/rtl/vlog/test/user/prbsgen_parallel_fab_x2.v
+    C:/ALL_OLD_DATA/20211/IOD_2bitERR/component/work/PF_IOD_GENERIC_RX_C1_TR/PF_IOD_GENERIC_RX_C1_TR_0/rtl/vlog/test/user/rev_bits_x2.v
+

@@ -1,0 +1,354 @@
+<html>
+    <head>
+        <style>
+      body { font-family:arial; font-size:10pt; text-align:left; }
+      h1, h2 {
+          padding-top: 30px;
+      }
+      h3 {
+          padding-top: 20px;
+      }
+      h4, h5, h6 {
+          padding-top: 10px;
+          font-size:12pt;
+      }
+      table {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          border-collapse:collapse;
+      }
+      table th, table td {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          padding: 4px;
+      }
+     </style>
+    </head>
+    <body>
+        <h1 align="center">Global Net Report</h1>
+        <p>Microsemi Corporation - Microsemi Libero Software Release v2021.10 (Version 2021.10.1.1)</p>
+        <p>Date: Tue Dec 29 11:51:56 2020
+</p>
+        <h2>Global Nets Information</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> GB Location </th>
+                <th> Net Name </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>PF_IOD_GENERIC_RX_C1_0/CLKINT_0/U0</td>
+                <td>(1165, 162)</td>
+                <td>PF_IOD_GENERIC_RX_C1_0/CLKINT_0/U0_Y</td>
+                <td>2266</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>PF_IOD_GENERIC_RX_C1_0/COREBCLKSCLKALIGN_0/PF_IOD_GENERIC_RX_C1_TR_0/genblk1.U_ICB_BCLKSCLKALIGN/RX_CLK_ALIGN_DONE_rep_RNIOGJF/U0</td>
+                <td>(1166, 162)</td>
+                <td>PF_IOD_GENERIC_RX_C1_0/COREBCLKSCLKALIGN_0/PF_IOD_GENERIC_RX_C1_TR_0/genblk1.U_ICB_BCLKSCLKALIGN/RX_CLK_ALIGN_DONE_rep_RNIOGJF/U0_Y</td>
+                <td>1596</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>PF_IOD_TX_CCC_C0_0/PF_CCC_0/clkint_8/U0</td>
+                <td>(1167, 162)</td>
+                <td>PF_IOD_TX_CCC_C0_0/PF_CCC_0/clkint_8/U0_Y</td>
+                <td>69</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0</td>
+                <td>(1168, 162)</td>
+                <td>PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_Y</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160_INT/U0</td>
+                <td>(1154, 162)</td>
+                <td>PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160_INT/U0_Y</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>I/O to GB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> Port Name </th>
+                <th> Pin Number </th>
+                <th> I/O Function </th>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>RX_CLK_N</td>
+                <td>H25</td>
+                <td>HSIO65PB6/CLKIN_S_13/CCC_SE_CLKIN_S_13</td>
+                <td>PF_IOD_GENERIC_RX_C1_0/CLK_0/U_IOPADP:Y</td>
+                <td>(2304, 1)</td>
+                <td>PF_IOD_GENERIC_RX_C1_0/CLKINT_0/U0</td>
+                <td>PF_IOD_GENERIC_RX_C1_0/CLK_0_Y</td>
+                <td>HARDWIRED</td>
+                <td>2</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>Fabric to GB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>PF_IOD_GENERIC_RX_C1_0/COREBCLKSCLKALIGN_0/PF_IOD_GENERIC_RX_C1_TR_0/genblk1.U_ICB_BCLKSCLKALIGN/RX_CLK_ALIGN_DONE_rep:Q</td>
+                <td>(1903, 4)</td>
+                <td>PF_IOD_GENERIC_RX_C1_0/COREBCLKSCLKALIGN_0/PF_IOD_GENERIC_RX_C1_TR_0/genblk1.U_ICB_BCLKSCLKALIGN/RX_CLK_ALIGN_DONE_rep_RNIOGJF/U0</td>
+                <td>PF_IOD_GENERIC_RX_C1_0/COREBCLKSCLKALIGN_0/PF_IOD_GENERIC_RX_C1_TR_0/genblk1.U_ICB_BCLKSCLKALIGN/RX_CLK_ALIGN_DONE_rep_Z</td>
+                <td>ROUTED</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160:CLK</td>
+                <td>(512, 2)</td>
+                <td>PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160_INT/U0</td>
+                <td>PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160_CLK_c</td>
+                <td>HARDWIRED</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>CCC to GB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0:OUT2</td>
+                <td>(2460, 5)</td>
+                <td>PF_IOD_TX_CCC_C0_0/PF_CCC_0/clkint_8/U0</td>
+                <td>PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0_clkint_8</td>
+                <td>HARDWIRED</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0:OUT0</td>
+                <td>(0, 5)</td>
+                <td>PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0</td>
+                <td>PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0_clkint_0</td>
+                <td>HARDWIRED</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>CCC Input Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To </th>
+                <th> CCC Location </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0:OUT0</td>
+                <td>(0, 5)</td>
+                <td>PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0:REF_CLK_0</td>
+                <td>(2460, 5)</td>
+                <td>PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0_clkint_0</td>
+                <td>ROUTED</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160:CLK</td>
+                <td>(512, 2)</td>
+                <td>PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0:REF_CLK_0</td>
+                <td>(0, 5)</td>
+                <td>PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160_CLK_c</td>
+                <td>ROUTED</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>Local Nets to RGB Connections</h2>
+        <p>(none)</p>
+        <h2>Global Nets to RGB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> Net Name </th>
+                <th> Fanout </th>
+                <th/>
+                <th> RGB Location </th>
+                <th> Local Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>PF_IOD_GENERIC_RX_C1_0/CLKINT_0/U0</td>
+                <td>(1165, 162)</td>
+                <td>PF_IOD_GENERIC_RX_C1_0/CLKINT_0/U0_Y</td>
+                <td>2266</td>
+                <td>1</td>
+                <td>(1743, 12)</td>
+                <td>845</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(1743, 39)</td>
+                <td>209</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(1749, 12)</td>
+                <td>961</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>4</td>
+                <td>(1749, 39)</td>
+                <td>251</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>PF_IOD_GENERIC_RX_C1_0/COREBCLKSCLKALIGN_0/PF_IOD_GENERIC_RX_C1_TR_0/genblk1.U_ICB_BCLKSCLKALIGN/RX_CLK_ALIGN_DONE_rep_RNIOGJF/U0</td>
+                <td>(1166, 162)</td>
+                <td>PF_IOD_GENERIC_RX_C1_0/COREBCLKSCLKALIGN_0/PF_IOD_GENERIC_RX_C1_TR_0/genblk1.U_ICB_BCLKSCLKALIGN/RX_CLK_ALIGN_DONE_rep_RNIOGJF/U0_Y</td>
+                <td>1596</td>
+                <td>1</td>
+                <td>(1741, 14)</td>
+                <td>838</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(1741, 41)</td>
+                <td>209</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(1747, 14)</td>
+                <td>298</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>4</td>
+                <td>(1747, 41)</td>
+                <td>251</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>PF_IOD_TX_CCC_C0_0/PF_CCC_0/clkint_8/U0</td>
+                <td>(1167, 162)</td>
+                <td>PF_IOD_TX_CCC_C0_0/PF_CCC_0/clkint_8/U0_Y</td>
+                <td>69</td>
+                <td/>
+                <td>(1750, 14)</td>
+                <td>69</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0</td>
+                <td>(1168, 162)</td>
+                <td>PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_Y</td>
+                <td>8</td>
+                <td/>
+                <td>(1746, 13)</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160_INT/U0</td>
+                <td>(1154, 162)</td>
+                <td>PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160_INT/U0_Y</td>
+                <td>1</td>
+                <td/>
+                <td>(577, 14)</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>Clock Signals Summary</h2>
+        <table cellpadding="4">
+            <tr/>
+            <tr>
+                <td>The number of clock signals through  H-Chip Global resources</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>The number of clock signals through     Row Global resources</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>The number of clock signals through  Sector Global resources</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>The number of clock signals through Cluster Global resources</td>
+                <td>342</td>
+            </tr>
+        </table>
+        <p/>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+Running 64bit rwnetlist for unencrypted file
+
+
+DEBUG SpnSpawn: "G:\saikiran\sn\ares_sk_sfix1_sn\btop\stg/bin64/rwnetlist64 "--script" "C:\Users\CHINNA~1.R\AppData\Local\Temp\sya84932-2.tcl""
+
+partition file name: C:\ALL_OLD_DATA\20211\IOD_2bitERR\synthesis\synthesis_1\IOG_IOD_DDRX4_COMP_partition_vm.tcl
+
+
+DEBUG SpnSpawn: "G:\saikiran\sn\ares_sk_sfix1_sn\btop\stg/bin64/g5compile "--script" "C:\ALL_OLD_DATA\20211\IOD_2bitERR\designer\IOG_IOD_DDRX4_COMP\run_compile.tcl""
+
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160_INT:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'PF_IOD_GENERIC_RX_C1_0/CLKINT_0:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'PF_CCC_C0_0/PF_CCC_C0_0/clkint_0:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:CRN_INT' instance type before pin 'PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0:REF_CLK_0'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'PF_IOD_TX_CCC_C0_0/PF_CCC_0/clkint_8:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:CRN_INT' instance type before pin 'PF_IOD_TX_CCC_C0_0/PF_CCC_0/pll_inst_0:REF_CLK_0'.
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       5 
+      Globals that cannot be demoted:      4 
+      Globals considered for demotion:     1 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    2266   0      0      'PF_IOD_GENERIC_RX_C1_0/CLKINT_0' 
+    65     0      0      'PF_IOD_TX_CCC_C0_0/PF_CCC_0/clkint_8' 
+    7      0      1      'PF_CCC_C0_0/PF_CCC_C0_0/clkint_0' 
+    0      0      1      'PF_OSC_C1_0/PF_OSC_C1_0/I_OSC_160_INT' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    0      1596   0      'PF_IOD_GENERIC_RX_C1_0/COREBCLKSCLKALIGN_0/PF_IOD_GENERIC_RX_C1_TR_0/genblk1.U_ICB_BCLKSCLKALIGN/RX_CLK_ALIGN_DONE_rep_RNIOGJF' 
+
+Info: Demotion information: 
+Info: [127205381]:  CMPPF_302: Added 0 row global instances.
+Info: [127205382]:  CMPPF_303: Deleted 0 global instances.
+
+===============================================================================.
+

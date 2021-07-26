@@ -1,0 +1,12 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.2 (Version 12.700.0.21)
+
+Date      :  Thu Jan 23 19:38:57 2020
+Project   :  E:\Suneel\Core\CoreRXIODBitAlign\SVN_CheckOut\CoreRxIODBitAlign_PF_HSVKit_1200_Mbps\CoreRxIODBitAlign_new_1200Mbps_updaCPZ_1
+Component :  IOG_IOD_CLOCK
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/Suneel/Core/CoreRXIODBitAlign/SVN_CheckOut/CoreRxIODBitAlign_PF_HSVKit_1200_Mbps/CoreRxIODBitAlign_new_1200Mbps_updaCPZ_1/component/work/IOG_IOD_CLOCK/IOG_IOD_CLOCK.v
+    E:/Suneel/Core/CoreRXIODBitAlign/SVN_CheckOut/CoreRxIODBitAlign_PF_HSVKit_1200_Mbps/CoreRxIODBitAlign_new_1200Mbps_updaCPZ_1/component/work/IOG_IOD_CLOCK/IOG_IOD_CLOCK_0/IOG_IOD_CLOCK_IOG_IOD_CLOCK_0_PF_CCC.v
+

@@ -1,0 +1,14 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.6)
+
+Date      :  Fri Sep  4 12:22:14 2020
+Project   :  D:\POLARFIRE_Sandbox\IOD_12_5\TX_Ce_RX_Dy_x4_1400
+Component :  PF_IOD_TX_CCC_C0
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0/PF_IOD_TX_CCC_C0.v
+    D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0/PF_IOD_TX_CCC_C0.v
+    D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0/PF_CCC_0/PF_IOD_TX_CCC_C0_PF_CCC_0_PF_CCC.v
+    D:/POLARFIRE_Sandbox/IOD_12_5/TX_Ce_RX_Dy_x4_1400/component/work/PF_IOD_TX_CCC_C0/PF_IOD_TX_CCC_C0.v
+

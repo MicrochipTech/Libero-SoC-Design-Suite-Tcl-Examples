@@ -1,0 +1,135 @@
+# Microsemi I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: v12.6 12.900.20.6
+
+# Family: PolarFire , Die: MPF300T , Package: FCG1152
+
+# Date generated: Wed Aug 26 07:36:46 2020 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io -port_name CLK_TRAIN_ERROR  \
+    -pin_name AG7                  \
+    -fixed true                    \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name PLL_LOCK  \
+    -pin_name AG6           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RXD[1]}  \
+    -pin_name G20           \
+    -fixed true             \
+    -DIRECTION INPUT
+
+
+set_io -port_name {RXD[2]}  \
+    -pin_name B19           \
+    -fixed true             \
+    -DIRECTION INPUT
+
+
+set_io -port_name {RXD[3]}  \
+    -pin_name C18           \
+    -fixed true             \
+    -DIRECTION INPUT
+
+
+set_io -port_name {RXD_N[1]}  \
+    -pin_name G21             \
+    -fixed true               \
+    -DIRECTION INPUT
+
+
+set_io -port_name {RXD_N[2]}  \
+    -pin_name A19             \
+    -fixed true               \
+    -DIRECTION INPUT
+
+
+set_io -port_name {RXD_N[3]}  \
+    -pin_name C19             \
+    -fixed true               \
+    -DIRECTION INPUT
+
+
+set_io -port_name SWITCH  \
+    -pin_name M4          \
+    -fixed true           \
+    -DIRECTION INPUT
+
+
+set_io -port_name {TXD[1]}  \
+    -pin_name K20           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {TXD[2]}  \
+    -pin_name D19           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {TXD[3]}  \
+    -pin_name C17           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {TXD_N[1]}  \
+    -pin_name L20             \
+    -fixed true               \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {TXD_N[2]}  \
+    -pin_name D20             \
+    -fixed true               \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {TXD_N[3]}  \
+    -pin_name B17             \
+    -fixed true               \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+
+#
+#Ports using Dedicated Pins
+
+#
+
