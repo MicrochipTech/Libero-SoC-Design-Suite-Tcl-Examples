@@ -14,7 +14,7 @@ The following table describes the files in this example. Click on the file you a
 |[src](src) | This folder contains Libero project for IOD design.
 |[custom](custom) | This folder contains the parameters.tcl file.
 
-For more information on the Tcl commands supported by the Libero&reg; SoC Design Suite, see [Libero SoC Tcl Commands Reference Guide for SmartFusion2, IGLOO2, and RTG4](https://coredocs.s3.amazonaws.com/Libero/2021_2/Tool/libero_soc_tcl_cmd_ref_ug.pdf)
+For more information on the Tcl commands supported by the Libero&reg; SoC Design Suite, see [Libero SoC Tcl Commands Reference Guide](https://coredocs.s3.amazonaws.com/Libero/2021_2/Tool/libero_soc_tcl_cmd_ref_ug.pdf)
 
 <hr/>
 <p align="center"><sup>&copy;Copyright 2020 Microchip Technology Inc.</sup></p>
