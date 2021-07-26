@@ -28,6 +28,10 @@ The following table describes each Libero SoC Design Suite advanced example in t
 <td align="center"><a href="../advanced_tcl_examples/HDL_to_programming_flow">HDL to Programming Flow</a></td>
 <td >The TCL script in this example creates a new Libero project, imports HDL and constraint files. Runs through complete design flow from synthesis to device programming. Click on the file you are interested in to view the source code.</td>
 </tr>
+<tr>
+<td align="center"><a href="../advanced_tcl_examples/SmartDebug_IOD_flow">SmartDebug IOD Flow</a></td>
+<td >The TCL script in this example opens Libero project for IOD design. Runs through bitstream & debug data generation, device programming and debug of IOD data. Click on the file you are interested in to view the source code.</td>
+</tr>
 </table>
 
 >**NOTE:** An example is a group or collection of one or more Tcl scripts. The entire repository is managed by a moderator.
