@@ -1,7 +1,0 @@
-\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003MSP1\bin64\syn_nfilter.exe  -link  -top  IOG_IOD_DDRX4_COMP  -multisrs  C:\ALL_OLD_DATA\20211\IOD_2bitERR\synthesis\synthesis_1\synwork\IOG_IOD_DDRX4_COMP_comp.srs  -osyn  C:\ALL_OLD_DATA\20211\IOD_2bitERR\synthesis\synthesis_1\synwork\IOG_IOD_DDRX4_COMP_mult.srs  -log  C:\ALL_OLD_DATA\20211\IOD_2bitERR\synthesis\synthesis_1\synlog\IOG_IOD_DDRX4_COMP_multi_srs_gen.srr 
-relcom:\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003MSP1\bin64\syn_nfilter.exe -link -top IOG_IOD_DDRX4_COMP -multisrs ..\synwork\IOG_IOD_DDRX4_COMP_comp.srs -osyn ..\synwork\IOG_IOD_DDRX4_COMP_mult.srs -log ..\synlog\IOG_IOD_DDRX4_COMP_multi_srs_gen.srr
-rc:0 success:1 runtime:5
-file:..\synwork\IOG_IOD_DDRX4_COMP_comp.srs|io:i|time:1609220291|size:145008|exec:0|csum:E3444D8419CBBFE406B47142AF5B91EA
-file:..\synwork\IOG_IOD_DDRX4_COMP_mult.srs|io:o|time:1609220299|size:9267|exec:0|csum:
-file:..\synlog\IOG_IOD_DDRX4_COMP_multi_srs_gen.srr|io:o|time:1609220299|size:1095|exec:0|csum:
-file:\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_Q202003MSP1\bin64\syn_nfilter.exe|io:i|time:1603139770|size:8875008|exec:1|csum:0DD4C62B1D51A63F583C3F9F7F16E967

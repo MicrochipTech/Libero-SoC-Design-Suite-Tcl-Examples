@@ -1,0 +1,1393 @@
+# Microsemi I/O Physical Design Constraints file
+# Complete I/O Constraints file
+
+# Version: v2021.2 2021.2.0.9
+# Family: PolarFire , Die: MPF300T , Package: FCG1152
+# Date generated: Tue Jul 27 13:57:47 2021 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+set_iobank -bank_name Bank3  \
+    -vcci 3.30               \
+    -fixed true
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+set_iobank -bank_name Bank0  \
+    -vcci 1.80               \
+    -vref 0.90               \
+    -fixed false
+
+set_iobank -bank_name Bank2  \
+    -vcci 1.80               \
+    -fixed false
+
+set_iobank -bank_name Bank5  \
+    -vcci 1.80               \
+    -vref 0.90               \
+    -fixed false
+
+set_iobank -bank_name Bank6  \
+    -vcci 1.80               \
+    -vref 0.90               \
+    -fixed false
+
+set_iobank -bank_name Bank7  \
+    -vcci 1.80               \
+    -fixed false
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io -port_name Algn_Done  \
+    -pin_name L25            \
+    -fixed true              \
+    -io_std LVCMOS18         \
+    -CLAMP_DIODE ON          \
+    -LOCK_DOWN No            \
+    -ODT_VALUE 120           \
+    -OUT_DELAY OFF           \
+    -OUT_DRIVE 8             \
+    -OUT_LOAD 5              \
+    -RES_PULL None           \
+    -SLEW OFF                \
+    -USE_LANE_CALIB_CODE No  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name Algn_Err   \
+    -pin_name L24            \
+    -fixed true              \
+    -io_std LVCMOS18         \
+    -CLAMP_DIODE ON          \
+    -LOCK_DOWN No            \
+    -ODT_VALUE 120           \
+    -OUT_DELAY OFF           \
+    -OUT_DRIVE 8             \
+    -OUT_LOAD 5              \
+    -RES_PULL None           \
+    -SLEW OFF                \
+    -USE_LANE_CALIB_CODE No  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name BIT_ALGN_DONE_0  \
+    -pin_name AE8                  \
+    -fixed true                    \
+    -io_std LVCMOS18               \
+    -CLAMP_DIODE ON                \
+    -LOCK_DOWN No                  \
+    -ODT_VALUE 120                 \
+    -OUT_DELAY OFF                 \
+    -OUT_DRIVE 8                   \
+    -OUT_LOAD 5                    \
+    -RES_PULL None                 \
+    -SLEW OFF                      \
+    -USE_LANE_CALIB_CODE No        \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name BIT_ALGN_ERR  \
+    -pin_name AF9               \
+    -fixed true                 \
+    -io_std LVCMOS18            \
+    -CLAMP_DIODE ON             \
+    -LOCK_DOWN No               \
+    -ODT_VALUE 120              \
+    -OUT_DELAY OFF              \
+    -OUT_DRIVE 8                \
+    -OUT_LOAD 5                 \
+    -RES_PULL None              \
+    -SLEW OFF                   \
+    -USE_LANE_CALIB_CODE No     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {BIT_ALGN_EYE_IN[0]}  \
+    -pin_name N4                        \
+    -fixed true                         \
+    -io_std LVCMOS18                    \
+    -CLAMP_DIODE ON                     \
+    -IN_DELAY OFF                       \
+    -LOCK_DOWN No                       \
+    -ODT OFF                            \
+    -ODT_VALUE 120                      \
+    -RES_PULL Up                        \
+    -SCHMITT_TRIGGER OFF                \
+    -USE_LANE_CALIB_CODE No             \
+    -DIRECTION INPUT
+
+
+set_io -port_name {BIT_ALGN_EYE_IN[1]}  \
+    -pin_name N3                        \
+    -fixed true                         \
+    -io_std LVCMOS18                    \
+    -CLAMP_DIODE ON                     \
+    -IN_DELAY OFF                       \
+    -LOCK_DOWN No                       \
+    -ODT OFF                            \
+    -ODT_VALUE 120                      \
+    -RES_PULL Up                        \
+    -SCHMITT_TRIGGER OFF                \
+    -USE_LANE_CALIB_CODE No             \
+    -DIRECTION INPUT
+
+
+set_io -port_name {BIT_ALGN_EYE_IN[2]}  \
+    -pin_name L4                        \
+    -fixed true                         \
+    -io_std LVCMOS18                    \
+    -CLAMP_DIODE ON                     \
+    -IN_DELAY OFF                       \
+    -LOCK_DOWN No                       \
+    -ODT OFF                            \
+    -ODT_VALUE 120                      \
+    -RES_PULL Up                        \
+    -SCHMITT_TRIGGER OFF                \
+    -USE_LANE_CALIB_CODE No             \
+    -DIRECTION INPUT
+
+
+set_io -port_name BIT_ALGN_OOR_0  \
+    -pin_name AF8                 \
+    -fixed true                   \
+    -io_std LVCMOS18              \
+    -CLAMP_DIODE ON               \
+    -LOCK_DOWN No                 \
+    -ODT_VALUE 120                \
+    -OUT_DELAY OFF                \
+    -OUT_DRIVE 8                  \
+    -OUT_LOAD 5                   \
+    -RES_PULL None                \
+    -SLEW OFF                     \
+    -USE_LANE_CALIB_CODE No       \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name BIT_ALGN_START  \
+    -pin_name J25                 \
+    -fixed true                   \
+    -io_std LVCMOS18              \
+    -CLAMP_DIODE ON               \
+    -LOCK_DOWN No                 \
+    -ODT_VALUE 120                \
+    -OUT_DELAY OFF                \
+    -OUT_DRIVE 8                  \
+    -OUT_LOAD 5                   \
+    -RES_PULL None                \
+    -SLEW OFF                     \
+    -USE_LANE_CALIB_CODE No       \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name BIT_ALGN_START_0  \
+    -pin_name AE7                   \
+    -fixed true                     \
+    -io_std LVCMOS18                \
+    -CLAMP_DIODE ON                 \
+    -LOCK_DOWN No                   \
+    -ODT_VALUE 120                  \
+    -OUT_DELAY OFF                  \
+    -OUT_DRIVE 8                    \
+    -OUT_LOAD 5                     \
+    -RES_PULL None                  \
+    -SLEW OFF                       \
+    -USE_LANE_CALIB_CODE No         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name PRBS_ERR   \
+    -pin_name AF7            \
+    -fixed true              \
+    -io_std LVCMOS18         \
+    -CLAMP_DIODE ON          \
+    -LOCK_DOWN No            \
+    -ODT_VALUE 120           \
+    -OUT_DELAY OFF           \
+    -OUT_DRIVE 8             \
+    -OUT_LOAD 5              \
+    -RES_PULL None           \
+    -SLEW OFF                \
+    -USE_LANE_CALIB_CODE No  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name PRBS_ERR_0  \
+    -pin_name K25             \
+    -fixed true               \
+    -io_std LVCMOS18          \
+    -CLAMP_DIODE ON           \
+    -LOCK_DOWN No             \
+    -ODT_VALUE 120            \
+    -OUT_DELAY OFF            \
+    -OUT_DRIVE 8              \
+    -OUT_LOAD 5               \
+    -RES_PULL None            \
+    -SLEW OFF                 \
+    -USE_LANE_CALIB_CODE No   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name RESTARTN   \
+    -pin_name AH1            \
+    -fixed true              \
+    -io_std LVCMOS18         \
+    -CLAMP_DIODE ON          \
+    -IN_DELAY OFF            \
+    -LOCK_DOWN No            \
+    -ODT OFF                 \
+    -ODT_VALUE 120           \
+    -RES_PULL Up             \
+    -SCHMITT_TRIGGER OFF     \
+    -USE_LANE_CALIB_CODE No  \
+    -DIRECTION INPUT
+
+
+set_io -port_name {RXD[0]}   \
+    -pin_name D23            \
+    -fixed true              \
+    -io_std SSTL18I          \
+    -CLAMP_DIODE ON          \
+    -LOCK_DOWN No            \
+    -ODT ON                  \
+    -ODT_VALUE 50            \
+    -RES_PULL None           \
+    -SCHMITT_TRIGGER OFF     \
+    -USE_LANE_CALIB_CODE No  \
+    -VICM_RANGE MID          \
+    -DIRECTION INPUT
+
+
+set_io -port_name {RXD[1]}   \
+    -pin_name C21            \
+    -fixed true              \
+    -io_std SSTL18I          \
+    -CLAMP_DIODE ON          \
+    -LOCK_DOWN No            \
+    -ODT ON                  \
+    -ODT_VALUE 50            \
+    -RES_PULL None           \
+    -SCHMITT_TRIGGER OFF     \
+    -USE_LANE_CALIB_CODE No  \
+    -VICM_RANGE MID          \
+    -DIRECTION INPUT
+
+
+set_io -port_name {RXD_N[0]}  \
+    -pin_name C23             \
+    -fixed true               \
+    -io_std SSTL18I           \
+    -CLAMP_DIODE ON           \
+    -LOCK_DOWN No             \
+    -ODT ON                   \
+    -ODT_VALUE 50             \
+    -RES_PULL None            \
+    -SCHMITT_TRIGGER OFF      \
+    -USE_LANE_CALIB_CODE No   \
+    -VICM_RANGE MID           \
+    -DIRECTION INPUT
+
+
+set_io -port_name {RXD_N[1]}  \
+    -pin_name B21             \
+    -fixed true               \
+    -io_std SSTL18I           \
+    -CLAMP_DIODE ON           \
+    -LOCK_DOWN No             \
+    -ODT ON                   \
+    -ODT_VALUE 50             \
+    -RES_PULL None            \
+    -SCHMITT_TRIGGER OFF      \
+    -USE_LANE_CALIB_CODE No   \
+    -VICM_RANGE MID           \
+    -DIRECTION INPUT
+
+
+set_io -port_name RX_CLK_N   \
+    -pin_name G25            \
+    -fixed true              \
+    -io_std SSTL18I          \
+    -CLAMP_DIODE ON          \
+    -IN_DELAY OFF            \
+    -LOCK_DOWN No            \
+    -ODT ON                  \
+    -ODT_VALUE 50            \
+    -RES_PULL None           \
+    -SCHMITT_TRIGGER OFF     \
+    -USE_LANE_CALIB_CODE No  \
+    -VICM_RANGE MID          \
+    -DIRECTION INPUT
+
+
+set_io -port_name RX_CLK_P   \
+    -pin_name H25            \
+    -fixed true              \
+    -io_std SSTL18I          \
+    -CLAMP_DIODE ON          \
+    -IN_DELAY OFF            \
+    -LOCK_DOWN No            \
+    -ODT ON                  \
+    -ODT_VALUE 50            \
+    -RES_PULL None           \
+    -SCHMITT_TRIGGER OFF     \
+    -USE_LANE_CALIB_CODE No  \
+    -VICM_RANGE MID          \
+    -DIRECTION INPUT
+
+
+set_io -port_name {TXD[0]}   \
+    -pin_name K23            \
+    -fixed true              \
+    -io_std SSTL18I          \
+    -CLAMP_DIODE ON          \
+    -IMPEDANCE 60            \
+    -LOCK_DOWN No            \
+    -ODT_VALUE 50            \
+    -OUT_DELAY OFF           \
+    -OUT_LOAD 5              \
+    -RES_PULL None           \
+    -SLEW OFF                \
+    -USE_LANE_CALIB_CODE No  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {TXD[1]}   \
+    -pin_name A17            \
+    -fixed true              \
+    -io_std SSTL18I          \
+    -CLAMP_DIODE ON          \
+    -IMPEDANCE 60            \
+    -LOCK_DOWN No            \
+    -ODT_VALUE 50            \
+    -OUT_DELAY OFF           \
+    -OUT_LOAD 5              \
+    -RES_PULL None           \
+    -SLEW OFF                \
+    -USE_LANE_CALIB_CODE No  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {TXD_N[0]}  \
+    -pin_name L23             \
+    -fixed true               \
+    -io_std SSTL18I           \
+    -CLAMP_DIODE ON           \
+    -IMPEDANCE 60             \
+    -LOCK_DOWN No             \
+    -ODT_VALUE 50             \
+    -OUT_DELAY OFF            \
+    -OUT_LOAD 5               \
+    -RES_PULL None            \
+    -SLEW OFF                 \
+    -USE_LANE_CALIB_CODE No   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {TXD_N[1]}  \
+    -pin_name A18             \
+    -fixed true               \
+    -io_std SSTL18I           \
+    -CLAMP_DIODE ON           \
+    -IMPEDANCE 60             \
+    -LOCK_DOWN No             \
+    -ODT_VALUE 50             \
+    -OUT_DELAY OFF            \
+    -OUT_LOAD 5               \
+    -RES_PULL None            \
+    -SLEW OFF                 \
+    -USE_LANE_CALIB_CODE No   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name TX_CLK     \
+    -pin_name F23            \
+    -fixed true              \
+    -io_std SSTL18I          \
+    -CLAMP_DIODE ON          \
+    -IMPEDANCE 60            \
+    -LOCK_DOWN No            \
+    -ODT_VALUE 50            \
+    -OUT_DELAY OFF           \
+    -OUT_LOAD 5              \
+    -RES_PULL None           \
+    -SLEW OFF                \
+    -USE_LANE_CALIB_CODE No  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name TX_CLK_N   \
+    -pin_name F24            \
+    -fixed true              \
+    -io_std SSTL18I          \
+    -CLAMP_DIODE ON          \
+    -IMPEDANCE 60            \
+    -LOCK_DOWN No            \
+    -ODT_VALUE 50            \
+    -OUT_DELAY OFF           \
+    -OUT_LOAD 5              \
+    -RES_PULL None           \
+    -SLEW OFF                \
+    -USE_LANE_CALIB_CODE No  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name Y          \
+    -pin_name AG9            \
+    -fixed true              \
+    -io_std LVCMOS18         \
+    -CLAMP_DIODE ON          \
+    -LOCK_DOWN No            \
+    -ODT_VALUE 120           \
+    -OUT_DELAY OFF           \
+    -OUT_DRIVE 8             \
+    -OUT_LOAD 5              \
+    -RES_PULL None           \
+    -SLEW OFF                \
+    -USE_LANE_CALIB_CODE No  \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# ##################################################
+# 
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# I/O placements are locked and cannot be moved
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+set_io -port_name BIT_ALGN_DONE  \
+    -pin_name L19                \
+    -fixed false                 \
+    -io_std LVCMOS18             \
+    -CLAMP_DIODE ON              \
+    -LOCK_DOWN No                \
+    -ODT_VALUE 120               \
+    -OUT_DELAY OFF               \
+    -OUT_DRIVE 8                 \
+    -OUT_LOAD 5                  \
+    -RES_PULL None               \
+    -SLEW OFF                    \
+    -USE_LANE_CALIB_CODE No      \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name BIT_ALGN_ERR_0  \
+    -pin_name K18                 \
+    -fixed false                  \
+    -io_std LVCMOS18              \
+    -CLAMP_DIODE ON               \
+    -LOCK_DOWN No                 \
+    -ODT_VALUE 120                \
+    -OUT_DELAY OFF                \
+    -OUT_DRIVE 8                  \
+    -OUT_LOAD 5                   \
+    -RES_PULL None                \
+    -SLEW OFF                     \
+    -USE_LANE_CALIB_CODE No       \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name BIT_ALGN_OOR  \
+    -pin_name D21               \
+    -fixed false                \
+    -io_std LVCMOS18            \
+    -CLAMP_DIODE ON             \
+    -LOCK_DOWN No               \
+    -ODT_VALUE 120              \
+    -OUT_DELAY OFF              \
+    -OUT_DRIVE 8                \
+    -OUT_LOAD 5                 \
+    -RES_PULL None              \
+    -SLEW OFF                   \
+    -USE_LANE_CALIB_CODE No     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name BIT_ALGN_START_1  \
+    -pin_name B22                   \
+    -fixed false                    \
+    -io_std LVCMOS18                \
+    -CLAMP_DIODE ON                 \
+    -LOCK_DOWN No                   \
+    -ODT_VALUE 120                  \
+    -OUT_DELAY OFF                  \
+    -OUT_DRIVE 8                    \
+    -OUT_LOAD 5                     \
+    -RES_PULL None                  \
+    -SLEW OFF                       \
+    -USE_LANE_CALIB_CODE No         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name CLK_TRAIN_ERROR  \
+    -pin_name C19                  \
+    -fixed false                   \
+    -io_std LVCMOS18               \
+    -CLAMP_DIODE ON                \
+    -LOCK_DOWN No                  \
+    -ODT_VALUE 120                 \
+    -OUT_DELAY OFF                 \
+    -OUT_DRIVE 8                   \
+    -OUT_LOAD 5                    \
+    -RES_PULL None                 \
+    -SLEW OFF                      \
+    -USE_LANE_CALIB_CODE No        \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {DEM_BIT_ALGN_TAPDLY[0]}  \
+    -pin_name J16                           \
+    -fixed false                            \
+    -io_std LVCMOS18                        \
+    -CLAMP_DIODE ON                         \
+    -LOCK_DOWN No                           \
+    -ODT_VALUE 120                          \
+    -OUT_DELAY OFF                          \
+    -OUT_DRIVE 8                            \
+    -OUT_LOAD 5                             \
+    -RES_PULL None                          \
+    -SLEW OFF                               \
+    -USE_LANE_CALIB_CODE No                 \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {DEM_BIT_ALGN_TAPDLY[1]}  \
+    -pin_name A9                            \
+    -fixed false                            \
+    -io_std LVCMOS18                        \
+    -CLAMP_DIODE ON                         \
+    -LOCK_DOWN No                           \
+    -ODT_VALUE 120                          \
+    -OUT_DELAY OFF                          \
+    -OUT_DRIVE 8                            \
+    -OUT_LOAD 5                             \
+    -RES_PULL None                          \
+    -SLEW OFF                               \
+    -USE_LANE_CALIB_CODE No                 \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {DEM_BIT_ALGN_TAPDLY[2]}  \
+    -pin_name H17                           \
+    -fixed false                            \
+    -io_std LVCMOS18                        \
+    -CLAMP_DIODE ON                         \
+    -LOCK_DOWN No                           \
+    -ODT_VALUE 120                          \
+    -OUT_DELAY OFF                          \
+    -OUT_DRIVE 8                            \
+    -OUT_LOAD 5                             \
+    -RES_PULL None                          \
+    -SLEW OFF                               \
+    -USE_LANE_CALIB_CODE No                 \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {DEM_BIT_ALGN_TAPDLY[3]}  \
+    -pin_name E13                           \
+    -fixed false                            \
+    -io_std LVCMOS18                        \
+    -CLAMP_DIODE ON                         \
+    -LOCK_DOWN No                           \
+    -ODT_VALUE 120                          \
+    -OUT_DELAY OFF                          \
+    -OUT_DRIVE 8                            \
+    -OUT_LOAD 5                             \
+    -RES_PULL None                          \
+    -SLEW OFF                               \
+    -USE_LANE_CALIB_CODE No                 \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {DEM_BIT_ALGN_TAPDLY[4]}  \
+    -pin_name B10                           \
+    -fixed false                            \
+    -io_std LVCMOS18                        \
+    -CLAMP_DIODE ON                         \
+    -LOCK_DOWN No                           \
+    -ODT_VALUE 120                          \
+    -OUT_DELAY OFF                          \
+    -OUT_DRIVE 8                            \
+    -OUT_LOAD 5                             \
+    -RES_PULL None                          \
+    -SLEW OFF                               \
+    -USE_LANE_CALIB_CODE No                 \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {DEM_BIT_ALGN_TAPDLY[5]}  \
+    -pin_name K17                           \
+    -fixed false                            \
+    -io_std LVCMOS18                        \
+    -CLAMP_DIODE ON                         \
+    -LOCK_DOWN No                           \
+    -ODT_VALUE 120                          \
+    -OUT_DELAY OFF                          \
+    -OUT_DRIVE 8                            \
+    -OUT_LOAD 5                             \
+    -RES_PULL None                          \
+    -SLEW OFF                               \
+    -USE_LANE_CALIB_CODE No                 \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {DEM_BIT_ALGN_TAPDLY[6]}  \
+    -pin_name F13                           \
+    -fixed false                            \
+    -io_std LVCMOS18                        \
+    -CLAMP_DIODE ON                         \
+    -LOCK_DOWN No                           \
+    -ODT_VALUE 120                          \
+    -OUT_DELAY OFF                          \
+    -OUT_DRIVE 8                            \
+    -OUT_LOAD 5                             \
+    -RES_PULL None                          \
+    -SLEW OFF                               \
+    -USE_LANE_CALIB_CODE No                 \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {DEM_BIT_ALGN_TAPDLY[7]}  \
+    -pin_name J18                           \
+    -fixed false                            \
+    -io_std LVCMOS18                        \
+    -CLAMP_DIODE ON                         \
+    -LOCK_DOWN No                           \
+    -ODT_VALUE 120                          \
+    -OUT_DELAY OFF                          \
+    -OUT_DRIVE 8                            \
+    -OUT_LOAD 5                             \
+    -RES_PULL None                          \
+    -SLEW OFF                               \
+    -USE_LANE_CALIB_CODE No                 \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {DEM_BIT_ALGN_TAPDLY_0[0]}  \
+    -pin_name L20                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {DEM_BIT_ALGN_TAPDLY_0[1]}  \
+    -pin_name D20                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {DEM_BIT_ALGN_TAPDLY_0[2]}  \
+    -pin_name B19                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {DEM_BIT_ALGN_TAPDLY_0[3]}  \
+    -pin_name B17                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {DEM_BIT_ALGN_TAPDLY_0[4]}  \
+    -pin_name C17                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {DEM_BIT_ALGN_TAPDLY_0[5]}  \
+    -pin_name D19                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {DEM_BIT_ALGN_TAPDLY_0[6]}  \
+    -pin_name G20                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {DEM_BIT_ALGN_TAPDLY_0[7]}  \
+    -pin_name A20                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name PLL_LOCK   \
+    -pin_name E23            \
+    -fixed false             \
+    -io_std LVCMOS18         \
+    -CLAMP_DIODE ON          \
+    -LOCK_DOWN No            \
+    -ODT_VALUE 120           \
+    -OUT_DELAY OFF           \
+    -OUT_DRIVE 8             \
+    -OUT_LOAD 5              \
+    -RES_PULL None           \
+    -SLEW OFF                \
+    -USE_LANE_CALIB_CODE No  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name PLL_LOCK_0  \
+    -pin_name C1              \
+    -fixed false              \
+    -io_std LVCMOS18          \
+    -CLAMP_DIODE ON           \
+    -LOCK_DOWN No             \
+    -ODT_VALUE 120            \
+    -OUT_DELAY OFF            \
+    -OUT_DRIVE 8              \
+    -OUT_LOAD 5               \
+    -RES_PULL None            \
+    -SLEW OFF                 \
+    -USE_LANE_CALIB_CODE No   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_LEFT_WIN[0]}  \
+    -pin_name D9                              \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_LEFT_WIN[1]}  \
+    -pin_name L17                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_LEFT_WIN[2]}  \
+    -pin_name C11                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_LEFT_WIN[3]}  \
+    -pin_name D11                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_LEFT_WIN[4]}  \
+    -pin_name E12                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_LEFT_WIN[5]}  \
+    -pin_name F10                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_LEFT_WIN[6]}  \
+    -pin_name K16                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_LEFT_WIN[7]}  \
+    -pin_name B11                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_LEFT_WIN_0[0]}  \
+    -pin_name A19                               \
+    -fixed false                                \
+    -io_std LVCMOS18                            \
+    -CLAMP_DIODE ON                             \
+    -LOCK_DOWN No                               \
+    -ODT_VALUE 120                              \
+    -OUT_DELAY OFF                              \
+    -OUT_DRIVE 8                                \
+    -OUT_LOAD 5                                 \
+    -RES_PULL None                              \
+    -SLEW OFF                                   \
+    -USE_LANE_CALIB_CODE No                     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_LEFT_WIN_0[1]}  \
+    -pin_name H19                               \
+    -fixed false                                \
+    -io_std LVCMOS18                            \
+    -CLAMP_DIODE ON                             \
+    -LOCK_DOWN No                               \
+    -ODT_VALUE 120                              \
+    -OUT_DELAY OFF                              \
+    -OUT_DRIVE 8                                \
+    -OUT_LOAD 5                                 \
+    -RES_PULL None                              \
+    -SLEW OFF                                   \
+    -USE_LANE_CALIB_CODE No                     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_LEFT_WIN_0[2]}  \
+    -pin_name H21                               \
+    -fixed false                                \
+    -io_std LVCMOS18                            \
+    -CLAMP_DIODE ON                             \
+    -LOCK_DOWN No                               \
+    -ODT_VALUE 120                              \
+    -OUT_DELAY OFF                              \
+    -OUT_DRIVE 8                                \
+    -OUT_LOAD 5                                 \
+    -RES_PULL None                              \
+    -SLEW OFF                                   \
+    -USE_LANE_CALIB_CODE No                     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_LEFT_WIN_0[3]}  \
+    -pin_name AP16                              \
+    -fixed false                                \
+    -io_std LVCMOS18                            \
+    -CLAMP_DIODE ON                             \
+    -LOCK_DOWN No                               \
+    -ODT_VALUE 120                              \
+    -OUT_DELAY OFF                              \
+    -OUT_DRIVE 8                                \
+    -OUT_LOAD 5                                 \
+    -RES_PULL None                              \
+    -SLEW OFF                                   \
+    -USE_LANE_CALIB_CODE No                     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_LEFT_WIN_0[4]}  \
+    -pin_name G19                               \
+    -fixed false                                \
+    -io_std LVCMOS18                            \
+    -CLAMP_DIODE ON                             \
+    -LOCK_DOWN No                               \
+    -ODT_VALUE 120                              \
+    -OUT_DELAY OFF                              \
+    -OUT_DRIVE 8                                \
+    -OUT_LOAD 5                                 \
+    -RES_PULL None                              \
+    -SLEW OFF                                   \
+    -USE_LANE_CALIB_CODE No                     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_LEFT_WIN_0[5]}  \
+    -pin_name J20                               \
+    -fixed false                                \
+    -io_std LVCMOS18                            \
+    -CLAMP_DIODE ON                             \
+    -LOCK_DOWN No                               \
+    -ODT_VALUE 120                              \
+    -OUT_DELAY OFF                              \
+    -OUT_DRIVE 8                                \
+    -OUT_LOAD 5                                 \
+    -RES_PULL None                              \
+    -SLEW OFF                                   \
+    -USE_LANE_CALIB_CODE No                     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_LEFT_WIN_0[6]}  \
+    -pin_name J21                               \
+    -fixed false                                \
+    -io_std LVCMOS18                            \
+    -CLAMP_DIODE ON                             \
+    -LOCK_DOWN No                               \
+    -ODT_VALUE 120                              \
+    -OUT_DELAY OFF                              \
+    -OUT_DRIVE 8                                \
+    -OUT_LOAD 5                                 \
+    -RES_PULL None                              \
+    -SLEW OFF                                   \
+    -USE_LANE_CALIB_CODE No                     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_LEFT_WIN_0[7]}  \
+    -pin_name K20                               \
+    -fixed false                                \
+    -io_std LVCMOS18                            \
+    -CLAMP_DIODE ON                             \
+    -LOCK_DOWN No                               \
+    -ODT_VALUE 120                              \
+    -OUT_DELAY OFF                              \
+    -OUT_DRIVE 8                                \
+    -OUT_LOAD 5                                 \
+    -RES_PULL None                              \
+    -SLEW OFF                                   \
+    -USE_LANE_CALIB_CODE No                     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_RGHT_WIN[0]}  \
+    -pin_name H18                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_RGHT_WIN[1]}  \
+    -pin_name J19                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_RGHT_WIN[2]}  \
+    -pin_name G17                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_RGHT_WIN[3]}  \
+    -pin_name K21                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_RGHT_WIN[4]}  \
+    -pin_name C18                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_RGHT_WIN[5]}  \
+    -pin_name H16                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_RGHT_WIN[6]}  \
+    -pin_name L18                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_RGHT_WIN[7]}  \
+    -pin_name G21                             \
+    -fixed false                              \
+    -io_std LVCMOS18                          \
+    -CLAMP_DIODE ON                           \
+    -LOCK_DOWN No                             \
+    -ODT_VALUE 120                            \
+    -OUT_DELAY OFF                            \
+    -OUT_DRIVE 8                              \
+    -OUT_LOAD 5                               \
+    -RES_PULL None                            \
+    -SLEW OFF                                 \
+    -USE_LANE_CALIB_CODE No                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_RGHT_WIN_0[0]}  \
+    -pin_name C12                               \
+    -fixed false                                \
+    -io_std LVCMOS18                            \
+    -CLAMP_DIODE ON                             \
+    -LOCK_DOWN No                               \
+    -ODT_VALUE 120                              \
+    -OUT_DELAY OFF                              \
+    -OUT_DRIVE 8                                \
+    -OUT_LOAD 5                                 \
+    -RES_PULL None                              \
+    -SLEW OFF                                   \
+    -USE_LANE_CALIB_CODE No                     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_RGHT_WIN_0[1]}  \
+    -pin_name A10                               \
+    -fixed false                                \
+    -io_std LVCMOS18                            \
+    -CLAMP_DIODE ON                             \
+    -LOCK_DOWN No                               \
+    -ODT_VALUE 120                              \
+    -OUT_DELAY OFF                              \
+    -OUT_DRIVE 8                                \
+    -OUT_LOAD 5                                 \
+    -RES_PULL None                              \
+    -SLEW OFF                                   \
+    -USE_LANE_CALIB_CODE No                     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_RGHT_WIN_0[2]}  \
+    -pin_name F12                               \
+    -fixed false                                \
+    -io_std LVCMOS18                            \
+    -CLAMP_DIODE ON                             \
+    -LOCK_DOWN No                               \
+    -ODT_VALUE 120                              \
+    -OUT_DELAY OFF                              \
+    -OUT_DRIVE 8                                \
+    -OUT_LOAD 5                                 \
+    -RES_PULL None                              \
+    -SLEW OFF                                   \
+    -USE_LANE_CALIB_CODE No                     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_RGHT_WIN_0[3]}  \
+    -pin_name D13                               \
+    -fixed false                                \
+    -io_std LVCMOS18                            \
+    -CLAMP_DIODE ON                             \
+    -LOCK_DOWN No                               \
+    -ODT_VALUE 120                              \
+    -OUT_DELAY OFF                              \
+    -OUT_DRIVE 8                                \
+    -OUT_LOAD 5                                 \
+    -RES_PULL None                              \
+    -SLEW OFF                                   \
+    -USE_LANE_CALIB_CODE No                     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_RGHT_WIN_0[4]}  \
+    -pin_name M17                               \
+    -fixed false                                \
+    -io_std LVCMOS18                            \
+    -CLAMP_DIODE ON                             \
+    -LOCK_DOWN No                               \
+    -ODT_VALUE 120                              \
+    -OUT_DELAY OFF                              \
+    -OUT_DRIVE 8                                \
+    -OUT_LOAD 5                                 \
+    -RES_PULL None                              \
+    -SLEW OFF                                   \
+    -USE_LANE_CALIB_CODE No                     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_RGHT_WIN_0[5]}  \
+    -pin_name B9                                \
+    -fixed false                                \
+    -io_std LVCMOS18                            \
+    -CLAMP_DIODE ON                             \
+    -LOCK_DOWN No                               \
+    -ODT_VALUE 120                              \
+    -OUT_DELAY OFF                              \
+    -OUT_DRIVE 8                                \
+    -OUT_LOAD 5                                 \
+    -RES_PULL None                              \
+    -SLEW OFF                                   \
+    -USE_LANE_CALIB_CODE No                     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_RGHT_WIN_0[6]}  \
+    -pin_name D10                               \
+    -fixed false                                \
+    -io_std LVCMOS18                            \
+    -CLAMP_DIODE ON                             \
+    -LOCK_DOWN No                               \
+    -ODT_VALUE 120                              \
+    -OUT_DELAY OFF                              \
+    -OUT_DRIVE 8                                \
+    -OUT_LOAD 5                                 \
+    -RES_PULL None                              \
+    -SLEW OFF                                   \
+    -USE_LANE_CALIB_CODE No                     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {RX_BIT_ALIGN_RGHT_WIN_0[7]}  \
+    -pin_name C9                                \
+    -fixed false                                \
+    -io_std LVCMOS18                            \
+    -CLAMP_DIODE ON                             \
+    -LOCK_DOWN No                               \
+    -ODT_VALUE 120                              \
+    -OUT_DELAY OFF                              \
+    -OUT_DRIVE 8                                \
+    -OUT_LOAD 5                                 \
+    -RES_PULL None                              \
+    -SLEW OFF                                   \
+    -USE_LANE_CALIB_CODE No                     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name SWITCH     \
+    -pin_name B20            \
+    -fixed false             \
+    -io_std LVCMOS18         \
+    -CLAMP_DIODE ON          \
+    -IN_DELAY OFF            \
+    -LOCK_DOWN No            \
+    -ODT OFF                 \
+    -ODT_VALUE 120           \
+    -RES_PULL Up             \
+    -SCHMITT_TRIGGER OFF     \
+    -USE_LANE_CALIB_CODE No  \
+    -DIRECTION INPUT
+
+
+set_io -port_name prbs_chk_error_o_1  \
+    -pin_name C22                     \
+    -fixed false                      \
+    -io_std LVCMOS18                  \
+    -CLAMP_DIODE ON                   \
+    -LOCK_DOWN No                     \
+    -ODT_VALUE 120                    \
+    -OUT_DELAY OFF                    \
+    -OUT_DRIVE 8                      \
+    -OUT_LOAD 5                       \
+    -RES_PULL None                    \
+    -SLEW OFF                         \
+    -USE_LANE_CALIB_CODE No           \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Ports using Dedicated Pins
+# 
+

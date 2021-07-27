@@ -9,10 +9,11 @@ The following table describes the files in this example. Click on the file you a
 
 |Folder/File|Description|
 |-----------|-----------|
-|[libero.tcl](libero.tcl) | This Tcl script opens Libero project which has IOD configuration. It then executes the `generate FPGA Array Data` `generatebitstream` and `export smart debug data` files. It runs programming on the device and calls the SmartDebug_IOD_Debug tcl.|
+|[libero.tcl](libero.tcl) | This Tcl script creates a IOD design by instantiating required components in SmartDesign and by importing verilog files. It then executes the full flow - `synthesis`, `place and route`, `generate FPGA Array Data` `generatebitstream` and `export smart debug data` files. It runs programming on the device and calls the SmartDebug_IOD_Debug tcl. This design uses MPF300T device.|
 |[SmartDebug_IOD_Debug.tcl](SmartDebug_IOD_Debug.tcl) | This TCL script runs debug_iod command in SmartDebug tool within Libero.
-|[src](src) | This folder contains Libero project for IOD design.
+|[src](src) | This folder contains the verilog source files and io placement file (io.pdc)
 |[custom](custom) | This folder contains the parameters.tcl file.
+|[components](components) | This folder contains the tcl scripts to configure the cores required for this design. 
 
 For more information on the Tcl commands supported by the Libero&reg; SoC Design Suite, see:
 - [Libero SoC v12.6 Tcl Commands Reference Guide for SmartFusion2, IGLOO2, and RTG4](https://www.microsemi.com/document-portal/doc_download/1245481-libero-soc-v12-6-tcl-commands-reference-guide-for-smartfusion2-igloo2-and-rtg4)
