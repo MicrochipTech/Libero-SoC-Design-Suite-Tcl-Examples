@@ -1,0 +1,645 @@
+# Mon May 16 17:04:27 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M
+Install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M
+OS: Windows 6.2
+
+Hostname: HYD-DK-SQA_1
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version map202109act, Build 055R, Built Feb 23 2022 09:52:10, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 121MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 133MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 133MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 124MB peak: 133MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:01s; Memory used current: 126MB peak: 133MB)
+
+
+@N: MF104 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":22:7:22:18|Found compile point of type hard on View view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0(verilog) 
+@N: MF104 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":22:7:22:18|Found compile point of type hard on View view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2(verilog) 
+
+Synthesis running in Multiprocessing mode
+Maximum number of parallel jobs set to 4
+Multiprocessing started at : Mon May 16 17:04:35 2022
+@W: BN114 :|Removing instance CP_fanout_cell_top_verilog_inst (in view: work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0_acp(verilog)) because it does not drive other instances.
+Mapping SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0 as a separate process
+Mapping top as a separate process
+@W: BN114 :|Removing instance CP_fanout_cell_top_verilog_inst (in view: work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_acp(verilog)) because it does not drive other instances.
+Mapping SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2 as a separate process
+MCP Status: 3 jobs running
+
+@N: MF106 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":22:7:22:18|Mapping Compile point view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 167MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:01s; Memory used current: 169MB peak: 169MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 170MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 170MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 170MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 171MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 171MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 171MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 171MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 171MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		100000.00ns		   0 /         0
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:03s; Memory used current: 171MB peak: 171MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:03s; Memory used current: 171MB peak: 171MB)
+
+
+Finished mapping SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2
+MCP Status: 2 jobs running
+
+@N: MF106 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\work\top\top.v":9:7:9:9|Mapping Top level view:work.top(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 174MB)
+
+@N: MO111 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":57:21:57:28|Tristate driver dummyClk_1 (in view: work.probeWrite_3(verilog)) on net dummyClk_1 (in view: work.probeWrite_3(verilog)) has its enable tied to GND.
+@N: MO111 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":57:21:57:28|Tristate driver dummyClk_1 (in view: work.probeWrite(verilog)) on net dummyClk_1 (in view: work.probeWrite(verilog)) has its enable tied to GND.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_gen_chkr_top.v":348:17:348:30|Removing user instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_3 because it is equivalent to instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_gen_chkr_top.v":328:17:328:30|Removing user instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_2 because it is equivalent to instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":266:0:266:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_RX_LANE0_CHR_EN_hold because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_DATA_EN. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":447:0:447:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_RX_LANE0_ERR_CNT_CLR_hold because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_PRBS_ERR_CNT_CLR. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":266:0:266:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_RX_LANE0_PATTEN_CHK_hold[0] because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_PRBS_SEL[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":266:0:266:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_RX_LANE0_PATTEN_CHK_hold[1] because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_PRBS_SEL[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":575:0:575:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_TX_LANE0_GEN_EN_hold because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_DATA_EN. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":575:0:575:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_TX_LANE0_PATTEN_GEN_hold[1] because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_PRBS_SEL[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":575:0:575:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_TX_LANE0_PATTEN_GEN_hold[0] because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_PRBS_SEL[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:02s; Memory used current: 183MB peak: 183MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 184MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 184MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 184MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:03s; Memory used current: 179MB peak: 184MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:03s; Memory used current: 180MB peak: 184MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:03s; Memory used current: 180MB peak: 184MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:03s		     5.76ns		 556 /       307
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 184MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:04s; Memory used current: 181MB peak: 184MB)
+
+
+Finished mapping top
+MCP Status: 1 jobs running
+
+@N: MF106 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":22:7:22:18|Mapping Compile point view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+
+@N: MO231 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":154:0:154:5|Found counter in view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0(verilog) instance PRBS_ERR_CNT[31:0] 
+@N: MO231 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":329:0:329:5|Found counter in view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0(verilog) instance err_cnt_en_cnt[5:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:03s; Memory used current: 201MB peak: 201MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:04s; Memory used current: 190MB peak: 208MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:04s; Memory used current: 192MB peak: 208MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:05s; Memory used current: 192MB peak: 208MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:05s; Memory used current: 192MB peak: 208MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:06s; Memory used current: 192MB peak: 208MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:07s; Memory used current: 264MB peak: 264MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:07s		     2.63ns		2346 /       781
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:08s; Memory used current: 264MB peak: 265MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:08s; Memory used current: 264MB peak: 265MB)
+
+
+Finished mapping SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0
+Multiprocessing finished at : Mon May 16 17:05:07 2022
+Multiprocessing took 0h:00m:31s realtime, 0h:00m:00s cputime
+
+Summary of Compile Points :
+*************************** 
+Name                                                           Status     Reason          Start Time                   End Time                     Realtime       CPU Time       Fast Synthesis
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2                    Mapped     No database     Mon May 16 17:04:42 2022     Mon May 16 17:04:58 2022     0h:00m:16s     0h:00m:03s     No            
+SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0     Mapped     No database     Mon May 16 17:04:42 2022     Mon May 16 17:05:03 2022     0h:00m:20s     0h:00m:08s     No            
+top                                                            Mapped     No database     Mon May 16 17:04:42 2022     Mon May 16 17:04:59 2022     0h:00m:16s     0h:00m:04s     No            
+================================================================================================================================================================================================
+Total number of compile points: 3
+===================================
+
+Links to Compile point Reports:
+******************************
+@L: "Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0\SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0.srr"
+@L: "Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\top\top.srr"
+@L: "Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2\SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2.srr"
+
+==============================
+
+
+Start loading CP mapped netlist (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 173MB)
+
+
+Finished loading CP mapped netlist (Real Time elapsed 0h:00m:41s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 173MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+2 non-gated/non-generated clock tree(s) driving 962 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=================================================== Non-Gated/Non-Generated Clocks ====================================================
+Clock Tree ID     Driving Element                        Drive Element Type               Fanout     Sample Instance                   
+---------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       SmartBert_Core_0_0.PF_XCVR_0.LANE0     clock definition on XCVR_PMA     822        SmartBert_Core_0_0.PF_XCVR_0.LANE0
+@K:CKID0002       SmartBert_Core_0_0.PF_XCVR_0.LANE0     clock definition on XCVR_PMA     140        SmartBert_Core_0_0.PF_XCVR_0.LANE0
+=======================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:45s; CPU Time elapsed 0h:00m:03s; Memory used current: 137MB peak: 175MB)
+
+Writing Analyst data base Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\synwork\top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:50s; CPU Time elapsed 0h:00m:04s; Memory used current: 177MB peak: 177MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:57s; CPU Time elapsed 0h:00m:06s; Memory used current: 178MB peak: 178MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:58s; CPU Time elapsed 0h:00m:06s; Memory used current: 178MB peak: 178MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:59s; CPU Time elapsed 0h:00m:06s; Memory used current: 174MB peak: 178MB)
+
+@N: MT615 |Found clock REF_CLK_PAD_P with period 6.40ns 
+@N: MT615 |Found clock SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R with period 16.00ns 
+@N: MT615 |Found clock SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R with period 16.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon May 16 17:05:26 2022
+#
+
+
+Top view:               top
+Requested Frequency:    62.5 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\designer\top\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 3.550
+
+                                                Requested     Estimated     Requested     Estimated               Clock        Clock           
+Starting Clock                                  Frequency     Frequency     Period        Period        Slack     Type         Group           
+-----------------------------------------------------------------------------------------------------------------------------------------------
+REF_CLK_PAD_P                                   156.2 MHz     NA            6.400         NA            NA        declared     default_clkgroup
+SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     62.5 MHz      112.3 MHz     16.000        8.901         3.550     declared     default_clkgroup
+SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     62.5 MHz      185.9 MHz     16.000        5.378         5.311     declared     default_clkgroup
+===============================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                    |    rise  to  rise    |    fall  to  fall    |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                     Ending                                       |  constraint  slack   |  constraint  slack   |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R  SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R  |  16.000      11.956  |  16.000      14.281  |  No paths    -      |  8.000       5.311
+SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R  SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R  |  16.000      14.595  |  No paths    -       |  No paths    -      |  No paths    -    
+SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R  SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R  |  16.000      9.440   |  16.000      14.676  |  8.000       6.763  |  8.000       3.550
+==================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                    Starting                                                                                                 Arrival          
+Instance                                                            Reference                                       Type     Pin     Net                                     Time        Slack
+                                                                    Clock                                                                                                                     
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_DATA_EN                    SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       SB_VER_GEN_0_LANE0_RX_DATA_EN           0.201       3.550
+SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_PRBS_SEL[0]                SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       SB_VER_GEN_0_LANE0_RX_PRBS_SEL[0]       0.218       4.704
+SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_PRBS_SEL[1]                SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       SB_VER_GEN_0_LANE0_RX_PRBS_SEL[1]       0.218       4.788
+SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_PRBS_ERR_CNT_CLR              SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       SB_VER_GEN_0_LANE0_PRBS_ERR_CNT_CLR     0.218       5.452
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.RX_ALIGN            SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       RX_ALIGN                                0.218       6.763
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[0]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       PRBS_ERR_CNT[0]                         0.218       7.658
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[1]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       PRBS_ERR_CNT[1]                         0.218       7.658
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[2]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       PRBS_ERR_CNT[2]                         0.218       7.658
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[3]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       PRBS_ERR_CNT[3]                         0.218       7.658
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[4]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       PRBS_ERR_CNT[4]                         0.218       7.658
+==============================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                    Starting                                                                           Required          
+Instance                                                            Reference                                       Type     Pin     Net               Time         Slack
+                                                                    Clock                                                                                                
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[0]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[1]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[2]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[3]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[4]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[5]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[6]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[7]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[8]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[9]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+=========================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      8.000
+    - Setup time:                            0.127
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.873
+
+    - Propagation time:                      4.324
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     3.550
+
+    Number of logic level(s):                3
+    Starting point:                          SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_DATA_EN / Q
+    Ending point:                            SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[0] / EN
+    The start point is clocked by            SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R [falling] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+    The end   point is clocked by            SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R [rising] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+
+Instance / Net                                                                        Pin      Pin               Arrival     No. of    
+Name                                                                         Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_DATA_EN                             SLE      Q        Out     0.201     0.201 f     -         
+SB_VER_GEN_0_LANE0_RX_DATA_EN                                                Net      -        -       0.563     -           4         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.un1_PRBS_SEL_2_0_0           CFG3     B        In      -         0.764 f     -         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.un1_PRBS_SEL_2_0_0           CFG3     Y        Out     0.077     0.842 f     -         
+N_505_i                                                                      Net      -        -       1.247     -           470       
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_CLR_ERR_CNT_RNIUUUU     ARI1     D        In      -         2.088 f     -         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_CLR_ERR_CNT_RNIUUUU     ARI1     Y        Out     0.363     2.451 f     -         
+PRBS_CLR_ERR_CNT_RNIUUUU_Y                                                   Net      -        -       0.853     -           34        
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.err_det_en_RNIGAU91          CFG3     C        In      -         3.304 f     -         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.err_det_en_RNIGAU91          CFG3     Y        Out     0.130     3.435 r     -         
+PRBS_ERR_CNTe                                                                Net      -        -       0.889     -           32        
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[0]              SLE      EN       In      -         4.324 r     -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 4.450 is 0.898(20.2%) logic and 3.552(79.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                              Starting                                                                                               Arrival           
+Instance                                                      Reference                                       Type     Pin     Net                                   Time        Slack 
+                                                              Clock                                                                                                                    
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_PRBS_SEL[1]          SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_VER_GEN_0_LANE0_TX_PRBS_SEL[1]     0.218       5.311 
+SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_PRBS_SEL[0]          SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_VER_GEN_0_LANE0_TX_PRBS_SEL[0]     0.218       5.456 
+SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_DATA_EN              SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_VER_GEN_0_LANE0_TX_DATA_EN         0.201       6.445 
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[2]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_GEN_CHKR_0_LANE0_TX_DATA[2]        0.218       11.956
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[6]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_GEN_CHKR_0_LANE0_TX_DATA[6]        0.218       11.977
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[0]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_GEN_CHKR_0_LANE0_TX_DATA[0]        0.218       11.992
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[1]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_GEN_CHKR_0_LANE0_TX_DATA[1]        0.218       12.014
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[5]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_GEN_CHKR_0_LANE0_TX_DATA[5]        0.218       12.393
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[3]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_GEN_CHKR_0_LANE0_TX_DATA[3]        0.218       12.430
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[8]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_GEN_CHKR_0_LANE0_TX_DATA[8]        0.218       12.593
+=======================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                               Starting                                                                            Required          
+Instance                                                       Reference                                       Type     Pin     Net                Time         Slack
+                                                               Clock                                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[3]      SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       N_121_i            8.000        5.311
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[15]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       N_111_i            8.000        5.311
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[31]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       TX_DATA_12[31]     8.000        5.311
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[32]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       TX_DATA_12[32]     8.000        5.311
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[33]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       N_95_i             8.000        5.311
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[34]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       N_93_i             8.000        5.311
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[36]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       TX_DATA_12[36]     8.000        5.311
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[37]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       N_89_i             8.000        5.311
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[42]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       N_85_i             8.000        5.311
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[47]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       N_79_i             8.000        5.311
+=====================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      8.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.000
+
+    - Propagation time:                      2.689
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.311
+
+    Number of logic level(s):                4
+    Starting point:                          SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_PRBS_SEL[1] / Q
+    Ending point:                            SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[3] / D
+    The start point is clocked by            SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R [falling] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+    The end   point is clocked by            SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R [rising] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+
+Instance / Net                                                                   Pin      Pin               Arrival     No. of    
+Name                                                                    Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------
+SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_PRBS_SEL[1]                    SLE      Q        Out     0.218     0.218 r     -         
+SB_VER_GEN_0_LANE0_TX_PRBS_SEL[1]                                       Net      -        -       1.150     -           161       
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA_12_m2_1[3]       CFG4     D        In      -         1.368 r     -         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA_12_m2_1[3]       CFG4     Y        Out     0.232     1.600 r     -         
+TX_DATA_12_m2_1[3]                                                      Net      -        -       0.124     -           2         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA_12_m2_2_1[3]     CFG4     D        In      -         1.724 r     -         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA_12_m2_2_1[3]     CFG4     Y        Out     0.232     1.955 r     -         
+TX_DATA_12_m2_2_1[3]                                                    Net      -        -       0.118     -           1         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA_12_m2_2[3]       CFG4     D        In      -         2.073 r     -         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA_12_m2_2[3]       CFG4     Y        Out     0.232     2.305 r     -         
+TX_DATA_12_m2[3]                                                        Net      -        -       0.118     -           1         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA_RNO[3]           CFG4     C        In      -         2.423 r     -         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA_RNO[3]           CFG4     Y        Out     0.148     2.571 r     -         
+N_121_i                                                                 Net      -        -       0.118     -           1         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[3]               SLE      D        In      -         2.689 r     -         
+==================================================================================================================================
+Total path delay (propagation time + setup) of 2.689 is 1.061(39.5%) logic and 1.628(60.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:01m:01s; CPU Time elapsed 0h:00m:07s; Memory used current: 176MB peak: 178MB)
+
+
+Finished timing report (Real Time elapsed 0h:01m:01s; CPU Time elapsed 0h:00m:07s; Memory used current: 176MB peak: 178MB)
+
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: mpf300tfcg1152-1
+Cell usage:
+CLKINT          1 use
+RCLKINT         2 uses
+TX_PLL          1 use
+XCVR_PMA        1 use
+XCVR_REF_CLK    1 use
+CFG1           2 uses
+CFG2           308 uses
+CFG3           1124 uses
+CFG4           1046 uses
+
+Carry cells:
+ARI1            47 uses - used for arithmetic functions
+ARI1            82 uses - used for Wide-Mux implementation
+Total ARI1      129 uses
+
+
+Sequential Cells: 
+SLE            876 uses
+SLE_DEBUG      206 uses
+Total SLE          1082 uses
+
+DSP Blocks:    0 of 924 (0%)
+
+I/O ports: 7
+I/O primitives: 1
+INBUF          1 use
+
+
+Global Clock Buffers: 3
+
+Total LUTs:    2609
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  1082 + 0 + 0 + 0 = 1082;
+Total number of LUTs after P&R:  2609 + 0 + 0 + 0 = 2609;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:01m:10s; CPU Time elapsed 0h:00m:07s; Memory used current: 62MB peak: 178MB)
+
+Process took 0h:01m:11s realtime, 0h:00m:08s cputime
+# Mon May 16 17:05:39 2022
+
+###########################################################]

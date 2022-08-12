@@ -1,0 +1,16 @@
+Software Version: 2022.1.0.1
+Opened 'Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\designer\top\top_fp\top.pro'
+PDB file 'Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\designer\top\top.pdb' has been loaded successfully.
+DESIGN : top;  CHECKSUM : 05F0;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\designer\top\top.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\designer\top\top.ppd'; file programs Fabric and sNVM.
+BITS component bitstream digest: e628346f15f57b0bb57f2a9a7ba39a841126caa067b4873fa03d218c2fd0001c
+Fabric component bitstream digest: d36ae9b6ae10a38cab95e48870fb8909d9e29bafeeba9fd42a422139e635da81
+sNVM component bitstream digest: fc70096db77c895132475be48c91de0208550c894b51dffe35b4b4cc4c76ce66
+EOB component bitstream digest: 6b218e99dc6cdd797c6fb3c028da9d1f0504a061a62058b237da7a522a62dd6d
+Entire bitstream digest: cc1b6e8c59d192717d2c744e3a4c8487290c2d86ddfbdbc430983eafcd53fe9b
+Finished: Mon May 16 18:43:47 2022 (Elapsed time 00:24:43)
+
+Project saved.
+Project closed.

@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 2022.1.0.0</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release  (Version 2022.1.0.0)
+Date: Mon May 16 17:35:19 2022 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>top</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFire</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>MPF300T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCG1152</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 100 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>0.97 - 1.03 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>         1284</cell>
+ <cell>            1</cell>
+ <cell>         1285</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>          961</cell>
+ <cell>          961</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>         1284</cell>
+ <cell>          962</cell>
+ <cell>         2246</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>         1284</cell>
+ <cell>            1</cell>
+ <cell>         1285</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>          961</cell>
+ <cell>          961</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>         1284</cell>
+ <cell>          962</cell>
+ <cell>         2246</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>         1109</cell>
+ <cell>            0</cell>
+ <cell>         1109</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>          821</cell>
+ <cell>          821</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>         1109</cell>
+ <cell>          821</cell>
+ <cell>         1930</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>         1109</cell>
+ <cell>            0</cell>
+ <cell>         1109</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>          821</cell>
+ <cell>          821</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>         1109</cell>
+ <cell>          821</cell>
+ <cell>         1930</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>SYS_RESET_N</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>SYS_RESET_N</item>
+</list>
+<text></text>
+<text></text>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[0]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[10]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[11]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[12]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[13]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[14]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[15]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[16]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[17]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[18]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[19]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[1]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[20]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[21]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[22]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[23]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[24]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[25]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[26]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[27]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[28]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[29]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[2]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[30]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[31]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[3]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[4]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[5]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[6]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[7]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[8]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[9]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_DET_Z:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/RX_ALIGN_Z:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[0]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[10]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[11]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[12]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[13]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[14]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[15]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[16]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[17]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[18]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[19]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[1]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[20]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[21]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[22]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[23]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[24]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[25]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[26]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[27]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[28]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[29]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[2]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[30]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[31]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[32]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[33]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[34]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[35]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[36]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[37]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[38]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[39]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[3]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[40]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[41]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[42]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[43]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[44]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[45]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[46]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[47]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[48]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[49]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[4]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[50]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[51]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[52]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[53]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[54]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[55]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[56]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[57]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[58]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[59]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[5]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[60]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[61]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[62]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[63]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[64]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[65]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[66]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[67]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[68]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[69]:ALn</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[0]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[10]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[11]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[12]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[13]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[14]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[15]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[16]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[17]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[18]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[19]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[1]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[20]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[21]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[22]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[23]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[24]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[25]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[26]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[27]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[28]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[29]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[2]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[30]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[31]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[3]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[4]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[5]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[6]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[7]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[8]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[9]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_DET_Z:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/RX_ALIGN_Z:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[0]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[10]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[11]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[12]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[13]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[14]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[15]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[16]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[17]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[18]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[19]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[1]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[20]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[21]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[22]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[23]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[24]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[25]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[26]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[27]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[28]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[29]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[2]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[30]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[31]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[32]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[33]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[34]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[35]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[36]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[37]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[38]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[39]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[3]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[40]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[41]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[42]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[43]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[44]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[45]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[46]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[47]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[48]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[49]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[4]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[50]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[51]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[52]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[53]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[54]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[55]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[56]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[57]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[58]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[59]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[5]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[60]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[61]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[62]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[63]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[64]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[65]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[66]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[67]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[68]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/err_bits[69]:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>          175</cell>
+ <cell>            1</cell>
+ <cell>          176</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>          140</cell>
+ <cell>          140</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>          175</cell>
+ <cell>          141</cell>
+ <cell>          316</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>          175</cell>
+ <cell>            1</cell>
+ <cell>          176</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>          140</cell>
+ <cell>          140</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>          175</cell>
+ <cell>          141</cell>
+ <cell>          316</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>SYS_RESET_N</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>SYS_RESET_N</item>
+</list>
+<text></text>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/probeWrite_LANE0_ERR_GEN/q[0]:D</item>
+</list>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>SmartBert_Core_0_0/PF_XCVR_0/LANE0:PCS_ARST_N</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[0]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[10]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[11]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[12]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[13]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[14]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[15]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[16]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[17]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[18]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[19]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[1]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[20]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[21]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[22]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[23]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[24]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[25]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[26]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[27]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[28]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[29]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[2]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[30]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[31]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[32]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[33]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[34]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[35]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[36]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[37]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[38]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[39]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[3]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[40]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[41]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[42]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[43]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[44]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[45]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[46]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[47]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[48]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[49]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[4]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[50]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[51]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[52]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[53]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[54]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[55]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[56]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[57]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[58]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[59]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[5]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[60]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[61]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[62]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[63]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[64]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[65]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[66]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[67]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[68]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[69]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[6]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[70]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[71]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[72]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[73]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[74]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[75]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[76]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[77]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[78]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[79]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[7]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[8]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[9]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/LANE0_TX_DATA_EN:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/LANE0_TX_PRBS_SEL[0]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/LANE0_TX_PRBS_SEL[1]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CDR_REFERENCE_CLK_FREQ[0]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CDR_REFERENCE_CLK_FREQ[1]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CDR_REFERENCE_CLK_FREQ[2]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CDR_REFERENCE_CLK_FREQ[3]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CDR_REFERENCE_CLK_FREQ[4]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CDR_REFERENCE_CLK_SOURCE:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[0]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[10]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[11]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[12]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[13]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[14]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[15]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[1]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[2]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[3]:ALn</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/probeWrite_LANE0_ERR_GEN/q[0]:D</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>SmartBert_Core_0_0/PF_XCVR_0/LANE0:PCS_ARST_N</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[0]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[10]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[11]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[12]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[13]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[14]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[15]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[16]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[17]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[18]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[19]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[1]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[20]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[21]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[22]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[23]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[24]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[25]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[26]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[27]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[28]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[29]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[2]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[30]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[31]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[32]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[33]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[34]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[35]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[36]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[37]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[38]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[39]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[3]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[40]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[41]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[42]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[43]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[44]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[45]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[46]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[47]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[48]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[49]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[4]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[50]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[51]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[52]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[53]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[54]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[55]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[56]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[57]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[58]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[59]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[5]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[60]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[61]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[62]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[63]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[64]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[65]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[66]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[67]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[68]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[69]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[6]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[70]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[71]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[72]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[73]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[74]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[75]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[76]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[77]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[78]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[79]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[7]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[8]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[9]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/LANE0_TX_DATA_EN:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/LANE0_TX_PRBS_SEL[0]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/LANE0_TX_PRBS_SEL[1]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CDR_REFERENCE_CLK_FREQ[0]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CDR_REFERENCE_CLK_FREQ[1]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CDR_REFERENCE_CLK_FREQ[2]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CDR_REFERENCE_CLK_FREQ[3]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CDR_REFERENCE_CLK_FREQ[4]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CDR_REFERENCE_CLK_SOURCE:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[0]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[10]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[11]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[12]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[13]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[14]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[15]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[1]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[2]:ALn</item>
+ <item>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_CPZ_VERSION[3]:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>REF_CLK_PAD_P</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+</section>
+</doc>

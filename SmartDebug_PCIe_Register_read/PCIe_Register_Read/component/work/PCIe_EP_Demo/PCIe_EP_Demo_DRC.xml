@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>PCIe_EP_Demo</header>
+  <drc>
+    <status>/captures/daily_builds/soc/lin/soc_lin_May12_1446/data/drcreport/warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between AXI4_Interconnect_0:AXI4mslave1:SLAVE1_WDATA[0-63] and CoreDMA_IO_CTRL_0:AXI4_S:wdata_i[0-31] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/PCIe_EP_Demo/pins/AXI4_Interconnect_0:AXI4mslave1</crossprobe>
+  </drc>
+</drcreport>

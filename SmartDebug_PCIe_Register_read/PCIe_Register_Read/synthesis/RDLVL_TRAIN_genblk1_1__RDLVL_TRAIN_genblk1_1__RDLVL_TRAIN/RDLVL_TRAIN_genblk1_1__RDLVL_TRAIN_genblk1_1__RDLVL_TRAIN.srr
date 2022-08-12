@@ -1,0 +1,498 @@
+# Tue May 17 09:09:55 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M
+Install: /soft/sqatest5/releases/production/Synopsys/Synplify/lin/synplify_S202109M
+OS: CentOS Linux 7 (Core)
+Hostname: hyd-sw-01
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version map202109act, Build 055R, Built Feb 23 2022 09:46:51, @4155246
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 235MB peak: 235MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 246MB peak: 246MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 246MB peak: 246MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 246MB peak: 246MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
+
+@W: Z227 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":123:0:123:0|Multiple set_clock_groups -name async, remove one set_clock_groups -name async
+@W: BN309 |One or more non-fatal issues found in constraints; Please run Constraint Check for analysis
+
+@N: MF104 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREDDR_TIP/2.1.101/rtl/vlog/core/RDLVL_TRAIN.v":18:7:18:17|Found compile point of type hard on View view:work.RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN(verilog) 
+
+Begin environment creation (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 285MB peak: 285MB)
+
+
+Finished environment creation (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 286MB peak: 286MB)
+
+
+Start loading ILMs (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 286MB peak: 286MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 286MB peak: 286MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREDDR_TIP/2.1.101/rtl/vlog/core/RDLVL_TRAIN.v":18:7:18:17|Mapping Compile point view:work.RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 286MB peak: 286MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 286MB peak: 286MB)
+
+Encoding state machine visual_gate_training_current[28:0] (in view: work.gate_training_0_RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN(verilog))
+original code -> new code
+   00000 -> 00000000000000000000000000001
+   00001 -> 00000000000000000000000000010
+   00010 -> 00000000000000000000000000100
+   00011 -> 00000000000000000000000001000
+   00100 -> 00000000000000000000000010000
+   00101 -> 00000000000000000000000100000
+   00110 -> 00000000000000000000001000000
+   00111 -> 00000000000000000000010000000
+   01000 -> 00000000000000000000100000000
+   01001 -> 00000000000000000001000000000
+   01010 -> 00000000000000000010000000000
+   01011 -> 00000000000000000100000000000
+   01100 -> 00000000000000001000000000000
+   01101 -> 00000000000000010000000000000
+   01110 -> 00000000000000100000000000000
+   01111 -> 00000000000001000000000000000
+   10000 -> 00000000000010000000000000000
+   10001 -> 00000000000100000000000000000
+   10010 -> 00000000001000000000000000000
+   10011 -> 00000000010000000000000000000
+   10100 -> 00000000100000000000000000000
+   10101 -> 00000001000000000000000000000
+   10110 -> 00000010000000000000000000000
+   10111 -> 00000100000000000000000000000
+   11000 -> 00001000000000000000000000000
+   11001 -> 00010000000000000000000000000
+   11010 -> 00100000000000000000000000000
+   11011 -> 01000000000000000000000000000
+   11100 -> 10000000000000000000000000000
+Encoding state machine visual_shim_logic_2_current[2:0] (in view: work.gate_training_0_RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine visual_shim_logic_1_current[2:0] (in view: work.gate_training_0_RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine visual_shim_logic_0_current[2:0] (in view: work.gate_training_0_RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREDDR_TIP/2.1.101/rtl/vlog/core/gate_training.v":1403:3:1403:8|Removing sequential instance PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1[1].RDLVL_TRAIN.gate_training.dfi_rdlvl_resp because it is equivalent to instance PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1[1].RDLVL_TRAIN.gate_training.visual_gate_training_current[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREDDR_TIP/2.1.101/rtl/vlog/core/gate_training.v":1403:3:1403:8|Found counter in view:work.gate_training_0_RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN(verilog) instance read_count[11:0] 
+@N: MO231 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREDDR_TIP/2.1.101/rtl/vlog/core/gate_training.v":1403:3:1403:8|Found counter in view:work.gate_training_0_RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN(verilog) instance en_wait_cnt[9:0] 
+@N: MO231 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREDDR_TIP/2.1.101/rtl/vlog/core/gate_training.v":1403:3:1403:8|Found counter in view:work.gate_training_0_RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN(verilog) instance txdly_cnt[7:0] 
+Encoding state machine visual_rx_valid_current[4:0] (in view: work.dq_align_dqs_optimization_1_0(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine visual_Lane_Fifo_Protect_current[2:0] (in view: work.dq_align_dqs_optimization_1_0(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: MO231 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREDDR_TIP/2.1.101/rtl/vlog/core/dq_align_dqs_optimization.v":977:3:977:8|Found counter in view:work.dq_align_dqs_optimization_1_0(verilog) instance pause_delay_cnt[7:0] 
+@N: MO231 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREDDR_TIP/2.1.101/rtl/vlog/core/dq_align_dqs_optimization.v":800:3:800:8|Found counter in view:work.dq_align_dqs_optimization_1_0(verilog) instance good_cnt[7:0] 
+@N: MO231 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREDDR_TIP/2.1.101/rtl/vlog/core/dq_align_dqs_optimization.v":800:3:800:8|Found counter in view:work.dq_align_dqs_optimization_1_0(verilog) instance delay_cnt[7:0] 
+@N: MO231 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREDDR_TIP/2.1.101/rtl/vlog/core/dq_align_dqs_optimization.v":800:3:800:8|Found counter in view:work.dq_align_dqs_optimization_1_0(verilog) instance init_delay[7:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 293MB peak: 293MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 307MB peak: 307MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 307MB peak: 307MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 307MB peak: 307MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 307MB peak: 307MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 307MB peak: 307MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 307MB peak: 307MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 316MB peak: 316MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		     3.75ns		1067 /       552
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 316MB peak: 316MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 316MB peak: 316MB)
+
+
+End compile point sub-process log
+
+@N: MT615 |Found clock REF_CLK_0 with period 20.00ns 
+@W: MT420 |Found inferred clock PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock with period 10.00ns. Please declare a user-defined clock on net PF_DDR3_SS_0.CCC_0.pll_inst_0_clkint_4.
+@W: MT420 |Found inferred clock CCC_111MHz_CCC_111MHz_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock with period 10.00ns. Please declare a user-defined clock on net CCC_111MHz_0.CCC_111MHz_0.pll_inst_0_clkint_0.
+@W: MT420 |Found inferred clock COREDDR_TIP_INT_Z129|VCO_PHSEL_ROTATE_inferred_clock[0] with period 10.00ns. Please declare a user-defined clock on net PF_DDR3_SS_0.CCC_0.PHASE_ROTATE_0.
+@N: MT615 |Found clock PF_DDR3_SS_0/CCC_0/pll_inst_0/OUT0 with period 1.67ns 
+@N: MT615 |Found clock PF_DDR3_SS_0/CCC_0/pll_inst_0/OUT2 with period 1.67ns 
+@N: MT615 |Found clock PF_DDR3_SS_0/CCC_0/pll_inst_0/OUT3 with period 1.67ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue May 17 09:09:58 2022
+#
+
+
+Top view:               PCIe_EP_Demo
+Requested Frequency:    50.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 4.911
+
+                                                                      Requested     Estimated     Requested     Estimated               Clock                                                                                  Clock                 
+Starting Clock                                                        Frequency     Frequency     Period        Period        Slack     Type                                                                                   Group                 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CCC_111MHz_CCC_111MHz_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred                                                                               Inferred_clkgroup_0_15
+COREDDR_TIP_INT_Z129|VCO_PHSEL_ROTATE_inferred_clock[0]               100.0 MHz     NA            10.000        NA            NA        inferred                                                                               Inferred_clkgroup_0_16
+PCIe_EP_0/PCIe_TL_CLK_0/CLK_DIV2_0/CLK_DIV2_0/I_CD/Y_DIV              80.0 MHz      NA            12.500        NA            NA        generated (from PCIe_EP_0/PCIe_TL_CLK_0/OSC_160MHz_0/OSC_160MHz_0/I_OSC_160/CLK)       default_clkgroup      
+PCIe_EP_0/PCIe_TL_CLK_0/OSC_160MHz_0/OSC_160MHz_0/I_OSC_160/CLK       160.0 MHz     NA            6.250         NA            NA        declared                                                                               default_clkgroup      
+PCIe_EP_0/PCIe_TX_PLL_0/PCIe_TX_PLL_0/txpll_isnt_0/DIV_CLK            125.0 MHz     NA            8.000         NA            NA        declared                                                                               default_clkgroup      
+PF_DDR3_SS_0/CCC_0/pll_inst_0/OUT0                                    600.0 MHz     NA            1.667         NA            NA        generated (from CCC_111MHz_CCC_111MHz_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock)     Inferred_clkgroup_0_15
+PF_DDR3_SS_0/CCC_0/pll_inst_0/OUT2                                    600.0 MHz     NA            1.667         NA            NA        generated (from CCC_111MHz_CCC_111MHz_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock)     Inferred_clkgroup_0_15
+PF_DDR3_SS_0/CCC_0/pll_inst_0/OUT3                                    600.0 MHz     NA            1.667         NA            NA        generated (from CCC_111MHz_CCC_111MHz_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock)     Inferred_clkgroup_0_15
+PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock            100.0 MHz     196.5 MHz     10.000        5.089         4.911     inferred                                                                               Inferred_clkgroup_0_7 
+PF_DDR4_SS_0/CCC_0/pll_inst_0/OUT0                                    800.0 MHz     NA            1.250         NA            NA        generated (from REF_CLK_0)                                                             default_clkgroup      
+PF_DDR4_SS_0/CCC_0/pll_inst_0/OUT1                                    200.0 MHz     NA            5.000         NA            NA        generated (from REF_CLK_0)                                                             async                 
+PF_DDR4_SS_0/CCC_0/pll_inst_0/OUT2                                    800.0 MHz     NA            1.250         NA            NA        generated (from REF_CLK_0)                                                             default_clkgroup      
+PF_DDR4_SS_0/CCC_0/pll_inst_0/OUT3                                    800.0 MHz     NA            1.250         NA            NA        generated (from REF_CLK_0)                                                             default_clkgroup      
+REF_CLK_0                                                             50.0 MHz      NA            20.000        NA            NA        declared                                                                               default_clkgroup      
+REF_CLK_PAD_P                                                         100.0 MHz     NA            10.000        NA            NA        declared                                                                               default_clkgroup      
+=====================================================================================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                    Ending                                                      |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock  PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock  |  10.000      4.911  |  No paths    -      |  No paths    -      |  No paths    -    
+PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock  PF_DDR3_SS_0/CCC_0/pll_inst_0/OUT2                          |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock  PF_DDR3_SS_0/CCC_0/pll_inst_0/OUT3                          |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                                                                                                Starting                                                                                                                  Arrival          
+Instance                                                                                                                                                                                        Reference                                                      Type     Pin     Net                                       Time        Slack
+                                                                                                                                                                                                Clock                                                                                                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.visual_dq_dqs_optimisation_current[3]     PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      Q       visual_dq_dqs_optimisation_current[3]     0.218       4.911
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.visual_dq_dqs_optimisation_current[4]     PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      Q       visual_dq_dqs_optimisation_current[4]     0.201       4.916
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.visual_dq_dqs_optimisation_current[2]     PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      Q       visual_rd_dqs_load_next_ss0               0.218       5.192
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.visual_dq_dqs_optimisation_current[0]     PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      Q       N_337_i                                   0.218       5.199
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.data_gone_bad[4]                          PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      Q       data_gone_bad[4]                          0.218       5.459
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.data_gone_bad[1]                          PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      Q       data_gone_bad[1]                          0.218       5.482
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.visual_dq_dqs_optimisation_current[1]     PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      Q       visual_dq_dqs_optimisation_current[1]     0.218       5.492
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.data_gone_bad[0]                          PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      Q       data_gone_bad[0]                          0.218       5.524
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.data_gone_bad[5]                          PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      Q       data_gone_bad[5]                          0.218       5.539
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.data_gone_bad[6]                          PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      Q       data_gone_bad[6]                          0.218       5.584
+===========================================================================================================================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                                                                       Starting                                                                                           Required          
+Instance                                                                                                                                                               Reference                                                      Type     Pin     Net                Time         Slack
+                                                                                                                                                                       Clock                                                                                                                
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt[7]     PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      D       delay_cnt_s[7]     10.000       4.911
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt[6]     PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      D       delay_cnt_s[6]     10.000       4.919
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt[5]     PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      D       delay_cnt_s[5]     10.000       4.927
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt[4]     PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      D       delay_cnt_s[4]     10.000       4.935
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt[3]     PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      D       delay_cnt_s[3]     10.000       4.943
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt[2]     PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      D       delay_cnt_s[2]     10.000       4.951
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt[1]     PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      D       delay_cnt_s[1]     10.000       4.959
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt[0]     PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      D       delay_cnt_s[0]     10.000       5.024
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt[0]     PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      EN      delay_cnte         9.873        5.184
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt[1]     PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock     SLE      EN      delay_cnte         9.873        5.184
+============================================================================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      5.089
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     4.911
+
+    Number of logic level(s):                13
+    Starting point:                          PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.visual_dq_dqs_optimisation_current[3] / Q
+    Ending point:                            PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt[7] / D
+    The start point is clocked by            PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                                                                                                                                                                       Pin      Pin               Arrival     No. of    
+Name                                                                                                                                                                                                                        Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.visual_dq_dqs_optimisation_current[3]                                 SLE      Q        Out     0.218     0.218 r     -         
+visual_dq_dqs_optimisation_current[3]                                                                                                                                                                                       Net      -        -       0.842     -           32        
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.dq_dqs_optimisation_comb\.visual_start_bad_data_check_next32_0        CFG2     A        In      -         1.060 r     -         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.dq_dqs_optimisation_comb\.visual_start_bad_data_check_next32_0        CFG2     Y        Out     0.046     1.106 f     -         
+visual_wait_rxvalid101_next_sn_N_17_0                                                                                                                                                                                       Net      -        -       0.563     -           4         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.dq_dqs_optimisation_comb\.visual_start_bad_data_check_next31_0_a2     CFG4     D        In      -         1.670 f     -         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.dq_dqs_optimisation_comb\.visual_start_bad_data_check_next31_0_a2     CFG4     Y        Out     0.192     1.861 f     -         
+visual_start_bad_data_check_next31                                                                                                                                                                                          Net      -        -       0.579     -           5         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.visual_delay_cnt_next_1_sqmuxa                                        CFG2     A        In      -         2.441 f     -         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.visual_delay_cnt_next_1_sqmuxa                                        CFG2     Y        Out     0.048     2.488 f     -         
+visual_delay_cnt_next_1_sqmuxa                                                                                                                                                                                              Net      -        -       0.637     -           9         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.un1_visual_start_bad_data_check_next16_3_1                            CFG4     C        In      -         3.125 f     -         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.un1_visual_start_bad_data_check_next16_3_1                            CFG4     Y        Out     0.145     3.270 f     -         
+un1_visual_start_bad_data_check_next16_3_1                                                                                                                                                                                  Net      -        -       0.118     -           1         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.un1_visual_start_bad_data_check_next16_3                              CFG4     D        In      -         3.388 f     -         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.un1_visual_start_bad_data_check_next16_3                              CFG4     Y        Out     0.192     3.580 f     -         
+delay_cnt_lcry                                                                                                                                                                                                              Net      -        -       0.650     -           10        
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt_cry[0]                                                      ARI1     C        In      -         4.229 f     -         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt_cry[0]                                                      ARI1     FCO      Out     0.393     4.623 f     -         
+delay_cnt_cry[0]                                                                                                                                                                                                            Net      -        -       0.000     -           1         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt_cry[1]                                                      ARI1     FCI      In      -         4.623 f     -         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt_cry[1]                                                      ARI1     FCO      Out     0.008     4.631 f     -         
+delay_cnt_cry[1]                                                                                                                                                                                                            Net      -        -       0.000     -           1         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt_cry[2]                                                      ARI1     FCI      In      -         4.631 f     -         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt_cry[2]                                                      ARI1     FCO      Out     0.008     4.639 f     -         
+delay_cnt_cry[2]                                                                                                                                                                                                            Net      -        -       0.000     -           1         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt_cry[3]                                                      ARI1     FCI      In      -         4.639 f     -         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt_cry[3]                                                      ARI1     FCO      Out     0.008     4.647 f     -         
+delay_cnt_cry[3]                                                                                                                                                                                                            Net      -        -       0.000     -           1         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt_cry[4]                                                      ARI1     FCI      In      -         4.647 f     -         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt_cry[4]                                                      ARI1     FCO      Out     0.008     4.655 f     -         
+delay_cnt_cry[4]                                                                                                                                                                                                            Net      -        -       0.000     -           1         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt_cry[5]                                                      ARI1     FCI      In      -         4.655 f     -         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt_cry[5]                                                      ARI1     FCO      Out     0.008     4.663 f     -         
+delay_cnt_cry[5]                                                                                                                                                                                                            Net      -        -       0.000     -           1         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt_cry[6]                                                      ARI1     FCI      In      -         4.663 f     -         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt_cry[6]                                                      ARI1     FCO      Out     0.008     4.671 f     -         
+delay_cnt_cry[6]                                                                                                                                                                                                            Net      -        -       0.000     -           1         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt_s[7]                                                        ARI1     FCI      In      -         4.671 f     -         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt_s[7]                                                        ARI1     S        Out     0.300     4.971 r     -         
+delay_cnt_s[7]                                                                                                                                                                                                              Net      -        -       0.118     -           1         
+PF_DDR3_SS_0.DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.RDLVL.RDLVL_SMS.genblk1\[1\]\.RDLVL_TRAIN.dq_align_dqs_optimization.delay_cnt[7]                                                          SLE      D        In      -         5.089 r     -         
+======================================================================================================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 5.089 is 1.582(31.1%) logic and 3.507(68.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":22:0:22:0|Timing constraint (to [get_pins { PCIe_EP_0.PCIex4_0.PCIE_1.INTERRUPT[0] PCIe_EP_0.PCIex4_0.PCIE_1.INTERRUPT[1] PCIe_EP_0.PCIex4_0.PCIE_1.INTERRUPT[2] PCIe_EP_0.PCIex4_0.PCIE_1.INTERRUPT[3] PCIe_EP_0.PCIex4_0.PCIE_1.INTERRUPT[4] PCIe_EP_0.PCIex4_0.PCIE_1.INTERRUPT[5] PCIe_EP_0.PCIex4_0.PCIE_1.INTERRUPT[6] PCIe_EP_0.PCIex4_0.PCIE_1.INTERRUPT[7] PCIe_EP_0.PCIex4_0.PCIE_1.WAKEREQ PCIe_EP_0.PCIex4_0.PCIE_1.MPERST_N }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":23:0:23:0|Timing constraint (from [get_pins { PCIe_EP_0.PCIex4_0.PCIE_1.TL_CLK }]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":24:0:24:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.*.I_IOD_*.ARST_N }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":25:0:25:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_*_CTRL.I_LANECTRL.HS_IO_CLK_PAUSE }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":26:0:26:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANECTRL_ADDR_CMD_0.I_LANECTRL*.HS_IO_CLK_PAUSE }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":27:0:27:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.*.I_IOD_*.RX_SYNC_RST* }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":28:0:28:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.*.I_IOD_*.DELAY_LINE_MOVE }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":29:0:29:0|Timing constraint (through [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.*.I_IOD_*.DELAY_LINE_OUT_OF_RANGE }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":30:0:30:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DDR_READ }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":31:0:31:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.RESET }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":32:0:32:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DELAY_LINE_DIRECTION }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":33:0:33:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DELAY_LINE_MOVE }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":34:0:34:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DELAY_LINE_LOAD PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DELAY_LINE_SEL }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":35:0:35:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.SWITCH }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":36:0:36:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.READ_CLK_SEL[2] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":37:0:37:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[0] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":38:0:38:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[1] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":39:0:39:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[2] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":40:0:40:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[3] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":41:0:41:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[4] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":42:0:42:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[5] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":43:0:43:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[6] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":44:0:44:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[7] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":45:0:45:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DDR_READ }]) (false path) was not applied to the design because no matching path was synchronous 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":46:0:46:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.RESET }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":47:0:47:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DELAY_LINE_DIRECTION }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":48:0:48:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DELAY_LINE_MOVE }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":49:0:49:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DELAY_LINE_LOAD PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DELAY_LINE_SEL }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":50:0:50:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.SWITCH }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":51:0:51:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.READ_CLK_SEL[2] }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":52:0:52:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[0] }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":53:0:53:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[1] }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":54:0:54:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[2] }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":55:0:55:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[3] }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":56:0:56:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[4] }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":57:0:57:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[5] }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":58:0:58:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[6] }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":59:0:59:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[7] }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":60:0:60:0|Timing constraint (through [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.*.I_*FEEDBACK*.Y }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":61:0:61:0|Timing constraint (through [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.OB_DIFF_CK0.Y }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":62:0:62:0|Timing constraint (through [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.OB_A_12.Y }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":63:0:63:0|Timing constraint (through [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.*.I_TRIBUFF_*.D }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":64:0:64:0|Timing constraint (through [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.*.I_TRIBUFF_*.E }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":65:0:65:0|Timing constraint (through [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.*.I_BIBUF*.D }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":66:0:66:0|Timing constraint (through [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.*.I_BIBUF*.E }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":67:0:67:0|Timing constraint (through [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.*.I_BIBUF*.Y }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":68:0:68:0|Timing constraint (through [get_pins { PF_DDR3_SS_0.DDRPHY_BLK_0.*.I_BIBUF_DIFF_DQS_*.YN }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":69:0:69:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.CCC_0.pll_inst_0.PHASE_OUT0_SEL }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":70:0:70:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.CCC_0.pll_inst_0.PHASE_OUT2_SEL }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":71:0:71:0|Timing constraint (to [get_pins { PF_DDR3_SS_0.CCC_0.pll_inst_0.PHASE_OUT3_SEL }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":72:0:72:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.*.I_IOD_*.ARST_N }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":73:0:73:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_*_CTRL.I_LANECTRL.HS_IO_CLK_PAUSE }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":74:0:74:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANECTRL_ADDR_CMD_0.I_LANECTRL*.HS_IO_CLK_PAUSE }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":75:0:75:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.*.I_IOD_*.RX_SYNC_RST* }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":76:0:76:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.*.I_IOD_*.DELAY_LINE_MOVE }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":77:0:77:0|Timing constraint (through [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.*.I_IOD_*.DELAY_LINE_OUT_OF_RANGE }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":78:0:78:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DDR_READ }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":79:0:79:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.RESET }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":80:0:80:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DELAY_LINE_DIRECTION }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":81:0:81:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DELAY_LINE_MOVE }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":82:0:82:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DELAY_LINE_LOAD PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DELAY_LINE_SEL }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":83:0:83:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.SWITCH }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":84:0:84:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.READ_CLK_SEL[2] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":85:0:85:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[0] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":86:0:86:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[1] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":87:0:87:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[2] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":88:0:88:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[3] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":89:0:89:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[4] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":90:0:90:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[5] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":91:0:91:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[6] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":92:0:92:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_0_CTRL.I_LANECTRL.DLL_CODE[7] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":93:0:93:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DDR_READ }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":94:0:94:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.RESET }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":95:0:95:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DELAY_LINE_DIRECTION }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":96:0:96:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DELAY_LINE_MOVE }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":97:0:97:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DELAY_LINE_LOAD PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DELAY_LINE_SEL }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":98:0:98:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.SWITCH }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":99:0:99:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.READ_CLK_SEL[2] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":100:0:100:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[0] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":101:0:101:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[1] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":102:0:102:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[2] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":103:0:103:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[3] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":104:0:104:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[4] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":105:0:105:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[5] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":106:0:106:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[6] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":107:0:107:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_1_CTRL.I_LANECTRL.DLL_CODE[7] }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":108:0:108:0|Timing constraint (through [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.*.I_*FEEDBACK*.Y }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":109:0:109:0|Timing constraint (through [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.OB_DIFF_CK0.Y }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":110:0:110:0|Timing constraint (through [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.OB_A_12.Y }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":111:0:111:0|Timing constraint (through [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.*.I_TRIBUFF_*.D }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":112:0:112:0|Timing constraint (through [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.*.I_TRIBUFF_*.E }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":113:0:113:0|Timing constraint (through [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.*.I_BIBUF*.D }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":114:0:114:0|Timing constraint (through [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.*.I_BIBUF*.E }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":115:0:115:0|Timing constraint (through [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.*.I_BIBUF*.Y }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":116:0:116:0|Timing constraint (through [get_pins { PF_DDR4_SS_0.DDRPHY_BLK_0.*.I_BIBUF_DIFF_DQS_*.YN }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":117:0:117:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.CCC_0.pll_inst_0.PHASE_OUT0_SEL }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":118:0:118:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.CCC_0.pll_inst_0.PHASE_OUT2_SEL }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":119:0:119:0|Timing constraint (to [get_pins { PF_DDR4_SS_0.CCC_0.pll_inst_0.PHASE_OUT3_SEL }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+None
+Writing compile point status file /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/synthesis/RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN/cpprop
+
+Summary of Compile Points :
+*************************** 
+Name                                                          Status     Reason     
+------------------------------------------------------------------------------------
+RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN     Mapped     No database
+====================================================================================
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Tue May 17 09:09:58 2022
+
+###########################################################]

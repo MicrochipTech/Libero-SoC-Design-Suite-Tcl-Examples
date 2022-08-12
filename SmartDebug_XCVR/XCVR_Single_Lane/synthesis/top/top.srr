@@ -1,0 +1,165 @@
+# Mon May 16 17:04:40 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M
+Install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M
+OS: Windows 6.2
+
+Hostname: HYD-DK-SQA_1
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version map202109act, Build 055R, Built Feb 23 2022 09:52:10, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 124MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 136MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 136MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 136MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 136MB)
+
+
+@N: MF104 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":22:7:22:18|Found compile point of type hard on View view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0(verilog) 
+@N: MF104 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":22:7:22:18|Found compile point of type hard on View view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Top level view:work.top(verilog) 
+
+Start loading ILMs (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+
+@W: BN114 :|Removing instance CP_fanout_cell_SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0_verilog_inst (in view: work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0_rtl_ilm(verilog)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_verilog_inst (in view: work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_rtl_ilm(verilog)) because it does not drive other instances.
+
+Finished loading ILMs (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\work\top\top.v":9:7:9:9|Mapping Top level view:work.top(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 174MB)
+
+@N: MO111 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":57:21:57:28|Tristate driver dummyClk_1 (in view: work.probeWrite_3(verilog)) on net dummyClk_1 (in view: work.probeWrite_3(verilog)) has its enable tied to GND.
+@N: MO111 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":57:21:57:28|Tristate driver dummyClk_1 (in view: work.probeWrite(verilog)) on net dummyClk_1 (in view: work.probeWrite(verilog)) has its enable tied to GND.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_gen_chkr_top.v":348:17:348:30|Removing user instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_3 because it is equivalent to instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_gen_chkr_top.v":328:17:328:30|Removing user instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_2 because it is equivalent to instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":266:0:266:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_RX_LANE0_CHR_EN_hold because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_DATA_EN. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":447:0:447:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_RX_LANE0_ERR_CNT_CLR_hold because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_PRBS_ERR_CNT_CLR. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":266:0:266:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_RX_LANE0_PATTEN_CHK_hold[0] because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_PRBS_SEL[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":266:0:266:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_RX_LANE0_PATTEN_CHK_hold[1] because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_PRBS_SEL[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":575:0:575:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_TX_LANE0_GEN_EN_hold because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_DATA_EN. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":575:0:575:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_TX_LANE0_PATTEN_GEN_hold[1] because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_PRBS_SEL[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":575:0:575:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_TX_LANE0_PATTEN_GEN_hold[0] because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_PRBS_SEL[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:02s; Memory used current: 183MB peak: 183MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 184MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 184MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 184MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:03s; Memory used current: 179MB peak: 184MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:03s; Memory used current: 180MB peak: 184MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:03s; Memory used current: 180MB peak: 184MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:03s		     5.76ns		 556 /       307
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 184MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:04s; Memory used current: 181MB peak: 184MB)
+
+
+End compile point sub-process log
+
+Writing compile point status file Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\top\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name     Status     Reason     
+-------------------------------
+top      Mapped     No database
+===============================
+
+Process took 0h:00m:19s realtime, 0h:00m:04s cputime
+# Mon May 16 17:05:00 2022
+
+###########################################################]

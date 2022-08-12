@@ -1,0 +1,10 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.C1_fastinit_Z112(verilog) 
+@N: MT615 |Found clock REF_CLK_0 with period 20.00ns 
+@N: MT615 |Found clock PF_DDR3_SS_0/CCC_0/pll_inst_0/OUT0 with period 1.67ns 
+@N: MT615 |Found clock PF_DDR3_SS_0/CCC_0/pll_inst_0/OUT2 with period 1.67ns 
+@N: MT615 |Found clock PF_DDR3_SS_0/CCC_0/pll_inst_0/OUT3 with period 1.67ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

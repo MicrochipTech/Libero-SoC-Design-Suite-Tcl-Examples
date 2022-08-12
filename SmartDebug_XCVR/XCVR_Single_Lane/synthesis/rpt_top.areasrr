@@ -1,0 +1,277 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M
+Install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M
+OS: Windows 6.2
+
+Hostname: HYD-DK-SQA_1
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			MPF300TFCG1152-1 (Microchip)
+
+-------------------------------------------------------------------
+########   Utilization report for  Top level view:   top   ########
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1082               100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block top:	1082 (29.02 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           2480               100 %                
+ARI1          129                100 %                
+BLACK BOX     3                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block top:	2612 (70.06 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     3                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block top:	3 (0.08 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       1                  100 %                
+=================================================
+Total IO PADS in the block top:	1 (0.03 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   PF_TX_PLL_0   ########
+Instance path:   top.PF_TX_PLL_0                                 
+=================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  33.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block top.PF_TX_PLL_0:	1 (0.03 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   PF_TX_PLL_0_PF_TX_PLL_0_0_PF_TX_PLL   ########
+Instance path:   PF_TX_PLL_0.PF_TX_PLL_0_PF_TX_PLL_0_0_PF_TX_PLL                         
+=========================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  33.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block PF_TX_PLL_0.PF_TX_PLL_0_PF_TX_PLL_0_0_PF_TX_PLL:	1 (0.03 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   PF_XCVR_REF_CLK_0   ########
+Instance path:   top.PF_XCVR_REF_CLK_0                                 
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  33.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block top.PF_XCVR_REF_CLK_0:	1 (0.03 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   PF_XCVR_REF_CLK_0_PF_XCVR_REF_CLK_0_0_PF_XCVR_REF_CLK   ########
+Instance path:   PF_XCVR_REF_CLK_0.PF_XCVR_REF_CLK_0_PF_XCVR_REF_CLK_0_0_PF_XCVR_REF_CLK                   
+===========================================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  33.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block PF_XCVR_REF_CLK_0.PF_XCVR_REF_CLK_0_PF_XCVR_REF_CLK_0_0_PF_XCVR_REF_CLK:	1 (0.03 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   SmartBert_Core_0   ########
+Instance path:   top.SmartBert_Core_0                                 
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1082               100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block top.SmartBert_Core_0:	1082 (29.02 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           2480               100 %                
+ARI1          129                100 %                
+BLACK BOX     1                  33.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block top.SmartBert_Core_0:	2610 (70.01 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  66.7 %               
+===================================================
+Total GLOBAL BUFFERS in the block top.SmartBert_Core_0:	2 (0.05 % Utilization)
+
+----------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s   ########
+Instance path:   SmartBert_Core_0.SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s                    
+====================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      857                79.2 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block SmartBert_Core_0.SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s:	857 (22.99 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2468               99.5 %               
+ARI1     129                100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block SmartBert_Core_0.SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s:	2597 (69.66 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2   ########          
+Instance path:   SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2
+===========================================================================================================
+--------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0   ########          
+Instance path:   SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0
+==========================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      777                71.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0:	777 (20.84 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2048               82.6 %               
+ARI1     47                 36.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0:	2095 (56.20 % Utilization)
+
+----------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   SB_PRBS_GEN_80s_97s_1s_1s_1s_1s_Z1_3   ########          
+Instance path:   SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s.SB_PRBS_GEN_80s_97s_1s_1s_1s_1s_Z1_3
+====================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      80                 7.39 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s.SB_PRBS_GEN_80s_97s_1s_1s_1s_1s_Z1_3:	80 (2.15 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      420                16.9 %               
+ARI1     82                 63.6 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s.SB_PRBS_GEN_80s_97s_1s_1s_1s_1s_Z1_3:	502 (13.47 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   SB_VER_GEN_Z3   ########
+Instance path:   SmartBert_Core_0.SB_VER_GEN_Z3                    
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      225                20.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block SmartBert_Core_0.SB_VER_GEN_Z3:	225 (6.04 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      10                 0.4030 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block SmartBert_Core_0.SB_VER_GEN_Z3:	10 (0.27 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   probeWrite_3   ########
+Instance path:   SB_VER_GEN_Z3.probeWrite_3                       
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      7                  0.6470 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block SB_VER_GEN_Z3.probeWrite_3:	7 (0.19 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      3                  0.1210 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block SB_VER_GEN_Z3.probeWrite_3:	3 (0.08 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   probeWrite_top_0   ########
+Instance path:   SB_VER_GEN_Z3.probeWrite_top_0                       
+======================================================================
+----------------------------------------------------------------------
+########   Utilization report for  cell:   probeWrite_top_1   ########
+Instance path:   SB_VER_GEN_Z3.probeWrite_top_1                       
+======================================================================
+----------------------------------------------------------------------
+########   Utilization report for  cell:   probeWrite_top_2   ########
+Instance path:   SB_VER_GEN_Z3.probeWrite_top_2                       
+======================================================================
+----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   SmartBert_Core_0_PF_XCVR_0_PF_XCVR   ########
+Instance path:   SmartBert_Core_0.SmartBert_Core_0_PF_XCVR_0_PF_XCVR                    
+========================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           2                  0.08060 %            
+BLACK BOX     1                  33.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block SmartBert_Core_0.SmartBert_Core_0_PF_XCVR_0_PF_XCVR:	3 (0.08 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  66.7 %               
+===================================================
+Total GLOBAL BUFFERS in the block SmartBert_Core_0.SmartBert_Core_0_PF_XCVR_0_PF_XCVR:	2 (0.05 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,44 @@
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'PCIe_EP_0/PCIe_TL_CLK_0/NGMUX_0/NGMUX_0/I_CLKINT:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_INT' instance type before pin 'PCIe_EP_0/PCIe_TL_CLK_0/NGMUX_0/NGMUX_0/I_NGMUX:CLK1'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'CCC_111MHz_0/CCC_111MHz_0/clkint_0:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'PF_DDR4_SS_0/CCC_0/clkint_4:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:CRN_INT' instance type before pin 'PF_DDR4_SS_0/CCC_0/pll_inst_0:REF_CLK_0'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'PF_DDR3_SS_0/CCC_0/clkint_4:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:CRN_INT' instance type before pin 'PF_DDR3_SS_0/CCC_0/pll_inst_0:REF_CLK_0'.
+
+===============================================================================.
+
+Info: Global design data:
+      Total globals:                       13
+      Globals that cannot be demoted:      6
+      Globals considered for demotion:     7
+
+
+Info: List of globals that cannot be demoted:
+    CLK    ASYN   DATA   Instance Name
+    ---    ----   ----   -------------
+    18667  0      0      'PF_DDR4_SS_0/CCC_0/clkint_4'
+    9792   0      0      'PF_DDR3_SS_0/CCC_0/clkint_4'
+    1      0      0      'PCIe_EP_0/PCIe_TL_CLK_0/NGMUX_0/NGMUX_0/I_CLKINT'
+    0      0      1      'CCC_111MHz_0/CCC_111MHz_0/clkint_0'
+    1      0      0      'PF_DDR3_SS_0/DDRPHY_BLK_0/CLKINT_CMD'
+    1      0      0      'PF_DDR4_SS_0/DDRPHY_BLK_0/CLKINT_CMD'
+
+Info: List of globals considered for demotion:
+    CLK    ASYN   DATA   Instance Name
+    ---    ----   ----   -------------
+    1098   0      1      'CLKINT_0'
+    0      4719   0      'PF_DDR4_SS_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0_rep_RNIU00C'
+    0      4686   0      'PF_DDR3_SS_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0_rep_RNIU00C'
+    0      4272   0      'PF_RESET_0/PF_RESET_0/dff_1_rep_RNIGGTA'
+    0      4236   0      'PF_DDR4_SS_0/MSC_i_264/MSC_i_265/MSC_i_602/MSC_i_603/IHxbc'
+    0      4109   0      'AXI4_Interconnect_0/AXI4_Interconnect_0/arst_aclk_sync/sysReset_RNIS26'
+    0      3971   0      'PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_i_262/MSC_i_263/IHxbc'
+
+Info: Demotion information:
+      Disconnected 1 data pins from global 'CLKINT_0'. This behavior is controlled by the 'Minimum fanout of non-clock nets to be kept on globals' threshold in the tool options for the Synthesize step. Typically, the low-skew global resources are used for clock and reset nets. When using global resources for data nets, consider the data path effect of global insertion delay and added buffer delay when the net drives carry chain logic.
+Info: [127205381]:  CMPPF_302: Added 0 row global instances.
+Info: [127205382]:  CMPPF_303: Deleted 0 global instances.
+
+===============================================================================.
+

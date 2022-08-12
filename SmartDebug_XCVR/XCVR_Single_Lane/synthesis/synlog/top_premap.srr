@@ -1,0 +1,157 @@
+# Mon May 16 17:03:43 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M
+Install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M
+OS: Windows 6.2
+
+Hostname: HYD-DK-SQA_1
+
+Implementation : synthesis
+Synopsys Generic Technology Pre-mapping, Version map202109act, Build 055R, Built Feb 23 2022 09:52:10, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 121MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 133MB)
+
+Reading constraint file: Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\designer\top\synthesis.fdc
+@L: Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\top_scck.rpt 
+See clock summary report "Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\top_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 135MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 136MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 136MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 138MB)
+
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:02s; Memory used current: 214MB peak: 214MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:02s; Memory used current: 214MB peak: 215MB)
+
+
+Start optimization across hierarchy (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:02s; Memory used current: 214MB peak: 215MB)
+
+NConnInternalConnection caching in on
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":311:0:311:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.RX_LANE1_DEN_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":311:0:311:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.RX_LANE1_PC_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":356:0:356:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.RX_LANE2_DEN_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":356:0:356:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.RX_LANE2_PC_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":401:0:401:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.RX_LANE3_DEN_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":401:0:401:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.RX_LANE3_PC_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":478:0:478:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.RX_LANE1_CC_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":510:0:510:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.RX_LANE2_CC_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":542:0:542:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.RX_LANE3_CC_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":641:0:641:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.TX_LANE1_GEN_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":641:0:641:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.TX_LANE1_PEN_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":707:0:707:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.TX_LANE2_GEN_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":707:0:707:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.TX_LANE2_PEN_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":773:0:773:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.TX_LANE3_GEN_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":773:0:773:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.TX_LANE3_PEN_ST is reduced to a combinational gate by constant propagation.
+@N: MO111 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":57:21:57:28|Tristate driver dummyClk_1 (in view: work.probeWrite_3(verilog)) on net dummyClk_1 (in view: work.probeWrite_3(verilog)) has its enable tied to GND.
+@N: MO111 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":57:21:57:28|Tristate driver dummyClk_1 (in view: work.probeWrite_2(verilog)) on net dummyClk_1 (in view: work.probeWrite_2(verilog)) has its enable tied to GND.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":100:0:100:5|Removing sequential instance q[3:0] (in view: work.probeWrite_2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":89:0:89:5|Removing sequential instance lp_feedback_latch (in view: work.probeWrite_2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":100:0:100:5|Removing sequential instance Q_OUT (in view: work.probeWrite_2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":76:0:76:5|Removing sequential instance active_probe_latch (in view: work.probeWrite_2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO111 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":57:21:57:28|Tristate driver dummyClk_1 (in view: work.probeWrite_1(verilog)) on net dummyClk_1 (in view: work.probeWrite_1(verilog)) has its enable tied to GND.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":100:0:100:5|Removing sequential instance q[3:0] (in view: work.probeWrite_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":89:0:89:5|Removing sequential instance lp_feedback_latch (in view: work.probeWrite_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":100:0:100:5|Removing sequential instance Q_OUT (in view: work.probeWrite_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":76:0:76:5|Removing sequential instance active_probe_latch (in view: work.probeWrite_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO111 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":57:21:57:28|Tristate driver dummyClk_1 (in view: work.probeWrite_0(verilog)) on net dummyClk_1 (in view: work.probeWrite_0(verilog)) has its enable tied to GND.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":100:0:100:5|Removing sequential instance q[3:0] (in view: work.probeWrite_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":89:0:89:5|Removing sequential instance lp_feedback_latch (in view: work.probeWrite_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":100:0:100:5|Removing sequential instance Q_OUT (in view: work.probeWrite_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":76:0:76:5|Removing sequential instance active_probe_latch (in view: work.probeWrite_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN115 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_gen_chkr_top.v":238:16:238:28|Removing instance SB_PRBS_GEN_1 (in view: work.SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s(verilog)) because it does not drive other instances.
+@N: BN115 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_gen_chkr_top.v":253:16:253:28|Removing instance SB_PRBS_GEN_2 (in view: work.SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s(verilog)) because it does not drive other instances.
+@N: BN115 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_gen_chkr_top.v":268:16:268:28|Removing instance SB_PRBS_GEN_3 (in view: work.SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s(verilog)) because it does not drive other instances.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":154:0:154:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_1.err_det_en is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":96:0:96:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_1.PRBS_ERR_DET is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":174:0:174:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_1.rx_align_st is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":329:0:329:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_1.err_cnt_en_st is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":154:0:154:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_2.err_det_en is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":96:0:96:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_2.PRBS_ERR_DET is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":174:0:174:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_2.rx_align_st is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":329:0:329:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_2.err_cnt_en_st is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":154:0:154:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_3.err_det_en is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":96:0:96:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_3.PRBS_ERR_DET is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":174:0:174:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_3.rx_align_st is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":329:0:329:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_3.err_cnt_en_st is reduced to a combinational gate by constant propagation.
+
+Finished optimization across hierarchy (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:02s; Memory used current: 215MB peak: 215MB)
+
+@N: FP130 |Promoting Net SYS_RESET_N_arst on CLKINT  I_1 
+@N: FX1184 |Applying syn_allowed_resources blockrams=952 on top level netlist top 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:03s; Memory used current: 216MB peak: 216MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                           Requested     Requested     Clock        Clock                Clock
+Level     Clock                                           Frequency     Period        Type         Group                Load 
+-----------------------------------------------------------------------------------------------------------------------------
+0 -       SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     62.5 MHz      16.000        declared     default_clkgroup     822  
+                                                                                                                             
+0 -       SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     62.5 MHz      16.000        declared     default_clkgroup     143  
+                                                                                                                             
+0 -       REF_CLK_PAD_P                                   156.2 MHz     6.400         declared     default_clkgroup     0    
+=============================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                Clock     Source                                                    Clock Pin                                                          Non-clock Pin                                    Non-clock Pin                                                   
+Clock                                           Load      Pin                                                       Seq Example                                                        Seq Example                                      Comb Example                                                    
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     822       SmartBert_Core_0_0.PF_XCVR_0.LANE0.RX_CLK_R(XCVR_PMA)     SmartBert_Core_0_0.SB_VER_GEN_0.SLE_RX_LANE0_ALIGN.C               -                                                SmartBert_Core_0_0.SB_VER_GEN_0.un1_LANE0_RX_CLK.I[0](inv)      
+                                                                                                                                                                                                                                                                                                        
+SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     143       SmartBert_Core_0_0.PF_XCVR_0.LANE0.TX_CLK_R(XCVR_PMA)     SmartBert_Core_0_0.SB_VER_GEN_0.SLE_CDR_REFERENCE_CLK_SOURCE.C     -                                                SmartBert_Core_0_0.SB_VER_GEN_0.un1_LANE0_TX_CLK.I[0](inv)      
+                                                                                                                                                                                                                                                                                                        
+REF_CLK_PAD_P                                   0         REF_CLK_PAD_P(port)                                       -                                                                  SmartBert_Core_0_0.PF_XCVR_0.LANE0.REF_CLK_P     PF_XCVR_REF_CLK_0_0.PF_XCVR_REF_CLK_0_0.I_IO.PAD_P(XCVR_REF_CLK)
+========================================================================================================================================================================================================================================================================================================
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\top.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:04s; Memory used current: 190MB peak: 217MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:04s; Memory used current: 190MB peak: 217MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:04s; Memory used current: 191MB peak: 217MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:04s; Memory used current: 96MB peak: 217MB)
+
+Process took 0h:00m:25s realtime, 0h:00m:04s cputime
+# Mon May 16 17:04:08 2022
+
+###########################################################]

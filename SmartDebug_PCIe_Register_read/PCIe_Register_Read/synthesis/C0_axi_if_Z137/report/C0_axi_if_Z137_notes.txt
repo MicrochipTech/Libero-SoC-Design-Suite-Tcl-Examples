@@ -1,0 +1,13 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.C0_axi_if_Z137(verilog) 
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop\[4\]\.slvcnv.rgsl.genblk2\.arrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog)); safe FSM implementation is not required.
+@N: FX271 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Replicating instance AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop\[4\]\.slvcnv.rgsl.genblk2\.arrs.N_4409_i (in view: work.PCIe_EP_Demo(verilog)) with 48 loads 3 times to improve timing.
+@N: MT615 |Found clock REF_CLK_0 with period 20.00ns 
+@N: MT615 |Found clock PF_DDR4_SS_0/CCC_0/pll_inst_0/OUT0 with period 1.25ns 
+@N: MT615 |Found clock PF_DDR4_SS_0/CCC_0/pll_inst_0/OUT1 with period 5.00ns 
+@N: MT615 |Found clock PF_DDR4_SS_0/CCC_0/pll_inst_0/OUT2 with period 1.25ns 
+@N: MT615 |Found clock PF_DDR4_SS_0/CCC_0/pll_inst_0/OUT3 with period 1.25ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

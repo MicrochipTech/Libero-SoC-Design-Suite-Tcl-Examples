@@ -1,0 +1,2226 @@
+
+Device Status:
+IDCode (read from the device) (HEX): 5F8131CF
+
+Device Certificate
+Certificate is valid .
+
+Design Information
+Design Name: PCIe_EP_Demo
+Design checksum (HEX): 284A
+Design Version: 0
+
+Digest Information
+Fabric Digest (HEX): ee4da6b95f2b6c026237904a2ec4a34a
+a82397c3da833149b2a545db03a2cefd
+
+SNVM Digest (HEX): 0bedc27efce7a52a03f7b3b310b816de
+309c66452a5084f8435df3ac3c80a398
+
+Device Security Settings
+Microsemi factory test access is allowed.
+
+Programming Information
+Cycle count: 1979
+
+
+*Algorithm Version: 1
+* Programmer: FlashPro 6
+* Software Version: v2022.1
+* Programming Software: FlashPro Express
+* Programming Interface Protocol: JTAG
+* Programming File Type: PPD
+
+NOTE: * - The above Information is only relevant if the device was programmed through JTAG or SPI Slave mode.
+
+The 'read_device_status' command succeeded.
+Number of added/imported register instance/s : 729
+The 'xcvr_add_register' command succeeded.
+
+Register Name: BRIDGE_1_ARBITRATION_RULES_DW0, Value: 0x11111111
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ARBITRATION_RULES_DW1, Value: 0x11111111
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ARBITRATION_RULES_DW10, Value: 0x11111111
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ARBITRATION_RULES_DW11, Value: 0x11111111
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ARBITRATION_RULES_DW12, Value: 0x11111111
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ARBITRATION_RULES_DW13, Value: 0x11111111
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ARBITRATION_RULES_DW14, Value: 0x11111111
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ARBITRATION_RULES_DW15, Value: 0x11111111
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ARBITRATION_RULES_DW2, Value: 0x11111111
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ARBITRATION_RULES_DW3, Value: 0x11111111
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ARBITRATION_RULES_DW4, Value: 0x11111111
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ARBITRATION_RULES_DW5, Value: 0x11111111
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ARBITRATION_RULES_DW6, Value: 0x11111111
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ARBITRATION_RULES_DW7, Value: 0x11111111
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ARBITRATION_RULES_DW8, Value: 0x11111111
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ARBITRATION_RULES_DW9, Value: 0x11111111
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR0_AXI4_SLV0_SRCADDR_PARAM, Value: 0x16
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR0_AXI4_SLV0_SRC_ADDR, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR0_AXI4_SLV0_TRSL_ADDR_LSB, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR0_AXI4_SLV0_TRSL_ADDR_UDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR0_AXI4_SLV0_TRSL_MASK_DW0, Value: 0xfffff000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR0_AXI4_SLV0_TRSL_MASK_DW1, Value: 0xffffffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR0_AXI4_SLV0_TRSL_PARAM, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR0_PCIE_WIN0_SRCADDR_PARAM, Value: 0x1f
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR0_PCIE_WIN0_SRC_ADDR, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR0_PCIE_WIN0_TRSL_ADDR_LSB, Value: 0x3000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR0_PCIE_WIN0_TRSL_ADDR_UDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR0_PCIE_WIN0_TRSL_MASK_DW0, Value: 0xffff0000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR0_PCIE_WIN0_TRSL_MASK_DW1, Value: 0xffffffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR0_PCIE_WIN0_TRSL_PARAM, Value: 0x4
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR1_AXI4_SLV0_SRCADDR_PARAM, Value: 0x16
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR1_AXI4_SLV0_SRC_ADDR, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR1_AXI4_SLV0_TRSL_ADDR_LSB, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR1_AXI4_SLV0_TRSL_ADDR_UDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR1_AXI4_SLV0_TRSL_MASK_DW0, Value: 0xfffff000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR1_AXI4_SLV0_TRSL_MASK_DW1, Value: 0xffffffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR1_AXI4_SLV0_TRSL_PARAM, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR1_PCIE_WIN0_SRCADDR_PARAM, Value: 0x16
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR1_PCIE_WIN0_SRC_ADDR, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR1_PCIE_WIN0_TRSL_ADDR_LSB, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR1_PCIE_WIN0_TRSL_ADDR_UDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR1_PCIE_WIN0_TRSL_MASK_DW0, Value: 0xfffff000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR1_PCIE_WIN0_TRSL_MASK_DW1, Value: 0xffffffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR1_PCIE_WIN0_TRSL_PARAM, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR2_AXI4_SLV0_SRCADDR_PARAM, Value: 0x16
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR2_AXI4_SLV0_SRC_ADDR, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR2_AXI4_SLV0_TRSL_ADDR_LSB, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR2_AXI4_SLV0_TRSL_ADDR_UDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR2_AXI4_SLV0_TRSL_MASK_DW0, Value: 0xfffff000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR2_AXI4_SLV0_TRSL_MASK_DW1, Value: 0xffffffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR2_AXI4_SLV0_TRSL_PARAM, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR2_PCIE_WIN0_SRCADDR_PARAM, Value: 0x27
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR2_PCIE_WIN0_SRC_ADDR, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR2_PCIE_WIN0_TRSL_ADDR_LSB, Value: 0x10000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR2_PCIE_WIN0_TRSL_ADDR_UDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR2_PCIE_WIN0_TRSL_MASK_DW0, Value: 0xfff00000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR2_PCIE_WIN0_TRSL_MASK_DW1, Value: 0xffffffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR2_PCIE_WIN0_TRSL_PARAM, Value: 0x4
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR3_AXI4_SLV0_SRCADDR_PARAM, Value: 0x16
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR3_AXI4_SLV0_SRC_ADDR, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR3_AXI4_SLV0_TRSL_ADDR_LSB, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR3_AXI4_SLV0_TRSL_ADDR_UDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR3_AXI4_SLV0_TRSL_MASK_DW0, Value: 0xfffff000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR3_AXI4_SLV0_TRSL_MASK_DW1, Value: 0xffffffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR3_AXI4_SLV0_TRSL_PARAM, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR3_PCIE_WIN0_SRCADDR_PARAM, Value: 0x16
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR3_PCIE_WIN0_SRC_ADDR, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR3_PCIE_WIN0_TRSL_ADDR_LSB, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR3_PCIE_WIN0_TRSL_ADDR_UDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR3_PCIE_WIN0_TRSL_MASK_DW0, Value: 0xfffff000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR3_PCIE_WIN0_TRSL_MASK_DW1, Value: 0xffffffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR3_PCIE_WIN0_TRSL_PARAM, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR4_AXI4_SLV0_SRCADDR_PARAM, Value: 0x16
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR4_AXI4_SLV0_SRC_ADDR, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR4_AXI4_SLV0_TRSL_ADDR_LSB, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR4_AXI4_SLV0_TRSL_ADDR_UDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR4_AXI4_SLV0_TRSL_MASK_DW0, Value: 0xfffff000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR4_AXI4_SLV0_TRSL_MASK_DW1, Value: 0xffffffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR4_AXI4_SLV0_TRSL_PARAM, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR4_PCIE_WIN0_SRCADDR_PARAM, Value: 0x16
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR4_PCIE_WIN0_SRC_ADDR, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR4_PCIE_WIN0_TRSL_ADDR_LSB, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR4_PCIE_WIN0_TRSL_ADDR_UDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR4_PCIE_WIN0_TRSL_MASK_DW0, Value: 0xfffff000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR4_PCIE_WIN0_TRSL_MASK_DW1, Value: 0xffffffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR4_PCIE_WIN0_TRSL_PARAM, Value: 0x4
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR5_AXI4_SLV0_SRCADDR_PARAM, Value: 0x16
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR5_AXI4_SLV0_SRC_ADDR, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR5_AXI4_SLV0_TRSL_ADDR_LSB, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR5_AXI4_SLV0_TRSL_ADDR_UDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR5_AXI4_SLV0_TRSL_MASK_DW0, Value: 0xfffff000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR5_AXI4_SLV0_TRSL_MASK_DW1, Value: 0xffffffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR5_AXI4_SLV0_TRSL_PARAM, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR5_PCIE_WIN0_SRCADDR_PARAM, Value: 0x16
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR5_PCIE_WIN0_SRC_ADDR, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR5_PCIE_WIN0_TRSL_ADDR_LSB, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR5_PCIE_WIN0_TRSL_ADDR_UDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR5_PCIE_WIN0_TRSL_MASK_DW0, Value: 0xfffff000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR5_PCIE_WIN0_TRSL_MASK_DW1, Value: 0xffffffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATR5_PCIE_WIN0_TRSL_PARAM, Value: 0x4
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ATS_PRI_REPORT, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_AXI_MST0_CONF, Value: 0x11883442
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_AXI_SLAVE_PCIE_ATR_CFG0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_AXI_SLAVE_PCIE_ATR_CFG1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_AXI_SLAVE_PCIE_ATR_CFG2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_AXI_SLV0_CONF, Value: 0x44443443
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_AXI_SLVL_CONF, Value: 0xbb002121
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_BRIDGE_BUS, Value: 0x11885153
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_BRIDGE_IMPL_IF, Value: 0x32b
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_BRIDGE_VER, Value: 0x2511154
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_CLOCK_CONTROL, Value: 0x32b
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DEBUG_SEL, Value: 0x1005084
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DED_ERROR_EVENT_CNT, Value: 0xbb002121
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DED_ERROR_INT, Value: 0x11883442
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DED_ERROR_INT_MASK, Value: 0x44443443
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DEV_CONTROL, Value: 0x11885153
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA0_CONTROL, Value: 0x3000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA0_DESTADDR_LDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA0_DESTADDR_UDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA0_DESTPARAM, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA0_LENGTH, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA0_PRC_LENGTH, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA0_SHARE_ACCESS, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA0_SRCADDR_LDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA0_SRCADDR_UDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA0_SRC_PARAM, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA0_STATUS, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA1_CONTROL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA1_DESTADDR_LDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA1_DESTADDR_UDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA1_DESTPARAM, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA1_LENGTH, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA1_PRC_LENGTH, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA1_SHARE_ACCESS, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA1_SRCADDR_LDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA1_SRCADDR_UDW, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA1_SRC_PARAM, Value: 0x4
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_DMA1_STATUS, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ECC_CONTROL, Value: 0x11885052
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ECC_ERR_LOC, Value: 0x55885053
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_GEN_SETTINGS, Value: 0x9200
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ICMD_PM, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_IMASK_HOST, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_IMASK_LOCAL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_IMSI_ADDR, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ISTATUS_A_ADT_SLV0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ISTATUS_A_ADT_SLV1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ISTATUS_A_ADT_SLV2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ISTATUS_A_ADT_SLV3, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ISTATUS_DMA0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ISTATUS_DMA1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ISTATUS_HOST, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ISTATUS_LOCAL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ISTATUS_MSI, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ISTATUS_PM, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ISTATUS_P_ADT_WIN0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ISTATUS_P_ADT_WIN1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_LTR_VALUES, Value: 0x8c010000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_LTSSM_STATE, Value: 0x33125095
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_P2A_ATTR_CACHE_CONV, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_P2A_NC_BASE_ADDR_DW0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_P2A_NC_BASE_ADDR_DW1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_P2A_TC_QOS_CONV, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCICONF_PCI_IDS_31_0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCICONF_PCI_IDS_63_32, Value: 0x10000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCICONF_PCI_IDS_95_64, Value: 0x8000001
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCICONF_PCI_IDS_OVERRIDE, Value: 0x9200
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_AXI_MASTER_ATR_CFG0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_AXI_MASTER_ATR_CFG1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_AXI_MASTER_ATR_CFG2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_BAR_01, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_BAR_01_DW0, Value: 0xffff000c
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_BAR_01_DW1, Value: 0xffffffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_BAR_23, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_BAR_23_DW0, Value: 0xfff0000c
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_BAR_23_DW1, Value: 0xffffffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_BAR_45, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_BAR_45_DW0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_BAR_45_DW1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_BAR_WIN, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_BASIC_CONF, Value: 0x3110305
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_BASIC_STATUS, Value: 0x20000100
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_CFGCTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_CFGNUM, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_EQ_PRESET_DW0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_EQ_PRESET_DW1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_EQ_PRESET_DW2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_EQ_PRESET_DW3, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_EQ_PRESET_DW4, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_EQ_PRESET_DW5, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_EQ_PRESET_DW6, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_EQ_PRESET_DW7, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_IF_CONF, Value: 0x11440170
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PCI_IDS_DW0, Value: 0x155611aa
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PCI_IDS_DW1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PCI_IDS_DW2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PCI_IOV_DW0, Value: 0xa
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PCI_IOV_DW1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PCI_IRQ_DW0, Value: 0x80000024
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PCI_IRQ_DW1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PCI_IRQ_DW2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PCI_LPM, Value: 0xfe000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PEX_DEV, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PEX_DEV2, Value: 0x81f
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PEX_DEV_LINK_SPC2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PEX_L1SS, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PEX_LINK, Value: 0x1001400
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PEX_NFTS, Value: 0x202020
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PEX_ROOT_VC, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PEX_SLOT, Value: 0x7f
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PEX_SPC, Value: 0xfe000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PEX_SPC2, Value: 0xc6006
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PIPE_DW0, Value: 0x10000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_PIPE_DW1, Value: 0x8000001
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_SRIOV_DW0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_SRIOV_DW1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_SRIOV_DW2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_SRIOV_DW3, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_SRIOV_DW4, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_SRIOV_DW5, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_SRIOV_DW6, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_SRIOV_DW7, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_VC_CRED_DW0, Value: 0x100b818
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PCIE_VC_CRED_DW1, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PHY_COMMON_INTERFACE, Value: 0x10050a4
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PL_RX_LANEIF_0, Value: 0x10050b4
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PL_TX_LANEIF_0, Value: 0x331250a5
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PL_WAKECLKREQ, Value: 0x331250b5
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PM_CONF_DW0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PM_CONF_DW1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PM_CONF_DW2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PRIORITY_RULES_DW0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PRIORITY_RULES_DW1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PRIORITY_RULES_DW10, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PRIORITY_RULES_DW11, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PRIORITY_RULES_DW2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PRIORITY_RULES_DW3, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PRIORITY_RULES_DW4, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PRIORITY_RULES_DW5, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PRIORITY_RULES_DW6, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PRIORITY_RULES_DW7, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PRIORITY_RULES_DW8, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_PRIORITY_RULES_DW9, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_RAM_MARGIN_1, Value: 0x11885062
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_RAM_MARGIN_2, Value: 0x55885063
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_RAM_POWER_CONTROL, Value: 0x11885072
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_RESETS_ENCOUNTERED, Value: 0x20000100
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_RESETS_ENCOUNTERED_MASK, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_R_DW0, Value: 0xb0011
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_R_DW1, Value: 0x15
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_R_DW10, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_R_DW11, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_R_DW12, Value: 0x15
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_R_DW13, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_R_DW14, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_R_DW15, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_R_DW2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_R_DW3, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_R_DW4, Value: 0xe0011
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_R_DW5, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_R_DW6, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_R_DW7, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_R_DW8, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_R_DW9, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_W_DW0, Value: 0xf0011
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_W_DW1, Value: 0x14
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_W_DW10, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_W_DW11, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_W_DW12, Value: 0x15
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_W_DW13, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_W_DW14, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_W_DW15, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_W_DW2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_W_DW3, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_W_DW4, Value: 0xb0011
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_W_DW5, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_W_DW6, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_W_DW7, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_W_DW8, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_ROUTING_RULES_W_DW9, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_SEC_ERROR_EVENT_CNT, Value: 0xbb002120
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_SEC_ERROR_INT, Value: 0x11115032
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_SEC_ERROR_INT_MASK, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_SOFT_RESET, Value: 0x2511154
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_SOFT_RESET_CTLR, Value: 0x3110305
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_SOFT_RESET_DEBUG_INFO, Value: 0x11440170
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTB_BUS_OUT_127_96, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTB_BUS_OUT_159_128, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTB_BUS_OUT_191_160, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTB_BUS_OUT_223_192, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTB_BUS_OUT_255_224, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTB_BUS_OUT_31_0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTB_BUS_OUT_63_32, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTB_BUS_OUT_95_64, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTC_BUS_OUT_127_96, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTC_BUS_OUT_159_128, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTC_BUS_OUT_191_160, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTC_BUS_OUT_223_192, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTC_BUS_OUT_255_224, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTC_BUS_OUT_287_256, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTC_BUS_OUT_31_0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTC_BUS_OUT_351_320, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTC_BUS_OUT_415_384, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTC_BUS_OUT_447_416, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TESTC_BUS_OUT_63_32, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TEST_BUS_IN_31_0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: BRIDGE_1_TEST_BUS_IN_63_32, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: GPSS_MAIN_SOFT_RESET, Value: 0x2040000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SPARE, Value: 0xf00000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R0, Value: 0x12
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R1, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R10, Value: 0x54011829
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R3, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R4, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R5, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R6, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R7, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R8, Value: 0x1409
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R9, Value: 0x6
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L8_R0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LCLK_R0, Value: 0x1e00
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LCLK_R1, Value: 0x3000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LFWF_R0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LNTV_R0, Value: 0xe0e
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LOVR_R0, Value: 0x10
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LPIP_R0, Value: 0x5d
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LRST_OPT, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LRST_R0, Value: 0x4
+The 'xcvr_read_register' command succeeded.
+
+Register Name: MSTR_CTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: OOB_R0, Value: 0x110f110f
+The 'xcvr_read_register' command succeeded.
+
+Register Name: OOB_R1, Value: 0x9888332d
+The 'xcvr_read_register' command succeeded.
+
+Register Name: OOB_R2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: OOB_R3, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PMA_CTRL_R0, Value: 0x1f0b0347
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PMA_CTRL_R1, Value: 0xa0640
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PMA_CTRL_R2, Value: 0xa6
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCS_SOFT_RESET, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_CDR_CTRL_1, Value: 0x11111122
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_CDR_CTRL_2, Value: 0xf15
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_CDR_CTRL_3, Value: 0x14f
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_CLK_CTRL, Value: 0x3c
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFEEM_CTRL_1, Value: 0x15
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFEEM_CTRL_2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFEEM_CTRL_3, Value: 0x4f00
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_BYPASS, Value: 0x13201
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_CMD, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_CTRL_0, Value: 0xff3f0716
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_CTRL_1, Value: 0x101491d
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_CTRL_2, Value: 0x400010
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_EYE_DATA, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_FLAG, Value: 0xffffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_OS_MON, Value: 0x10101010
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_ST_0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_ST_1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CDRH0_MON, Value: 0x11111111
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_COEFF_MON_0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_COEFF_MON_1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CTRL_1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CTRL_2, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_EM_CTRL_1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_EM_CTRL_2, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_IN_TERM, Value: 0xb7
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_PCIE1_2_RXPLL_DIV, Value: 0x2322219
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_PKDET, Value: 0x41
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RSTPD, Value: 0x3c
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RTL_EM, Value: 0x3e8
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RTL_ERR_CHK, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RTL_LOCK_CTRL, Value: 0xa10008
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RXPLL_DIV, Value: 0x232
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_SATA1_2_RXPLL_DIV, Value: 0x22184418
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_SATA3_RXPLL_DIV, Value: 0x230
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_TEST_BUS, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SERDES_RTL_CTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_CLK_CTRL, Value: 0x70
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_CTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_BYP, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL, Value: 0x9000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M0, Value: 0x1b240a
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M1, Value: 0x232c27
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M2, Value: 0x1b0203
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M3, Value: 0x3b1b14
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M4, Value: 0x240c0a
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M5, Value: 0x1b383b38
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_SEL, Value: 0xd
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_DATA_CTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_RSTPD, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_RXDET_CTRL, Value: 0x110
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_RXDET_OUT, Value: 0x8003
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_STATIC_LSB, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_STATIC_MSB, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_TERM_CTRL, Value: 0x7300
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_TEST_BUS, Value: 0xe0000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PMA_SOFT_RESET, Value: 0x1000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R0, Value: 0x12
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R1, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R10, Value: 0x22710420
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R3, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R4, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R5, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R6, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R7, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R8, Value: 0x1803
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R9, Value: 0x16
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L8_R0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LCLK_R0, Value: 0x1e00
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LCLK_R1, Value: 0x3000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LFWF_R0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LNTV_R0, Value: 0xe0e
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LOVR_R0, Value: 0x10
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LPIP_R0, Value: 0x5d
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LRST_OPT, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LRST_R0, Value: 0x4
+The 'xcvr_read_register' command succeeded.
+
+Register Name: MSTR_CTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: OOB_R0, Value: 0x110f110f
+The 'xcvr_read_register' command succeeded.
+
+Register Name: OOB_R1, Value: 0x9888332d
+The 'xcvr_read_register' command succeeded.
+
+Register Name: OOB_R2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: OOB_R3, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PMA_CTRL_R0, Value: 0x1f0b0347
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PMA_CTRL_R1, Value: 0xa0640
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PMA_CTRL_R2, Value: 0xa6
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCS_SOFT_RESET, Value: 0x10000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_CDR_CTRL_1, Value: 0x2111322
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_CDR_CTRL_2, Value: 0xf15
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_CDR_CTRL_3, Value: 0x14f
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_CLK_CTRL, Value: 0x3c
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFEEM_CTRL_1, Value: 0x15
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFEEM_CTRL_2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFEEM_CTRL_3, Value: 0x4f00
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_BYPASS, Value: 0x13201
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_CMD, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_CTRL_0, Value: 0xff3f0716
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_CTRL_1, Value: 0x101491d
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_CTRL_2, Value: 0x400010
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_EYE_DATA, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_FLAG, Value: 0xffffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_OS_MON, Value: 0x10101010
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_ST_0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_ST_1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CDRH0_MON, Value: 0x2111311
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_COEFF_MON_0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_COEFF_MON_1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CTRL_1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CTRL_2, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_EM_CTRL_1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_EM_CTRL_2, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_IN_TERM, Value: 0xb7
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_PCIE1_2_RXPLL_DIV, Value: 0x2322219
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_PKDET, Value: 0x41
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RSTPD, Value: 0x3c
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RTL_EM, Value: 0x3e8
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RTL_ERR_CHK, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RTL_LOCK_CTRL, Value: 0xa10008
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RXPLL_DIV, Value: 0x232
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_SATA1_2_RXPLL_DIV, Value: 0x22184418
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_SATA3_RXPLL_DIV, Value: 0x230
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_TEST_BUS, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SERDES_RTL_CTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_CLK_CTRL, Value: 0x70
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_CTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_BYP, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL, Value: 0x9000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M0, Value: 0x1b240a
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M1, Value: 0x232c27
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M2, Value: 0x1b0203
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M3, Value: 0x3b1b14
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M4, Value: 0x240c0a
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M5, Value: 0x1b383b38
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_SEL, Value: 0xd
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_DATA_CTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_RSTPD, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_RXDET_CTRL, Value: 0x110
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_RXDET_OUT, Value: 0x8003
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_STATIC_LSB, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_STATIC_MSB, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_TERM_CTRL, Value: 0x7300
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_TEST_BUS, Value: 0xe0000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PMA_SOFT_RESET, Value: 0x1010000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R0, Value: 0x12
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R1, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R10, Value: 0x840a5030
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R3, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R4, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R5, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R6, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R7, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R8, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R9, Value: 0x26
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L8_R0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LCLK_R0, Value: 0x1e00
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LCLK_R1, Value: 0x3000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LFWF_R0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LNTV_R0, Value: 0xe0e
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LOVR_R0, Value: 0x10
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LPIP_R0, Value: 0x5d
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LRST_OPT, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LRST_R0, Value: 0x4
+The 'xcvr_read_register' command succeeded.
+
+Register Name: MSTR_CTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: OOB_R0, Value: 0x110f110f
+The 'xcvr_read_register' command succeeded.
+
+Register Name: OOB_R1, Value: 0x9888332d
+The 'xcvr_read_register' command succeeded.
+
+Register Name: OOB_R2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: OOB_R3, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PMA_CTRL_R0, Value: 0x1f0b0347
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PMA_CTRL_R1, Value: 0xa0640
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PMA_CTRL_R2, Value: 0xa6
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCS_SOFT_RESET, Value: 0x20000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_CDR_CTRL_1, Value: 0x1130222
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_CDR_CTRL_2, Value: 0xf15
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_CDR_CTRL_3, Value: 0x14f
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_CLK_CTRL, Value: 0x3c
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFEEM_CTRL_1, Value: 0x15
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFEEM_CTRL_2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFEEM_CTRL_3, Value: 0x4f00
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_BYPASS, Value: 0x13201
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_CMD, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_CTRL_0, Value: 0xff3f0716
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_CTRL_1, Value: 0x101491d
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_CTRL_2, Value: 0x400010
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_EYE_DATA, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_FLAG, Value: 0xffffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_OS_MON, Value: 0x10101010
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_ST_0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_ST_1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CDRH0_MON, Value: 0x1130211
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_COEFF_MON_0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_COEFF_MON_1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CTRL_1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CTRL_2, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_EM_CTRL_1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_EM_CTRL_2, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_IN_TERM, Value: 0xb7
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_PCIE1_2_RXPLL_DIV, Value: 0x2322219
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_PKDET, Value: 0x41
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RSTPD, Value: 0x3c
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RTL_EM, Value: 0x3e8
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RTL_ERR_CHK, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RTL_LOCK_CTRL, Value: 0xa10008
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RXPLL_DIV, Value: 0x232
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_SATA1_2_RXPLL_DIV, Value: 0x22184418
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_SATA3_RXPLL_DIV, Value: 0x230
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_TEST_BUS, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SERDES_RTL_CTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_CLK_CTRL, Value: 0x70
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_CTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_BYP, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL, Value: 0x9000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M0, Value: 0x1b240a
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M1, Value: 0x232c27
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M2, Value: 0x1b0203
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M3, Value: 0x3b1b14
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M4, Value: 0x240c0a
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M5, Value: 0x1b383b38
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_SEL, Value: 0xd
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_DATA_CTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_RSTPD, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_RXDET_CTRL, Value: 0x110
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_RXDET_OUT, Value: 0x8003
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_STATIC_LSB, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_STATIC_MSB, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_TERM_CTRL, Value: 0x7300
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_TEST_BUS, Value: 0xe0000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PMA_SOFT_RESET, Value: 0x1020000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R0, Value: 0x12
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R1, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R10, Value: 0x50a341c1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R3, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R4, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R5, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R6, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R7, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R8, Value: 0xc
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L64_R9, Value: 0x12
+The 'xcvr_read_register' command succeeded.
+
+Register Name: L8_R0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LCLK_R0, Value: 0x1e00
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LCLK_R1, Value: 0x3000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LFWF_R0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LNTV_R0, Value: 0xe0e
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LOVR_R0, Value: 0x10
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LPIP_R0, Value: 0x5d
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LRST_OPT, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: LRST_R0, Value: 0x4
+The 'xcvr_read_register' command succeeded.
+
+Register Name: MSTR_CTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: OOB_R0, Value: 0x110f110f
+The 'xcvr_read_register' command succeeded.
+
+Register Name: OOB_R1, Value: 0x9888332d
+The 'xcvr_read_register' command succeeded.
+
+Register Name: OOB_R2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: OOB_R3, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PMA_CTRL_R0, Value: 0x1f0b0347
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PMA_CTRL_R1, Value: 0xa0640
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PMA_CTRL_R2, Value: 0xa6
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCS_SOFT_RESET, Value: 0x30000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_CDR_CTRL_1, Value: 0x13131126
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_CDR_CTRL_2, Value: 0xf15
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_CDR_CTRL_3, Value: 0x14f
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_CLK_CTRL, Value: 0x3c
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFEEM_CTRL_1, Value: 0x15
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFEEM_CTRL_2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFEEM_CTRL_3, Value: 0x4f00
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_BYPASS, Value: 0x13201
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_CMD, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_CTRL_0, Value: 0xff3f0716
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_CTRL_1, Value: 0x101491d
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_CTRL_2, Value: 0x400010
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_EYE_DATA, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_FLAG, Value: 0xffffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_OS_MON, Value: 0x10101010
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_ST_0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CAL_ST_1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CDRH0_MON, Value: 0x13131113
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_COEFF_MON_0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_COEFF_MON_1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CTRL_1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_DFE_CTRL_2, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_EM_CTRL_1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_EM_CTRL_2, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_IN_TERM, Value: 0xb7
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_PCIE1_2_RXPLL_DIV, Value: 0x2322219
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_PKDET, Value: 0x41
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RSTPD, Value: 0x3c
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RTL_EM, Value: 0x3e8
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RTL_ERR_CHK, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RTL_LOCK_CTRL, Value: 0xa10008
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_RXPLL_DIV, Value: 0x232
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_SATA1_2_RXPLL_DIV, Value: 0x22184418
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_SATA3_RXPLL_DIV, Value: 0x230
+The 'xcvr_read_register' command succeeded.
+
+Register Name: DES_TEST_BUS, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SERDES_RTL_CTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_CLK_CTRL, Value: 0x70
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_CTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_BYP, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL, Value: 0x9000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M0, Value: 0x1b240a
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M1, Value: 0x232c27
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M2, Value: 0x1b0203
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M3, Value: 0x3b1b14
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M4, Value: 0x240c0a
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_M5, Value: 0x1b383b38
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_CTRL_SEL, Value: 0xd
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_DRV_DATA_CTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_RSTPD, Value: 0x1
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_RXDET_CTRL, Value: 0x110
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_RXDET_OUT, Value: 0x8003
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_STATIC_LSB, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_STATIC_MSB, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_TERM_CTRL, Value: 0x7300
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SER_TEST_BUS, Value: 0xe0000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PMA_SOFT_RESET, Value: 0x1030000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: MAIN_CLK_CTRL, Value: 0x100
+The 'xcvr_read_register' command succeeded.
+
+Register Name: MAIN_DLL_CTRL0, Value: 0x8800000f
+The 'xcvr_read_register' command succeeded.
+
+Register Name: MAIN_DLL_CTRL1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: MAIN_DLL_STAT0, Value: 0xc00
+The 'xcvr_read_register' command succeeded.
+
+Register Name: MAIN_DLL_STAT1, Value: 0x830021
+The 'xcvr_read_register' command succeeded.
+
+Register Name: MAIN_DLL_STAT2, Value: 0x4
+The 'xcvr_read_register' command succeeded.
+
+Register Name: MAIN_EXT_PIPE_CLK_CTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: MAIN_INT_PIPE_CLK_CTRL, Value: 0x50006
+The 'xcvr_read_register' command succeeded.
+
+Register Name: MAIN_MAJOR, Value: 0xb
+The 'xcvr_read_register' command succeeded.
+
+Register Name: MAIN_OVRLY, Value: 0x100
+The 'xcvr_read_register' command succeeded.
+
+Register Name: MAIN_QMUX_R0, Value: 0x70000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: MAIN_SOFT_RESET, Value: 0x2040000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: MAIN_SPARE, Value: 0xf00000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: MAIN_TEST_DLL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_AXI_SLAVE_PCIE_ATR_CFG0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_AXI_SLAVE_PCIE_ATR_CFG1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_AXI_SLAVE_PCIE_ATR_CFG2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_CLOCK_CONTROL, Value: 0x1f400000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_DEBUG_SEL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_DED_ERROR_EVENT_CNT, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_DED_ERROR_INT, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_DED_ERROR_INT_MASK, Value: 0xffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_DEV_CONTROL, Value: 0x9100
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_ECC_CONTROL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_ECC_ERR_LOC, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_LTSSM_STATE, Value: 0x3
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_PCICONF_PCI_IDS_31_0, Value: 0x155611aa
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_PCICONF_PCI_IDS_63_32, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_PCICONF_PCI_IDS_95_64, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_PCICONF_PCI_IDS_OVERRIDE, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_PCIE_AXI_MASTER_ATR_CFG0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_PCIE_AXI_MASTER_ATR_CFG1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_PCIE_AXI_MASTER_ATR_CFG2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_PCIE_BAR_01, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_PCIE_BAR_23, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_PCIE_BAR_45, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_PCIE_BAR_WIN, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_PCIE_EVENT_INT, Value: 0x70007
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_PCIE_PEX_DEV_LINK_SPC2, Value: 0x7000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_PCIE_PEX_SPC, Value: 0x10
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_PHY_COMMON_INTERFACE, Value: 0x2000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_PL_RX_LANEIF_0, Value: 0xf00
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_PL_TX_LANEIF_0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_PL_WAKECLKREQ, Value: 0x3
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_RAM_MARGIN_1, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_RAM_MARGIN_2, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_RAM_POWER_CONTROL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_SEC_ERROR_EVENT_CNT, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_SEC_ERROR_INT, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_SEC_ERROR_INT_MASK, Value: 0xffff
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_SOFT_RESET, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_SOFT_RESET_CTLR, Value: 0x100000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_SOFT_RESET_DEBUG_INFO, Value: 0x3ff00007
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_SPARE, Value: 0xf00000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_TEST_BUS_IN_31_0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCIE_CTRL_1_TEST_BUS_IN_63_32, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: GSSCLK_CTRL, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: QDBG_R0, Value: 0x1000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: QRST_R0, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PCSCMN_SOFT_RESET, Value: 0x40000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SERDES_RTERM, Value: 0xc0500
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SERDES_RTT, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: SERDES_SSMOD, Value: 0x7f0102
+The 'xcvr_read_register' command succeeded.
+
+Register Name: PMA_CMN_SOFT_RESET, Value: 0x1040000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: TXPLL_CLKBUF, Value: 0x433
+The 'xcvr_read_register' command succeeded.
+
+Register Name: TXPLL_CLK_SEL, Value: 0x3f3f0004
+The 'xcvr_read_register' command succeeded.
+
+Register Name: TXPLL_CTRL, Value: 0x1800011
+The 'xcvr_read_register' command succeeded.
+
+Register Name: TXPLL_DIV_1, Value: 0x19000a
+The 'xcvr_read_register' command succeeded.
+
+Register Name: TXPLL_DIV_2, Value: 0x1000000
+The 'xcvr_read_register' command succeeded.
+
+Register Name: TXPLL_JA_1, Value: 0x640064
+The 'xcvr_read_register' command succeeded.
+
+Register Name: TXPLL_JA_10, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: TXPLL_JA_2, Value: 0x64
+The 'xcvr_read_register' command succeeded.
+
+Register Name: TXPLL_JA_3, Value: 0x640064
+The 'xcvr_read_register' command succeeded.
+
+Register Name: TXPLL_JA_4, Value: 0x1010001
+The 'xcvr_read_register' command succeeded.
+
+Register Name: TXPLL_JA_5, Value: 0x1010101
+The 'xcvr_read_register' command succeeded.
+
+Register Name: TXPLL_JA_6, Value: 0x1010101
+The 'xcvr_read_register' command succeeded.
+
+Register Name: TXPLL_JA_7, Value: 0x7000001
+The 'xcvr_read_register' command succeeded.
+
+Register Name: TXPLL_JA_8, Value: 0x0
+The 'xcvr_read_register' command succeeded.
+
+Register Name: TXPLL_JA_9, Value: 0x180014
+The 'xcvr_read_register' command succeeded.
+
+Register Name: TXPLL_JA_RST, Value: 0x55
+The 'xcvr_read_register' command succeeded.
+The Execute Script command succeeded.

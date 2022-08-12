@@ -1,0 +1,1969 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Timing Multi Corner Report Min Delay Analysis
+</title>
+<text>SmartTime Version 2022.1.0.0</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release  (Version 2022.1.0.0)</text>
+<text>Date: Mon May 16 17:49:20 2022
+</text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>top</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFire</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>MPF300T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCG1152</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 100 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>0.97 - 1.03 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Design State</cell>
+ <cell>Post-Layout</cell>
+</row>
+<row>
+ <cell>Data source</cell>
+ <cell>Production</cell>
+</row>
+<row>
+ <cell>Multi Corner Report Operating Conditions</cell>
+ <cell>slow_lv_ht, slow_lv_lt, fast_hv_lt</cell>
+</row>
+</table>
+<text></text>
+<section>
+<name>Summary</name>
+<table>
+<header>
+ <cell>Clock Domain</cell>
+ <cell>Required Period (ns)</cell>
+ <cell>Required Frequency (MHz)</cell>
+ <cell>Worst Slack (ns)</cell>
+ <cell>Operating Conditions</cell>
+</header>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R</cell>
+ <cell>16.000</cell>
+ <cell>62.500</cell>
+ <cell>0.074</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R</cell>
+ <cell>16.000</cell>
+ <cell>62.500</cell>
+ <cell>0.089</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>REF_CLK_PAD_P</cell>
+ <cell>6.400</cell>
+ <cell>156.250</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+</table>
+<text></text>
+<table>
+<header>
+ <cell></cell>
+ <cell>Worst Slack (ns)</cell>
+ <cell>Operating Conditions</cell>
+</header>
+<row>
+ <cell>Input to Output</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock Domain SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R</name>
+<text></text>
+<section>
+<name>SET Register to Register</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Hold (ns)</cell>
+ <cell>Operating Conditions</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/rx_data_buff[86]:CLK</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/rx_data_buff[6]:D</cell>
+ <cell>0.151</cell>
+ <cell>0.074</cell>
+ <cell>0.950</cell>
+ <cell>0.876</cell>
+ <cell>0.071</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_RX_LANE0_CHR_EN:CLK</cell>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/LANE0_RX_DATA_EN:D</cell>
+ <cell>0.154</cell>
+ <cell>0.080</cell>
+ <cell>0.965</cell>
+ <cell>0.885</cell>
+ <cell>0.068</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/rx_data_buff[136]:CLK</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/rx_data_buff[56]:D</cell>
+ <cell>0.154</cell>
+ <cell>0.080</cell>
+ <cell>0.958</cell>
+ <cell>0.878</cell>
+ <cell>0.068</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/rx_data_buff[159]:CLK</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/rx_data_buff[79]:D</cell>
+ <cell>0.149</cell>
+ <cell>0.081</cell>
+ <cell>0.953</cell>
+ <cell>0.872</cell>
+ <cell>0.062</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/rx_data_align[7]:CLK</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/rx_data_reg[7]:D</cell>
+ <cell>0.157</cell>
+ <cell>0.083</cell>
+ <cell>0.945</cell>
+ <cell>0.862</cell>
+ <cell>0.068</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/rx_data_buff[86]:CLK</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/rx_data_buff[6]:D</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.950</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>0.876</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.074</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0:RX_CLK_R</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_RX_rclkint/U0_RGB0:A</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_rx_rclkint_input_net</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.404</cell>
+ <cell>0.404</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_RX_rclkint/U0_RGB0:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.038</cell>
+ <cell>0.442</cell>
+ <cell>698</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/rx_data_buff[86]:CLK</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_RX_rclkint/U0_RGB0_rgb_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.357</cell>
+ <cell>0.799</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/rx_data_buff[86]:Q</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.084</cell>
+ <cell>0.883</cell>
+ <cell>3</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/rx_data_buff[6]:D</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/rx_data_buff_Z[86]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.067</cell>
+ <cell>0.950</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.950</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R</cell>
+ <cell>Clock Constraint</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0:RX_CLK_R</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_RX_rclkint/U0_RGB0:A</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_rx_rclkint_input_net</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.444</cell>
+ <cell>0.444</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_RX_rclkint/U0_RGB0:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.043</cell>
+ <cell>0.487</cell>
+ <cell>698</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/rx_data_buff[6]:CLK</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_RX_rclkint/U0_RGB0_rgb_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.405</cell>
+ <cell>0.892</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>clock reconvergence pessimism</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>-0.087</cell>
+ <cell>0.805</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/rx_data_buff[6]:D</cell>
+ <cell>Library hold time</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.071</cell>
+ <cell>0.876</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.876</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Operating Conditions</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+</section>
+<section>
+<name>SET External Hold</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET Clock to Output</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET Register to Asynchronous</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET External Removal</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Removal (ns)</cell>
+ <cell>External Removal (ns)</cell>
+ <cell>Operating Conditions</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>SYS_RESET_N</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[2]:ALn</cell>
+ <cell>3.945</cell>
+ <cell></cell>
+ <cell>3.945</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-3.044</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>SYS_RESET_N</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[3]:ALn</cell>
+ <cell>3.946</cell>
+ <cell></cell>
+ <cell>3.946</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-3.045</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>SYS_RESET_N</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[1]:ALn</cell>
+ <cell>3.946</cell>
+ <cell></cell>
+ <cell>3.946</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-3.045</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>SYS_RESET_N</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[10]:ALn</cell>
+ <cell>3.946</cell>
+ <cell></cell>
+ <cell>3.946</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-3.045</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>SYS_RESET_N</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[0]:ALn</cell>
+ <cell>3.946</cell>
+ <cell></cell>
+ <cell>3.946</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-3.045</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: SYS_RESET_N</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[2]:ALn</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3.945</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SYS_RESET_N</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SYS_RESET_N_ibuf/U_IOPAD:PAD</cell>
+ <cell>net</cell>
+ <cell>SYS_RESET_N</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SYS_RESET_N_ibuf/U_IOPAD:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOPAD_IN</cell>
+ <cell>+</cell>
+ <cell>0.347</cell>
+ <cell>0.347</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SYS_RESET_N_ibuf/U_IOIN:YIN</cell>
+ <cell>net</cell>
+ <cell>SYS_RESET_N_ibuf/YIN</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.347</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SYS_RESET_N_ibuf/U_IOIN:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOIN_IB_E</cell>
+ <cell>+</cell>
+ <cell>0.120</cell>
+ <cell>0.467</cell>
+ <cell>3</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_1:A</cell>
+ <cell>net</cell>
+ <cell>SYS_RESET_N_c</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>2.723</cell>
+ <cell>3.190</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_1:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.082</cell>
+ <cell>3.272</cell>
+ <cell>4</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_1/U0_RGB1_RGB1:A</cell>
+ <cell>net</cell>
+ <cell>I_1/U0_Y</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.271</cell>
+ <cell>3.543</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_1/U0_RGB1_RGB1:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.038</cell>
+ <cell>3.581</cell>
+ <cell>68</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[2]:ALn</cell>
+ <cell>net</cell>
+ <cell>I_1/U0_RGB1_RGB1_rgb_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.364</cell>
+ <cell>3.945</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3.945</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0:RX_CLK_R</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_RX_rclkint/U0_RGB1:A</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_rx_rclkint_input_net</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.477</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_RX_rclkint/U0_RGB1:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.043</cell>
+ <cell>N/C</cell>
+ <cell>68</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[2]:CLK</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_RX_rclkint/U0_RGB1_rgb_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.413</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/PRBS_ERR_CNT_Z[2]:ALn</cell>
+ <cell>Library removal time</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>-0.032</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Operating Conditions</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+</section>
+<section>
+<name>SET Asynchronous to Register</name>
+<text>No Path</text>
+</section>
+</section>
+<section>
+<name>Clock Domain SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R</name>
+<text></text>
+<section>
+<name>SET Register to Register</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Hold (ns)</cell>
+ <cell>Operating Conditions</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/probeWrite_LANE0_ERR_GEN/q[0]:CLK</cell>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/probeWrite_LANE0_ERR_GEN/q[1]:D</cell>
+ <cell>0.163</cell>
+ <cell>0.089</cell>
+ <cell>0.959</cell>
+ <cell>0.870</cell>
+ <cell>0.068</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_TX_LANE0_PATTEN_GEN[1]:CLK</cell>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_TX_LANE0_PATTEN_GEN[1]:D</cell>
+ <cell>0.160</cell>
+ <cell>0.098</cell>
+ <cell>0.942</cell>
+ <cell>0.844</cell>
+ <cell>0.062</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/probeWrite_LANE0_ERR_GEN/q[1]:CLK</cell>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/probeWrite_LANE0_ERR_GEN/q[2]:D</cell>
+ <cell>0.196</cell>
+ <cell>0.123</cell>
+ <cell>0.992</cell>
+ <cell>0.869</cell>
+ <cell>0.068</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/probeWrite_LANE0_ERR_GEN/q[2]:CLK</cell>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/probeWrite_LANE0_ERR_GEN/q[3]:D</cell>
+ <cell>0.199</cell>
+ <cell>0.126</cell>
+ <cell>0.995</cell>
+ <cell>0.869</cell>
+ <cell>0.068</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_TX_LANE0_PATTEN_GEN[0]:CLK</cell>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_TX_LANE0_PATTEN_GEN[0]:D</cell>
+ <cell>0.193</cell>
+ <cell>0.131</cell>
+ <cell>0.975</cell>
+ <cell>0.844</cell>
+ <cell>0.062</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: SmartBert_Core_0_0/SB_VER_GEN_0/probeWrite_LANE0_ERR_GEN/q[0]:CLK</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: SmartBert_Core_0_0/SB_VER_GEN_0/probeWrite_LANE0_ERR_GEN/q[1]:D</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.959</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>0.870</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.089</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0:TX_CLK_R</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_TX_rclkint/U0_RGB0:A</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_tx_rclkint_input_net</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.393</cell>
+ <cell>0.393</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_TX_rclkint/U0_RGB0:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.038</cell>
+ <cell>0.431</cell>
+ <cell>51</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/probeWrite_LANE0_ERR_GEN/q[0]:CLK</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_TX_rclkint/U0_RGB0_rgb_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.365</cell>
+ <cell>0.796</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/probeWrite_LANE0_ERR_GEN/q[0]:Q</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.084</cell>
+ <cell>0.880</cell>
+ <cell>1</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/probeWrite_LANE0_ERR_GEN/q[1]:D</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/probeWrite_LANE0_ERR_GEN/q_Z[0]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.079</cell>
+ <cell>0.959</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.959</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R</cell>
+ <cell>Clock Constraint</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0:TX_CLK_R</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_TX_rclkint/U0_RGB0:A</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_tx_rclkint_input_net</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.432</cell>
+ <cell>0.432</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_TX_rclkint/U0_RGB0:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.043</cell>
+ <cell>0.475</cell>
+ <cell>51</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/probeWrite_LANE0_ERR_GEN/q[1]:CLK</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_TX_rclkint/U0_RGB0_rgb_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.412</cell>
+ <cell>0.887</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>clock reconvergence pessimism</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>-0.085</cell>
+ <cell>0.802</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/probeWrite_LANE0_ERR_GEN/q[1]:D</cell>
+ <cell>Library hold time</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.068</cell>
+ <cell>0.870</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.870</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Operating Conditions</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+</section>
+<section>
+<name>SET External Hold</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET Clock to Output</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET Register to Asynchronous</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET External Removal</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Removal (ns)</cell>
+ <cell>External Removal (ns)</cell>
+ <cell>Operating Conditions</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>SYS_RESET_N</cell>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_PATTERN_PRBS31:ALn</cell>
+ <cell>3.910</cell>
+ <cell></cell>
+ <cell>3.910</cell>
+ <cell></cell>
+ <cell>-0.034</cell>
+ <cell>-3.021</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>SYS_RESET_N</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[6]:ALn</cell>
+ <cell>3.951</cell>
+ <cell></cell>
+ <cell>3.951</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-3.087</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>SYS_RESET_N</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[25]:ALn</cell>
+ <cell>3.951</cell>
+ <cell></cell>
+ <cell>3.951</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-3.087</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>SYS_RESET_N</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[1]:ALn</cell>
+ <cell>3.951</cell>
+ <cell></cell>
+ <cell>3.951</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-3.087</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>SYS_RESET_N</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[0]:ALn</cell>
+ <cell>3.951</cell>
+ <cell></cell>
+ <cell>3.951</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-3.087</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: SYS_RESET_N</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: SmartBert_Core_0_0/SB_VER_GEN_0/SLE_PATTERN_PRBS31:ALn</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3.910</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SYS_RESET_N</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SYS_RESET_N_ibuf/U_IOPAD:PAD</cell>
+ <cell>net</cell>
+ <cell>SYS_RESET_N</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SYS_RESET_N_ibuf/U_IOPAD:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOPAD_IN</cell>
+ <cell>+</cell>
+ <cell>0.347</cell>
+ <cell>0.347</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SYS_RESET_N_ibuf/U_IOIN:YIN</cell>
+ <cell>net</cell>
+ <cell>SYS_RESET_N_ibuf/YIN</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.347</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SYS_RESET_N_ibuf/U_IOIN:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOIN_IB_E</cell>
+ <cell>+</cell>
+ <cell>0.120</cell>
+ <cell>0.467</cell>
+ <cell>3</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_1:A</cell>
+ <cell>net</cell>
+ <cell>SYS_RESET_N_c</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>2.723</cell>
+ <cell>3.190</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_1:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.082</cell>
+ <cell>3.272</cell>
+ <cell>4</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_1/U0_RGB1_RGB2:A</cell>
+ <cell>net</cell>
+ <cell>I_1/U0_Y</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.263</cell>
+ <cell>3.535</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_1/U0_RGB1_RGB2:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.038</cell>
+ <cell>3.573</cell>
+ <cell>3</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_PATTERN_PRBS31:ALn</cell>
+ <cell>net</cell>
+ <cell>I_1/U0_RGB1_RGB2_rgb_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.337</cell>
+ <cell>3.910</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3.910</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0:TX_CLK_R</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_TX_rclkint/U0_RGB1:A</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_tx_rclkint_input_net</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.502</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_TX_rclkint/U0_RGB1:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.043</cell>
+ <cell>N/C</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_PATTERN_PRBS31:CLK</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_TX_rclkint/U0_RGB1_rgb_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.378</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_VER_GEN_0/SLE_PATTERN_PRBS31:ALn</cell>
+ <cell>Library removal time</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>-0.034</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Operating Conditions</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+</section>
+<section>
+<name>SET Asynchronous to Register</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R to SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Hold (ns)</cell>
+ <cell>Operating Conditions</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/RX_ALIGN_Z:CLK</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[34]:D</cell>
+ <cell>0.580</cell>
+ <cell>0.438</cell>
+ <cell>1.399</cell>
+ <cell>0.961</cell>
+ <cell>0.071</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/RX_ALIGN_Z:CLK</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[73]:D</cell>
+ <cell>0.662</cell>
+ <cell>0.511</cell>
+ <cell>1.481</cell>
+ <cell>0.970</cell>
+ <cell>0.071</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/RX_ALIGN_Z:CLK</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[3]:D</cell>
+ <cell>0.663</cell>
+ <cell>0.512</cell>
+ <cell>1.482</cell>
+ <cell>0.970</cell>
+ <cell>0.071</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/RX_ALIGN_Z:CLK</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[55]:D</cell>
+ <cell>0.664</cell>
+ <cell>0.513</cell>
+ <cell>1.483</cell>
+ <cell>0.970</cell>
+ <cell>0.071</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/RX_ALIGN_Z:CLK</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[52]:D</cell>
+ <cell>0.664</cell>
+ <cell>0.513</cell>
+ <cell>1.483</cell>
+ <cell>0.970</cell>
+ <cell>0.071</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/RX_ALIGN_Z:CLK</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[34]:D</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>1.399</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>0.961</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.438</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0:RX_CLK_R</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_RX_rclkint/U0_RGB0:A</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_rx_rclkint_input_net</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.404</cell>
+ <cell>0.404</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_RX_rclkint/U0_RGB0:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.038</cell>
+ <cell>0.442</cell>
+ <cell>698</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/RX_ALIGN_Z:CLK</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_RX_rclkint/U0_RGB0_rgb_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.377</cell>
+ <cell>0.819</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/RX_ALIGN_Z:Q</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.079</cell>
+ <cell>0.898</cell>
+ <cell>88</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA_RNO[34]:A</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/RX_ALIGN</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.452</cell>
+ <cell>1.350</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA_RNO[34]:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CFG4</cell>
+ <cell>+</cell>
+ <cell>0.036</cell>
+ <cell>1.386</cell>
+ <cell>1</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[34]:D</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/N_93_i</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.013</cell>
+ <cell>1.399</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>1.399</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R</cell>
+ <cell>Clock Constraint</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0:TX_CLK_R</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_TX_rclkint:A</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_tx_rclkint_input_net</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.440</cell>
+ <cell>0.440</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0/LANE0_TX_rclkint:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.043</cell>
+ <cell>0.483</cell>
+ <cell>87</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[34]:CLK</cell>
+ <cell>net</cell>
+ <cell>SmartBert_Core_0_0/PF_XCVR_0_LANE0_TX_CLK_R</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.407</cell>
+ <cell>0.890</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/TX_DATA[34]:D</cell>
+ <cell>Library hold time</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.071</cell>
+ <cell>0.961</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.961</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Operating Conditions</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+</section>
+</section>
+<section>
+<name>Clock Domain REF_CLK_PAD_P</name>
+<text></text>
+<section>
+<name>SET Register to Register</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET External Hold</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET Clock to Output</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET Register to Asynchronous</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET External Removal</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET Asynchronous to Register</name>
+<text>No Path</text>
+</section>
+</section>
+<section>
+<name>Path Set Pin to Pin</name>
+<section>
+<name>SET Input to Output</name>
+<text>No Path</text>
+</section>
+</section>
+<section>
+<name>Path Set User Sets</name>
+</section>
+</doc>

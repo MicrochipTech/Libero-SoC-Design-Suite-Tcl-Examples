@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/synthesis/PF_DDR3_SS/PF_DDR3_SS.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>CCC_111MHz_CCC_111MHz_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>COREDDR_TIP_INT_Z129|VCO_PHSEL_ROTATE_inferred_clock[0]</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>PCIe_EP_0/PCIe_TL_CLK_0/CLK_DIV2_0/CLK_DIV2_0/I_CD/Y_DIV</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>PCIe_EP_0/PCIe_TL_CLK_0/OSC_160MHz_0/OSC_160MHz_0/I_OSC_160/CLK</data>
+<data>160.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>PCIe_EP_0/PCIe_TX_PLL_0/PCIe_TX_PLL_0/txpll_isnt_0/DIV_CLK</data>
+<data>125.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>PF_DDR3_SS_0/CCC_0/pll_inst_0/OUT0</data>
+<data>600.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>PF_DDR3_SS_0/CCC_0/pll_inst_0/OUT2</data>
+<data>600.0 MHz</data>
+<data>274.8 MHz</data>
+<data>-1.972</data>
+</row>
+<row>
+<data>PF_DDR3_SS_0/CCC_0/pll_inst_0/OUT3</data>
+<data>600.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>PF_DDR3_SS_CCC_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>153.1 MHz</data>
+<data>3.468</data>
+</row>
+<row>
+<data>PF_DDR3_SS_DDRPHY_BLK_LANECTRL_ADDR_CMD_0_PF_LANECTRL|N_3_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>291.6 MHz</data>
+<data>6.571</data>
+</row>
+<row>
+<data>PF_DDR3_SS_DDRPHY_BLK_LANE_0_CTRL_PF_LANECTRL|N_3_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>PF_DDR3_SS_DDRPHY_BLK_LANE_0_CTRL_PF_LANECTRL|TX_DQS_270_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>PF_DDR3_SS_DDRPHY_BLK_LANE_1_CTRL_PF_LANECTRL|N_3_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>PF_DDR3_SS_DDRPHY_BLK_LANE_1_CTRL_PF_LANECTRL|TX_DQS_270_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>PF_DDR4_SS_0/CCC_0/pll_inst_0/OUT0</data>
+<data>800.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>PF_DDR4_SS_0/CCC_0/pll_inst_0/OUT1</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>PF_DDR4_SS_0/CCC_0/pll_inst_0/OUT2</data>
+<data>800.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>PF_DDR4_SS_0/CCC_0/pll_inst_0/OUT3</data>
+<data>800.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>REF_CLK_0</data>
+<data>50.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>REF_CLK_PAD_P</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>294.2 MHz</data>
+<data>6.601</data>
+</row>
+</report_table>

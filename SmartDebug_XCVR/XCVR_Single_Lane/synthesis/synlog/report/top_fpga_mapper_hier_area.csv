@@ -1,0 +1,18 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC_PA, RAM1K20, RAM64X12, GLOBAL, IO
+. top, 1082, 2480, 129, 0, 0, 0, 0, 3, 1
+.	. PF_TX_PLL_0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. PF_TX_PLL_0_PF_TX_PLL_0_0_PF_TX_PLL, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. PF_XCVR_REF_CLK_0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. PF_XCVR_REF_CLK_0_PF_XCVR_REF_CLK_0_0_PF_XCVR_REF_CLK, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. SmartBert_Core_0, 1082, 2480, 129, 0, 0, 0, 0, 2, 0
+.	.	. SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s, 857, 2468, 129, 0, 0, 0, 0, 0, 0
+.	.	.	. SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0, 777, 2048, 47, 0, 0, 0, 0, 0, 0
+.	.	.	. SB_PRBS_GEN_80s_97s_1s_1s_1s_1s_Z1_3, 80, 420, 82, 0, 0, 0, 0, 0, 0
+.	.	. SB_VER_GEN_Z3, 225, 10, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. probeWrite_3, 7, 3, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. probeWrite_top_0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. probeWrite_top_1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. probeWrite_top_2, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. SmartBert_Core_0_PF_XCVR_0_PF_XCVR, 0, 2, 0, 0, 0, 0, 0, 2, 0

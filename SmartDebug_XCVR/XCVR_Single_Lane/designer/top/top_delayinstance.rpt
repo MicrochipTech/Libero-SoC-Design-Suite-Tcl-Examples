@@ -1,0 +1,19 @@
+********************************************************************
+Delay Instance Report - Date: Mon May 16 17:19:05 2022
+Product: Designer
+Release: 2022.1
+Version: 2022.1.0.1
+Design Name: top
+Family: PolarFire
+Die: MPF300T
+Package: FCG1152
+********************************************************************
+
+Microsemi Corporation - Microsemi Libero Software Release 2022.1 (Version 2022.1.0.1)
+
+
++------+---------------+------------+-------------+-----------------+-----------+
+| Type | Instance Name | Param Name | Delay Value | PDC Option Name | Editable? |
++------+---------------+------------+-------------+-----------------+-----------+
++------+---------------+------------+-------------+-----------------+-----------+
+

@@ -1,0 +1,12 @@
+Microsemi Corporation - Microsemi Libero Software Release 2022.1 (Version 2022.1.0.1)
+
+Date      :  Tue May 17 09:00:14 2022
+Project   :  /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read
+Component :  CLK_DIV2
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/CLK_DIV2/CLK_DIV2_0/CLK_DIV2_CLK_DIV2_0_PF_CLK_DIV.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/CLK_DIV2/CLK_DIV2.v
+

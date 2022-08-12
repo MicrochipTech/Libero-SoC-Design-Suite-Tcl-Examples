@@ -1,0 +1,26 @@
+Microsemi Corporation - Microsemi Libero Software Release 2022.1 (Version 2022.1.0.1)
+
+Date      :  Tue May 17 09:00:25 2022
+Project   :  /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read
+Component :  Core_AHBL
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/core/coreahblite_addrdec.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/core/coreahblite_defaultslavesm.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/core/coreahblite_slavearbiter.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/core/coreahblite_masterstage.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/core/coreahblite_slavestage.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/core/coreahblite_matrix4x16.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/Core_AHBL/Core_AHBL_0/rtl/vlog/core/coreahblite.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/Core_AHBL/Core_AHBL.v
+
+Stimulus files for all Simulation tools:
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/Core_AHBL/Core_AHBL_0/coreparameters.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/amba_bfm/bfm_main.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/amba_bfm/bfm_ahbl.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vlog/amba_bfm/bfm_ahbslave.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/Core_AHBL/Core_AHBL_0/rtl/vlog/test/user/testbench.v
+

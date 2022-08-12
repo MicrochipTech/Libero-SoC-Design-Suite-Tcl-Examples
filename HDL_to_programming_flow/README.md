@@ -11,10 +11,7 @@ The following table describes the files in this example. Click on the file you a
 |[custom](custom) | This folder contains project variables required for libero.tcl.|
 
 
-For more information on the Tcl commands supported by the Libero&reg; SoC Design Suite, see:
-- [Libero SoC v12.6 Tcl Commands Reference Guide for SmartFusion2, IGLOO2, and RTG4](https://www.microsemi.com/document-portal/doc_download/1245481-libero-soc-v12-6-tcl-commands-reference-guide-for-smartfusion2-igloo2-and-rtg4)
-- [Libero SoC v12.6 Tcl Commands Reference Guide for PolarFire](https://www.microsemi.com/document-portal/doc_download/1245482-libero-soc-v12-6-tcl-commands-reference-guide-for-polarfire) 
-
+For more information on the Tcl commands supported by the Libero® SoC Design Suite, see the [Libero SoC Tcl Commands Reference Guide](http://coredocs.s3.amazonaws.com/Libero/2022_2/Tool/libero_soc_tcl_cmd_ref_ug.pdf)
 
 <hr/>
-<p align="center"><sup>&copy;Copyright 2020 Microchip Technology Inc.</sup></p>
+<p align="center"><sup>&copy;Copyright 2022 Microchip Technology Inc.</sup></p>

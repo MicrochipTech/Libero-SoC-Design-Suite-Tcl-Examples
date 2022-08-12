@@ -1,0 +1,805 @@
+# Tue May 17 09:09:02 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M
+Install: /soft/sqatest5/releases/production/Synopsys/Synplify/lin/synplify_S202109M
+OS: CentOS Linux 7 (Core)
+Hostname: hyd-sw-01
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version map202109act, Build 055R, Built Feb 23 2022 09:46:51, @4155246
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 235MB peak: 235MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 246MB peak: 246MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 246MB peak: 246MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 246MB peak: 246MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 250MB peak: 250MB)
+
+@W: Z227 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/designer/PCIe_EP_Demo/synthesis.fdc":123:0:123:0|Multiple set_clock_groups -name async, remove one set_clock_groups -name async
+@W: BN309 |One or more non-fatal issues found in constraints; Please run Constraint Check for analysis
+
+@N: MF104 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/AXItoAPB/AXItoAPB.v":9:7:9:14|Found compile point of type hard on View view:work.AXItoAPB(verilog) 
+@N: MF104 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/CoreDMA_Controller/CoreDMA_Controller_0/rtl/vlog/core_obfuscated/coreaxi4dmacontroller.v":10:0:10:60|Found compile point of type hard on View view:COREAXI4DMACONTROLLER_LIB.CoreDMA_Controller_CoreDMA_Controller_0_COREAXI4DMACONTROLLER_Z69(verilog) 
+@N: MF104 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/CoreDMA_IO_CTRL/CoreDMA_IO_CTRL.v":9:7:9:21|Found compile point of type hard on View view:work.CoreDMA_IO_CTRL(verilog) 
+@N: MF104 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREDDR_TIP/2.1.101/rtl/vlog/core/RDLVL_TRAIN.v":18:7:18:17|Found compile point of type hard on View view:work.RDLVL_TRAIN_genblk1_0__RDLVL_TRAIN_genblk1_0__RDLVL_TRAIN(verilog) 
+@N: MF104 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREDDR_TIP/2.1.101/rtl/vlog/core/RDLVL_TRAIN.v":18:7:18:17|Found compile point of type hard on View view:work.RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN(verilog) 
+@N: MF104 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/PF_DDR3_SS/PF_DDR3_SS.v":123:7:123:16|Found compile point of type hard on View view:work.PF_DDR3_SS(verilog) 
+@N: MF104 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREDDR_TIP/2.1.101/rtl/vlog/core/RDLVL_TRAIN.v":18:7:18:17|Found compile point of type hard on View view:work.RDLVL_TRAIN_genblk1_0__RDLVL_TRAIN_genblk1_0__RDLVL_TRAIN_0(verilog) 
+@N: MF104 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREDDR_TIP/2.1.101/rtl/vlog/core/RDLVL_TRAIN.v":18:7:18:17|Found compile point of type hard on View view:work.RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN_genblk1_1__RDLVL_TRAIN_0(verilog) 
+@N: MF104 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/PF_DDR4_SS/PF_DDR4_SS.v":138:7:138:16|Found compile point of type hard on View view:work.PF_DDR4_SS(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Top level view:work.PCIe_EP_Demo(verilog) 
+
+Start loading ILMs (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 541MB peak: 541MB)
+
+@W: BN114 :|Removing instance CP_fanout_cell_AXItoAPB_verilog_inst (in view: work.AXItoAPB_rtl_ilm(verilog)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_CoreDMA_IO_CTRL_verilog_inst (in view: work.CoreDMA_IO_CTRL_rtl_ilm(verilog)) because it does not drive other instances.
+
+Finished loading ILMs (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 547MB peak: 547MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/PCIe_EP_Demo/PCIe_EP_Demo.v":9:7:9:18|Mapping Top level view:work.PCIe_EP_Demo(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 547MB peak: 547MB)
+
+@N: MO111 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/CoreAxi4Interconnect.v":2207:2:2207:15|Tristate driver SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) on net SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) has its enable tied to GND.
+@N: MO111 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/CoreAxi4Interconnect.v":2199:2:2199:15|Tristate driver SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) on net SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) has its enable tied to GND.
+@N: MO111 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/CoreAxi4Interconnect.v":2191:2:2191:15|Tristate driver SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) on net SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) has its enable tied to GND.
+@N: MO111 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/CoreAxi4Interconnect.v":2183:2:2183:15|Tristate driver SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) on net SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) has its enable tied to GND.
+@N: MO111 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/CoreAxi4Interconnect.v":2175:2:2175:15|Tristate driver SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) on net SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) has its enable tied to GND.
+@N: MO111 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/CoreAxi4Interconnect.v":2167:2:2167:15|Tristate driver SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) on net SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) has its enable tied to GND.
+@N: MO111 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/CoreAxi4Interconnect.v":2159:2:2159:15|Tristate driver SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) on net SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) has its enable tied to GND.
+@N: MO111 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/CoreAxi4Interconnect.v":2151:2:2151:15|Tristate driver SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) on net SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) has its enable tied to GND.
+@N: MO111 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/CoreAxi4Interconnect.v":2143:2:2143:15|Tristate driver SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) on net SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) has its enable tied to GND.
+@N: MO111 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/CoreAxi4Interconnect.v":2135:2:2135:15|Tristate driver SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) on net SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z27(verilog)) has its enable tied to GND.
+Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_6s_32s_64s_0s_1s_4(verilog) (flattening)
+
+Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_6s_32s_64s_0s_1s_3(verilog) (flattening)
+
+Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_6s_32s_64s_0s_1s_2(verilog) (flattening)
+
+Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_6s_32s_64s_0s_1s_1(verilog) (flattening)
+
+Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_6s_32s_64s_0s_1s_0(verilog) (flattening)
+
+Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_4s_32s_64s_0s_1s_2(verilog) (flattening)
+
+Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_4s_32s_64s_0s_1s_1(verilog) (flattening)
+
+Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_4s_32s_64s_0s_1s_0(verilog) (flattening)
+
+Dissolving instances under view:work.caxi4interconnect_ReadDataController_Z20(verilog) (flattening)
+
+Dissolving instances under view:work.caxi4interconnect_ReadDataController_Z19(verilog) (flattening)
+
+Dissolving instances under view:work.caxi4interconnect_ReadDataController_Z18(verilog) (flattening)
+
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/RdFifoDualPort.v":240:0:240:5|Removing sequential instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb.rDCon.MD.genblk1[2].rdcon.rdFif.rdFif.fifoReadQ1 because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb.rDCon.MD.genblk1[2].rdcon.rdmx.openTransDec. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/RdFifoDualPort.v":240:0:240:5|Removing sequential instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb.rDCon.MD.genblk1[1].rdcon.rdFif.rdFif.fifoReadQ1 because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb.rDCon.MD.genblk1[1].rdcon.rdmx.openTransDec. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/RdFifoDualPort.v":240:0:240:5|Removing sequential instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb.rDCon.MD.genblk1[0].rdcon.rdFif.rdFif.fifoReadQ1 because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb.rDCon.MD.genblk1[0].rdcon.rdmx.openTransDec. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+@W: FA239 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXITOAHBL/3.3.102/rtl/vlog/core/CoreAXItoAHBL_readByteCnt.v":41:4:41:7|ROM AXItoAHBL_0.AXItoAHBL_0.U_AXISlaveCtrl.U_readByteCnt.validBytes_1[7:0] (in view: work.AXItoAPB(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXITOAHBL/3.3.102/rtl/vlog/core/CoreAXItoAHBL_readByteCnt.v":41:4:41:7|Found ROM AXItoAHBL_0.AXItoAHBL_0.U_AXISlaveCtrl.U_readByteCnt.validBytes_1[7:0] (in view: work.AXItoAPB(verilog)) with 128 words by 8 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 547MB peak: 547MB)
+
+Encoding state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[1\]\.mstrconv.rgsl.genblk5\.brs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[1\]\.mstrconv.rgsl.genblk5\.brs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog)); safe FSM implementation is not required.
+Encoding state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[1\]\.mstrconv.rgsl.genblk4\.wrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[1\]\.mstrconv.rgsl.genblk4\.wrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog)); safe FSM implementation is not required.
+Encoding state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[1\]\.mstrconv.rgsl.genblk3\.rrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[1\]\.mstrconv.rgsl.genblk3\.rrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog)); safe FSM implementation is not required.
+Encoding state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[1\]\.mstrconv.rgsl.genblk2\.arrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[1\]\.mstrconv.rgsl.genblk2\.arrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog)); safe FSM implementation is not required.
+Encoding state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[1\]\.mstrconv.rgsl.genblk1\.awrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[1\]\.mstrconv.rgsl.genblk1\.awrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog)); safe FSM implementation is not required.
+Encoding state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[2\]\.mstrconv.rgsl.genblk5\.brs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[2\]\.mstrconv.rgsl.genblk5\.brs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog)); safe FSM implementation is not required.
+Encoding state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[2\]\.mstrconv.rgsl.genblk4\.wrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[2\]\.mstrconv.rgsl.genblk4\.wrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog)); safe FSM implementation is not required.
+Encoding state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[2\]\.mstrconv.rgsl.genblk3\.rrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[2\]\.mstrconv.rgsl.genblk3\.rrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog)); safe FSM implementation is not required.
+Encoding state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[2\]\.mstrconv.rgsl.genblk2\.arrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[2\]\.mstrconv.rgsl.genblk2\.arrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog)); safe FSM implementation is not required.
+Encoding state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[2\]\.mstrconv.rgsl.genblk1\.awrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[2\]\.mstrconv.rgsl.genblk1\.awrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog)); safe FSM implementation is not required.
+Encoding state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk5\.brs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk5\.brs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog)); safe FSM implementation is not required.
+Encoding state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk4\.wrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk4\.wrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog)); safe FSM implementation is not required.
+Encoding state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk3\.rrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk3\.rrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog)); safe FSM implementation is not required.
+Encoding state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog)); safe FSM implementation is not required.
+Encoding state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.currState[3:0] (in view: work.PCIe_EP_Demo(verilog)); safe FSM implementation is not required.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing sequential instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk5.brs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk5.brs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.holdDat[9] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.holdDat[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.holdDat[8] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.holdDat[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.holdDat[7] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.holdDat[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.holdDat[6] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.holdDat[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.holdDat[5] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.holdDat[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.holdDat[4] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.holdDat[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.holdDat[3] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.holdDat[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk1.awrs.holdDat[21] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk1.awrs.holdDat[20]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[30] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[29] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[28] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[27] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[26] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[25] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[24] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[23] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[21] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[20] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/RoundRobinArb.v":159:0:159:5|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb.arcon.rrArb.rrArb.grantEnc[0] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb.arcon.rrArb.rrArb.grant[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[30] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[29] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[28] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[27] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[26] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[25] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[24] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[23] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[21] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[20] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.holdDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.sValid because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.sValid because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk3.rrs.sValid because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk3.rrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk2.arrs.holdDat[21] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk2.arrs.holdDat[20]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk3.rrs.sValid because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk3.rrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk5.brs.sValid because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk5.brs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[20] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[21] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[23] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[24] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[25] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[26] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[27] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[30] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[29] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[28] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/RoundRobinArb.v":159:0:159:5|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb.awcon.rrArb.rrArb.grantEnc[0] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb.awcon.rrArb.rrArb.grant[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk4.wrs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk4.wrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk3.rrs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk3.rrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk2.arrs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk2.arrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk1.awrs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk1.awrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk3.rrs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk3.rrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.sValid because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk2.arrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.sValid because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.sValid because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk1.awrs.sDat[21] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk1.awrs.sDat[20]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sValid because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.sValid because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk1.awrs.sValid because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk1.awrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk2.arrs.sValid because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk2.arrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk4.wrs.sValid because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk4.wrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[20] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[24] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[26] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[28] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[30] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[29] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[27] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[25] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[23] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[21] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk1.awrs.sDat[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk2.arrs.sDat[21] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk2.arrs.sDat[20]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk5.brs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[1].mstrconv.rgsl.genblk5.brs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.sDat[6] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.sDat[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.sDat[8] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.sDat[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.sDat[9] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.sDat[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.sDat[7] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.sDat[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.sDat[5] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.sDat[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.sDat[4] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.sDat[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.sDat[3] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[2].mstrconv.rgsl.genblk4.wrs.sDat[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.sValid because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MF135 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/DualPort_FF_SyncWr_SyncRd.v":95:0:95:5|RAM MD\.genblk1\[2\]\.rdcon.rdFif\.rdFif.genblk1\.DPFF.mem[2:0] (in view: work.caxi4interconnect_RDataController_Z17(verilog)) is 4 words by 3 bits.
+@N: MF135 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/DualPort_FF_SyncWr_SyncRd.v":95:0:95:5|RAM MD\.genblk1\[1\]\.rdcon.rdFif\.rdFif.genblk1\.DPFF.mem[2:0] (in view: work.caxi4interconnect_RDataController_Z17(verilog)) is 4 words by 3 bits.
+@N: MF135 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/DualPort_FF_SyncWr_SyncRd.v":95:0:95:5|RAM MD\.genblk1\[0\]\.rdcon.rdFif\.rdFif.genblk1\.DPFF.mem[2:0] (in view: work.caxi4interconnect_RDataController_Z17(verilog)) is 4 words by 3 bits.
+@N: MF135 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/DualPort_FF_SyncWr_SyncRd.v":95:0:95:5|RAM iWrConXB\.iWrConFif\[3\]\.wrFif.genblk1\.DPFF.mem[1:0] (in view: work.caxi4interconnect_WDataController_Z22(verilog)) is 4 words by 2 bits.
+@N: MF135 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/DualPort_FF_SyncWr_SyncRd.v":95:0:95:5|RAM iWrConXB\.iWrConFif\[2\]\.wrFif.genblk1\.DPFF.mem[1:0] (in view: work.caxi4interconnect_WDataController_Z22(verilog)) is 4 words by 2 bits.
+@N: MF135 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/DualPort_FF_SyncWr_SyncRd.v":95:0:95:5|RAM iWrConXB\.iWrConFif\[5\]\.wrFif.genblk1\.DPFF.mem[1:0] (in view: work.caxi4interconnect_WDataController_Z22(verilog)) is 4 words by 2 bits.
+@N: MF135 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/DualPort_FF_SyncWr_SyncRd.v":95:0:95:5|RAM iWrConXB\.iWrConFif\[1\]\.wrFif.genblk1\.DPFF.mem[1:0] (in view: work.caxi4interconnect_WDataController_Z22(verilog)) is 4 words by 2 bits.
+@N: MF135 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/DualPort_FF_SyncWr_SyncRd.v":95:0:95:5|RAM iWrConXB\.iWrConFif\[4\]\.wrFif.genblk1\.DPFF.mem[1:0] (in view: work.caxi4interconnect_WDataController_Z22(verilog)) is 4 words by 2 bits.
+@N: MF135 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/DualPort_FF_SyncWr_SyncRd.v":95:0:95:5|RAM iWrConXB\.iWrConFif\[0\]\.wrFif.genblk1\.DPFF.mem[1:0] (in view: work.caxi4interconnect_WDataController_Z22(verilog)) is 4 words by 2 bits.
+Encoding state machine currState[7:0] (in view: work.caxi4interconnect_DERR_Slave_6s_64s_1s_3(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/DERR_Slave.v":228:0:228:5|Removing sequential instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb.derr.DERR_ARREADY because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb.derr.currState[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/DERR_Slave.v":228:0:228:5|Removing sequential instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb.derr.DERR_AWREADY because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb.derr.currState[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/DERR_Slave.v":228:0:228:5|Found counter in view:work.caxi4interconnect_DERR_Slave_6s_64s_1s_3(verilog) instance rxCount[7:0] 
+Encoding state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z45(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z45(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z45(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z45(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z45(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z45(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z45(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z45(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z45(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z45(verilog)); safe FSM implementation is not required.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop[4].slvcnv.rgsl.genblk3.rrs.holdDat[3] because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop[4].slvcnv.rgsl.genblk3.rrs.holdDat[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop[4].slvcnv.rgsl.genblk4.wrs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop[4].slvcnv.rgsl.genblk4.wrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop[4].slvcnv.rgsl.genblk3.rrs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop[4].slvcnv.rgsl.genblk3.rrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop[4].slvcnv.rgsl.genblk2.arrs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop[4].slvcnv.rgsl.genblk2.arrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop[4].slvcnv.rgsl.genblk2.arrs.sValid because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop[4].slvcnv.rgsl.genblk2.arrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|Removing instance AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop[4].slvcnv.rgsl.genblk1.awrs.mReady because it is equivalent to instance AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop[4].slvcnv.rgsl.genblk1.awrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Only the first 100 messages of id 'BN132' are reported. To see all messages use 'report_messages -log /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/synthesis/PCIe_EP_Demo/PCIe_EP_Demo.srr -id BN132' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN132} -count unlimited' in the Tcl shell.
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v":44:1:44:6|RAM genblk1\[0\]\.ram.mem[5:0] (in view: work.caxi4interconnect_FIFO_16s_6s_6s_15s_0s_16s_4s_0s_15s_1_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v":44:1:44:6|RAM genblk1\[0\]\.ram.mem[3:0] (in view: work.caxi4interconnect_FIFO_16s_6s_6s_15s_0s_16s_4s_0s_15s_PCIe_EP_Demo(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+Encoding state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z33(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z33(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z33(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z33(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z33(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z33(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z33(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z33(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z33(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z33(verilog)); safe FSM implementation is not required.
+Encoding state machine currStateAWr[1:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvWrite_0s_3_32s_64s_1s_6s_4s_4s_4s_16(verilog))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvWrite.v":418:1:418:6|There are no possible illegal states for state machine currStateAWr[1:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvWrite_0s_3_32s_64s_1s_6s_4s_4s_4s_16(verilog)); safe FSM implementation is not required.
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/DualPort_Ram_SyncWr_SyncRd.v":94:0:94:5|RAM wrDataFif.genblk1\.DPRam.mem[72:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvWrite_0s_3_32s_64s_1s_6s_4s_4s_4s_16(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/DualPort_Ram_SyncWr_SyncRd.v":94:0:94:5|RAM genblk1\.DPRam.mem[7:0] (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+Encoding state machine currStateARd[1:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvRead_0s_3_32s_64s_1s_6s_4s_4s_4s_16(verilog))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvRead.v":337:1:337:6|There are no possible illegal states for state machine currStateARd[1:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvRead_0s_3_32s_64s_1s_6s_4s_4s_4s_16(verilog)); safe FSM implementation is not required.
+@N: MO231 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvRead.v":508:1:508:6|Found counter in view:work.caxi4interconnect_SlvAxi4ProtConvRead_0s_3_32s_64s_1s_6s_4s_4s_4s_16(verilog) instance numCombRd[7:0] 
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/DualPort_Ram_SyncWr_SyncRd.v":94:0:94:5|RAM rdDataFif.genblk1\.DPRam.mem[64:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvRead_0s_3_32s_64s_1s_6s_4s_4s_4s_16(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/DualPort_Ram_SyncWr_SyncRd.v":94:0:94:5|RAM rdIdFif.genblk1\.DPRam.mem[13:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvRead_0s_3_32s_64s_1s_6s_4s_4s_4s_16(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v":44:1:44:6|RAM ram.mem[46:0] (in view: work.caxi4interconnect_CDC_FIFO_4s_69s_2s_1_1(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v":44:1:44:6|RAM ram.mem[72:0] (in view: work.caxi4interconnect_CDC_FIFO_4s_74s_2s_1_1(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v":44:1:44:6|RAM ram.mem[48:0] (in view: work.caxi4interconnect_CDC_FIFO_4s_69s_2s_1_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v":44:1:44:6|RAM ram.mem[71:0] (in view: work.caxi4interconnect_CDC_FIFO_4s_74s_2s_1_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v":44:1:44:6|RAM ram.mem[4:0] (in view: work.caxi4interconnect_CDC_FIFO_4s_9s_2s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+Encoding state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z42(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z42(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z42(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z42(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z42(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z42(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z42(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z42(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z42(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z42(verilog)); safe FSM implementation is not required.
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v":44:1:44:6|RAM genblk1\[0\]\.ram.mem[5:0] (in view: work.caxi4interconnect_FIFO_16s_6s_6s_15s_0s_16s_4s_0s_15s_PCIe_EP_Demo_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+Encoding state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z39(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z39(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z39(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z39(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z39(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z39(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z39(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z39(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z39(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z39(verilog)); safe FSM implementation is not required.
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v":44:1:44:6|RAM genblk1\[0\]\.ram.mem[5:0] (in view: work.caxi4interconnect_FIFO_16s_6s_6s_15s_0s_16s_4s_0s_15s_4(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v":44:1:44:6|RAM genblk1\[0\]\.ram.mem[3:0] (in view: work.caxi4interconnect_FIFO_16s_6s_6s_15s_0s_16s_4s_0s_15s_5(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v":44:1:44:6|RAM ram.mem[45:0] (in view: work.caxi4interconnect_CDC_FIFO_4s_69s_2s_1_2(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v":44:1:44:6|RAM ram.mem[72:0] (in view: work.caxi4interconnect_CDC_FIFO_4s_74s_2s_1_2(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v":44:1:44:6|RAM ram.mem[47:0] (in view: work.caxi4interconnect_CDC_FIFO_4s_69s_2s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v":44:1:44:6|RAM ram.mem[72:0] (in view: work.caxi4interconnect_CDC_FIFO_4s_74s_2s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v":44:1:44:6|RAM ram.mem[3:0] (in view: work.caxi4interconnect_CDC_FIFO_4s_9s_2s_1(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+Encoding state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z36(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z36(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z36(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z36(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z36(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z36(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z36(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z36(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z36(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z36(verilog)); safe FSM implementation is not required.
+Encoding state machine AXItoAHBL_0.AXItoAHBL_0.U_AXISlaveCtrl.currState[10:0] (in view: work.AXItoAPB(verilog))
+original code -> new code
+   0000 -> 00000000001
+   0001 -> 00000000010
+   0010 -> 00000000100
+   0011 -> 00000001000
+   0100 -> 00000010000
+   0101 -> 00000100000
+   0110 -> 00001000000
+   0111 -> 00010000000
+   1000 -> 00100000000
+   1001 -> 01000000000
+   1010 -> 10000000000
+Encoding state machine lnk_m_cs[19:0] (in view: work.G5_APBLINK_MASTER_Z70(verilog))
+original code -> new code
+   000000 -> 00000000000000000001
+   000001 -> 00000000000000000010
+   000010 -> 00000000000000000100
+   000011 -> 00000000000000001000
+   000100 -> 00000000000000010000
+   000101 -> 00000000000000100000
+   000110 -> 00000000000001000000
+   000111 -> 00000000000010000000
+   001000 -> 00000000000100000000
+   001001 -> 00000000001000000000
+   001010 -> 00000000010000000000
+   001011 -> 00000000100000000000
+   001100 -> 00000001000000000000
+   001101 -> 00000010000000000000
+   001110 -> 00000100000000000000
+   001111 -> 00001000000000000000
+   010000 -> 00010000000000000000
+   010001 -> 00100000000000000000
+   010010 -> 01000000000000000000
+   010011 -> 10000000000000000000
+@N: MF179 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/SgCore/PF_PCIE/2.0.116/g5_apblink_master.v":120:16:120:47|Found 24 by 24 bit equality operator ('==') un2_match (in view: work.G5_APBLINK_MASTER_Z70(verilog))
+@N: MO231 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/hdl/Debounce.v":69:0:69:5|Found counter in view:work.debounce_PCIe_EP_Demo(verilog) instance q_reg[12:0] 
+Encoding state machine DDRCTRL_0.sdram_sys_top.sdram_lb.axi_if_0.rd_data_asm_fifo_gen\.rd_data_asm_fifo.util_fifo_core_inst.gen_lat1_to_lat0\.util_lat1_to_lat0.rd_addr[2:0] (in view: work.PF_DDR3_SS(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.WRLVL.wrlvl_instances\[0\]\.uWrlvl.current_state[16:0] (in view: work.PF_DDR3_SS(verilog))
+original code -> new code
+   0000000000000000000 -> 00000000000000001
+   0000000000000000010 -> 00000000000000010
+   0000000000000001000 -> 00000000000000100
+   0000000000000010000 -> 00000000000001000
+   0000000000000100000 -> 00000000000010000
+   0000000000001000000 -> 00000000000100000
+   0000000000010000000 -> 00000000001000000
+   0000000000100000000 -> 00000000010000000
+   0000000001000000000 -> 00000000100000000
+   0000000010000000000 -> 00000001000000000
+   0000000100000000000 -> 00000010000000000
+   0000001000000000000 -> 00000100000000000
+   0000010000000000000 -> 00001000000000000
+   0000100000000000000 -> 00010000000000000
+   0001000000000000000 -> 00100000000000000
+   0010000000000000000 -> 01000000000000000
+   1000000000000000000 -> 10000000000000000
+Encoding state machine DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.WRLVL.wrlvl_instances\[1\]\.uWrlvl.current_state[16:0] (in view: work.PF_DDR3_SS(verilog))
+original code -> new code
+   0000000000000000000 -> 00000000000000001
+   0000000000000000010 -> 00000000000000010
+   0000000000000001000 -> 00000000000000100
+   0000000000000010000 -> 00000000000001000
+   0000000000000100000 -> 00000000000010000
+   0000000000001000000 -> 00000000000100000
+   0000000000010000000 -> 00000000001000000
+   0000000000100000000 -> 00000000010000000
+   0000000001000000000 -> 00000000100000000
+   0000000010000000000 -> 00000001000000000
+   0000000100000000000 -> 00000010000000000
+   0000001000000000000 -> 00000100000000000
+   0000010000000000000 -> 00001000000000000
+   0000100000000000000 -> 00010000000000000
+   0001000000000000000 -> 00100000000000000
+   0010000000000000000 -> 01000000000000000
+   1000000000000000000 -> 10000000000000000
+Encoding state machine DDRCTRL_0.sdram_sys_top.sdram_lb.axi_if_0.rd_data_asm_fifo_gen\.rd_data_asm_fifo.util_fifo_core_inst.gen_lat1_to_lat0\.util_lat1_to_lat0.rd_addr[2:0] (in view: work.PF_DDR4_SS(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.WRLVL.wrlvl_instances\[0\]\.uWrlvl.current_state[16:0] (in view: work.PF_DDR4_SS(verilog))
+original code -> new code
+   0000000000000000000 -> 00000000000000001
+   0000000000000000010 -> 00000000000000010
+   0000000000000001000 -> 00000000000000100
+   0000000000000010000 -> 00000000000001000
+   0000000000000100000 -> 00000000000010000
+   0000000000001000000 -> 00000000000100000
+   0000000000010000000 -> 00000000001000000
+   0000000000100000000 -> 00000000010000000
+   0000000001000000000 -> 00000000100000000
+   0000000010000000000 -> 00000001000000000
+   0000000100000000000 -> 00000010000000000
+   0000001000000000000 -> 00000100000000000
+   0000010000000000000 -> 00001000000000000
+   0000100000000000000 -> 00010000000000000
+   0001000000000000000 -> 00100000000000000
+   0010000000000000000 -> 01000000000000000
+   1000000000000000000 -> 10000000000000000
+Encoding state machine DDRPHY_BLK_0.IOD_TRAINING_0.COREDDR_TIP_INT_U.TIP_CTRL_BLK.LEVELLING.WRLVL.wrlvl_instances\[1\]\.uWrlvl.current_state[16:0] (in view: work.PF_DDR4_SS(verilog))
+original code -> new code
+   0000000000000000000 -> 00000000000000001
+   0000000000000000010 -> 00000000000000010
+   0000000000000001000 -> 00000000000000100
+   0000000000000010000 -> 00000000000001000
+   0000000000000100000 -> 00000000000010000
+   0000000000001000000 -> 00000000000100000
+   0000000000010000000 -> 00000000001000000
+   0000000000100000000 -> 00000000010000000
+   0000000001000000000 -> 00000000100000000
+   0000000010000000000 -> 00000001000000000
+   0000000100000000000 -> 00000010000000000
+   0000001000000000000 -> 00000100000000000
+   0000010000000000000 -> 00001000000000000
+   0000100000000000000 -> 00010000000000000
+   0001000000000000000 -> 00100000000000000
+   0010000000000000000 -> 01000000000000000
+   1000000000000000000 -> 10000000000000000
+@N: MO231 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1666:4:1666:9|Found counter in view:work.SRAM_AXI_COREAXI4SRAM_0_COREAXI4SRAM_Z190(verilog) instance genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk2\.rdbeat_cnt[8:0] 
+@N: MO231 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1398:10:1398:15|Found counter in view:work.SRAM_AXI_COREAXI4SRAM_0_COREAXI4SRAM_Z190(verilog) instance genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk2\.genblk2\.ram_rdreq_cntr[8:0] 
+@W: MO160 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1755:4:1755:9|Register bit genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk2\.rd_number_bytes_r[7] (in view view:work.SRAM_AXI_COREAXI4SRAM_0_COREAXI4SRAM_Z190(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1755:4:1755:9|Register bit genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk2\.rd_number_bytes_r[6] (in view view:work.SRAM_AXI_COREAXI4SRAM_0_COREAXI4SRAM_Z190(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1755:4:1755:9|Register bit genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk2\.rd_number_bytes_r[5] (in view view:work.SRAM_AXI_COREAXI4SRAM_0_COREAXI4SRAM_Z190(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":1755:4:1755:9|Register bit genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk2\.rd_number_bytes_r[4] (in view view:work.SRAM_AXI_COREAXI4SRAM_0_COREAXI4SRAM_Z190(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Register bit genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.number_bytes_r[7] (in view view:work.SRAM_AXI_COREAXI4SRAM_0_COREAXI4SRAM_Z190(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Register bit genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.number_bytes_r[6] (in view view:work.SRAM_AXI_COREAXI4SRAM_0_COREAXI4SRAM_Z190(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Register bit genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.number_bytes_r[5] (in view view:work.SRAM_AXI_COREAXI4SRAM_0_COREAXI4SRAM_Z190(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Register bit genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.number_bytes_r[4] (in view view:work.SRAM_AXI_COREAXI4SRAM_0_COREAXI4SRAM_Z190(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MF179 :|Found 9 by 9 bit equality operator ('==') genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk2\.genblk2\.ren_sc8 (in view: work.SRAM_AXI_COREAXI4SRAM_0_COREAXI4SRAM_Z190(verilog))
+
+Starting factoring (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:09s; Memory used current: 547MB peak: 547MB)
+
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing sequential instance rgsl.genblk2\.arrs.sDat[18] (in view: work.caxi4interconnect_SlaveConvertor_Z39(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Removing sequential instance rgsl.genblk1\.awrs.sDat[18] (in view: work.caxi4interconnect_SlaveConvertor_Z39(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing sequential instance rgsl.genblk2\.arrs.holdDat[18] (in view: work.caxi4interconnect_SlaveConvertor_Z39(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":68:1:68:6|Removing sequential instance rgsl.genblk1\.awrs.holdDat[18] (in view: work.caxi4interconnect_SlaveConvertor_Z39(verilog)) because it does not drive other instances.
+Auto Dissolve of PCIe_EP_0.PCIex4_0 (inst of view:work.PCIe_EP_PCIex4_0_PF_PCIE(verilog))
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Removing sequential instance SRAM_AXI_0.COREAXI4SRAM_0.genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[0] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Removing sequential instance SRAM_AXI_0.COREAXI4SRAM_0.genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[1] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Removing sequential instance SRAM_AXI_0.COREAXI4SRAM_0.genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[2] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:12s; Memory used current: 547MB peak: 547MB)
+
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/TransactionController.v":299:1:299:6|Removing sequential instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb\.awcon.mstctrlBlk\[1\]\.mstctrl.trnscon.genblk3\[0\]\.openTransVec\[0\][6] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/TransactionController.v":299:1:299:6|Removing sequential instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb\.awcon.mstctrlBlk\[2\]\.mstctrl.trnscon.genblk3\[0\]\.openTransVec\[0\][6] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/TransactionController.v":299:1:299:6|Removing sequential instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb\.awcon.mstctrlBlk\[0\]\.mstctrl.trnscon.genblk3\[0\]\.openTransVec\[0\][6] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Removing sequential instance SRAM_AXI_0.COREAXI4SRAM_0.genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[3] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Removing sequential instance SRAM_AXI_0.COREAXI4SRAM_0.genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[4] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Removing sequential instance SRAM_AXI_0.COREAXI4SRAM_0.genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[5] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Removing sequential instance SRAM_AXI_0.COREAXI4SRAM_0.genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[6] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Removing sequential instance SRAM_AXI_0.COREAXI4SRAM_0.genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[7] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Removing sequential instance SRAM_AXI_0.COREAXI4SRAM_0.genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[8] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Removing sequential instance SRAM_AXI_0.COREAXI4SRAM_0.genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[9] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Removing sequential instance SRAM_AXI_0.COREAXI4SRAM_0.genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[10] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v":570:5:570:10|Removing sequential instance SRAM_AXI_0.COREAXI4SRAM_0.genblk1\.U_SRAM_AXI_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[11] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:18s; Memory used current: 547MB peak: 547MB)
+
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/TransactionController.v":299:1:299:6|Removing sequential instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb\.arcon.mstctrlBlk\[2\]\.mstctrl.trnscon.genblk3\[0\]\.openTransVec\[0\][4] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/TransactionController.v":299:1:299:6|Removing sequential instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb\.arcon.mstctrlBlk\[0\]\.mstctrl.trnscon.genblk3\[0\]\.openTransVec\[0\][8] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:21s; Memory used current: 547MB peak: 547MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:27s; Memory used current: 547MB peak: 547MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:27s; Memory used current: 547MB peak: 547MB)
+
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvWrite.v":300:0:300:5|Removing sequential instance AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXI3ProtConv.SlvPCWr.currentAddrW[2] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvWrite.v":300:0:300:5|Removing sequential instance AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXI3ProtConv.SlvPCWr.currentAddrW[1] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+@N: BN362 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvWrite.v":300:0:300:5|Removing sequential instance AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXI3ProtConv.SlvPCWr.currentAddrW[0] (in view: work.PCIe_EP_Demo(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:33s; CPU Time elapsed 0h:00m:31s; Memory used current: 547MB peak: 547MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:35s; CPU Time elapsed 0h:00m:33s; Memory used current: 547MB peak: 547MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:34s		    -2.04ns		6848 /      5216
+   2		0h:00m:34s		    -2.04ns		6811 /      5216
+@N: FX271 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Replicating instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk4\.wrs.N_389_i (in view: work.PCIe_EP_Demo(verilog)) with 73 loads 3 times to improve timing.
+@N: FX271 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":72:13:72:29|Replicating instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk4\.wrs.holdDat25 (in view: work.PCIe_EP_Demo(verilog)) with 73 loads 3 times to improve timing.
+@N: FX271 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Replicating instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk3\.rrs.N_423_i (in view: work.PCIe_EP_Demo(verilog)) with 71 loads 3 times to improve timing.
+@N: FX271 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Replicating instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.N_491_i (in view: work.PCIe_EP_Demo(verilog)) with 42 loads 2 times to improve timing.
+@N: FX271 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":72:13:72:29|Replicating instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.holdDat5 (in view: work.PCIe_EP_Demo(verilog)) with 42 loads 2 times to improve timing.
+@N: FX271 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Replicating instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.N_457_i (in view: work.PCIe_EP_Demo(verilog)) with 44 loads 3 times to improve timing.
+@N: FX271 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":72:13:72:29|Replicating instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.holdDat5 (in view: work.PCIe_EP_Demo(verilog)) with 44 loads 3 times to improve timing.
+@N: FX271 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4CrossBar/WriteDataMux.v":369:2:369:3|Replicating instance AXI4_Interconnect_0.AXI4_Interconnect_0.axicb.cb\.wDCon.iWrConXB\.iWrConFif\[0\]\.wrDMux.MASTER_WREADY_2_0_a2[0] (in view: work.PCIe_EP_Demo(verilog)) with 130 loads 3 times to improve timing.
+@N: FX271 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Replicating instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[1\]\.mstrconv.rgsl.genblk4\.wrs.N_62_i (in view: work.PCIe_EP_Demo(verilog)) with 73 loads 3 times to improve timing.
+Timing driven replication report
+Added 0 Registers via timing driven replication
+Added 25 LUTs via timing driven replication
+
+   3		0h:00m:36s		    -1.57ns		6836 /      5216
+@N: FX271 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":72:13:72:29|Replicating instance AXI4_Interconnect_0.AXI4_Interconnect_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk3\.rrs.holdDat15 (in view: work.PCIe_EP_Demo(verilog)) with 71 loads 3 times to improve timing.
+@N: FX271 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Replicating instance AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop\[2\]\.slvcnv.rgsl.genblk3\.rrs.N_155_i (in view: work.PCIe_EP_Demo(verilog)) with 73 loads 3 times to improve timing.
+@N: FX271 :"/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.5.100/rtl/vlog/core/Axi4Convertors/RegSliceFull.v":80:1:80:6|Replicating instance AXI4_Interconnect_0.AXI4_Interconnect_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.N_155_i (in view: work.PCIe_EP_Demo(verilog)) with 72 loads 3 times to improve timing.
+Timing driven replication report
+Added 0 Registers via timing driven replication
+Added 9 LUTs via timing driven replication
+
+
+   4		0h:00m:37s		    -1.57ns		6845 /      5216
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:41s; CPU Time elapsed 0h:00m:40s; Memory used current: 547MB peak: 547MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:47s; CPU Time elapsed 0h:00m:45s; Memory used current: 547MB peak: 547MB)
+
+
+End compile point sub-process log
+
+Writing compile point status file /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/synthesis/PCIe_EP_Demo/cpprop
+
+Summary of Compile Points :
+*************************** 
+Name             Status     Reason     
+---------------------------------------
+PCIe_EP_Demo     Mapped     No database
+=======================================
+
+Process took 0h:00m:47s realtime, 0h:00m:46s cputime
+# Tue May 17 09:09:50 2022
+
+###########################################################]

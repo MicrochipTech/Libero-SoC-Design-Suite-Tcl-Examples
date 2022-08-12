@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component> 
+<vendor></vendor>
+<library></library>
+<name>SmartBert_Core_0_PF_XCVR_0_PF_XCVR</name>
+<version></version>
+<hwModel>
+<views>
+<view>
+<name>Synthesis</name>
+<fileSetRef>SYNPLIFY_SYNTHESIS_FILESET</fileSetRef>
+</view>
+<view>
+<name>Simulation</name>
+<fileSetRef>ANY_HDL_SIMULATION_FILESET</fileSetRef>
+</view>
+</views>
+</hwModel>
+<fileSets>
+<fileSet fileSetId="SYNPLIFY_SYNTHESIS_FILESET">
+<file>
+<name>SmartBert_Core_0_PF_XCVR_0_PF_XCVR.v</name>
+<userFileType>VerilogSynthesis</userFileType>
+</file>
+</fileSet>
+<fileSet fileSetId="ANY_HDL_SIMULATION_FILESET">
+<file>
+<name>SmartBert_Core_0_PF_XCVR_0_PF_XCVR_sim.v</name>
+<userFileType>verilogSource</userFileType>
+</file>
+</fileSet>
+</fileSets>
+</component>

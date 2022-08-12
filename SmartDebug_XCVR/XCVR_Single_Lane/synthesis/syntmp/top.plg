@@ -1,0 +1,21 @@
+@P:  Worst Slack : 3.550
+@P:  REF_CLK_PAD_P - Estimated Frequency : NA
+@P:  REF_CLK_PAD_P - Requested Frequency : 156.2 MHz
+@P:  REF_CLK_PAD_P - Estimated Period : NA
+@P:  REF_CLK_PAD_P - Requested Period : 6.400
+@P:  REF_CLK_PAD_P - Slack : NA
+@P:  SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R - Estimated Frequency : 112.3 MHz
+@P:  SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R - Requested Frequency : 62.5 MHz
+@P:  SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R - Estimated Period : 8.901
+@P:  SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R - Requested Period : 16.000
+@P:  SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R - Slack : 3.550
+@P:  SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R - Estimated Frequency : 185.9 MHz
+@P:  SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R - Requested Frequency : 62.5 MHz
+@P:  SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R - Estimated Period : 5.378
+@P:  SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R - Requested Period : 16.000
+@P:  SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R - Slack : 5.311
+@P: top Part : mpf300tfcg1152-1
+@P: top Register bits  : 1082 
+@P: top DSP Blocks  : 0
+@P: top I/O primitives : 1
+@P:  CPU Time : 0h:00m:07s

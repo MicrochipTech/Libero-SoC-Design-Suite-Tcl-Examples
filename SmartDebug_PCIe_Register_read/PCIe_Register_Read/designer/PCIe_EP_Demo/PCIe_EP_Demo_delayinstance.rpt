@@ -1,0 +1,42 @@
+********************************************************************
+Delay Instance Report - Date: Tue May 17 09:35:13 2022
+Product: Designer
+Release: 2022.1
+Version: 2022.1.0.1
+Design Name: PCIe_EP_Demo
+Family: PolarFire
+Die: MPF300T
+Package: FCG1152
+********************************************************************
+
+Microsemi Corporation - Microsemi Libero Software Release 2022.1 (Version 2022.1.0.1)
+
+
++-----------+------------------------------------------------------------+------------------+-------------+-----------------+-----------+
+| Type      | Instance Name                                              | Param Name       | Delay Value | PDC Option Name | Editable? |
++-----------+------------------------------------------------------------+------------------+-------------+-----------------+-----------+
+| LANECTRL  | PF_DDR3_SS_0/DDRPHY_BLK_0/LANECTRL_ADDR_CMD_0/I_LANECTRL_0 | RX_DQS_DELAY_VAL | 1           | RX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR3_SS_0/DDRPHY_BLK_0/LANECTRL_ADDR_CMD_0/I_LANECTRL_0 | TX_DQS_DELAY_VAL | 1           | TX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR3_SS_0/DDRPHY_BLK_0/LANECTRL_ADDR_CMD_0/I_LANECTRL_1 | RX_DQS_DELAY_VAL | 1           | RX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR3_SS_0/DDRPHY_BLK_0/LANECTRL_ADDR_CMD_0/I_LANECTRL_1 | TX_DQS_DELAY_VAL | 1           | TX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR4_SS_0/DDRPHY_BLK_0/LANE_1_CTRL/I_LANECTRL           | RX_DQS_DELAY_VAL | 1           | RX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR4_SS_0/DDRPHY_BLK_0/LANE_1_CTRL/I_LANECTRL           | TX_DQS_DELAY_VAL | 1           | TX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR3_SS_0/DDRPHY_BLK_0/LANE_1_CTRL/I_LANECTRL           | RX_DQS_DELAY_VAL | 1           | RX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR3_SS_0/DDRPHY_BLK_0/LANE_1_CTRL/I_LANECTRL           | TX_DQS_DELAY_VAL | 1           | TX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR4_SS_0/DDRPHY_BLK_0/LANECTRL_ADDR_CMD_0/I_LANECTRL_0 | RX_DQS_DELAY_VAL | 1           | RX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR4_SS_0/DDRPHY_BLK_0/LANECTRL_ADDR_CMD_0/I_LANECTRL_0 | TX_DQS_DELAY_VAL | 1           | TX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR4_SS_0/DDRPHY_BLK_0/LANECTRL_ADDR_CMD_0/I_LANECTRL_1 | RX_DQS_DELAY_VAL | 1           | RX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR4_SS_0/DDRPHY_BLK_0/LANECTRL_ADDR_CMD_0/I_LANECTRL_1 | TX_DQS_DELAY_VAL | 1           | TX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR4_SS_0/DDRPHY_BLK_0/LANE_0_CTRL/I_LANECTRL           | RX_DQS_DELAY_VAL | 1           | RX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR4_SS_0/DDRPHY_BLK_0/LANE_0_CTRL/I_LANECTRL           | TX_DQS_DELAY_VAL | 1           | TX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR3_SS_0/DDRPHY_BLK_0/LANE_0_CTRL/I_LANECTRL           | RX_DQS_DELAY_VAL | 1           | RX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR3_SS_0/DDRPHY_BLK_0/LANE_0_CTRL/I_LANECTRL           | TX_DQS_DELAY_VAL | 1           | TX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR4_SS_0/DDRPHY_BLK_0/LANECTRL_ADDR_CMD_0/I_LANECTRL   | RX_DQS_DELAY_VAL | 1           | RX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR4_SS_0/DDRPHY_BLK_0/LANECTRL_ADDR_CMD_0/I_LANECTRL   | TX_DQS_DELAY_VAL | 1           | TX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR3_SS_0/DDRPHY_BLK_0/LANECTRL_ADDR_CMD_0/I_LANECTRL   | RX_DQS_DELAY_VAL | 1           | RX_DQS_DELAY    | No        |
+| LANECTRL  | PF_DDR3_SS_0/DDRPHY_BLK_0/LANECTRL_ADDR_CMD_0/I_LANECTRL   | TX_DQS_DELAY_VAL | 1           | TX_DQS_DELAY    | No        |
+| PLL_DELAY | CCC_111MHz_0/CCC_111MHz_0/pll_inst_0_DELAY                 | CDELAY0_SEL      | 0           | DELAY           | No        |
+| PLL_DELAY | PF_DDR4_SS_0/CCC_0/pll_inst_0_DELAY                        | CDELAY0_SEL      | 0           | DELAY           | No        |
+| PLL_DELAY | PF_DDR3_SS_0/CCC_0/pll_inst_0_DELAY                        | CDELAY0_SEL      | 0           | DELAY           | No        |
++-----------+------------------------------------------------------------+------------------+-------------+-----------------+-----------+
+

@@ -1,0 +1,88 @@
+INFO: Reading User SDC file Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\constraint\top_derived_constraints.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+No errors or warnings found.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : ON
+Global Pins Demotion     : ON
+Driver Replication       : OFF
+High-effort              : ON
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : ON
+
+INFO: Reading User PDC file Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\constraint\io\io_constraints.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\constraint\fp\fp_constraints.pdc. 0 error(s) and 0 warning(s)
+
+ Running Timing based Global Demotion. 
+        Demoted 0 global pins.
+
+ Timing based Global Demotion completed successfully. 
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 1 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 7 seconds
+
+Placer V5.0 - 2022.1.0 
+Design: top                             Started: Mon May 16 17:14:08 2022
+
+Initializing High-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 3 seconds
+Placement                : 10 seconds
+Improvement              : 8 seconds
+
+Placer completed successfully.
+
+Design: top                             
+Finished: Mon May 16 17:15:40 2022
+Total CPU Time:     00:00:53            Total Elapsed Time: 00:01:32
+Total Memory Usage: 1207.3 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\designer\top\topStarted: Mon May 16 17:16:46 2022
+
+
+Router completed successfully.
+
+Design: Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\designer\top\top
+Finished: Mon May 16 17:18:00 2022
+Total CPU Time:     00:01:17            Total Elapsed Time: 00:01:14
+Total Memory Usage: 5308.9 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Worst minimum delay slack: 
+  Total violating paths eligible for improvement: 0
+  Total violating paths improved: 0
+Resource Usage
++---------------+------+--------+------------+
+| Type          | Used | Total  | Percentage |
++---------------+------+--------+------------+
+| 4LUT          | 2608 | 299544 | 0.87       |
+| DFF           | 1082 | 299544 | 0.36       |
+| I/O Register  | 0    | 510    | 0.00       |
+| Logic Element | 2808 | 299544 | 0.94       |
++---------------+------+--------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  1    | 100.00%    |
+| Placed |  0    | 0.00%      |
++--------+-------+------------+
+
+Completed writing pin report files.

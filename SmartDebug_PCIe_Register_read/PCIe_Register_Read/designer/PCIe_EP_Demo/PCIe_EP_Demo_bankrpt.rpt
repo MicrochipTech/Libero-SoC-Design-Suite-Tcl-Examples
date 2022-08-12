@@ -1,0 +1,69 @@
+********************************************************************
+I/O Bank Report - Date: Tue May 17 09:35:24 2022
+Product: Designer
+Release: 2022.1
+Version: 2022.1.0.1
+Design Name: PCIe_EP_Demo
+Family: PolarFire
+Die: MPF300T
+Package: FCG1152
+********************************************************************
+
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 12            | 0            | 0
+    Output I/O                            | 74            | 0            | 0
+    Bidirectional I/O                     | 32            | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 2             | 0            | 0
+    Differential Bidirectional I/O Pairs  | 4             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os              
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vddi  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    HSTL12I (Output)                | 1.20v | N/A   | 0     | 28     | 0            
+    LVCMOS18                        | 1.80v | N/A   | 12    | 9      | 0            
+    LVCMOS25                        | 2.50v | N/A   | 0     | 5      | 0            
+    POD12I (Input/Bidirectional)    | 1.20v | 0.60v | 0     | 0      | 20           
+    POD12I (Output)                 | 1.20v | N/A   | 0     | 2      | 0            
+    SHIELD12                        | 1.20v | N/A   | 0     | 2      | 0            
+    SHIELD15                        | 1.50v | N/A   | 0     | 2      | 0            
+    SSTL15II (Input/Bidirectional)  | 1.50v | 0.75v | 0     | 0      | 20           
+    SSTL15II (Output)               | 1.50v | N/A   | 0     | 30     | 0            
+
+I/O Bank Resource Usage:
+
+          |   Voltages    | Single I/Os  | Diff I/O Pairs |        Vref I/Os        |  Type   
+          |-------|-------|------|-------|-------|--------|------|-------|----------|---------
+          | Vddi  | Vref  | Used | Total | Used  | Total  | Used | Total | Vref Pins|         
+    ------|-------|-------|------|-------|-------|--------|------|-------|----------|---------
+    Bank0 | 1.20v | 0.60v | 2    | 72    | 3     | 36     | 44   | 72    | 0        | HSIO    
+    Bank1 | 1.50v | 0.75v | 2    | 60    | 3     | 30     | 44   | 60    | 0        | HSIO    
+    Bank2 | 2.50v | N/A   | 5    | 96    | 0     | 48     | N/A  | N/A   | N/A      | GPIO    
+    Bank3 | 3.30v | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | JTAG    
+    Bank4 | 2.50v | N/A   | 0    | 92    | 0     | 46     | N/A  | N/A   | N/A      | GPIO    
+    Bank5 | 2.50v | N/A   | 0    | 48    | 0     | 24     | N/A  | N/A   | N/A      | GPIO    
+    Bank6 | 1.80v | N/A   | 21   | 72    | 0     | 36     | N/A  | N/A   | N/A      | HSIO    
+    Bank7 | 1.20v | 0.60v | 0    | 72    | 0     | 36     | 0    | 72    | 0        | HSIO    
+
+
+I/O Voltage Usage:
+
+       Voltages    |     I/Os     
+    -------|-------|------|-------
+     Vddi  | Vref  | Used | Total 
+    -------|-------|------|-------
+     1.20v | N/A   | 52   | 144   
+     1.50v | N/A   | 52   | 60    
+     1.80v | N/A   | 21   | 72    
+     2.50v | N/A   | 5    | 236   
+     3.30v | N/A   | 0    | 0     
+     1.20v | 0.60v | 16   | 144   
+     1.50v | 0.75v | 16   | 60    
+

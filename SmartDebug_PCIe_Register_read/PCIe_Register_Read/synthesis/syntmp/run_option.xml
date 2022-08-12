@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!-- 
+  Synopsys, Inc.
+  Version S-2021.09M
+  Project file /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/synthesis/syntmp/run_option.xml
+  Written on Tue May 17 09:05:08 2022
+
+
+--> 
+<project_attribute_list name="Project Settings"> 
+     <option name="project_name" display_name="Project Name">PCIe_EP_Demo_syn</option>
+     <option name="device_name" display_name="Device Name">synthesis: Microchip PolarFire : MPF300T</option>
+     <option name="impl_name" display_name="Implementation Name">synthesis</option>
+     <option name="top_module" display_name="Top Module">PCIe_EP_Demo</option>
+     <option name="retiming" display_name="Retiming">0</option>
+     <option name="resource_sharing" display_name="Resource Sharing">1</option>
+     <option name="maxfan" display_name="Fanout Guide">10000</option>
+     <option name="disable_io_insertion" display_name="Disable I/O Insertion">0</option>
+     <option name="no_sequential_opt" display_name="Disable Sequential Optimizations">0</option>
+     <option name="symbolic_fsm_compiler" display_name="FSM Compiler">1</option>
+</project_attribute_list>
+

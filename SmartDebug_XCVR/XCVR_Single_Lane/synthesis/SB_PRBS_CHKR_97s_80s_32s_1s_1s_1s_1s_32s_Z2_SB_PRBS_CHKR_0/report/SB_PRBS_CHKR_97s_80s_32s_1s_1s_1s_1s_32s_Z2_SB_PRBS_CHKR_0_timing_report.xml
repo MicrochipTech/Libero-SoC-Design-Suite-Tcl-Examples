@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0\SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>REF_CLK_PAD_P</data>
+<data>156.2 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R</data>
+<data>62.5 MHz</data>
+<data>112.8 MHz</data>
+<data>3.566</data>
+</row>
+<row>
+<data>SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R</data>
+<data>62.5 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+</report_table>

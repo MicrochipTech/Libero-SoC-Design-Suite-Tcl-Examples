@@ -1,0 +1,9 @@
+n work PF_DDR3_SS verilog;
+av .compile_point_summary_status "Mapped";
+av .compile_point_summary_reason "No database";
+av .compile_point_update_model 0;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 24.9166;
+av .compile_point_starttime_stamp "Tue May 17 09:09:05 2022";
+av .compile_point_endtime_stamp "Tue May 17 09:09:31 2022";
+av .compile_point_realtime_used 25.7515;

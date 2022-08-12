@@ -1,0 +1,16 @@
+Microsemi Corporation - Microsemi Libero Software Release 2022.1 (Version 2022.1.0.1)
+
+Date      :  Tue May 17 09:01:59 2022
+Project   :  /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read
+Component :  SRAM_AXI
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL_ECC.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_SLVIF.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/PF_TPSRAM_AHB_AXI_0/SRAM_AXI_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/SRAM_AXI/SRAM_AXI.v
+

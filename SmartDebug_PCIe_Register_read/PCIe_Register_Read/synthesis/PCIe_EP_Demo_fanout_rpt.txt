@@ -1,0 +1,34 @@
+
+########			REPORT FOR HIGH FANOUT NETS			########
+
+CLOCK GLOBAL THRESHOLD - 2
+ASYNC GLOBAL THRESHOLD - 800
+GLOBAL THRESHOLD - 5000
+
+NET NAME                                                     CLOCK LOADS     ASYNC RST LOADS     DATA LOADS     TOTAL FANOUT     GLOBAL BUFFER PRESENT
+------------------------------------------------------------------------------------------------------------------------------------------------------
+PF_DDR4_SS_0_SYS_CLK                                         19305           0                   1              19306            YES                  
+PF_DDR3_SS_0_SYS_CLK                                         10418           0                   0              10418            YES                  
+CLKINT_0_Y                                                   1115            0                   0              1115             YES                  
+PF_DDR4_SS_0.CCC_0_OUT2_HS_IO_CLK_0                          55              0                   0              55               YES                  
+PF_DDR3_SS_0.CCC_0_OUT2_HS_IO_CLK_0                          55              0                   0              55               YES                  
+PF_DDR3_SS_0.DDRPHY_BLK_0.LANECTRL_ADDR_CMD_0_TX_DQS_270     26              0                   0              26               YES                  
+PF_DDR4_SS_0.DDRPHY_BLK_0.LANECTRL_ADDR_CMD_0_TX_DQS_270     26              0                   0              26               YES                  
+PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_0_CTRL_TX_DQS                 10              0                   0              10               YES                  
+PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_0_CTRL_TX_DQS                 10              0                   0              10               YES                  
+PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_1_CTRL_TX_DQS                 10              0                   0              10               YES                  
+PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_1_CTRL_TX_DQS                 10              0                   0              10               YES                  
+PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_1_CTRL_RX_DQS_90[0]           9               0                   0              9                YES                  
+PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_0_CTRL_RX_DQS_90[0]           9               0                   0              9                YES                  
+PF_DDR4_SS_0.DDRPHY_BLK_0.LANE_1_CTRL_RX_DQS_90[0]           9               0                   0              9                YES                  
+PF_DDR3_SS_0.DDRPHY_BLK_0.LANE_0_CTRL_RX_DQS_90[0]           9               0                   0              9                YES                  
+PCIe_EP_0.PCIex4_0.PCIE_COMMON_AXI_CLK_OUT_net               5               0                   0              5                YES                  
+PF_DDR3_SS_0.CCC_0_OUT3_HS_IO_CLK_0                          2               0                   0              2                YES                  
+PF_DDR4_SS_0.CCC_0_OUT3_HS_IO_CLK_0                          2               0                   0              2                YES                  
+PF_DDR4_SS_0.DDRCTRL_0.IeLFk51fKvqEJyb0giD6.NxK4ke7CB8u      0               4857                0              4857             YES                  
+PF_DDR4_SS_0.reset_n_int_arst                                0               4719                0              4719             YES                  
+PF_DDR3_SS_0.reset_n_int_arst                                0               4686                0              4686             YES                  
+PF_DDR3_SS_0.DDRCTRL_0.IeLFk51fKvqEJyb0giD6.NxK4ke7CB8u      0               4583                0              4583             YES                  
+dff_1_arst                                                   0               4272                0              4272             YES                  
+AXI4_Interconnect_0.AXI4_Interconnect_0.sysReset_arst        0               4109                0              4109             YES                  
+======================================================================================================================================================

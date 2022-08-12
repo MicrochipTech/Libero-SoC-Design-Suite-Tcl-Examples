@@ -1,0 +1,41 @@
+Jitter Estimation Report
+========================
+
+Design     : top
+Family     : PolarFire
+Die        : MPF300T
+Speed grade: -1
+
+
+System Jitter Calculation
+-------------------------
+
+Worst aggressor based on load:    SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R
+System jitter (worst aggressor):  0.001 ns
+
+
+Jitter Calculation per Clock Domain
+-----------------------------------
+
+Clock: SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R
+
+     Regional jitter:                              0.001 ns
+
+     Resulting clock jitter:                       0.001 ns
+
+
+Clock: SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R
+
+     Regional jitter:                              0.000 ns
+
+     Resulting clock jitter:                       0.000 ns
+
+
+Clock: REF_CLK_PAD_P
+
+ (1) System jitter (worst aggressor):              0.001 ns
+ (2) Input jitter:                                 0.000 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.001 ns
+
+

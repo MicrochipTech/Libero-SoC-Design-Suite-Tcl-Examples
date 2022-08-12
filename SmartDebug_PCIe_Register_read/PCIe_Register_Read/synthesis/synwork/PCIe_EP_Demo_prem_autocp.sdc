@@ -1,0 +1,10 @@
+define_compile_point  -comment {Automatically Inserted}  {v:work.AXItoAPB} -type {hard}
+define_compile_point  -comment {Automatically Inserted}  {v:COREAXI4DMACONTROLLER_LIB.CoreDMA_Controller_CoreDMA_Controller_0_COREAXI4DMACONTROLLER_Z69} -type {hard}
+define_compile_point  -comment {Automatically Inserted}  {v:work.CoreDMA_IO_CTRL} -type {hard}
+define_compile_point  -comment {Automatically Inserted}  {v:work.C1_axi_if_Z76} -type {hard}
+define_compile_point  -comment {Automatically Inserted}  {v:work.C1_fastinit_Z112} -type {hard}
+define_compile_point  -comment {Automatically Inserted}  {v:work.RDLVL_TRAIN} -type {hard}
+define_compile_point  -comment {Automatically Inserted}  {v:work.PF_DDR3_SS} -type {hard}
+define_compile_point  -comment {Automatically Inserted}  {v:work.C0_axi_if_Z137} -type {hard}
+define_compile_point  -comment {Automatically Inserted}  {v:work.C0_fastinit_Z173} -type {hard}
+define_compile_point  -comment {Automatically Inserted}  {v:work.PF_DDR4_SS} -type {hard}

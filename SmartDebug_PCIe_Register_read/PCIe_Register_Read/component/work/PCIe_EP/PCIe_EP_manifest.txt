@@ -1,0 +1,18 @@
+Microsemi Corporation - Microsemi Libero Software Release 2022.1 (Version 2022.1.0.1)
+
+Date      :  Tue May 17 09:02:43 2022
+Project   :  /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read
+Component :  PCIe_EP
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/PCIe_EP/PCIe_REF_CLK_0/PCIe_EP_PCIe_REF_CLK_0_PF_XCVR_REF_CLK.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/PCIe_EP/PCIex4_0/PCIe_EP_PCIex4_0_PF_PCIE.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/Actel/SgCore/PF_PCIE/2.0.116/g5_apblink_master.v
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/PCIe_EP/PCIe_EP.v
+
+Stimulus files for all Simulation tools:
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/PCIe_EP/PCIex4_0/PCIe_EP_PCIex4_0_PF_PCIE_PCIE_1_user.bfm
+    /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/component/work/PCIe_EP/PCIex4_0/PCIE_1_compile_bfm.tcl
+

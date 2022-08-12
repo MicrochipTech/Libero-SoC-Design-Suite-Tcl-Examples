@@ -1,0 +1,9 @@
+n COREAXI4DMACONTROLLER_LIB CoreDMA_Controller_CoreDMA_Controller_0_COREAXI4DMACONTROLLER_Z69 verilog;
+av .compile_point_summary_status "Mapped";
+av .compile_point_summary_reason "No database";
+av .compile_point_update_model 0;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 20.5443;
+av .compile_point_starttime_stamp "Tue May 17 09:09:17 2022";
+av .compile_point_endtime_stamp "Tue May 17 09:09:38 2022";
+av .compile_point_realtime_used 20.9922;

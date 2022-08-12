@@ -1,0 +1,9 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":22:7:22:18|Found compile point of type hard on View view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0(verilog) 
+@N: MF104 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":22:7:22:18|Found compile point of type hard on View view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2(verilog) 
+@N: MF105 |Performing bottom-up mapping of Top level view:work.top(verilog) 
+@N: MF106 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\work\top\top.v":9:7:9:9|Mapping Top level view:work.top(verilog) because 
+@N: MO111 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":57:21:57:28|Tristate driver dummyClk_1 (in view: work.probeWrite_3(verilog)) on net dummyClk_1 (in view: work.probeWrite_3(verilog)) has its enable tied to GND.
+@N: MO111 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":57:21:57:28|Tristate driver dummyClk_1 (in view: work.probeWrite(verilog)) on net dummyClk_1 (in view: work.probeWrite(verilog)) has its enable tied to GND.

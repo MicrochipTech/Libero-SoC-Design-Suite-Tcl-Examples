@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Compile Report</title>
+<text>Microsemi Corporation - Microsemi Libero Software Release 2022.1 (Version 2022.1.0.1)</text>
+<text>Date: Tue May 17 09:12:59 2022
+</text>
+<section><name>Device Selection</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFire</cell>
+</row>
+<row>
+ <cell>Device</cell>
+ <cell>MPF300T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCG1152</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Core Voltage</cell>
+ <cell>1.0V</cell>
+</row>
+<row>
+ <cell>Part Range</cell>
+ <cell>EXT</cell>
+</row>
+<row>
+ <cell>Default I/O technology</cell>
+ <cell>LVCMOS 1.8V</cell>
+</row>
+<row>
+ <cell>FPGA Hardware Breakpoint Auto Instantation</cell>
+ <cell>Off</cell>
+</row>
+</table>
+<section><name>Source Files</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Topcell</cell>
+ <cell>PCIe_EP_Demo</cell>
+</row>
+<row>
+ <cell>Format</cell>
+ <cell>Verilog</cell>
+</row>
+<row>
+ <cell>Source</cell>
+ <cell>/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/synthesis/PCIe_EP_Demo.vm</cell>
+</row>
+</table>
+<section><name>Options</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Limit the number of high fanout nets to display to</cell>
+ <cell>10</cell>
+</row>
+</table>
+<section><name>Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>4LUT</cell>
+ <cell>41791</cell>
+ <cell>299544</cell>
+ <cell>13.95</cell>
+</row>
+<row>
+ <cell>DFF</cell>
+ <cell>32738</cell>
+ <cell>299544</cell>
+ <cell>10.93</cell>
+</row>
+<row>
+ <cell>I/O Register</cell>
+ <cell>0</cell>
+ <cell>1536</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>User I/O</cell>
+ <cell>130</cell>
+ <cell>512</cell>
+ <cell>25.39</cell>
+</row>
+<row>
+ <cell>-- Single-ended I/O</cell>
+ <cell>118</cell>
+ <cell>512</cell>
+ <cell>23.05</cell>
+</row>
+<row>
+ <cell>-- Differential I/O Pairs</cell>
+ <cell>6</cell>
+ <cell>256</cell>
+ <cell>2.34</cell>
+</row>
+<row>
+ <cell>uSRAM</cell>
+ <cell>215</cell>
+ <cell>2772</cell>
+ <cell>7.76</cell>
+</row>
+<row>
+ <cell>LSRAM</cell>
+ <cell>45</cell>
+ <cell>952</cell>
+ <cell>4.73</cell>
+</row>
+<row>
+ <cell>Math</cell>
+ <cell>0</cell>
+ <cell>924</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>H-Chip Global</cell>
+ <cell>13</cell>
+ <cell>48</cell>
+ <cell>27.08</cell>
+</row>
+<row>
+ <cell>PLL</cell>
+ <cell>3</cell>
+ <cell>8</cell>
+ <cell>37.50</cell>
+</row>
+<row>
+ <cell>DLL</cell>
+ <cell>2</cell>
+ <cell>8</cell>
+ <cell>25.00</cell>
+</row>
+<row>
+ <cell>BANKCTRL</cell>
+ <cell>4</cell>
+ <cell>7</cell>
+ <cell>57.14</cell>
+</row>
+<row>
+ <cell>CRN_INT</cell>
+ <cell>2</cell>
+ <cell>24</cell>
+ <cell>8.33</cell>
+</row>
+<row>
+ <cell>INIT</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>OSC_RC160MHZ</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>Transceiver Lanes</cell>
+ <cell>4</cell>
+ <cell>16</cell>
+ <cell>25.00</cell>
+</row>
+<row>
+ <cell>Transceiver PCIe</cell>
+ <cell>1</cell>
+ <cell>2</cell>
+ <cell>50.00</cell>
+</row>
+<row>
+ <cell>TX_PLL</cell>
+ <cell>1</cell>
+ <cell>11</cell>
+ <cell>9.09</cell>
+</row>
+<row>
+ <cell>LINK</cell>
+ <cell>1</cell>
+ <cell>10</cell>
+ <cell>10.00</cell>
+</row>
+<row>
+ <cell>XCVR_REF_CLK</cell>
+ <cell>1</cell>
+ <cell>11</cell>
+ <cell>9.09</cell>
+</row>
+<row>
+ <cell>PCIE_COMMON</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>ICB_CLKDIV</cell>
+ <cell>1</cell>
+ <cell>24</cell>
+ <cell>4.17</cell>
+</row>
+<row>
+ <cell>ICB_CLKINT</cell>
+ <cell>4</cell>
+ <cell>72</cell>
+ <cell>5.56</cell>
+</row>
+<row>
+ <cell>NGMUX</cell>
+ <cell>1</cell>
+ <cell>12</cell>
+ <cell>8.33</cell>
+</row>
+<row>
+ <cell>ICB_INT</cell>
+ <cell>1</cell>
+ <cell>12</cell>
+ <cell>8.33</cell>
+</row>
+</table>
+<section><name>Detailed Logic Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>4LUT</cell>
+ <cell>DFF</cell>
+</header>
+<row>
+ <cell>Fabric Logic</cell>
+ <cell>37591</cell>
+ <cell>28538</cell>
+</row>
+<row>
+ <cell>uSRAM Interface Logic</cell>
+ <cell>2580</cell>
+ <cell>2580</cell>
+</row>
+<row>
+ <cell>LSRAM Interface Logic</cell>
+ <cell>1620</cell>
+ <cell>1620</cell>
+</row>
+<row>
+ <cell>Math Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Total Used</cell>
+ <cell>41791</cell>
+ <cell>32738</cell>
+</row>
+</table>
+<section><name>Detailed Carry Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>10</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>47</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>108</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>141</cell>
+</row>
+<row>
+ <cell>10</cell>
+ <cell>42</cell>
+</row>
+<row>
+ <cell>11</cell>
+ <cell>17</cell>
+</row>
+<row>
+ <cell>12</cell>
+ <cell>18</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>35</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>10</cell>
+</row>
+<row>
+ <cell>15</cell>
+ <cell>9</cell>
+</row>
+<row>
+ <cell>17</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>18</cell>
+ <cell>4</cell>
+</row>
+<row>
+ <cell>19</cell>
+ <cell>4</cell>
+</row>
+<row>
+ <cell>20</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>21</cell>
+ <cell>8</cell>
+</row>
+<row>
+ <cell>22</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>23</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>24</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>25</cell>
+ <cell>4</cell>
+</row>
+<row>
+ <cell>26</cell>
+ <cell>5</cell>
+</row>
+<row>
+ <cell>27</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>29</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>30</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>31</cell>
+ <cell>15</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>7</cell>
+</row>
+<row>
+ <cell>33</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>505</cell>
+</row>
+</table>
+<section><name>Detailed 4LUT Groups Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>776</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>23</cell>
+</row>
+<row>
+ <cell>22</cell>
+ <cell>6</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>805</cell>
+</row>
+</table>
+<section><name>I/O Function</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>w/o register</cell>
+ <cell>w/ register</cell>
+ <cell>w/ DDR register</cell>
+</header>
+<row>
+ <cell>Input I/O</cell>
+ <cell>12</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Output I/O</cell>
+ <cell>74</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Bidirectional I/O</cell>
+ <cell>32</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Input I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Output I/O Pairs</cell>
+ <cell>2</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Bidirectional I/O Pairs</cell>
+ <cell>4</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+</table>
+<section><name>Nets assigned to chip global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>18667</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR4_SS_0_SYS_CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR4_SS_0/CCC_0/clkint_4/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>9792</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR3_SS_0_SYS_CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR3_SS_0/CCC_0/clkint_4/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>4719</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR4_SS_0/reset_n_int_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR4_SS_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0_rep_RNIU00C/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>4686</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR3_SS_0/reset_n_int_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR3_SS_0/DDRPHY_BLK_0/IOD_TRAINING_0/COREDDR_TIP_INT_U/reset_n_int_0_rep_RNIU00C/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>4272</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : dff_1_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_RESET_0/PF_RESET_0/dff_1_rep_RNIGGTA/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>4236</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR4_SS_0/MSC_i_264/MSC_i_265/MSC_net_1031</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR4_SS_0/MSC_i_264/MSC_i_265/MSC_i_602/MSC_i_603/IHxbc/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>4109</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : AXI4_Interconnect_0/AXI4_Interconnect_0/sysReset_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: AXI4_Interconnect_0/AXI4_Interconnect_0/arst_aclk_sync/sysReset_RNIS26/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3971</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_net_969</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_i_262/MSC_i_263/IHxbc/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>1098</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CLKINT_0_Y</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CLKINT_0/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>1</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CCC_111MHz_0_OUT0_FABCLK_0</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CCC_111MHz_0/CCC_111MHz_0/clkint_0/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>1</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR4_SS_0/DDRPHY_BLK_0/CLKINT_CMD_Y</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR4_SS_0/DDRPHY_BLK_0/CLKINT_CMD/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>1</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR3_SS_0/DDRPHY_BLK_0/CLKINT_CMD_Y</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR3_SS_0/DDRPHY_BLK_0/CLKINT_CMD/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>1</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PCIe_EP_0/PCIe_TL_CLK_0_TL_CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PCIe_EP_0/PCIe_TL_CLK_0/NGMUX_0/NGMUX_0/I_CLKINT/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+</table>
+<section><name>Nets assigned to row global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+</table>
+<section><name>High fanout nets</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>457</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : AND3_0_Y</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: AND3_0</cell>
+</row>
+<row>
+ <cell>361</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CoreDMA_IO_CTRL_0/CoreAXI4_Lite_0/CoreAXI4_Lite_0/sysReset</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CoreDMA_IO_CTRL_0/CoreAXI4_Lite_0/CoreAXI4_Lite_0/arst_aclk_sync/sysReset</cell>
+</row>
+<row>
+ <cell>360</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_9/NHu28hCmxuoE778pzLsq5Fwt9Drb[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_9/IEkngaDsJuGrIhhaEnokCdh147A1b5zgabn9c127eIuLtrm2DtomxI35oxG6gkd5mpr1zgr[0]</cell>
+</row>
+<row>
+ <cell>360</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR4_SS_0/MSC_i_264/MSC_i_265/MSC_i_270/MSC_i_273/NHu28hCmxuoE778pzLsq5Fwt9Drb[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR4_SS_0/MSC_i_264/MSC_i_265/MSC_i_270/MSC_i_273/IEkngaDsJuGrIhhaEnokCdh147A1b5zgabn9c127eIuLtrm2DtomxI35oxG6gkd5mpr1zgr[0]</cell>
+</row>
+<row>
+ <cell>288</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_134/MSC_i_227/MSC_i_228/MSC_i_242/NxC4mH0p48s[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_134/MSC_i_227/MSC_i_228/MSC_i_242/IxC4mH0p48s[1]</cell>
+</row>
+<row>
+ <cell>288</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_9/NHu28hCmxuoE778pzLsq5Fwt9Drb[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_9/IEkngaDsJuGrIhhaEnokCdh147A1b5zgabn9c127eIuLtrm2DtomxI35oxG6gkd5mpr1zgr[1]</cell>
+</row>
+<row>
+ <cell>288</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR4_SS_0/MSC_i_264/MSC_i_265/MSC_i_270/MSC_i_273/NHu28hCmxuoE778pzLsq5Fwt9Drb[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR4_SS_0/MSC_i_264/MSC_i_265/MSC_i_270/MSC_i_273/IEkngaDsJuGrIhhaEnokCdh147A1b5zgabn9c127eIuLtrm2DtomxI35oxG6gkd5mpr1zgr[1]</cell>
+</row>
+<row>
+ <cell>288</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR4_SS_0/MSC_i_264/MSC_i_265/MSC_i_270/MSC_i_473/MSC_i_567/MSC_i_568/MSC_i_582/NxC4mH0p48s[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR4_SS_0/MSC_i_264/MSC_i_265/MSC_i_270/MSC_i_473/MSC_i_567/MSC_i_568/MSC_i_582/IxC4mH0p48s[1]</cell>
+</row>
+<row>
+ <cell>257</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CoreDMA_IO_CTRL_0/CoreDMA_Controller_0/CoreDMA_Controller_0/CAXI4DMAOl01[6]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CoreDMA_IO_CTRL_0/CoreDMA_Controller_0/CoreDMA_Controller_0/CAXI4DMAI00OI/CAXI4DMAO00I[6]</cell>
+</row>
+<row>
+ <cell>256</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_134/MSC_i_138/MSC_i_139/MSC_i_154/NxC4mH0p48s[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_134/MSC_i_138/MSC_i_139/MSC_i_154/IxC4mH0p48s[1]</cell>
+</row>
+</table>
+<section><name>High fanout nets (through buffer trees)</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>457</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : AND3_0_Y</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: AND3_0</cell>
+</row>
+<row>
+ <cell>361</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CoreDMA_IO_CTRL_0/CoreAXI4_Lite_0/CoreAXI4_Lite_0/sysReset</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CoreDMA_IO_CTRL_0/CoreAXI4_Lite_0/CoreAXI4_Lite_0/arst_aclk_sync/sysReset</cell>
+</row>
+<row>
+ <cell>360</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_9/NHu28hCmxuoE778pzLsq5Fwt9Drb[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_9/IEkngaDsJuGrIhhaEnokCdh147A1b5zgabn9c127eIuLtrm2DtomxI35oxG6gkd5mpr1zgr[0]</cell>
+</row>
+<row>
+ <cell>360</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR4_SS_0/MSC_i_264/MSC_i_265/MSC_i_270/MSC_i_273/NHu28hCmxuoE778pzLsq5Fwt9Drb[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR4_SS_0/MSC_i_264/MSC_i_265/MSC_i_270/MSC_i_273/IEkngaDsJuGrIhhaEnokCdh147A1b5zgabn9c127eIuLtrm2DtomxI35oxG6gkd5mpr1zgr[0]</cell>
+</row>
+<row>
+ <cell>288</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_134/MSC_i_227/MSC_i_228/MSC_i_242/NxC4mH0p48s[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_134/MSC_i_227/MSC_i_228/MSC_i_242/IxC4mH0p48s[1]</cell>
+</row>
+<row>
+ <cell>288</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_9/NHu28hCmxuoE778pzLsq5Fwt9Drb[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_9/IEkngaDsJuGrIhhaEnokCdh147A1b5zgabn9c127eIuLtrm2DtomxI35oxG6gkd5mpr1zgr[1]</cell>
+</row>
+<row>
+ <cell>288</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR4_SS_0/MSC_i_264/MSC_i_265/MSC_i_270/MSC_i_273/NHu28hCmxuoE778pzLsq5Fwt9Drb[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR4_SS_0/MSC_i_264/MSC_i_265/MSC_i_270/MSC_i_273/IEkngaDsJuGrIhhaEnokCdh147A1b5zgabn9c127eIuLtrm2DtomxI35oxG6gkd5mpr1zgr[1]</cell>
+</row>
+<row>
+ <cell>288</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR4_SS_0/MSC_i_264/MSC_i_265/MSC_i_270/MSC_i_473/MSC_i_567/MSC_i_568/MSC_i_582/NxC4mH0p48s[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR4_SS_0/MSC_i_264/MSC_i_265/MSC_i_270/MSC_i_473/MSC_i_567/MSC_i_568/MSC_i_582/IxC4mH0p48s[1]</cell>
+</row>
+<row>
+ <cell>257</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CoreDMA_IO_CTRL_0/CoreDMA_Controller_0/CoreDMA_Controller_0/CAXI4DMAOl01[6]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CoreDMA_IO_CTRL_0/CoreDMA_Controller_0/CoreDMA_Controller_0/CAXI4DMAI00OI/CAXI4DMAO00I[6]</cell>
+</row>
+<row>
+ <cell>256</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_134/MSC_i_138/MSC_i_139/MSC_i_154/NxC4mH0p48s[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_DDR3_SS_0/MSC_i_0/MSC_i_1/MSC_i_6/MSC_i_134/MSC_i_138/MSC_i_139/MSC_i_154/IxC4mH0p48s[1]</cell>
+</row>
+</table>
+</doc>

@@ -1,0 +1,8 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,Chip Globals,Row Global,Transceiver Lanes
+Primitives/Primitives,1,0,1,1,0,0
+SmartBert_Core_0_0/PF_XCVR_0/Primitives,0,0,0,0,2,1
+SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_CHKR_0/Primitives,2095,777,0,0,0,0
+SmartBert_Core_0_0/SB_GEN_CHKR_0/SB_PRBS_GEN_0/Primitives,502,80,0,0,0,0
+SmartBert_Core_0_0/SB_VER_GEN_0/Primitives,7,218,0,0,0,0
+SmartBert_Core_0_0/SB_VER_GEN_0/probeWrite_LANE0_ERR_GEN/Primitives,3,7,0,0,0,0

@@ -1,0 +1,1256 @@
+#Build: Synplify Pro (R) S-2021.09M, Build 223R, Feb 23 2022
+#install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M
+#OS: Windows 8 6.2
+#Hostname: HYD-DK-SQA_1
+
+# Mon May 16 17:02:24 2022
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M
+Install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M
+OS: Windows 6.2
+
+Hostname: HYD-DK-SQA_1
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202109synp1, Build 219R, Built Feb 23 2022 09:27:03, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M
+Install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M
+OS: Windows 6.2
+
+Hostname: HYD-DK-SQA_1
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202109synp1, Build 219R, Built Feb 23 2022 09:27:03, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\lib\generic\acg5.v" (library work)
+@I::"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v" (library work)
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":4065:13:4065:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":4096:13:4096:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":4142:13:4142:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":4252:13:4252:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":4436:13:4436:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":4477:13:4477:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":4503:13:4503:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":4520:13:4520:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":4597:13:4597:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":5361:13:5361:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":6171:13:6171:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":6280:13:6280:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":6318:13:6318:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":6391:13:6391:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":7280:13:7280:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":8337:13:8337:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":9296:13:9296:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":10032:13:10032:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":10747:13:10747:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":10781:13:10781:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":10817:13:10817:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":10864:13:10864:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":10898:13:10898:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":11764:13:11764:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":12807:13:12807:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":12819:15:12819:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":12830:13:12830:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":12843:13:12843:25|User defined pragma syn_black_box detected
+
+@I::"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\work\PF_TX_PLL_0\PF_TX_PLL_0_0\PF_TX_PLL_0_PF_TX_PLL_0_0_PF_TX_PLL.v" (library work)
+@I::"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\work\PF_TX_PLL_0\PF_TX_PLL_0.v" (library work)
+@I::"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\work\PF_XCVR_REF_CLK_0\PF_XCVR_REF_CLK_0_0\PF_XCVR_REF_CLK_0_PF_XCVR_REF_CLK_0_0_PF_XCVR_REF_CLK.v" (library work)
+@I::"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\work\PF_XCVR_REF_CLK_0\PF_XCVR_REF_CLK_0.v" (library work)
+@I::"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_GEN_CHKR\0.0.20\SB_PRBS_CHKR.v" (library work)
+@I::"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_GEN_CHKR\0.0.20\SB_PRBS_GEN.v" (library work)
+@I::"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_GEN_CHKR\0.0.20\SB_GEN_CHKR_TOP.v" (library work)
+@I::"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\work\SmartBert_Core_0\PF_XCVR_0\SmartBert_Core_0_PF_XCVR_0_PF_XCVR.v" (library work)
+@I::"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_VER_GEN\0.0.18\Four_stage_sync_latch.v" (library work)
+@I::"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_VER_GEN\0.0.18\SB_VER_GEN.v" (library work)
+@I::"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\work\SmartBert_Core_0\SmartBert_Core_0.v" (library work)
+@I::"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\work\top\top.v" (library work)
+Verilog syntax check successful!
+Selecting top level module top
+@N: CG364 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\lib\generic\acg5.v":504:7:504:9|Synthesizing module VCC in library work.
+Running optimization stage 1 on VCC .......
+Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":4119:7:4119:12|Synthesizing module TX_PLL in library work.
+Running optimization stage 1 on TX_PLL .......
+Finished optimization stage 1 on TX_PLL (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\lib\generic\acg5.v":500:7:500:9|Synthesizing module GND in library work.
+Running optimization stage 1 on GND .......
+Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\work\PF_TX_PLL_0\PF_TX_PLL_0_0\PF_TX_PLL_0_PF_TX_PLL_0_0_PF_TX_PLL.v":5:7:5:41|Synthesizing module PF_TX_PLL_0_PF_TX_PLL_0_0_PF_TX_PLL in library work.
+Running optimization stage 1 on PF_TX_PLL_0_PF_TX_PLL_0_0_PF_TX_PLL .......
+Finished optimization stage 1 on PF_TX_PLL_0_PF_TX_PLL_0_0_PF_TX_PLL (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\work\PF_TX_PLL_0\PF_TX_PLL_0.v":50:7:50:17|Synthesizing module PF_TX_PLL_0 in library work.
+Running optimization stage 1 on PF_TX_PLL_0 .......
+Finished optimization stage 1 on PF_TX_PLL_0 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":10810:7:10810:18|Synthesizing module XCVR_REF_CLK in library work.
+Running optimization stage 1 on XCVR_REF_CLK .......
+Finished optimization stage 1 on XCVR_REF_CLK (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\work\PF_XCVR_REF_CLK_0\PF_XCVR_REF_CLK_0_0\PF_XCVR_REF_CLK_0_PF_XCVR_REF_CLK_0_0_PF_XCVR_REF_CLK.v":5:7:5:59|Synthesizing module PF_XCVR_REF_CLK_0_PF_XCVR_REF_CLK_0_0_PF_XCVR_REF_CLK in library work.
+Running optimization stage 1 on PF_XCVR_REF_CLK_0_PF_XCVR_REF_CLK_0_0_PF_XCVR_REF_CLK .......
+@W: CL168 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\work\PF_XCVR_REF_CLK_0\PF_XCVR_REF_CLK_0_0\PF_XCVR_REF_CLK_0_PF_XCVR_REF_CLK_0_0_PF_XCVR_REF_CLK.v":25:8:25:15|Removing instance gnd_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\work\PF_XCVR_REF_CLK_0\PF_XCVR_REF_CLK_0_0\PF_XCVR_REF_CLK_0_PF_XCVR_REF_CLK_0_0_PF_XCVR_REF_CLK.v":24:8:24:15|Removing instance vcc_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+Finished optimization stage 1 on PF_XCVR_REF_CLK_0_PF_XCVR_REF_CLK_0_0_PF_XCVR_REF_CLK (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\work\PF_XCVR_REF_CLK_0\PF_XCVR_REF_CLK_0.v":27:7:27:23|Synthesizing module PF_XCVR_REF_CLK_0 in library work.
+Running optimization stage 1 on PF_XCVR_REF_CLK_0 .......
+Finished optimization stage 1 on PF_XCVR_REF_CLK_0 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\lib\generic\acg5.v":484:7:484:13|Synthesizing module RCLKINT in library work.
+Running optimization stage 1 on RCLKINT .......
+Finished optimization stage 1 on RCLKINT (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@W: CG168 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\work\SmartBert_Core_0\PF_XCVR_0\SmartBert_Core_0_PF_XCVR_0_PF_XCVR.v":293:12:293:16|Type of parameter DATA_RATE on the instance LANE0 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG168 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\work\SmartBert_Core_0\PF_XCVR_0\SmartBert_Core_0_PF_XCVR_0_PF_XCVR.v":293:12:293:16|Type of parameter INTERFACE_LEVEL on the instance LANE0 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\polarfire_syn_comps.v":9980:7:9980:14|Synthesizing module XCVR_PMA in library work.
+Running optimization stage 1 on XCVR_PMA .......
+Finished optimization stage 1 on XCVR_PMA (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+@N: CG364 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\work\SmartBert_Core_0\PF_XCVR_0\SmartBert_Core_0_PF_XCVR_0_PF_XCVR.v":5:7:5:40|Synthesizing module SmartBert_Core_0_PF_XCVR_0_PF_XCVR in library work.
+Running optimization stage 1 on SmartBert_Core_0_PF_XCVR_0_PF_XCVR .......
+Finished optimization stage 1 on SmartBert_Core_0_PF_XCVR_0_PF_XCVR (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+@N: CG364 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_GEN_CHKR\0.0.20\SB_PRBS_GEN.v":24:7:24:17|Synthesizing module SB_PRBS_GEN in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000001010000
+	PRBS_INIT_VAL=32'b00000000000000000000000001100001
+	PATTERN_PRBS7=32'b00000000000000000000000000000001
+	PATTERN_PRBS9=32'b00000000000000000000000000000001
+	PATTERN_PRBS23=32'b00000000000000000000000000000001
+	PATTERN_PRBS31=32'b00000000000000000000000000000001
+	ALIGN_DATA=80'b00011111000010111001001010110100101011100010111001001010110100101011100001111100
+   Generated name = SB_PRBS_GEN_80s_97s_1s_1s_1s_1s_Z1
+@W: CG215 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\lib\generic\acg5.v":0:0:0:0|Unrecognized attribute .repeat_statement on loop statement
+@W: CG215 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\lib\generic\acg5.v":0:0:0:0|Unrecognized attribute .repeat_statement on loop statement
+@W: CG215 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\lib\generic\acg5.v":0:0:0:0|Unrecognized attribute .repeat_statement on loop statement
+@W: CG215 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\lib\generic\acg5.v":0:0:0:0|Unrecognized attribute .repeat_statement on loop statement
+Running optimization stage 1 on SB_PRBS_GEN_80s_97s_1s_1s_1s_1s_Z1 .......
+@W: CL169 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_GEN_CHKR\0.0.20\SB_PRBS_GEN.v":73:0:73:5|Pruning unused register prbs7[159:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_GEN_CHKR\0.0.20\SB_PRBS_GEN.v":73:0:73:5|Pruning unused register prbs9[159:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_GEN_CHKR\0.0.20\SB_PRBS_GEN.v":73:0:73:5|Pruning unused register prbs23[159:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_GEN_CHKR\0.0.20\SB_PRBS_GEN.v":73:0:73:5|Pruning unused register prbs31[159:0]. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on SB_PRBS_GEN_80s_97s_1s_1s_1s_1s_Z1 (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+@N: CG364 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_GEN_CHKR\0.0.20\SB_PRBS_CHKR.v":22:7:22:18|Synthesizing module SB_PRBS_CHKR in library work.
+
+	PRBS_INIT_VAL=32'b00000000000000000000000001100001
+	DATA_WIDTH=32'b00000000000000000000000001010000
+	ERR_CNT_WIDTH=32'b00000000000000000000000000100000
+	PATTERN_PRBS7=32'b00000000000000000000000000000001
+	PATTERN_PRBS9=32'b00000000000000000000000000000001
+	PATTERN_PRBS23=32'b00000000000000000000000000000001
+	PATTERN_PRBS31=32'b00000000000000000000000000000001
+	ERR_CHK_DELAY=32'b00000000000000000000000000100000
+	ALIGN_DATA=80'b00011111000010111001001010110100101011100010111001001010110100101011100001111100
+   Generated name = SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2
+@W: CG215 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\lib\generic\acg5.v":0:0:0:0|Unrecognized attribute .repeat_statement on loop statement
+@W: CG215 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\lib\generic\acg5.v":0:0:0:0|Unrecognized attribute .repeat_statement on loop statement
+@W: CG215 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\lib\generic\acg5.v":0:0:0:0|Unrecognized attribute .repeat_statement on loop statement
+@W: CG215 :"\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\lib\generic\acg5.v":0:0:0:0|Unrecognized attribute .repeat_statement on loop statement
+@N: CG179 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_GEN_CHKR\0.0.20\SB_PRBS_CHKR.v":166:28:166:39|Removing redundant assignment.
+Running optimization stage 1 on SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2 .......
+@W: CL169 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_GEN_CHKR\0.0.20\SB_PRBS_CHKR.v":96:0:96:5|Pruning unused register rx_d[159:0]. Make sure that there are no unused intermediate registers.
+@W: CL271 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_GEN_CHKR\0.0.20\SB_PRBS_CHKR.v":96:0:96:5|Pruning unused bits 159 to 80 of prbs7[159:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_GEN_CHKR\0.0.20\SB_PRBS_CHKR.v":96:0:96:5|Pruning unused bits 159 to 80 of prbs9[159:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_GEN_CHKR\0.0.20\SB_PRBS_CHKR.v":96:0:96:5|Pruning unused bits 159 to 80 of prbs23[159:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_GEN_CHKR\0.0.20\SB_PRBS_CHKR.v":96:0:96:5|Pruning unused bits 159 to 80 of prbs31[159:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2 (CPU Time 0h:00m:00s, Memory Used current: 115MB peak: 116MB)
+@N: CG364 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_GEN_CHKR\0.0.20\SB_GEN_CHKR_TOP.v":20:7:20:17|Synthesizing module SB_GEN_CHKR in library work.
+
+	FAMILY=32'b00000000000000000000000000011010
+	DATA_WIDTH=32'b00000000000000000000000001010000
+	NUM_OF_LANES=32'b00000000000000000000000000000001
+	PATTERN_PRBS7=32'b00000000000000000000000000000001
+	PATTERN_PRBS9=32'b00000000000000000000000000000001
+	PATTERN_PRBS23=32'b00000000000000000000000000000001
+	PATTERN_PRBS31=32'b00000000000000000000000000000001
+	ERR_CHK_DELAY=32'b00000000000000000000000000100000
+	PRBS_INIT_VAL=32'b00000000000000000000000001100001
+	ERR_CNT_WIDTH=32'b00000000000000000000000000100000
+   Generated name = SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s
+Running optimization stage 1 on SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s .......
+Finished optimization stage 1 on SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s (CPU Time 0h:00m:00s, Memory Used current: 115MB peak: 116MB)
+@N: CG364 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_VER_GEN\0.0.18\Four_stage_sync_latch.v":25:7:25:16|Synthesizing module probeWrite in library work.
+@W: CG184 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_VER_GEN\0.0.18\Four_stage_sync_latch.v":57:21:57:28|Removing wire dummyClk, as it has the load but no drivers.
+Running optimization stage 1 on probeWrite .......
+Finished optimization stage 1 on probeWrite (CPU Time 0h:00m:00s, Memory Used current: 115MB peak: 116MB)
+@N: CG364 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\Actel\SgCore\SB_VER_GEN\0.0.18\SB_VER_GEN.v":20:7:20:16|Synthesizing module SB_VER_GEN in library work.
+
+	FAMILY=32'b00000000000000000000000000011010
+	UI_NUMBER_OF_LANES=2'b01
+	UI_DATA_RATE=14'b01001110001000
+	UI_TX_CLK_DIV_FACTOR=4'b0001
+	UI_CDR_REFERENCE_CLK_SOURCE=32'b00000000000000000000000000000000
+	UI_PATTERN_PRBS7=32'b00000000000000000000000000000001
+	UI_PATTERN_PRBS9=32'b00000000000000000000000000000001
+	UI_PATTERN_PRBS23=32'b00000000000000000000000000000001
+	UI_PATTERN_PRBS31=32'b00000000000000000000000000000001
+	UI_CDR_REFERENCE_CLK_FREQ=5'b01000
+	MAJOR=8'b00000010
+	MINOR=8'b00000001
+   Generated name = SB_VER_GEN_Z3
+Running optimization stage 1 on SB_VER_GEN_Z3 .......
+Finished optimization stage 1 on SB_VER_GEN_Z3 (CPU Time 0h:00m:00s, Memory Used current: 115MB peak: 116MB)
+@N: CG364 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\work\SmartBert_Core_0\SmartBert_Core_0.v":30:7:30:22|Synthesizing module SmartBert_Core_0 in library work.
+Running optimization stage 1 on SmartBert_Core_0 .......
+Finished optimization stage 1 on SmartBert_Core_0 (CPU Time 0h:00m:00s, Memory Used current: 115MB peak: 116MB)
+@N: CG364 :"Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\component\work\top\top.v":9:7:9:9|Synthesizing module top in library work.
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 115MB peak: 116MB)
+Running optimization stage 2 on top .......
+Finished optimization stage 2 on top (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 116MB)
+Running optimization stage 2 on SmartBert_Core_0 .......
+Finished optimization stage 2 on SmartBert_Core_0 (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 116MB)
+Running optimization stage 2 on SB_VER_GEN_Z3 .......
+Finished optimization stage 2 on SB_VER_GEN_Z3 (CPU Time 0h:00m:00s, Memory Used current: 114MB peak: 116MB)
+Running optimization stage 2 on probeWrite .......
+Finished optimization stage 2 on probeWrite (CPU Time 0h:00m:00s, Memory Used current: 114MB peak: 116MB)
+Running optimization stage 2 on SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s .......
+Finished optimization stage 2 on SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s (CPU Time 0h:00m:00s, Memory Used current: 114MB peak: 116MB)
+Running optimization stage 2 on SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2 .......
+Finished optimization stage 2 on SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2 (CPU Time 0h:00m:01s, Memory Used current: 142MB peak: 143MB)
+Running optimization stage 2 on SB_PRBS_GEN_80s_97s_1s_1s_1s_1s_Z1 .......
+Finished optimization stage 2 on SB_PRBS_GEN_80s_97s_1s_1s_1s_1s_Z1 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 143MB)
+Running optimization stage 2 on SmartBert_Core_0_PF_XCVR_0_PF_XCVR .......
+Finished optimization stage 2 on SmartBert_Core_0_PF_XCVR_0_PF_XCVR (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 143MB)
+Running optimization stage 2 on XCVR_PMA .......
+Finished optimization stage 2 on XCVR_PMA (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 143MB)
+Running optimization stage 2 on RCLKINT .......
+Finished optimization stage 2 on RCLKINT (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 143MB)
+Running optimization stage 2 on PF_XCVR_REF_CLK_0 .......
+Finished optimization stage 2 on PF_XCVR_REF_CLK_0 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 143MB)
+Running optimization stage 2 on PF_XCVR_REF_CLK_0_PF_XCVR_REF_CLK_0_0_PF_XCVR_REF_CLK .......
+Finished optimization stage 2 on PF_XCVR_REF_CLK_0_PF_XCVR_REF_CLK_0_0_PF_XCVR_REF_CLK (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 143MB)
+Running optimization stage 2 on XCVR_REF_CLK .......
+Finished optimization stage 2 on XCVR_REF_CLK (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 143MB)
+Running optimization stage 2 on PF_TX_PLL_0 .......
+Finished optimization stage 2 on PF_TX_PLL_0 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 143MB)
+Running optimization stage 2 on PF_TX_PLL_0_PF_TX_PLL_0_0_PF_TX_PLL .......
+Finished optimization stage 2 on PF_TX_PLL_0_PF_TX_PLL_0_0_PF_TX_PLL (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 143MB)
+Running optimization stage 2 on GND .......
+Finished optimization stage 2 on GND (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 143MB)
+Running optimization stage 2 on TX_PLL .......
+Finished optimization stage 2 on TX_PLL (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 143MB)
+Running optimization stage 2 on VCC .......
+Finished optimization stage 2 on VCC (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 143MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:08s; Memory used current: 142MB peak: 143MB)
+
+Process took 0h:00m:26s realtime, 0h:00m:08s cputime
+
+Process completed successfully.
+# Mon May 16 17:03:01 2022
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M
+Install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M
+OS: Windows 6.2
+
+Hostname: HYD-DK-SQA_1
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202109synp1, Build 219R, Built Feb 23 2022 09:27:03, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:00s; Memory used current: 96MB peak: 96MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May 16 17:03:11 2022
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\synwork\top_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:10s; Memory used current: 24MB peak: 33MB)
+
+Process took 0h:00m:41s realtime, 0h:00m:10s cputime
+
+Process completed successfully.
+# Mon May 16 17:03:12 2022
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M
+Install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M
+OS: Windows 6.2
+
+Hostname: HYD-DK-SQA_1
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202109synp1, Build 219R, Built Feb 23 2022 09:27:03, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:00s; Memory used current: 97MB peak: 98MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May 16 17:03:28 2022
+
+###########################################################]
+Premap Report
+
+# Mon May 16 17:03:43 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M
+Install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M
+OS: Windows 6.2
+
+Hostname: HYD-DK-SQA_1
+
+Implementation : synthesis
+Synopsys Generic Technology Pre-mapping, Version map202109act, Build 055R, Built Feb 23 2022 09:52:10, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 121MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 133MB)
+
+Reading constraint file: Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\designer\top\synthesis.fdc
+@L: Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\top_scck.rpt 
+See clock summary report "Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\top_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 135MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 136MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 136MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 138MB)
+
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:02s; Memory used current: 214MB peak: 214MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:02s; Memory used current: 214MB peak: 215MB)
+
+
+Start optimization across hierarchy (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:02s; Memory used current: 214MB peak: 215MB)
+
+NConnInternalConnection caching in on
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":311:0:311:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.RX_LANE1_DEN_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":311:0:311:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.RX_LANE1_PC_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":356:0:356:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.RX_LANE2_DEN_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":356:0:356:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.RX_LANE2_PC_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":401:0:401:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.RX_LANE3_DEN_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":401:0:401:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.RX_LANE3_PC_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":478:0:478:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.RX_LANE1_CC_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":510:0:510:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.RX_LANE2_CC_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":542:0:542:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.RX_LANE3_CC_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":641:0:641:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.TX_LANE1_GEN_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":641:0:641:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.TX_LANE1_PEN_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":707:0:707:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.TX_LANE2_GEN_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":707:0:707:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.TX_LANE2_PEN_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":773:0:773:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.TX_LANE3_GEN_ST is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":773:0:773:5|Sequential instance SmartBert_Core_0_0.SB_VER_GEN_0.TX_LANE3_PEN_ST is reduced to a combinational gate by constant propagation.
+@N: MO111 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":57:21:57:28|Tristate driver dummyClk_1 (in view: work.probeWrite_3(verilog)) on net dummyClk_1 (in view: work.probeWrite_3(verilog)) has its enable tied to GND.
+@N: MO111 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":57:21:57:28|Tristate driver dummyClk_1 (in view: work.probeWrite_2(verilog)) on net dummyClk_1 (in view: work.probeWrite_2(verilog)) has its enable tied to GND.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":100:0:100:5|Removing sequential instance q[3:0] (in view: work.probeWrite_2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":89:0:89:5|Removing sequential instance lp_feedback_latch (in view: work.probeWrite_2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":100:0:100:5|Removing sequential instance Q_OUT (in view: work.probeWrite_2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":76:0:76:5|Removing sequential instance active_probe_latch (in view: work.probeWrite_2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO111 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":57:21:57:28|Tristate driver dummyClk_1 (in view: work.probeWrite_1(verilog)) on net dummyClk_1 (in view: work.probeWrite_1(verilog)) has its enable tied to GND.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":100:0:100:5|Removing sequential instance q[3:0] (in view: work.probeWrite_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":89:0:89:5|Removing sequential instance lp_feedback_latch (in view: work.probeWrite_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":100:0:100:5|Removing sequential instance Q_OUT (in view: work.probeWrite_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":76:0:76:5|Removing sequential instance active_probe_latch (in view: work.probeWrite_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO111 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":57:21:57:28|Tristate driver dummyClk_1 (in view: work.probeWrite_0(verilog)) on net dummyClk_1 (in view: work.probeWrite_0(verilog)) has its enable tied to GND.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":100:0:100:5|Removing sequential instance q[3:0] (in view: work.probeWrite_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":89:0:89:5|Removing sequential instance lp_feedback_latch (in view: work.probeWrite_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":100:0:100:5|Removing sequential instance Q_OUT (in view: work.probeWrite_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":76:0:76:5|Removing sequential instance active_probe_latch (in view: work.probeWrite_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN115 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_gen_chkr_top.v":238:16:238:28|Removing instance SB_PRBS_GEN_1 (in view: work.SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s(verilog)) because it does not drive other instances.
+@N: BN115 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_gen_chkr_top.v":253:16:253:28|Removing instance SB_PRBS_GEN_2 (in view: work.SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s(verilog)) because it does not drive other instances.
+@N: BN115 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_gen_chkr_top.v":268:16:268:28|Removing instance SB_PRBS_GEN_3 (in view: work.SB_GEN_CHKR_26s_80s_1s_1s_1s_1s_1s_32s_97s_32s(verilog)) because it does not drive other instances.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":154:0:154:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_1.err_det_en is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":96:0:96:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_1.PRBS_ERR_DET is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":174:0:174:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_1.rx_align_st is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":329:0:329:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_1.err_cnt_en_st is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":154:0:154:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_2.err_det_en is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":96:0:96:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_2.PRBS_ERR_DET is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":174:0:174:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_2.rx_align_st is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":329:0:329:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_2.err_cnt_en_st is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":154:0:154:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_3.err_det_en is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":96:0:96:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_3.PRBS_ERR_DET is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":174:0:174:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_3.rx_align_st is reduced to a combinational gate by constant propagation.
+@W: MO129 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":329:0:329:5|Sequential instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_3.err_cnt_en_st is reduced to a combinational gate by constant propagation.
+
+Finished optimization across hierarchy (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:02s; Memory used current: 215MB peak: 215MB)
+
+@N: FP130 |Promoting Net SYS_RESET_N_arst on CLKINT  I_1 
+@N: FX1184 |Applying syn_allowed_resources blockrams=952 on top level netlist top 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:03s; Memory used current: 216MB peak: 216MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                           Requested     Requested     Clock        Clock                Clock
+Level     Clock                                           Frequency     Period        Type         Group                Load 
+-----------------------------------------------------------------------------------------------------------------------------
+0 -       SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     62.5 MHz      16.000        declared     default_clkgroup     822  
+                                                                                                                             
+0 -       SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     62.5 MHz      16.000        declared     default_clkgroup     143  
+                                                                                                                             
+0 -       REF_CLK_PAD_P                                   156.2 MHz     6.400         declared     default_clkgroup     0    
+=============================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                Clock     Source                                                    Clock Pin                                                          Non-clock Pin                                    Non-clock Pin                                                   
+Clock                                           Load      Pin                                                       Seq Example                                                        Seq Example                                      Comb Example                                                    
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     822       SmartBert_Core_0_0.PF_XCVR_0.LANE0.RX_CLK_R(XCVR_PMA)     SmartBert_Core_0_0.SB_VER_GEN_0.SLE_RX_LANE0_ALIGN.C               -                                                SmartBert_Core_0_0.SB_VER_GEN_0.un1_LANE0_RX_CLK.I[0](inv)      
+                                                                                                                                                                                                                                                                                                        
+SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     143       SmartBert_Core_0_0.PF_XCVR_0.LANE0.TX_CLK_R(XCVR_PMA)     SmartBert_Core_0_0.SB_VER_GEN_0.SLE_CDR_REFERENCE_CLK_SOURCE.C     -                                                SmartBert_Core_0_0.SB_VER_GEN_0.un1_LANE0_TX_CLK.I[0](inv)      
+                                                                                                                                                                                                                                                                                                        
+REF_CLK_PAD_P                                   0         REF_CLK_PAD_P(port)                                       -                                                                  SmartBert_Core_0_0.PF_XCVR_0.LANE0.REF_CLK_P     PF_XCVR_REF_CLK_0_0.PF_XCVR_REF_CLK_0_0.I_IO.PAD_P(XCVR_REF_CLK)
+========================================================================================================================================================================================================================================================================================================
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\top.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:04s; Memory used current: 190MB peak: 217MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:04s; Memory used current: 190MB peak: 217MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:04s; Memory used current: 191MB peak: 217MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:04s; Memory used current: 96MB peak: 217MB)
+
+Process took 0h:00m:25s realtime, 0h:00m:04s cputime
+# Mon May 16 17:04:08 2022
+
+###########################################################]
+Map & Optimize Report
+
+# Mon May 16 17:04:27 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M
+Install: \\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M
+OS: Windows 6.2
+
+Hostname: HYD-DK-SQA_1
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version map202109act, Build 055R, Built Feb 23 2022 09:52:10, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 121MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 133MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 133MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 124MB peak: 133MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:01s; Memory used current: 126MB peak: 133MB)
+
+
+@N: MF104 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":22:7:22:18|Found compile point of type hard on View view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0(verilog) 
+@N: MF104 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":22:7:22:18|Found compile point of type hard on View view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2(verilog) 
+
+Synthesis running in Multiprocessing mode
+Maximum number of parallel jobs set to 4
+Multiprocessing started at : Mon May 16 17:04:35 2022
+@W: BN114 :|Removing instance CP_fanout_cell_top_verilog_inst (in view: work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0_acp(verilog)) because it does not drive other instances.
+Mapping SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0 as a separate process
+Mapping top as a separate process
+@W: BN114 :|Removing instance CP_fanout_cell_top_verilog_inst (in view: work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_acp(verilog)) because it does not drive other instances.
+Mapping SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2 as a separate process
+MCP Status: 3 jobs running
+
+@N: MF106 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":22:7:22:18|Mapping Compile point view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 167MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:01s; Memory used current: 169MB peak: 169MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 170MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 170MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 170MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 171MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 171MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 171MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 171MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 171MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		100000.00ns		   0 /         0
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:03s; Memory used current: 171MB peak: 171MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:03s; Memory used current: 171MB peak: 171MB)
+
+
+Finished mapping SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2
+MCP Status: 2 jobs running
+
+@N: MF106 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\work\top\top.v":9:7:9:9|Mapping Top level view:work.top(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 174MB)
+
+@N: MO111 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":57:21:57:28|Tristate driver dummyClk_1 (in view: work.probeWrite_3(verilog)) on net dummyClk_1 (in view: work.probeWrite_3(verilog)) has its enable tied to GND.
+@N: MO111 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\four_stage_sync_latch.v":57:21:57:28|Tristate driver dummyClk_1 (in view: work.probeWrite(verilog)) on net dummyClk_1 (in view: work.probeWrite(verilog)) has its enable tied to GND.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_gen_chkr_top.v":348:17:348:30|Removing user instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_3 because it is equivalent to instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_gen_chkr_top.v":328:17:328:30|Removing user instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_2 because it is equivalent to instance SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":266:0:266:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_RX_LANE0_CHR_EN_hold because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_DATA_EN. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":447:0:447:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_RX_LANE0_ERR_CNT_CLR_hold because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_PRBS_ERR_CNT_CLR. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":266:0:266:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_RX_LANE0_PATTEN_CHK_hold[0] because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_PRBS_SEL[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":266:0:266:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_RX_LANE0_PATTEN_CHK_hold[1] because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_PRBS_SEL[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":575:0:575:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_TX_LANE0_GEN_EN_hold because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_DATA_EN. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":575:0:575:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_TX_LANE0_PATTEN_GEN_hold[1] because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_PRBS_SEL[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_ver_gen\0.0.18\sb_ver_gen.v":575:0:575:5|Removing instance SmartBert_Core_0_0.SB_VER_GEN_0.SLE_TX_LANE0_PATTEN_GEN_hold[0] because it is equivalent to instance SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_PRBS_SEL[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:02s; Memory used current: 183MB peak: 183MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 184MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 184MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 184MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:03s; Memory used current: 179MB peak: 184MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:03s; Memory used current: 180MB peak: 184MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:03s; Memory used current: 180MB peak: 184MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:03s		     5.76ns		 556 /       307
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 184MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:04s; Memory used current: 181MB peak: 184MB)
+
+
+Finished mapping top
+MCP Status: 1 jobs running
+
+@N: MF106 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":22:7:22:18|Mapping Compile point view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+
+@N: MO231 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":154:0:154:5|Found counter in view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0(verilog) instance PRBS_ERR_CNT[31:0] 
+@N: MO231 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":329:0:329:5|Found counter in view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0(verilog) instance err_cnt_en_cnt[5:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:03s; Memory used current: 201MB peak: 201MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:04s; Memory used current: 190MB peak: 208MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:04s; Memory used current: 192MB peak: 208MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:05s; Memory used current: 192MB peak: 208MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:05s; Memory used current: 192MB peak: 208MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:06s; Memory used current: 192MB peak: 208MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:07s; Memory used current: 264MB peak: 264MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:07s		     2.63ns		2346 /       781
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:08s; Memory used current: 264MB peak: 265MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:08s; Memory used current: 264MB peak: 265MB)
+
+
+Finished mapping SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0
+Multiprocessing finished at : Mon May 16 17:05:07 2022
+Multiprocessing took 0h:00m:31s realtime, 0h:00m:00s cputime
+
+Summary of Compile Points :
+*************************** 
+Name                                                           Status     Reason          Start Time                   End Time                     Realtime       CPU Time       Fast Synthesis
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2                    Mapped     No database     Mon May 16 17:04:42 2022     Mon May 16 17:04:58 2022     0h:00m:16s     0h:00m:03s     No            
+SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0     Mapped     No database     Mon May 16 17:04:42 2022     Mon May 16 17:05:03 2022     0h:00m:20s     0h:00m:08s     No            
+top                                                            Mapped     No database     Mon May 16 17:04:42 2022     Mon May 16 17:04:59 2022     0h:00m:16s     0h:00m:04s     No            
+================================================================================================================================================================================================
+Total number of compile points: 3
+===================================
+
+Links to Compile point Reports:
+******************************
+@L: "Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0\SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2_SB_PRBS_CHKR_0.srr"
+@L: "Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\top\top.srr"
+@L: "Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2\SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2.srr"
+
+==============================
+
+
+Start loading CP mapped netlist (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 173MB)
+
+
+Finished loading CP mapped netlist (Real Time elapsed 0h:00m:41s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 173MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+2 non-gated/non-generated clock tree(s) driving 962 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=================================================== Non-Gated/Non-Generated Clocks ====================================================
+Clock Tree ID     Driving Element                        Drive Element Type               Fanout     Sample Instance                   
+---------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       SmartBert_Core_0_0.PF_XCVR_0.LANE0     clock definition on XCVR_PMA     822        SmartBert_Core_0_0.PF_XCVR_0.LANE0
+@K:CKID0002       SmartBert_Core_0_0.PF_XCVR_0.LANE0     clock definition on XCVR_PMA     140        SmartBert_Core_0_0.PF_XCVR_0.LANE0
+=======================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:45s; CPU Time elapsed 0h:00m:03s; Memory used current: 137MB peak: 175MB)
+
+Writing Analyst data base Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\synwork\top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:50s; CPU Time elapsed 0h:00m:04s; Memory used current: 177MB peak: 177MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:57s; CPU Time elapsed 0h:00m:06s; Memory used current: 178MB peak: 178MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:58s; CPU Time elapsed 0h:00m:06s; Memory used current: 178MB peak: 178MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:59s; CPU Time elapsed 0h:00m:06s; Memory used current: 174MB peak: 178MB)
+
+@N: MT615 |Found clock REF_CLK_PAD_P with period 6.40ns 
+@N: MT615 |Found clock SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R with period 16.00ns 
+@N: MT615 |Found clock SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R with period 16.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon May 16 17:05:26 2022
+#
+
+
+Top view:               top
+Requested Frequency:    62.5 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\designer\top\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 3.550
+
+                                                Requested     Estimated     Requested     Estimated               Clock        Clock           
+Starting Clock                                  Frequency     Frequency     Period        Period        Slack     Type         Group           
+-----------------------------------------------------------------------------------------------------------------------------------------------
+REF_CLK_PAD_P                                   156.2 MHz     NA            6.400         NA            NA        declared     default_clkgroup
+SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     62.5 MHz      112.3 MHz     16.000        8.901         3.550     declared     default_clkgroup
+SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     62.5 MHz      185.9 MHz     16.000        5.378         5.311     declared     default_clkgroup
+===============================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                    |    rise  to  rise    |    fall  to  fall    |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                     Ending                                       |  constraint  slack   |  constraint  slack   |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R  SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R  |  16.000      11.956  |  16.000      14.281  |  No paths    -      |  8.000       5.311
+SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R  SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R  |  16.000      14.595  |  No paths    -       |  No paths    -      |  No paths    -    
+SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R  SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R  |  16.000      9.440   |  16.000      14.676  |  8.000       6.763  |  8.000       3.550
+==================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                    Starting                                                                                                 Arrival          
+Instance                                                            Reference                                       Type     Pin     Net                                     Time        Slack
+                                                                    Clock                                                                                                                     
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_DATA_EN                    SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       SB_VER_GEN_0_LANE0_RX_DATA_EN           0.201       3.550
+SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_PRBS_SEL[0]                SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       SB_VER_GEN_0_LANE0_RX_PRBS_SEL[0]       0.218       4.704
+SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_PRBS_SEL[1]                SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       SB_VER_GEN_0_LANE0_RX_PRBS_SEL[1]       0.218       4.788
+SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_PRBS_ERR_CNT_CLR              SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       SB_VER_GEN_0_LANE0_PRBS_ERR_CNT_CLR     0.218       5.452
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.RX_ALIGN            SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       RX_ALIGN                                0.218       6.763
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[0]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       PRBS_ERR_CNT[0]                         0.218       7.658
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[1]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       PRBS_ERR_CNT[1]                         0.218       7.658
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[2]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       PRBS_ERR_CNT[2]                         0.218       7.658
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[3]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       PRBS_ERR_CNT[3]                         0.218       7.658
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[4]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      Q       PRBS_ERR_CNT[4]                         0.218       7.658
+==============================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                    Starting                                                                           Required          
+Instance                                                            Reference                                       Type     Pin     Net               Time         Slack
+                                                                    Clock                                                                                                
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[0]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[1]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[2]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[3]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[4]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[5]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[6]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[7]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[8]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[9]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R     SLE      EN      PRBS_ERR_CNTe     7.873        3.550
+=========================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      8.000
+    - Setup time:                            0.127
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.873
+
+    - Propagation time:                      4.324
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     3.550
+
+    Number of logic level(s):                3
+    Starting point:                          SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_DATA_EN / Q
+    Ending point:                            SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[0] / EN
+    The start point is clocked by            SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R [falling] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+    The end   point is clocked by            SmartBert_Core_0_0/PF_XCVR_0/LANE0/RX_CLK_R [rising] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+
+Instance / Net                                                                        Pin      Pin               Arrival     No. of    
+Name                                                                         Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_RX_DATA_EN                             SLE      Q        Out     0.201     0.201 f     -         
+SB_VER_GEN_0_LANE0_RX_DATA_EN                                                Net      -        -       0.563     -           4         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.un1_PRBS_SEL_2_0_0           CFG3     B        In      -         0.764 f     -         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.un1_PRBS_SEL_2_0_0           CFG3     Y        Out     0.077     0.842 f     -         
+N_505_i                                                                      Net      -        -       1.247     -           470       
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_CLR_ERR_CNT_RNIUUUU     ARI1     D        In      -         2.088 f     -         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_CLR_ERR_CNT_RNIUUUU     ARI1     Y        Out     0.363     2.451 f     -         
+PRBS_CLR_ERR_CNT_RNIUUUU_Y                                                   Net      -        -       0.853     -           34        
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.err_det_en_RNIGAU91          CFG3     C        In      -         3.304 f     -         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.err_det_en_RNIGAU91          CFG3     Y        Out     0.130     3.435 r     -         
+PRBS_ERR_CNTe                                                                Net      -        -       0.889     -           32        
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_CHKR_0.PRBS_ERR_CNT[0]              SLE      EN       In      -         4.324 r     -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 4.450 is 0.898(20.2%) logic and 3.552(79.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                              Starting                                                                                               Arrival           
+Instance                                                      Reference                                       Type     Pin     Net                                   Time        Slack 
+                                                              Clock                                                                                                                    
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_PRBS_SEL[1]          SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_VER_GEN_0_LANE0_TX_PRBS_SEL[1]     0.218       5.311 
+SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_PRBS_SEL[0]          SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_VER_GEN_0_LANE0_TX_PRBS_SEL[0]     0.218       5.456 
+SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_DATA_EN              SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_VER_GEN_0_LANE0_TX_DATA_EN         0.201       6.445 
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[2]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_GEN_CHKR_0_LANE0_TX_DATA[2]        0.218       11.956
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[6]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_GEN_CHKR_0_LANE0_TX_DATA[6]        0.218       11.977
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[0]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_GEN_CHKR_0_LANE0_TX_DATA[0]        0.218       11.992
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[1]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_GEN_CHKR_0_LANE0_TX_DATA[1]        0.218       12.014
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[5]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_GEN_CHKR_0_LANE0_TX_DATA[5]        0.218       12.393
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[3]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_GEN_CHKR_0_LANE0_TX_DATA[3]        0.218       12.430
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[8]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      Q       SB_GEN_CHKR_0_LANE0_TX_DATA[8]        0.218       12.593
+=======================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                               Starting                                                                            Required          
+Instance                                                       Reference                                       Type     Pin     Net                Time         Slack
+                                                               Clock                                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[3]      SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       N_121_i            8.000        5.311
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[15]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       N_111_i            8.000        5.311
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[31]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       TX_DATA_12[31]     8.000        5.311
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[32]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       TX_DATA_12[32]     8.000        5.311
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[33]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       N_95_i             8.000        5.311
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[34]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       N_93_i             8.000        5.311
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[36]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       TX_DATA_12[36]     8.000        5.311
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[37]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       N_89_i             8.000        5.311
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[42]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       N_85_i             8.000        5.311
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[47]     SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R     SLE      D       N_79_i             8.000        5.311
+=====================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      8.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.000
+
+    - Propagation time:                      2.689
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.311
+
+    Number of logic level(s):                4
+    Starting point:                          SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_PRBS_SEL[1] / Q
+    Ending point:                            SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[3] / D
+    The start point is clocked by            SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R [falling] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+    The end   point is clocked by            SmartBert_Core_0_0/PF_XCVR_0/LANE0/TX_CLK_R [rising] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+
+Instance / Net                                                                   Pin      Pin               Arrival     No. of    
+Name                                                                    Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------
+SmartBert_Core_0_0.SB_VER_GEN_0.LANE0_TX_PRBS_SEL[1]                    SLE      Q        Out     0.218     0.218 r     -         
+SB_VER_GEN_0_LANE0_TX_PRBS_SEL[1]                                       Net      -        -       1.150     -           161       
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA_12_m2_1[3]       CFG4     D        In      -         1.368 r     -         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA_12_m2_1[3]       CFG4     Y        Out     0.232     1.600 r     -         
+TX_DATA_12_m2_1[3]                                                      Net      -        -       0.124     -           2         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA_12_m2_2_1[3]     CFG4     D        In      -         1.724 r     -         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA_12_m2_2_1[3]     CFG4     Y        Out     0.232     1.955 r     -         
+TX_DATA_12_m2_2_1[3]                                                    Net      -        -       0.118     -           1         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA_12_m2_2[3]       CFG4     D        In      -         2.073 r     -         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA_12_m2_2[3]       CFG4     Y        Out     0.232     2.305 r     -         
+TX_DATA_12_m2[3]                                                        Net      -        -       0.118     -           1         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA_RNO[3]           CFG4     C        In      -         2.423 r     -         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA_RNO[3]           CFG4     Y        Out     0.148     2.571 r     -         
+N_121_i                                                                 Net      -        -       0.118     -           1         
+SmartBert_Core_0_0.SB_GEN_CHKR_0.SB_PRBS_GEN_0.TX_DATA[3]               SLE      D        In      -         2.689 r     -         
+==================================================================================================================================
+Total path delay (propagation time + setup) of 2.689 is 1.061(39.5%) logic and 1.628(60.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:01m:01s; CPU Time elapsed 0h:00m:07s; Memory used current: 176MB peak: 178MB)
+
+
+Finished timing report (Real Time elapsed 0h:01m:01s; CPU Time elapsed 0h:00m:07s; Memory used current: 176MB peak: 178MB)
+
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: mpf300tfcg1152-1
+Cell usage:
+CLKINT          1 use
+RCLKINT         2 uses
+TX_PLL          1 use
+XCVR_PMA        1 use
+XCVR_REF_CLK    1 use
+CFG1           2 uses
+CFG2           308 uses
+CFG3           1124 uses
+CFG4           1046 uses
+
+Carry cells:
+ARI1            47 uses - used for arithmetic functions
+ARI1            82 uses - used for Wide-Mux implementation
+Total ARI1      129 uses
+
+
+Sequential Cells: 
+SLE            876 uses
+SLE_DEBUG      206 uses
+Total SLE          1082 uses
+
+DSP Blocks:    0 of 924 (0%)
+
+I/O ports: 7
+I/O primitives: 1
+INBUF          1 use
+
+
+Global Clock Buffers: 3
+
+Total LUTs:    2609
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  1082 + 0 + 0 + 0 = 1082;
+Total number of LUTs after P&R:  2609 + 0 + 0 + 0 = 2609;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:01m:10s; CPU Time elapsed 0h:00m:07s; Memory used current: 62MB peak: 178MB)
+
+Process took 0h:01m:11s realtime, 0h:00m:08s cputime
+# Mon May 16 17:05:39 2022
+
+###########################################################]

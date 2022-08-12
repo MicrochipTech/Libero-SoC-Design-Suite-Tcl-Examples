@@ -1,0 +1,13 @@
+
+########			REPORT FOR HIGH FANOUT NETS			########
+
+CLOCK GLOBAL THRESHOLD - 2
+ASYNC GLOBAL THRESHOLD - 800
+GLOBAL THRESHOLD - 5000
+
+NET NAME                                                  CLOCK LOADS     ASYNC RST LOADS     DATA LOADS     TOTAL FANOUT     GLOBAL BUFFER PRESENT
+---------------------------------------------------------------------------------------------------------------------------------------------------
+SmartBert_Core_0_0.PF_XCVR_0.PF_XCVR_0_LANE0_RX_CLK_R     822             0                   0              822              YES                  
+SmartBert_Core_0_0.PF_XCVR_0.PF_XCVR_0_LANE0_TX_CLK_R     140             0                   0              140              YES                  
+SYS_RESET_N_arst                                          0               1081                0              1081             YES                  
+===================================================================================================================================================
