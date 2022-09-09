@@ -1,9 +1,0 @@
-n work PF_DDR4_SS verilog;
-av .compile_point_summary_status "Mapped";
-av .compile_point_summary_reason "No database";
-av .compile_point_update_model 0;
-av .compile_point_fast_synthesis "No";
-av .compile_point_cputime_used 28.7907;
-av .compile_point_starttime_stamp "Tue May 17 09:09:04 2022";
-av .compile_point_endtime_stamp "Tue May 17 09:09:34 2022";
-av .compile_point_realtime_used 29.6663;

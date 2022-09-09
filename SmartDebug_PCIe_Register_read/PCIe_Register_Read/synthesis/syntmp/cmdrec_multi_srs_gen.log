@@ -1,8 +1,0 @@
-/soft/sqatest5/releases/production/Synopsys/Synplify/lin/synplify_S202109M/bin/syn_nfilter  -link  -top  PCIe_EP_Demo  -multisrs  /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/synthesis/synwork/PCIe_EP_Demo_comp.srs  -osyn  /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/synthesis/synwork/PCIe_EP_Demo_mult.srs  -log  /sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/synthesis/synlog/PCIe_EP_Demo_multi_srs_gen.srr 
-relcom:/soft/sqatest5/releases/production/Synopsys/Synplify/lin/synplify_S202109M/bin/syn_nfilter -link -top PCIe_EP_Demo -multisrs ../synwork/PCIe_EP_Demo_comp.srs -osyn ../synwork/PCIe_EP_Demo_mult.srs -log ../synlog/PCIe_EP_Demo_multi_srs_gen.srr
-rc:0 success:1 runtime:8
-file:../synwork/PCIe_EP_Demo_comp.srs|io:i|time:1652758536|size:21993205|exec:0|csum:7079D17F872EF959391B8CBCE4E43C9E
-file:../synwork/PCIe_EP_Demo_mult.srs|io:o|time:1652758545|size:29493|exec:0|csum:
-file:../synlog/PCIe_EP_Demo_multi_srs_gen.srr|io:o|time:1652758545|size:27846|exec:0|csum:
-file:/soft/sqatest5/releases/production/Synopsys/Synplify/lin/synplify_S202109M/linux_a_64/syn_nfilter|io:i|time:1645638665|size:12113536|exec:1|csum:7F60A6840907B3E902335C0D782ED165
-file:/soft/sqatest5/releases/production/Synopsys/Synplify/lin/synplify_S202109M/bin/syn_nfilter|io:i|time:1645638512|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

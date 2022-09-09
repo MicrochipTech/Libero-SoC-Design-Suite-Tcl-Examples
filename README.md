@@ -11,7 +11,7 @@
 </tr>
 </table>
 
-## Welcome to the Libero&reg; SoC Design Suite advanced Tcl examples GitHub Repository! 
+## Welcome to the Libero&reg; SoC Design Suite advanced Tcl examples GitHub Repository!
 
 This is a code repository designed primarily for use with the Libero&reg; SoC Design Suite. Click [here](../Basic-Tcl-Examples/README.md) if you are looking for basic Tcl command examples.
 
@@ -25,8 +25,7 @@ The following table describes each Libero SoC Design Suite advanced examples in 
 |[HDL to Programming Flow](HDL_to_programming_flow)| The TCL script in this example creates a new Libero project, imports HDL and constraint files. Runs through complete design flow from synthesis to device programming.
 |[FPExpress Flow](FPExpress_flow)| The Tcl scripts in this example use job/stp file exported from Libero and run device programming in the standalone FlashPro Express (FPExpress) tool.
 |[SmartDebug Flow](SmartDebug_flow)| The Tcl script in this example uses Smartdebug to read the embedded micro programmable read-only memory (uPROM) content programmed onto the device.
-|[SmartDebug PCIe Register Read](SmartDebug_PCIe_Register_read)| The Tcl script in this example creates a PCIe EndPoint design(DG0756_PF_PCIe_EP) by instantiating required components in SmartDesign and by importing verilog files.
-|[SmartDebug XCVR Debug Flow](SmartDebug_XCVR)| The Tcl script in this example creates a XCVR design by instantiating required components in SmartDesign and by importing verilog files.
+
 >**NOTE:** An example is a group or collection of one or more Tcl scripts. The entire repository is managed by a moderator.
 
 

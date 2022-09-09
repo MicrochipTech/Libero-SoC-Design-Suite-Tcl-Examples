@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<SynplifyOutput>
-	<result>Success</result>
-	<design>PCIe_EP_Demo</design>
-	<target_verilog>/sqahyd/Pramod/Github_Examples/SmartDebug_PCIe_Register_read/PCIe_Register_Read/synthesis/PCIe_EP_Demo.vm</target_verilog>
-</SynplifyOutput>

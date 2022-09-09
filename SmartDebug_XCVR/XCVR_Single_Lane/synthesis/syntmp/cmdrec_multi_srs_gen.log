@@ -1,7 +1,0 @@
-\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\bin64\syn_nfilter.exe  -link  -top  top  -multisrs  Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\synwork\top_comp.srs  -osyn  Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\synwork\top_mult.srs  -log  Z:\Pramod\Github_Examples\SmartDebug_XCVR\XCVR_Single_Lane\synthesis\synlog\top_multi_srs_gen.srr 
-relcom:\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\bin64\syn_nfilter.exe -link -top top -multisrs ..\synwork\top_comp.srs -osyn ..\synwork\top_mult.srs -log ..\synlog\top_multi_srs_gen.srr
-rc:0 success:1 runtime:12
-file:..\synwork\top_comp.srs|io:i|time:1652700790|size:101468|exec:0|csum:A97056FC5680E433E4C1D2A9DE2F991D
-file:..\synwork\top_mult.srs|io:o|time:1652700808|size:2997|exec:0|csum:
-file:..\synlog\top_multi_srs_gen.srr|io:o|time:1652700808|size:1085|exec:0|csum:
-file:\\hyd-fs\sqatest5\releases\production\Synopsys\Synplify\pc\synplify_S202109M\bin64\syn_nfilter.exe|io:i|time:1645637740|size:8735744|exec:1|csum:DBF1450D743508EFEEE3FEEA6591E533

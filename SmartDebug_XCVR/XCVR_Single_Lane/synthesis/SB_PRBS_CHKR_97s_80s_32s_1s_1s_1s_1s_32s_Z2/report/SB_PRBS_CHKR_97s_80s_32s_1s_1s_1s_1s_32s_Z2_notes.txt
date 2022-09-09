@@ -1,8 +1,0 @@
-@N: MF916 |Option synthesis_strategy=base is enabled. 
-@N: MF248 |Running in 64-bit mode.
-@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
-@N: MF104 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":22:7:22:18|Found compile point of type hard on View view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2(verilog) 
-@N: MF105 |Performing bottom-up mapping of Compile point view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2(verilog) 
-@N: MF106 :"z:\pramod\github_examples\smartdebug_xcvr\xcvr_single_lane\component\actel\sgcore\sb_gen_chkr\0.0.20\sb_prbs_chkr.v":22:7:22:18|Mapping Compile point view:work.SB_PRBS_CHKR_97s_80s_32s_1s_1s_1s_1s_32s_Z2(verilog) because 
-@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
-@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
