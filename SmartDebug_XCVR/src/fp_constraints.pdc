@@ -1,0 +1,24 @@
+# -------------------------------------------------------------------------
+# Microchip Physical design constraints file 
+# File: fp_constraints.pdc
+# Description: This file contains the region constraints associated with design components.
+#--------------------------------------------------------------------------
+
+#
+# Core cell constraints
+#
+
+set_location -inst_name PF_TX_PLL_0_0/PF_TX_PLL_0_0/txpll_isnt_0 -fixed true -x 2460 -y 320
+
+#
+# SmartBert IP constraints added for JTAG write issue
+#
+
+set_location -inst_name SmartBert_Core_0_0/SB_VER_GEN_0/SLE_TX_LANE0_PATTEN_GEN\[0\] -fixed true -x 2317 -y 301
+set_location -inst_name SmartBert_Core_0_0/SB_VER_GEN_0/SLE_TX_LANE0_PATTEN_GEN\[1\] -fixed true -x 2319 -y 301
+set_location -inst_name SmartBert_Core_0_0/SB_VER_GEN_0/SLE_RX_LANE0_PATTEN_CHK\[0\] -fixed true -x 2346 -y 301
+set_location -inst_name SmartBert_Core_0_0/SB_VER_GEN_0/SLE_RX_LANE0_PATTEN_CHK\[1\] -fixed true -x 2341 -y 301
+set_location -inst_name SmartBert_Core_0_0/SB_VER_GEN_0/SLE_TX_LANE0_GEN_EN -fixed true -x 2325 -y 301
+set_location -inst_name SmartBert_Core_0_0/SB_VER_GEN_0/SLE_RX_LANE0_CHR_EN -fixed true -x 2351 -y 301
+set_location -inst_name SmartBert_Core_0_0/SB_VER_GEN_0/SLE_RX_LANE0_ERR_CNT_CLR -fixed true -x 2345 -y 301
+set_location -inst_name SmartBert_Core_0_0/SB_VER_GEN_0/probeWrite_LANE0_ERR_GEN/active_probe_latch -fixed true -x 2106 -y 301

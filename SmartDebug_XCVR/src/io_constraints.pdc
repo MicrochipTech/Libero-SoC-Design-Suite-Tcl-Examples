@@ -1,0 +1,54 @@
+# -----------------------------------------------------------------------------------------
+# Microchip I/O Physical design constraints file 
+# File: io_constraints.pdc
+# Description: This file contains user I/O Constraints associated with ports/pins in design 
+# -------------------------------------------------------------------------------------------
+
+# 
+# User Locked I/O settings
+# 
+
+set_io -port_name SYS_RESET_N  \
+    -pin_name K22              \
+    -fixed true                \
+    -DIRECTION INPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+#
+#Ports using Dedicated Pins
+#
+
+set_io -port_name LANE0_RXD_N  \
+    -pin_name AC32             \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE0_RXD_P  \
+    -pin_name AC31             \
+    -DIRECTION INPUT
+
+
+set_io -port_name LANE0_TXD_N  \
+    -pin_name AD34             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LANE0_TXD_P  \
+    -pin_name AD33             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name REF_CLK_PAD_N  \
+    -pin_name AC28               \
+    -DIRECTION INPUT
+
+
+set_io -port_name REF_CLK_PAD_P  \
+    -pin_name AC27               \
+    -DIRECTION INPUT
+
+
