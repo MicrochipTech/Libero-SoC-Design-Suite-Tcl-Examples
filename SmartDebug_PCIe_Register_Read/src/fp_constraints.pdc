@@ -1,0 +1,11 @@
+# -------------------------------------------------------------------------
+# Microchip Physical design constraints file 
+# File: fp_constraints.pdc
+# Description: This file contains the region constraints associated with design components.
+#--------------------------------------------------------------------------
+
+#Region constraint for TXPLL
+
+set_location -inst_name PF_TX_PLL_C0_0/PF_TX_PLL_C0_0/txpll_isnt_0 -fixed true -location Q0_TXPLL_SSC
+
+

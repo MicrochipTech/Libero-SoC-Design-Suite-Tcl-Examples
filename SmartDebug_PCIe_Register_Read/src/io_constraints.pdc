@@ -1,0 +1,22 @@
+# -----------------------------------------------------------------------------------------
+# Microchip I/O Physical design constraints file 
+# File: io_constraints.pdc
+# Description: This file contains user I/O Constraints associated with ports/pins in design 
+#-------------------------------------------------------------------------------------------
+
+set_io -port_name PCIESS_LANE_TXD2_P -pin_name AA31 -DIRECTION OUTPUT
+set_io -port_name PCIESS_LANE_TXD2_N -pin_name AA32 -DIRECTION OUTPUT
+set_io -port_name PCIESS_LANE_RXD2_P -pin_name Y29  -DIRECTION INPUT
+set_io -port_name PCIESS_LANE_RXD2_N -pin_name Y30  -DIRECTION INPUT
+
+
+
+
+
+
+
+
+
+
+
+
