@@ -1,9 +1,14 @@
-#------------------------------------------------------------------
+#------------------------------------------------------------
 # File: verifytiming.tcl
 # Description: Demonstrate usage of remove_multicycle_path command.
-#------------------------------------------------------------------
+#------------------------------------------------------------
 
-# Removes a multicycle path constraint in the current timing scenario
-#
-puts "------- Remove multicycle paths --------"
-puts [remove_multicycle_path -from [get_clocks CLKIN]]
+# Remove Multicycle path from the current timing constraint scenario
+puts [list_multicycle_paths]
+puts "-------- Remove multicycle paths --------";
+remove_multicycle_path -from [get_clocks CLKIN]
+
+set logfile "list_multicycle_paths.txt"
+set constraintsfp [open $logfile "w"]
+puts $constraintsfp [list_multicycle_paths]
+close $constraintsfp

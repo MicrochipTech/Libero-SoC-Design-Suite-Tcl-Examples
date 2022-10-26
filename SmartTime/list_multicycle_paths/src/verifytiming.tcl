@@ -4,4 +4,11 @@
 #-----------------------------------------------------------------
 
 # Displays details about all of the multicycle paths
-puts [list_multicycle_paths]
+
+puts "========== List of Multicycle paths ==========\n";
+puts [list_multicycle_paths];
+
+set logfile "list_multicycle_paths.txt"
+set constraintsfp [open $logfile "w"]
+puts $constraintsfp [list_multicycle_paths]
+close $constraintsfp

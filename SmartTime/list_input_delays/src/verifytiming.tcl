@@ -7,3 +7,8 @@
 #
 puts "========== List of input delays ==========\n";
 puts [list_input_delays];
+
+set logfile "list_input_delays.txt"
+set constraintsfp [open $logfile "w"]
+puts $constraintsfp [list_input_delays]
+close $constraintsfp

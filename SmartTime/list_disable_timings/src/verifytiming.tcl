@@ -7,3 +7,8 @@
 # timing constraint scenario.
 puts "\n---------- List of disable timing constraints ------------"
 puts [list_disable_timings]
+
+set logfile "list_disable_timings.txt"
+set constraintsfp [open $logfile "w"]
+puts $constraintsfp [list_disable_timings]
+close $constraintsfp

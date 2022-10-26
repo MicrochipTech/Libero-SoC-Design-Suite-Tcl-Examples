@@ -14,6 +14,7 @@
 # Setup variables for the new_project command.
 #
 source custom/parameters.tcl;
+source src/common.tcl;
 
 set libero_cmd "new_project \
                 -location {./exprj} -name {exprj} \
@@ -48,7 +49,7 @@ organize_tool_files -tool {VERIFYTIMING} \
 
 # Configure VERIFYTIMING tool to generate a txt file report
 #
-configure_tool -name {VERIFYTIMING} -params {FORMAT:TEXT};
+configure_tool -name {VERIFYTIMING} -params {FORMAT:CSV};
 
 
 # Now run the flow
@@ -56,5 +57,56 @@ configure_tool -name {VERIFYTIMING} -params {FORMAT:TEXT};
 run_tool -name {SYNTHESIZE};
 run_tool -name {PLACEROUTE};
 run_tool -name {VERIFYTIMING};
+
+#Timing Reports Check
+set max_violations_report "./exprj/designer/top/top_max_timing_multi_corner.csv"
+
+set min_violations_report "./exprj/designer/top/top_min_timing_multi_corner.csv"
+
+if {[countPattern "CLKIN,Clock Constraint.*10.000" ${max_violations_report} ] == 3 } {
+	puts "\nINFO:_TC Clock Constraint Value CLKIN = 10 ns is Matched with SDC Value in max analysis"	
+} else {
+	puts "\nERROR:_TC Clock Constraint Value is not Matched with SDC Value in max analysis"
+	incr err
+}
+
+if {[grepPattern "Input Delay Constraint.*2.100" ${max_violations_report} ] == 1 } {
+	puts "\nINFO:_TC Input Delay Constraint Value = 2.1 ns is Matched with SDC Value in max analysis"	
+} else {
+	puts "\nERROR:_TC Input Delay Constraint Value is not Matched with SDC Value in max analysis"
+	incr err
+}
+
+if {[grepPattern "Output Delay Constraint.*1.200" ${max_violations_report} ] == 1 } {
+	puts "\nINFO:_TC Output Delay Constraint Value = 1.2 ns is Matched with SDC Value in max analysis"	
+} else {
+	puts "\nERROR:_TC Output Delay Constraint Value is not Matched with SDC Value in max analysis"
+	incr err
+}
+
+if {[grepPattern "Input Delay Constraint.*2.100" ${min_violations_report} ] == 1 } {
+	puts "\nINFO:_TC Input Delay Constraint Value = 2.1 ns is Matched with SDC Value in min analysis"	
+} else {
+	puts "\nERROR:_TC Input Delay Constraint Value is not Matched with SDC Value in min analysis"
+	incr err
+}
+
+if {[grepPattern "Output Delay Constraint.*1.200" ${min_violations_report} ] == 1 } {
+	puts "\nINFO:_TC Output Delay Constraint Value = 1.2 ns is Matched with SDC Value in min analysis"	
+} else {
+	puts "\nERROR:_TC Output Delay Constraint Value is not Matched with SDC Value in min analysis"
+	incr err
+}
+
+if { $err == 0 } \
+{
+    puts "\nINFO:_TC Test run PASSED with 0 errors";
+} \
+else \
+{
+    puts "\nERROR:_TC Test run FAILED";
+	
+}
+save_log -file {./test_log_file.txt} 
 
 close_project -save 1;

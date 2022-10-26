@@ -1,0 +1,20 @@
+{
+    "all":[
+           {"prj_family":"RTG4", "prj_die":"RT4G150", "prj_package":"CG1657", "prj_speed":"-1"},
+           {"prj_family":"PolarFire", "prj_die":"MPF500T", "prj_package":"FCG1152", "prj_speed":"-1"}
+    ],
+
+    "default":[
+           {"prj_family":"RTG4", "prj_die":"RT4G150", "prj_package":"CG1657", "prj_speed":"-1"}
+    ],
+
+    "nightly":[
+           {"prj_family":"RTG4", "prj_die":"RT4G150", "prj_package":"CG1657", "prj_speed":"-1"}
+    ],
+
+    "weekly":[
+           {"prj_family":"RTG4", "prj_die":"RT4G150", "prj_package":"CG1657", "prj_speed":"-1"}
+    ]
+}
+
+

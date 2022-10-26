@@ -14,6 +14,7 @@
 # Setup variables for the new_project command.
 #
 source custom/parameters.tcl;
+source src/common.tcl;						 
 
 set libero_cmd "new_project \
                 -location {./exprj} -name {exprj} \
@@ -57,4 +58,6 @@ run_tool -name {SYNTHESIZE};
 run_tool -name {PLACEROUTE};
 run_tool -name {VERIFYTIMING} -script "./src/verifytiming.tcl";
 
+source src/checks.tcl;
+save_log -file {./test_log_file.txt} 					  	
 close_project -save 1;

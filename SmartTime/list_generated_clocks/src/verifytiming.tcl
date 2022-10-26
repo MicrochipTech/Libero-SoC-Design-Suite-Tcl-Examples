@@ -7,3 +7,9 @@
 # the current timing constraint scenario.
 puts "\n------ List of generated clocks ------"
 puts [list_generated_clocks]
+
+set logfile "list_generated_clocks.txt"
+set constraintsfp [open $logfile "w"]
+puts $constraintsfp [list_generated_clocks]
+close $constraintsfp
+

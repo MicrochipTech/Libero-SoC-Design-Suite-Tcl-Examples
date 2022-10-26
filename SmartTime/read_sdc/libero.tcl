@@ -14,6 +14,7 @@
 # Setup variables for the new_project command.
 #
 source custom/parameters.tcl;
+set err 0
 
 set libero_cmd "new_project \
                 -location {./exprj} -name {exprj} \
@@ -56,5 +57,17 @@ configure_tool -name {VERIFYTIMING} -params {FORMAT:TEXT};
 run_tool -name {SYNTHESIZE};
 run_tool -name {PLACEROUTE};
 run_tool -name {VERIFYTIMING} -script "./src/verifytiming.tcl";
+
+if { $err == 0 } \
+{
+    puts "\nINFO:_TC Test run PASSED with 0 errors";
+} \
+else \
+{
+    puts "\nERROR:_TC Test run FAILED";
+	
+}
+
+save_log -file {./test_log_file.txt}
 
 close_project -save 1;

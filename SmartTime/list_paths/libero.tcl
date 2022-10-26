@@ -12,8 +12,9 @@
 
 
 # Setup variables for the new_project command.
-#
+
 source custom/parameters.tcl;
+source src/common.tcl;
 
 set libero_cmd "new_project \
                 -location {./exprj} -name {exprj} \
@@ -23,7 +24,6 @@ set libero_cmd "new_project \
 
 
 # Remove any existing project first.
-#
 eval file delete -force ./exprj;
 
 
@@ -31,30 +31,29 @@ eval file delete -force ./exprj;
 eval $libero_cmd;
 
 # Import the HDL file(s) and SDC file(s)
-#
 import_files -hdl_source {./src/top.v};
 import_files -sdc {./src/example.sdc};
 
 # Select the top module as root.
-#
 build_design_hierarchy;
 set_root top;
 
 # Associate the constraint file in the project with Verify Timing.
-#
 organize_tool_files -tool {VERIFYTIMING} \
     -file "./exprj/constraint/example.sdc" -input_type {constraint};
 
 
 # Configure VERIFYTIMING tool to generate a txt file report
-#
 configure_tool -name {VERIFYTIMING} -params {FORMAT:TEXT};
 
 
 # Now run the flow
-#
 run_tool -name {SYNTHESIZE};
 run_tool -name {PLACEROUTE};
 run_tool -name {VERIFYTIMING} -script "./src/verifytiming.tcl";
+
+
+source src/checks.tcl;
+save_log -file {./test_log_file.txt}
 
 close_project -save 1;

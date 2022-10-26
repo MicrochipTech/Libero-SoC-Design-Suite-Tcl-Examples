@@ -14,6 +14,7 @@
 # Setup variables for the new_project command.
 #
 source custom/parameters.tcl;
+source src/common.tcl;
 
 set libero_cmd "new_project \
                 -location {./exprj} -name {exprj} \
@@ -56,5 +57,23 @@ configure_tool -name {VERIFYTIMING} -params {FORMAT:TEXT};
 run_tool -name {SYNTHESIZE};
 run_tool -name {PLACEROUTE};
 run_tool -name {VERIFYTIMING} -script "./src/verifytiming.tcl";
+
+if {[grepPattern "CLKIN.*get\_ports.*10" "./list_clocks_generated.txt" ] == 1 } {
+	puts "\nINFO:_TC CLKIN = 10 ns , Waveform = 0 5 is reported \n"	
+} else {
+	puts "\nERROR:_TC Issue with list_clocks output. \n"
+	incr err
+}
+
+if { $err == 0 } \
+{
+    puts "\nINFO:_TC Test run PASSED with 0 errors";
+} \
+else \
+{
+    puts "\nERROR:_TC Test run FAILED";
+	
+}
+save_log -file {./test_log_file.txt}
 
 close_project -save 1;

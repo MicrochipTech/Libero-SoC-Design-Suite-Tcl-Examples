@@ -7,8 +7,14 @@
 puts "\n------- Create scenario_A --------"
 puts [create_scenario scenario_A]
 
+
 # Get and displays a list of available timing scenarios.
 set list_scenarios [list_scenarios]
 
-puts "Expected list: \"Primary\" \"timing_analysis\" \"scenario_A\""
+#puts "Expected list: \"Primary\" \"timing_analysis\" \"scenario_A\""
 puts "List of scenarios: $list_scenarios \n"
+
+set logfile "list_scenarios.txt"
+set constraintsfp [open $logfile "w"]
+puts $constraintsfp [list_scenarios]
+close $constraintsfp

@@ -1,0 +1,14 @@
+{
+    "testcase": "set_external_check",
+    "tcl_file": "libero.tcl",
+    "prj_family": "POLARFIRE",
+    "prj_die": "MPF300T",
+    "prj_package": "FCG1152",
+    "prj_speed": "-1",
+    "verbose": false,
+    "flow": "github_ex_smarttime_basic",
+    "suite": "Timing",
+    "Error Checking Method": "errLog",
+    "owner": "Zarine Grigoryan",
+    "email": "zarine.grigoryan@microchip.com"
+}

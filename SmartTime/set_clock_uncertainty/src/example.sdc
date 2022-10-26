@@ -13,4 +13,5 @@ set_input_delay -clock CLKIN 2.1 [all_inputs];
 set_output_delay -clock CLKIN 1.2 [all_outputs];
 
 # Set clock to clock uncertainty constraint
-set_clock_uncertainty 0.4 -setup -from [get_clocks CLKIN] -fall_to [get_clocks CLKIN] 
+set_clock_uncertainty -setup 0.4 [ get_clocks CLKIN ]
+set_clock_uncertainty -hold 0.4 [ get_clocks CLKIN ]

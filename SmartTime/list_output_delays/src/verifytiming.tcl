@@ -7,3 +7,8 @@
 # in the current timing constraint scenario.
 puts "\n============ List of output delays ==========="
 puts [list_output_delays];
+
+set logfile "list_output_delays.txt"
+set constraintsfp [open $logfile "w"]
+puts $constraintsfp [list_output_delays]
+close $constraintsfp

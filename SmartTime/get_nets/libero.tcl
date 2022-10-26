@@ -14,6 +14,7 @@
 # Setup variables for the new_project command.
 #
 source custom/parameters.tcl;
+source src/common.tcl;
 
 set libero_cmd "new_project \
                 -location {./exprj} -name {exprj} \
@@ -48,13 +49,16 @@ organize_tool_files -tool {VERIFYTIMING} \
 
 # Configure VERIFYTIMING tool to generate a txt file report
 #
-configure_tool -name {VERIFYTIMING} -params {FORMAT:TEXT};
+configure_tool -name {VERIFYTIMING} -params {FORMAT:CSV};
 
 
 # Now run the flow
 #
 run_tool -name {SYNTHESIZE};
 run_tool -name {PLACEROUTE};
-run_tool -name {VERIFYTIMING};
+run_tool -name {VERIFYTIMING} -script "./src/verifytiming.tcl";
+
+source ./src/checks.tcl;
+save_log -file {./test_log_file.txt}
 
 close_project -save 1;
