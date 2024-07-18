@@ -1,0 +1,15 @@
+
+set_location -inst_name DDR4_Interface_0/DDR4_0/DDRPHY_BLK_0/LANE_3_IOD_READ_TRAINING/I_IOD_0 -fixed true -x 936 -y 378
+set_location -inst_name DDR4_Interface_0/DDR4_0/DDRPHY_BLK_0/LANE_1_CTRL/I_LANECTRL -fixed true -x 659 -y 378
+set_location -inst_name DDR4_Interface_0/DDR4_0/DDRPHY_BLK_0/IOD_BCLK_TRAINING/I_IOD_0 -fixed true -x 84 -y 378
+set_location -inst_name DDR4_Interface_0/DDR4_0/DDRPHY_BLK_0/LANE_2_IOD_READ_TRAINING/I_IOD_0 -fixed true -x 792 -y 378
+set_location -inst_name DDR4_Interface_0/DDR4_0/CCC_0/pll_inst_0 -fixed true -x 1 -y 377
+set_location -inst_name DDR4_Interface_0/DDR4_0/DDRPHY_BLK_0/LANE_0_CTRL/I_LANECTRL -fixed true -x 503 -y 378
+set_location -inst_name DDR4_Interface_0/DDR4_0/DDRPHY_BLK_0/LANE_2_CTRL/I_LANECTRL -fixed true -x 803 -y 378
+set_location -inst_name DDR4_Interface_0/DDR4_0/DDRPHY_BLK_0/LANE_1_IOD_READ_TRAINING/I_IOD_0 -fixed true -x 648 -y 378
+set_location -inst_name XCVR_Debug_0/XCVR_REF_CLK_0_0/XCVR_REF_CLK_0_0/I_IO -fixed true -x 2466 -y 317
+set_location -inst_name XCVR_Debug_0/SMARTBERT_XCVR_CHK_inst_0/PF_XCVR_0/LANE0 -fixed true -x 2460 -y 317
+set_location -inst_name DDR4_Interface_0/DDR4_0/DDRPHY_BLK_0/LANE_0_IOD_READ_TRAINING/I_IOD_0 -fixed true -x 492 -y 378
+set_location -inst_name DDR4_Interface_0/DDR4_0/DDRPHY_BLK_0/LANE_3_CTRL/I_LANECTRL -fixed true -x 947 -y 378
+set_location -inst_name DDR4_Interface_0/DDR4_0/DLL_0/dll_inst_0 -fixed true -x 3 -y 377
+set_location -inst_name {XCVR_Debug_0/TX_PLL_XCVR_0_0/TX_PLL_XCVR_0_0/txpll_isnt_0} -fixed true -x 2460 -y 320

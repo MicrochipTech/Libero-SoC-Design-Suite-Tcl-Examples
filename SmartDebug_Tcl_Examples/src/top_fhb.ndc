@@ -1,0 +1,2 @@
+auto_instantiate_fhb -inst_name {PF_CCC_0_0/PF_CCC_0_0/clkint_0}
+auto_instantiate_fhb -inst_name {DDR4_Interface_0/DDR4_0/CCC_0/clkint_4}
